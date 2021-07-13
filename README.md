@@ -6,7 +6,7 @@ This is a Unity Based 2.5d RPG project I dump some hours into every few months o
 generation system. Currently the system is in a sort of paradox. Systems have been written and autonomously generate the initial base for the world. As of currently,
 the creation variables, such as elevation, texture, and different "biomes" all have a place in the backend, but have yet to be fine tuned.
 
-Disclaimer: Large portions of this code are still in "Prototype Mode".
+Disclaimer: Large portions of this code are still in prototype mode and are fairly brittle.
 
 
 
