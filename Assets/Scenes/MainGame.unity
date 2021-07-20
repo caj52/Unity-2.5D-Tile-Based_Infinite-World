@@ -1361,6 +1361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   zmesh: {fileID: 339335901}
+  zonedata: 
 --- !u!114 &339335901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1707,8 +1708,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 467960730}
   playerrig: {fileID: 467960735}
-  speedlimit: 6
-  speed: 40
+  speedlimit: 1000
+  speed: 175
   jumpspeed: 250
   subject: {fileID: 0}
   cam: {fileID: 0}

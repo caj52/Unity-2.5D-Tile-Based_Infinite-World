@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4D71F926-5FDB-9903-9164-856106F0DF92}</ProjectGuid>
+    <ProjectGuid>{20B0456C-FAAE-B3E0-5E9B-E65258ECE6F4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,7 +63,6 @@
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />
      <Compile Include="Assets\Script\CharCreate\SkinToneSlider.cs" />
-     <Compile Include="Assets\Script\Data\DataCompressor.cs" />
      <Compile Include="Assets\Script\Data\PlayerPrefsX.cs" />
      <Compile Include="Assets\Script\Data\ZData.cs" />
      <Compile Include="Assets\Script\Data\ZDataInterpolate.cs" />
@@ -80,7 +79,6 @@
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinInterpolates.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinRender.cs" />
-     <Compile Include="Assets\Script\PerlinClasses\RandomManager.cs" />
      <Compile Include="Assets\Script\SpriteCopy.cs" />
      <Compile Include="Assets\Script\TitleSc\NewGameStart.cs" />
      <Compile Include="Assets\Script\UI\Cursor_Set.cs" />
@@ -94,16 +92,12 @@
      <Compile Include="Assets\Script\UI\MenusUtil\TextClick.cs" />
      <Compile Include="Assets\Script\UI\StartScreen.cs" />
      <Compile Include="Assets\Script\WorldGen\ChunkTypeGen.cs" />
-     <Compile Include="Assets\Script\WorldGen\CliffTRules.cs" />
      <Compile Include="Assets\Script\WorldGen\DrawDistanceColliders.cs" />
-     <Compile Include="Assets\Script\WorldGen\GrassTRules.cs" />
      <Compile Include="Assets\Script\WorldGen\GroundLevels.cs" />
      <Compile Include="Assets\Script\WorldGen\KeyFind.cs" />
      <Compile Include="Assets\Script\WorldGen\SpawnPercentMod.cs" />
-     <Compile Include="Assets\Script\WorldGen\TRulesRedirect.cs" />
      <Compile Include="Assets\Script\WorldGen\TileKeys.cs" />
      <Compile Include="Assets\Script\WorldGen\TilesGen.cs" />
-     <Compile Include="Assets\Script\WorldGen\WaterTRules.cs" />
      <Compile Include="Assets\Script\WorldGen\WorldStuff.cs" />
      <Compile Include="Assets\Script\WorldGen\ZoneElevationsCalculator.cs" />
      <Compile Include="Assets\Script\WorldGen\ZoneGen.cs" />
@@ -660,64 +654,64 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Shaders">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.Runtime">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Runtime">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Universal.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ShaderGraph.Editor">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Game game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/caj52/source/repos/ProceduralRPG/ProceduralRPG/2.5D-RPG-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

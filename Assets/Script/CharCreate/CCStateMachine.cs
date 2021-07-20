@@ -52,89 +52,75 @@ public class CCStateMachine : MonoBehaviour
     {
         return in_box;
     }
+    public void resetSprites()
+    {
+        text_skin_tone_slider.SetActive(false);
+        eye_color_wheel.SetActive(false);
+        text_eye_color.SetActive(false);
+        noses.SetActive(false);
+        clothes.SetActive(false);
+        hair.SetActive(false);
+        button_boy.SetActive(false);
+        button_girl.SetActive(false);
+        text_boy.SetActive(false);
+        text_girl.SetActive(false);       
+    }
 
     void StepsCheck()
     {
+        //reconfigures UI sprites based on current game state
         mov = GameObject.Find(currentstate).GetComponent<MoveSelectionArrow>();
         mov.AutoMove();
+        switch (currentstate)
+        {
+            case "Gender":
+                resetSprites();
+                skin_slider.SetActive(false);
+                button_boy.SetActive(true);
+                button_girl.SetActive(true);
+                text_boy.SetActive(true);
+                text_girl.SetActive(true);
+                break;
+            case "Body":
+                resetSprites();
+                rotation_arrows.SetActive(true);
+                text_skin_tone_slider.SetActive(true);
+                skin_slider.SetActive(true);
+                break;
+            case "Eyes":
+                resetSprites();
+                skin_slider.SetActive(false);
 
-        if (currentstate == "Gender")
-        {
-            button_boy.SetActive(true);
-            button_girl.SetActive(true);
-            text_boy.SetActive(true);
-            text_girl.SetActive(true);
-        }
-        else
-        {
-            button_boy.SetActive(false);
-            button_girl.SetActive(false);
-            text_boy.SetActive(false);
-            text_girl.SetActive(false);
-            rotation_arrows.SetActive(true);
-        }
-        if (currentstate == "Body")
-        {
-            skin_slider.SetActive(true);
-            text_skin_tone_slider.SetActive(true);
-        }
-        else
-        {
-            skin_slider.SetActive(false);
-            text_skin_tone_slider.SetActive(false);
-        }
-        if (currentstate == "Eyes")
-        {
-            eye_color_wheel.SetActive(true);
-            text_eye_color.SetActive(true);
-        }
-        else
-        {
-            eye_color_wheel.SetActive(false);
-            text_eye_color.SetActive(false);
-        }
-        if (currentstate == "Nose")
-        {
-            noses.SetActive(true);
-            cdraw.Icons("Nose");
-            if (!nosepicked)
-            {
-                selection = "Button Nose";
-            }
-            noses.transform.Find(selection).transform.Find("SelectBox").gameObject.SetActive(true);
-        }
-        else
-        {
-            noses.SetActive(false);
-        }
-        if (currentstate == "Hair")
-        {
-            hair.SetActive(true);
-            /*
-             * cdraw.Icons("Nos");
-            if (!nosepicked)
-            {
-                selection = "Button Nose";
-            }
-            */
-        }
-        else
-        {
-            hair.SetActive(false);
-        }
+                eye_color_wheel.SetActive(true);
+                text_eye_color.SetActive(true);
+                break;
+            case "Nose":
+                resetSprites();
+                skin_slider.SetActive(false);
 
-        if (currentstate == "Clothes")
-        {
-            clothes.SetActive(true);
-        }
-        else
-        {
-            clothes.SetActive(false);
-        }
-        if (currentstate == "Finished")
-        {
-            ccsprite.CreateSheet();
-            //MAIN GAME REDIRECT
+                noses.SetActive(true);
+                cdraw.Icons("Nose");
+                if (!nosepicked)
+                {
+                    selection = "Button Nose";
+                }
+                noses.transform.Find(selection).transform.Find("SelectBox").gameObject.SetActive(true);
+                break;
+            case "Hair":
+                resetSprites();
+                skin_slider.SetActive(false);
+
+                hair.SetActive(true);
+                break;
+            case "Clothes":
+                resetSprites();
+                skin_slider.SetActive(false);
+                clothes.SetActive(true);
+                break;
+            case "Finished":
+                ccsprite.CreateSheet();
+                //MAIN GAME REDIRECT
+                break;
         }
     }
 

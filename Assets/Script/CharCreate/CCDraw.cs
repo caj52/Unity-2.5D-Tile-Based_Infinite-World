@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 /*
  * This is the character drawing class. This class handles sprite
  * retrieval and rendering for the character being created.
@@ -104,7 +102,7 @@ public class CCDraw : MonoBehaviour
         {
             throwsheetD = nosesheetD;
             throwsheetL = nosesheetL;
-            //START_BIGNOSE
+            ////////////////////////////////RT_BIGNOSE////////////////////////////////////////////
             nosesheetD = Resources.LoadAll<Sprite>("CCSprites\\Noses\\bignose_" + localgender + "_dark");
             spritetodraw = nosesheetD[78];
             noseicons.transform.Find("Big Nose").transform.Find("Nose_Icon_Dark").GetComponent<SpriteRenderer>().sprite = spritetodraw;
@@ -112,9 +110,9 @@ public class CCDraw : MonoBehaviour
             nosesheetL = Resources.LoadAll<Sprite>("CCSprites\\Noses\\bignose_" + localgender + "_light");
             spritetodraw = nosesheetL[78];
             noseicons.transform.Find("Big Nose").transform.Find("Nose_Icon_Light").GetComponent<SpriteRenderer>().sprite = spritetodraw;
-            //END_BIGNOSE
+            ////////////////////////////////////////////END_BIGNOSE//////////////////////////////////////////
 
-            //START_BUTTONNOSE
+            ///////////////////////////////////START_BUTTONNOSE//////////////////////////////////////////
             nosesheetD = Resources.LoadAll<Sprite>("CCSprites\\Noses\\buttonnose_" + localgender + "_dark");
             spritetodraw = nosesheetD[78];
             noseicons.transform.Find("Button Nose").transform.Find("Nose_Icon_Dark").GetComponent<SpriteRenderer>().sprite = spritetodraw;
@@ -122,9 +120,9 @@ public class CCDraw : MonoBehaviour
             nosesheetL = Resources.LoadAll<Sprite>("CCSprites\\Noses\\buttonnose_" + localgender + "_light");
             spritetodraw = nosesheetL[78];
             noseicons.transform.Find("Button Nose").transform.Find("Nose_Icon_Light").GetComponent<SpriteRenderer>().sprite = spritetodraw;
-            //END_BUTTONNOSE
+            ////////////////////////////////////END_BUTTONNOSE////////////////////////////////////////
 
-            //START_STRAIGHTNOSE
+            /////////////////////////////////////START_STRAIGHTNOSE/////////////////////////////////////////
             nosesheetD = Resources.LoadAll<Sprite>("CCSprites\\Noses\\straightnose_" + localgender + "_dark");
             spritetodraw = nosesheetD[78];
             noseicons.transform.Find("Straight Nose").transform.Find("Nose_Icon_Dark").GetComponent<SpriteRenderer>().sprite = spritetodraw;
@@ -132,7 +130,7 @@ public class CCDraw : MonoBehaviour
             nosesheetL = Resources.LoadAll<Sprite>("CCSprites\\Noses\\straightnose_" + localgender + "_light");
             spritetodraw = nosesheetL[78];
             noseicons.transform.Find("Straight Nose").transform.Find("Nose_Icon_Light").GetComponent<SpriteRenderer>().sprite = spritetodraw;
-            //END_STRAIGHTNOSE
+            /////////////////////////////////////END_STRAIGHTNOSE////////////////////////////////////////////
             nosesheetD = throwsheetD;
             nosesheetL = throwsheetL;
         }
@@ -142,22 +140,22 @@ public class CCDraw : MonoBehaviour
     public void Rotate() {
 
         int direction = RotationButton.rotatestate;
-        if (direction==1)
-        {
-            spritenum = 87;
+        switch (direction)
+        {//determines sprite number to use based direction variable
+            case 1:
+                spritenum = 87;
+                break;
+            case 2:
+                spritenum = 60;
+                break;
+            case 3:
+                spritenum = 69;
+                break;
+            default:
+                spritenum = 78;
+                break;
         }
-        else if (direction == 2)
-        {
-            spritenum = 60;
-        }
-        else if (direction == 3)
-        {
-            spritenum = 69;
-        }
-        else
-        {
-            spritenum = 78;
-        }
+
         spritetodraw = basesheetD[spritenum];
         charbaseD.GetComponent<SpriteRenderer>().sprite = spritetodraw;
         spritetodraw = basesheetL[spritenum];

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 /*
  * just a little organization class that acts as a middleman between the
  * gender button press and the CCDraw class. It performs a CCDraw call,

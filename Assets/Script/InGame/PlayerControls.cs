@@ -16,11 +16,12 @@ public class PlayerControls : MonoBehaviour
     public void Movement()
     {
 
-       if ((playerrig.velocity.x<speedlimit && playerrig.velocity.x > -speedlimit) && (playerrig.velocity.z < speedlimit && playerrig.velocity.z > -speedlimit)) {//movement speed cap
+        if ((playerrig.velocity.x < speedlimit && playerrig.velocity.x > -speedlimit) && (playerrig.velocity.z < speedlimit && playerrig.velocity.z > -speedlimit))
+        {//movement speed cap
             if (Input.GetKey(KeyCode.W))
             {
                 playerrig.AddForce(player.forward * speed);
-                pan.playerMove("w",true);
+                pan.playerMove("w", true);
             }
             if (Input.GetKey(KeyCode.A))
             {
@@ -40,9 +41,9 @@ public class PlayerControls : MonoBehaviour
             //////
             if (!Input.GetKey(KeyCode.W))
             {
-                for (int i=0;i<pan.keysheld.Length;i++)
+                for (int i = 0; i < pan.keysheld.Length; i++)
                 {
-                    if (pan.keysheld[i]=="w")
+                    if (pan.keysheld[i] == "w")
                     {
                         pan.keysheld.SetValue(null, i);
                     }
@@ -74,7 +75,7 @@ public class PlayerControls : MonoBehaviour
                 {
                     if (pan.keysheld[i] == "d")
                     {
-                        pan.keysheld.SetValue(null,i);
+                        pan.keysheld.SetValue(null, i);
                     }
                 }
             }
@@ -88,18 +89,18 @@ public class PlayerControls : MonoBehaviour
 
 
             ////////
-            if (!Input.GetKey(KeyCode.W)&& !Input.GetKey(KeyCode.A)&&
-                !Input.GetKey(KeyCode.S)&& !Input.GetKey(KeyCode.D))
+            if (!Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.A) &&
+                !Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.D))
             {
                 pan.playerMove(null, false);
             }
             /////////
             ///
-           
+
 
 
         }
-        
+
 
     }
 

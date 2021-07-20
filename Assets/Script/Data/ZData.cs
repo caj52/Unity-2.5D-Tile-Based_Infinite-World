@@ -53,17 +53,4 @@ public class ZData//this is a json reader/writer for zonedata files.
     }
 
 
-    /*  public static void CompressAll()
-      {
-          string[] files = Directory.GetFiles(Application.streamingAssetsPath + "\\S1");
-          for (int count =0;count<files.Length-1;count++)
-          {
-              string jsonstring = File.ReadAllText(files[count]);
-              byte[] jsonbytes = System.Text.Encoding.UTF8.GetBytes(jsonstring);
-              jsonstring = System.Text.Encoding.UTF8.GetString(DataCompressor.Compress(jsonbytes));
-              File.WriteAllText(files[count],jsonstring);
-          }
-      }
-      */
-
 }

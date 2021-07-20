@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System.IO;
 
 public class CCSpriteCompiler : MonoBehaviour
@@ -31,14 +29,14 @@ public class CCSpriteCompiler : MonoBehaviour
 
         if (!run)
         {
-            //BODY_DARK
+            //////////////////BODY_DARK/////////////////////////////
             //this sets the variable texture "newtex" equal to the Dark Body sprite
             newtex = new Texture2D(832, 1344);
             pixthrow = bodyD.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             newtex.SetPixels(pixthrow);
-            //END BODY_DARK
+            /////////////////END BODY_DARK//////////////////////////////
 
-            //BODY_LIGHT
+            ///////////////////////BODY_LIGHT/////////////////////////////
             float transp = bodyL.GetComponent<SpriteRenderer>().color.a;
             pixthrow2 = bodyL.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             for (int y = 0; y < 1344; y++)
@@ -73,10 +71,10 @@ public class CCSpriteCompiler : MonoBehaviour
             }
 
             //The following for loops execute similiar functions, varying slightly depending on which part is being iterated through.
-            //END BODY_LIGHT
+            ////////////////////END BODY_LIGHT/////////////////////////////
 
 
-            //NOSE_DARK
+            //////////////////////////NOSE_DARK////////////////////////////
             pixthrow = noseD.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             for (int y = 0; y < 1344; y++)
             {
@@ -95,9 +93,9 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END NOSE_DARK
+            /////////////////////////////END NOSE_DARK/////////////////////////////////
 
-            //NOSE_LIGHT
+            //////////////////////////////NOSE_LIGHT////////////////////////////////
             pixthrow2 = noseL.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             for (int y = 0; y < 1344; y++)
             {
@@ -116,9 +114,9 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END NOSE_LIGHT
+            //////////////////////////////END NOSE_LIGHT///////////////////////////////
 
-            //EYES
+            /////////////////////////////////EYES////////////////////////////////////
             if (eyes.activeInHierarchy)
             {
                 pixthrow = eyes.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
@@ -141,9 +139,9 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END EYES
+            ////////////////////////////////END EYES//////////////////////////////
 
-            //TORSO
+            //////////////////////////////////TORSO////////////////////////////////
             pixthrow = torso.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             rendercol = torso.GetComponent<SpriteRenderer>().color;
             for (int y = 0; y < 1344; y++)
@@ -163,10 +161,10 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END TORSO
+            //////////////////////////////////END TORSO////////////////////////////////////
 
 
-            //LEGS
+            //////////////////////////////////////LEGS////////////////////////////////////
             pixthrow = legs.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
             rendercol = legs.GetComponent<SpriteRenderer>().color;
             for (int y = 0; y < 1344; y++)
@@ -186,9 +184,9 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END LEGS
+            ///////////////////////////////END LEGS////////////////////////////////////
 
-            //HAIR
+            ////////////////////////////////HAIR////////////////////////////////////////
             if (hair.activeInHierarchy)
             {
                 pixthrow = hair.GetComponent<SpriteRenderer>().sprite.texture.GetPixels();
@@ -211,8 +209,8 @@ public class CCSpriteCompiler : MonoBehaviour
                     }
                 }
             }
-            //END HAIR
-
+            /////////////////////////////////////END HAIR/////////////////////////////////////////
+            
             //This last bit encodes the texture varaiable weve been editing to a png and creates
             //a file from it within the game data. It also slices it for future use.
             byte[] throwbytes = newtex.EncodeToPNG();

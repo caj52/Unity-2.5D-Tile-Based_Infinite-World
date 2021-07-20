@@ -6,9 +6,9 @@ public class PlayerAnim : MonoBehaviour
 {
     string lastpressed = "w";
     public Animator playeranim;
-    string[] idlesetlist = {"w", "a", "s", "d" };
+    string[] idlesetlist = { "w", "a", "s", "d" };
     public bool moving = false;
-    public string[] keysheld= {null,null,null,null };
+    public string[] keysheld = { null, null, null, null };
     string playing;
     bool keyfound;
     public PlayerControls pcon;
@@ -19,9 +19,9 @@ public class PlayerAnim : MonoBehaviour
 
     void LastPressed()
     {
-        playing = directConvert(lastpressed,false);
+        playing = directConvert(lastpressed, false);
         playeranim.Play(playing, 0);
-      
+
     }
     public void RotateStateCheck(int direction)
     {
@@ -58,21 +58,21 @@ public class PlayerAnim : MonoBehaviour
     void StateCheck()
     {
         int held = 0;
-        for (int i=0;i<keysheld.Length;i++)
+        for (int i = 0; i < keysheld.Length; i++)
         {
-            if (keysheld[i]!=null)
+            if (keysheld[i] != null)
             {
                 held++;
             }
         }
-        if (held==1)
+        if (held == 1)
         {
             for (int i = 0; i < keysheld.Length; i++)
             {
                 if (keysheld[i] != null)
                 {
-                    playing = directConvert(keysheld[i],true);
-                    lastpressed =keysheld[i];
+                    playing = directConvert(keysheld[i], true);
+                    lastpressed = keysheld[i];
                     playeranim.Play(playing, 0);
                 }
             }
@@ -81,190 +81,168 @@ public class PlayerAnim : MonoBehaviour
 
 
 
-
-
-
-
-    string directConvert(string direction,bool moving)
+    string directConvert(string direction, bool moving)
     {
-        string newdirect=null;
-        if (moving) {
-            if (direction == "w")
-            {
-                newdirect = "WalkF";
-            }
-            if (direction == "a")
-            {
-                newdirect = "WalkL";
-            }
-            if (direction == "s")
-            {
-                newdirect = "WalkB";
-            }
-            if (direction == "d")
-            {
-                newdirect = "WalkR";
-            }
-        }
-        else if (!moving)
+        string newdirect = null;
+        switch (moving)
         {
-            if (direction == "w")
-            {
-                newdirect = "IdleF";
-            }
-            if (direction == "a")
-            {
-                newdirect = "IdleL";
-            }
-            if (direction == "s")
-            {
-                newdirect = "IdleB";
-            }
-            if (direction == "d")
-            {
-                newdirect = "IdleR";
-            }
+            case true:
+                switch (direction)
+                {
+                    case "w":
+                        newdirect = "WalkF";
+                        break;
+                    case "a":
+                        newdirect = "WalkL";
+                        break;
+                    case "s":
+                        newdirect = "WalkB";
+                        break;
+                    case "d":
+                        newdirect = "WalkR";
+                        break;
+                }
+                break;
+            case false:
+                switch (direction)
+                {
+                    case "w":
+                        newdirect = "IdleF";
+                        break;
+                    case "a":
+                        newdirect = "IdleL";
+                        break;
+                    case "s":
+                        newdirect = "IdleB";
+                        break;
+                    case "d":
+                        newdirect = "IdleR";
+                        break;
+                }
+                break;
         }
         return newdirect;
-
     }
-
-
-
-
-
-
 
 
     public void playerMove(string direction,bool run)
     {
-        if (run)
+        switch(run)
         {
-            /////////
-            if (direction == "w")
+            case true:
+            switch (direction)
             {
-                keyfound = false;
-                for (int i = 0; i < keysheld.Length; i++)
-                {
-                    if (direction == keysheld[i])
+                case "w":
+                    keyfound = false;
+                    for (int i = 0; i < keysheld.Length; i++)
                     {
-                        keyfound = true;
-                    }
-                }
-                if (!keyfound)
-                {
-                    for (int i = 0, done = 0; done == 0; i++)
-                    {
-                        if (keysheld[i] == null)
+                        if (direction == keysheld[i])
                         {
-                            pcon.playerrig.velocity = new Vector3(0,-10,0);
-                            keysheld.SetValue(direction, i);
-                            done = 1;
-                            playing = "WalkF";
-                            lastpressed = "w";
+                            keyfound = true;
                         }
                     }
-                }
-            }
-            //////////
-            else if (direction == "a")
-            {
-                keyfound = false;
-                for (int i = 0; i < keysheld.Length; i++)
-                {
-                    if (direction == keysheld[i])
+                    if (!keyfound)
                     {
-                        keyfound = true;
-                    }
-                }
-                if (!keyfound)
-                {
-                    for (int i = 0, done = 0; done == 0; i++)
-                    {
-                        if (keysheld[i] == null)
+                        for (int i = 0, done = 0; done == 0; i++)
                         {
-                            pcon.StopMomentum();
-                            keysheld.SetValue(direction, i);
-                            done = 1;
-                            playing = "WalkL";
-                            lastpressed = "a";
+                            if (keysheld[i] == null)
+                            {
+                                pcon.playerrig.velocity = new Vector3(0, -10, 0);
+                                keysheld.SetValue(direction, i);
+                                done = 1;
+                                playing = "WalkF";
+                                lastpressed = "w";
+                            }
                         }
                     }
-                }
-            }
-            //////////
-            else if (direction == "s")
-            {
-                keyfound = false;
-                for (int i = 0; i < keysheld.Length; i++)
-                {
-                    if (direction == keysheld[i])
+                    break;
+                case "a":
+                    keyfound = false;
+                    for (int i = 0; i < keysheld.Length; i++)
                     {
-                        keyfound = true;
-                    }
-                }
-                if (!keyfound)
-                {
-                    for (int i = 0, done = 0; done == 0; i++)
-                    {
-                        if (keysheld[i] == null)
+                        if (direction == keysheld[i])
                         {
-                            pcon.StopMomentum();
-                            keysheld.SetValue(direction, i);
-                            done = 1;
-                            playing = "WalkB";
-                            lastpressed = "s";
+                            keyfound = true;
                         }
                     }
-                }
-            }
-            //////////
-            else if (direction == "d")
-            {
-                keyfound = false;
-                for (int i = 0; i < keysheld.Length; i++)
-                {
-                    if (direction == keysheld[i])
+                    if (!keyfound)
                     {
-                        keyfound = true;
-                    }
-                }
-                if (!keyfound)
-                {
-                    for (int i = 0, done = 0; done == 0; i++)
-                    {
-                        if (keysheld[i] == null)
+                        for (int i = 0, done = 0; done == 0; i++)
                         {
-                            pcon.StopMomentum();
-                            keysheld.SetValue(direction, i);
-                            done = 1;
-                            playing = "WalkR";
-                            lastpressed = "d";
+                            if (keysheld[i] == null)
+                            {
+                                pcon.StopMomentum();
+                                keysheld.SetValue(direction, i);
+                                done = 1;
+                                playing = "WalkL";
+                                lastpressed = "a";
+                            }
                         }
                     }
-                }
+                    break;
+                case "s":
+                    keyfound = false;
+                    for (int i = 0; i < keysheld.Length; i++)
+                    {
+                        if (direction == keysheld[i])
+                        {
+                            keyfound = true;
+                        }
+                    }
+                    if (!keyfound)
+                    {
+                        for (int i = 0, done = 0; done == 0; i++)
+                        {
+                            if (keysheld[i] == null)
+                            {
+                                pcon.StopMomentum();
+                                keysheld.SetValue(direction, i);
+                                done = 1;
+                                playing = "WalkB";
+                                lastpressed = "s";
+                            }
+                        }
+                    }
+                    break;
+                case "d":
+                    keyfound = false;
+                    for (int i = 0; i < keysheld.Length; i++)
+                    {
+                        if (direction == keysheld[i])
+                        {
+                            keyfound = true;
+                        }
+                    }
+                    if (!keyfound)
+                    {
+                        for (int i = 0, done = 0; done == 0; i++)
+                        {
+                            if (keysheld[i] == null)
+                            {
+                                pcon.StopMomentum();
+                                keysheld.SetValue(direction, i);
+                                done = 1;
+                                playing = "WalkR";
+                                lastpressed = "d";
+                            }
+                        }
+                    }
+                    break;
             }
-            /////////
-            moving = true;
-            playeranim.Play(playing, 0);
-        }
+                break;
+            case false:
+                for (int i = 0; i < keysheld.Length; i++)
+                {
+                    keysheld[i] = null;
+                }
+                moving = false;
+                playeranim.StopPlayback();
+                LastPressed();
+                break;
 
-        else if(!run)
-        {
-            for (int i=0;i<keysheld.Length;i++)
-            {
-                keysheld[i] = null;
-            }
-            moving = false;
-            playeranim.StopPlayback();              
-            LastPressed();
         }
 
     }
-
-
-
-
 
 
 }
