@@ -18,6 +18,7 @@ public class PlayerControls : MonoBehaviour
 
         if ((playerrig.velocity.x < speedlimit && playerrig.velocity.x > -speedlimit) && (playerrig.velocity.z < speedlimit && playerrig.velocity.z > -speedlimit))
         {//movement speed cap
+
             if (Input.GetKey(KeyCode.W))
             {
                 playerrig.AddForce(player.forward * speed);
@@ -37,6 +38,10 @@ public class PlayerControls : MonoBehaviour
             {
                 playerrig.AddForce(player.right * speed);
                 pan.playerMove("d", true);
+            }
+            if (Input.GetKey(KeyCode.R))
+            {
+                player.transform.position = new Vector3(0,10,-21);
             }
             //////
             if (!Input.GetKey(KeyCode.W))
@@ -79,6 +84,7 @@ public class PlayerControls : MonoBehaviour
                     }
                 }
             }
+           
 
             //////
             if (!pan.moving)

@@ -9,7 +9,7 @@ public class ZoneMesh : MonoBehaviour
      */
     public static int meshx = 32;
     public static int meshy = 32;//this is the size of the chunk meshes
-    public static int intensity = 5;//temporary value for adjusting the "hilliness"
+    public static int intensity = 50;//temporary value for adjusting the "hilliness"
     public static Vector3[] vertices = new Vector3[(meshx + 1) * (meshy + 1)];
     public static int[] triangles = new int[meshx * meshy * 6];
     public static Vector2[] uvs = new Vector2[vertices.Length];
