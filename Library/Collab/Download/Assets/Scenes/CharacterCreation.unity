@@ -23633,7 +23633,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a5236e1050dffa040a1c72be6e969605, type: 3}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23655,7 +23655,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 7
   m_Sprite: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.5019608}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -32636,6 +32636,7 @@ GameObject:
   - component: {fileID: 1264303936}
   - component: {fileID: 1264303935}
   - component: {fileID: 1264303938}
+  - component: {fileID: 1264303939}
   m_Layer: 0
   m_Name: Finished
   m_TagString: Untagged
@@ -32738,12 +32739,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30ab17d2ffcc1184dbcb3daa74fdbfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body1: {fileID: 0}
-  body2: {fileID: 0}
-  eyes: {fileID: 0}
-  hair: {fileID: 0}
-  torso: {fileID: 0}
-  legs: {fileID: 0}
+  bodyD: {fileID: 39841461}
+  bodyL: {fileID: 166205246}
+  noseD: {fileID: 1414997375}
+  noseL: {fileID: 1298806267}
+  eyes: {fileID: 878713173}
+  hair: {fileID: 1752651951}
+  torso: {fileID: 113945595}
+  legs: {fileID: 1344927344}
+  scopy: {fileID: 1778458944}
+--- !u!114 &1264303939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264303933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bfd9d425bca544499a756fd167239a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1268939194
 GameObject:
   m_ObjectHideFlags: 0
@@ -44725,7 +44741,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 9
   m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -45578,6 +45594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778458943}
   - component: {fileID: 1778458942}
+  - component: {fileID: 1778458944}
   m_Layer: 0
   m_Name: ETC Manager
   m_TagString: Untagged
@@ -45612,6 +45629,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778458944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778458941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49ba0407f228ffe4088002b16949f4dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  copyFrom: {fileID: 2800000, guid: d016b5ec06b50844aa93f26792fe5ffb, type: 3}
+  copyTo: {fileID: 0}
 --- !u!1 &1782211033
 GameObject:
   m_ObjectHideFlags: 0
