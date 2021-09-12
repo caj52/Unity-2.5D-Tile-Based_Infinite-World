@@ -29,7 +29,7 @@ public class PerlinRender : MonoBehaviour
     Texture2D perlincheck;
     int mousex;
     int mousey;
-    void Start()
+    public void Start()
     {
         rend = GetComponent<Renderer>();
         noiseTex = new Texture2D(pixWidth, pixHeight);

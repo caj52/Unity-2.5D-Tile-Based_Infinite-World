@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
     <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
     <Compile Include="Assets\Script\TitleSc\NewGameStart.cs" />
+    <Compile Include="Assets\HeightMapManager.cs" />
     <Compile Include="Assets\Script\UI\MenusUtil\TextClick.cs" />
     <Compile Include="Assets\Script\UI\MenusUtil\PressButtonUI.cs" />
     <Compile Include="Assets\Script\WorldGen\WorldInit.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
     <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
     <Compile Include="Assets\Script\InGame\BendManager.cs" />
+    <Compile Include="Assets\Script\PerlinClasses\PerlinArrays.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

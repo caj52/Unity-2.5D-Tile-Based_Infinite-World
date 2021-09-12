@@ -14,13 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Script/InGame/MainStart.cs.meta
-    - Assets/Script/WorldGen/OverWorldMesh.cs.meta
-    - Assets/Script/WorldGen/WorldInit.cs.meta
     - 
-    m_Values: 01010101
-  RevisionSummary: 
+    m_Values: 01
+  RevisionSummary: Created basic architecture for procedural heightmap generation.
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 0
+  TabIndex: 1

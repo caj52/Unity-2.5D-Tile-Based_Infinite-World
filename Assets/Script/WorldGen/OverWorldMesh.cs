@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections.Generic;
 using System.Collections;
 public class OverWorldMesh : MonoBehaviour
 {
@@ -10,6 +9,7 @@ public class OverWorldMesh : MonoBehaviour
     private static int[] triangles = new int[meshSize.x * meshSize.y * 6];
     private static Vector2[] uvs = new Vector2[vertices.Length];
     private static GameObject overWorld;
+    private static Mesh overworldMesh;
 
     private void Start()
     {
@@ -22,8 +22,7 @@ public class OverWorldMesh : MonoBehaviour
         var meshRenderer = overWorld.AddComponent<MeshRenderer>();
         overWorld.AddComponent<MeshCollider>();
         var meshFilter = overWorld.AddComponent<MeshFilter>();
-        var overworldMesh = new Mesh();
-        meshFilter.mesh = overworldMesh;
+        meshFilter.mesh = overworldMesh = new Mesh();
 
         for (int x = 0, i = 0; x <= meshSize.x; x++)
         {
@@ -58,16 +57,32 @@ public class OverWorldMesh : MonoBehaviour
         yield return null;
     }
 
+    public void ModifyMeshHeightMap(float[,] _heightmap) 
+    {//Iterates through the OverWorldMesh, modifying the y coordinate of each individual vertex
+        var index = 0;
+        var meshVertices = overworldMesh.vertices;
+        var meshDimension = 64;
+        for (int x =0; x < meshDimension;x++)
+        {
+            for (int y = 0; y < meshDimension; y++)
+            {
+                index = (meshDimension * y) + x;
+                meshVertices[index].y = _heightmap[x,y];
+            }
+        }
+        overworldMesh.vertices = meshVertices;
+        overworldMesh.RecalculateNormals();
+    }
+
+
+
     void OnDrawGizmos()
     {
-        // Draw a yellow sphere at the transform's position
         Gizmos.color = Color.red;
-        for (int i = 0; i< vertices.Length; i++) 
+        for (int i = 0; i< overworldMesh.vertices.Length; i++) 
         {
-            Gizmos.DrawSphere(vertices[i], .1f);
-        }
-
-        
+            Gizmos.DrawSphere(overworldMesh.vertices[i], .1f);
+        }       
     }
 
 }
