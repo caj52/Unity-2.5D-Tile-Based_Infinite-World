@@ -36,25 +36,24 @@ public class PerlinGen : MonoBehaviour
         float persistence = perlindata[7];
         float octaves = perlindata[8];
         float amplitude = 1;
+        
        octaves = Mathf.RoundToInt(octaves);
-       float[,] map = new float[(int)height, (int)width];
-        for (int octloop = 1; octloop < octaves + 1; octloop++)
-        {
-            for (int y = 0; y < height; y++)
-            {
-                for (int x = 0; x < width; x++)
+       float[,] map = new float[(int)width,(int)height];
+       for (int octloop = 1; octloop < octaves + 1; octloop++)
+       {
+           for (int x = 0; x < width; x++)
+           {
+               for (int y = 0; y < height; y++)
                 {
                     float xCoord = ((lookingatx + x * (scale/10)) * frequency);
                     float yCoord = ((lookingaty + y * (scale/10)) * frequency);
-                    map[y, x] += (Mathf.PerlinNoise(xCoord, yCoord)*amplitude)/octaves;
+                    map[x,y] += (Mathf.PerlinNoise(xCoord, yCoord)*amplitude)/octaves;
                 }
-            }
+           }
             frequency *= lacunarity;
             amplitude *= persistence;
         }
-
-
-        return map;
+       return map;
     }
 
 }

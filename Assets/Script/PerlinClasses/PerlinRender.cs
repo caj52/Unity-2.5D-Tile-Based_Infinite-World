@@ -43,11 +43,11 @@ public class PerlinRender : MonoBehaviour
         int xsize = ((PerlinGen.Generate(perlindata).Length) / pixHeight);
         int ysize = ((PerlinGen.Generate(perlindata).Length) / pixWidth);
         float [,]perlinarray = PerlinGen.Generate(perlindata);
-        for (int loopy = 0; loopy < xsize; loopy++)
+        for (int loopx = 0; loopx < xsize; loopx++)
         {
-            for (int loopx = 0; loopx < ysize; loopx++)
+            for (int loopy = 0; loopy < ysize; loopy++)
             {
-                float sample = perlinarray[loopy, loopx];
+                float sample = perlinarray[loopx, loopy];
                 if (showrange) {
                     if (sample < minrange || sample > maxrange)
                     {
@@ -58,7 +58,7 @@ public class PerlinRender : MonoBehaviour
                         sample = 1f;
                     }
                 }
-                pix[loopy * noiseTex.width + loopx] = new Color(sample, sample, sample);
+                pix[loopx * noiseTex.width + loopy] = new Color(sample, sample, sample);
             }
         }
 

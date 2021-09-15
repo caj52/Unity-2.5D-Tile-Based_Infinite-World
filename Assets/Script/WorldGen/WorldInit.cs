@@ -12,7 +12,7 @@ public class WorldInit : MonoBehaviour
     public IEnumerator CreateWorldMesh()
     {
         Debug.Log("Firing Create Mesh Coroutine");
-        StartCoroutine(OverWorldMesh.Instance.CreateMesh());
+        StartCoroutine(OverWorldMesh.instance.CreateMesh());
 
 
         yield return null;

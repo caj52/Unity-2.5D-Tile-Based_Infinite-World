@@ -2,87 +2,91 @@
 using System.Collections;
 public class OverWorldMesh : MonoBehaviour
 {
-    public static OverWorldMesh Instance;
+    public static OverWorldMesh instance;
 
-    private static Vector2Int meshSize = new Vector2Int(64,64);
-    private static Vector3[] vertices = new Vector3[(meshSize.x + 1) * (meshSize.y + 1)];
-    private static int[] triangles = new int[meshSize.x * meshSize.y * 6];
-    private static Vector2[] uvs = new Vector2[vertices.Length];
-    private static GameObject overWorld;
-    private static Mesh overworldMesh;
+    private static Vector2Int _meshSize = new Vector2Int(64,64);
+    private static Vector3[] _vertices = new Vector3[(_meshSize.x + 1) * (_meshSize.y + 1)];
+    private static int[] _triangles = new int[_meshSize.x * _meshSize.y * 6];
+    private static Vector2[] _uvs = new Vector2[_vertices.Length];
+    private static GameObject _overWorld;
+    private static Mesh _overWorldMesh;
 
     private void Start()
     {
-        Instance = this;
+        instance = this;
     }
     public IEnumerator CreateMesh()
     {
-        overWorld = new GameObject("OverWorld");
-        overWorld.transform.SetParent(transform);
-        var meshRenderer = overWorld.AddComponent<MeshRenderer>();
-        overWorld.AddComponent<MeshCollider>();
-        var meshFilter = overWorld.AddComponent<MeshFilter>();
-        meshFilter.mesh = overworldMesh = new Mesh();
+        _overWorld = new GameObject("OverWorld");
+        _overWorld.transform.SetParent(transform);
+        var meshRenderer = _overWorld.AddComponent<MeshRenderer>();
+        _overWorld.AddComponent<MeshCollider>();
+        var meshFilter = _overWorld.AddComponent<MeshFilter>();
+        meshFilter.mesh = _overWorldMesh = new Mesh();
 
-        for (int x = 0, i = 0; x <= meshSize.x; x++)
+        for (int x = 0, i = 0; x < _meshSize.x; x++)
         {
-            for (int z = 0; z >= -meshSize.y; z--,i++)
+            for (int z = 0; z < _meshSize.y; z++,i++)
             {
-                vertices[i] = new Vector3(x, 0, z);
-                uvs[i] = new Vector2(x / meshSize.x, z / -meshSize.y);
+                _vertices[i] = new Vector3(x, 0, z);
+                _uvs[i] = new Vector2(x / _meshSize.x, z / _meshSize.y);
             }
         }
 
         var vert = 0;
         var tris = 0;
 
-        for (int x = 0; x < meshSize.y; x++,vert++)
+        for (int x = 0; x < _meshSize.x-1; x++,vert++)
         {
-            for (int z = 0; z < meshSize.x; z++, vert++,tris+=6)
+            for (int z = 0; z < _meshSize.y-1; z++, vert++,tris+=6)
             {
-                triangles[tris] = vert;
-                triangles[tris + 1] = vert + meshSize.x + 1;
-                triangles[tris + 2] = vert + 1;
-                triangles[tris + 3] = vert + 1;
-                triangles[tris + 4] = vert + meshSize.x + 1;
-                triangles[tris + 5] = vert + meshSize.x + 2;
+                _triangles[tris] = vert + 1;
+                _triangles[tris + 1] = vert + _meshSize.x + 1;
+                _triangles[tris + 2] = vert;
+
+                _triangles[tris + 3] = vert + _meshSize.x + 2;
+                _triangles[tris + 4] = vert + _meshSize.x + 1;
+                _triangles[tris + 5] = vert + 1;
             }
         }
-        overworldMesh.vertices = vertices;
-        overworldMesh.triangles = triangles;
-        overworldMesh.uv = uvs;
-        overworldMesh.RecalculateNormals();     
+        _overWorldMesh.vertices = _vertices;
+        _overWorldMesh.triangles = _triangles;
+        _overWorldMesh.uv = _uvs;
+        _overWorldMesh.RecalculateNormals();     
 
         Debug.Log("Mesh Created");
         yield return null;
     }
 
-    public void ModifyMeshHeightMap(float[,] _heightmap) 
+    public void ModifyMeshHeightMap(float[,] heightmap) 
     {//Iterates through the OverWorldMesh, modifying the y coordinate of each individual vertex
-        var index = 0;
-        var meshVertices = overworldMesh.vertices;
-        var meshDimension = 64;
-        for (int x =0; x < meshDimension;x++)
+        var meshVertices = _overWorldMesh.vertices;
+        var meshDimension = _meshSize.x;
+        for (int x = 0; x < meshDimension;x++)
         {
             for (int y = 0; y < meshDimension; y++)
             {
-                index = (meshDimension * y) + x;
-                meshVertices[index].y = _heightmap[x,y];
+                var index = (meshDimension * x) + y;
+                meshVertices[index].y = heightmap[x,y];
             }
         }
-        overworldMesh.vertices = meshVertices;
-        overworldMesh.RecalculateNormals();
+        _overWorldMesh.vertices = meshVertices;
+        _overWorldMesh.RecalculateNormals();
     }
 
-
+    public static Vector3 GetMeshPosition()
+    {
+        return _overWorld.transform.position;
+    }
 
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        for (int i = 0; i< overworldMesh.vertices.Length; i++) 
+        if (_overWorldMesh!=null)
         {
-            Gizmos.DrawSphere(overworldMesh.vertices[i], .1f);
-        }       
+            Gizmos.color = Color.red; 
+            Gizmos.DrawSphere(_overWorldMesh.vertices[0] + _overWorld.transform.position, .1f); 
+        }
+
     }
 
 }

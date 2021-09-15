@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Script/PerlinClasses/PerlinArrays.cs
+    - Assets/Script/PerlinClasses/PerlinGen.cs
+    - Assets/Script/PerlinClasses/PerlinRender.cs
+    - Assets/Script/WorldGen/HeightMapManager.cs
+    - Assets/Script/WorldGen/HeightMapManager.cs.meta
+    - Assets/Script/WorldGen/OverWorldMesh.cs
+    - Assets/Script/WorldGen/WorldInit.cs
     - 
-    m_Values: 01
-  RevisionSummary: Created basic architecture for procedural heightmap generation.
+    m_Values: 0000000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0
