@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 public class PerlinRender : MonoBehaviour 
     /*this class is a debug and testing utility. It uses perlingen() as a parameter and renders it to the middle of the screen. Just so i can see what
      * a specific perlin map looks like before i impliment it into a feature.
@@ -9,8 +10,7 @@ public class PerlinRender : MonoBehaviour
 {
     public GameObject me;
     public Shader shader;
-    public int pixWidth = 128;
-    public int pixHeight = 128;
+    public int pixWidthandHeight = 128;
     public float scale = 10.0F;
     public float xOrg;
     public float yOrg;
@@ -25,14 +25,14 @@ public class PerlinRender : MonoBehaviour
     private Texture2D noiseTex;
     private Color[] pix;
     private Renderer rend;
-    float[] perlindata = new float[9];
+    float[] perlindata = new float[8];
     Texture2D perlincheck;
     int mousex;
     int mousey;
     public void Start()
     {
         rend = GetComponent<Renderer>();
-        noiseTex = new Texture2D(pixWidth, pixHeight);
+        noiseTex = new Texture2D(pixWidthandHeight, pixWidthandHeight);
         pix = new Color[noiseTex.width * noiseTex.height];
         rend.material.mainTexture = noiseTex;
         rend.material.shader = shader;
@@ -40,12 +40,10 @@ public class PerlinRender : MonoBehaviour
 
 
     void Change(){
-        int xsize = ((PerlinGen.Generate(perlindata).Length) / pixHeight);
-        int ysize = ((PerlinGen.Generate(perlindata).Length) / pixWidth);
         float [,]perlinarray = PerlinGen.Generate(perlindata);
-        for (int loopx = 0; loopx < xsize; loopx++)
+        for (int loopx = 0; loopx < pixWidthandHeight; loopx++)
         {
-            for (int loopy = 0; loopy < ysize; loopy++)
+            for (int loopy = 0; loopy < pixWidthandHeight; loopy++)
             {
                 float sample = perlinarray[loopx, loopy];
                 if (showrange) {
@@ -67,15 +65,15 @@ public class PerlinRender : MonoBehaviour
         noiseTex.Apply();
         if (threedimensional)
         {
-            Vector3[] vertices = new Vector3[(pixWidth + 1) * (pixHeight + 1)];
-            int[] triangles = new int[pixWidth * pixHeight * 6];
+            Vector3[] vertices = new Vector3[(int)Math.Pow(pixWidthandHeight + 1,2)];
+            int[] triangles = new int[(int)Math.Pow(pixWidthandHeight,2) * 6];
             Mesh thismesh;
             thismesh = new Mesh();
             float[,] biome = PerlinGen.Generate(perlindata);
             me.GetComponent<MeshFilter>().mesh = thismesh;
-            for (int x = 0, i = 0; x <= pixWidth; x++)
+            for (int x = 0, i = 0; x <= pixWidthandHeight; x++)
             {
-                for (int z = 0; z >= -pixHeight; z--)
+                for (int z = 0; z >= -pixWidthandHeight; z--)
                 {
                     float y;
 
@@ -103,16 +101,16 @@ public class PerlinRender : MonoBehaviour
             int vert = 0;
             int tris = 0;
 
-            for (int z = 0; z < pixHeight; z++)
+            for (int z = 0; z < pixWidthandHeight; z++)
             {
-                for (int x = 0; x < pixWidth; x++)
+                for (int x = 0; x < pixWidthandHeight; x++)
                 {
                     triangles[tris] = vert;
-                    triangles[tris + 1] = vert + pixWidth + 1;
+                    triangles[tris + 1] = vert + pixWidthandHeight + 1;
                     triangles[tris + 2] = vert + 1;
                     triangles[tris + 3] = vert + 1;
-                    triangles[tris + 4] = vert + pixWidth + 1;
-                    triangles[tris + 5] = vert + pixWidth + 2;
+                    triangles[tris + 4] = vert + pixWidthandHeight + 1;
+                    triangles[tris + 5] = vert + pixWidthandHeight + 2;
                     tris += 6;
                     vert++;
                 }
@@ -128,15 +126,14 @@ public class PerlinRender : MonoBehaviour
 
     void Update()
     {
-        perlindata[0] = pixWidth;
-        perlindata[1] = pixHeight;
-        perlindata[2] = scale;
-        perlindata[3] = xOrg;
-        perlindata[4] = yOrg;
-        perlindata[5] = frequency;
-        perlindata[6] = lacunarity;
-        perlindata[7] = persistence;
-        perlindata[8] = octaves;
+        perlindata[0] = pixWidthandHeight;
+        perlindata[1] = scale;
+        perlindata[2] = xOrg;
+        perlindata[3] = yOrg;
+        perlindata[4] = frequency;
+        perlindata[5] = lacunarity;
+        perlindata[6] = persistence;
+        perlindata[7] = octaves;
 
         
         mousex = Mathf.FloorToInt(Input.mousePosition.x);

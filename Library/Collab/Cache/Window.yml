@@ -14,15 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Scenes/MainGame.unity
     - Assets/Script/PerlinClasses/PerlinArrays.cs
     - Assets/Script/PerlinClasses/PerlinGen.cs
     - Assets/Script/PerlinClasses/PerlinRender.cs
     - Assets/Script/WorldGen/HeightMapManager.cs
-    - Assets/Script/WorldGen/HeightMapManager.cs.meta
     - Assets/Script/WorldGen/OverWorldMesh.cs
     - Assets/Script/WorldGen/WorldInit.cs
+    - Assets/Script/WorldGen/WorldInit.cs.meta
     - 
-    m_Values: 0000000000000000
+    m_Values: 010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

@@ -26,24 +26,23 @@ public class PerlinGen : MonoBehaviour
 
     public static float [,] Generate(float[] perlindata)
     {
-        float width =perlindata[0];
-        float height = perlindata[1];
-        float scale = perlindata[2];
-        float lookingatx = perlindata[3];
-        float lookingaty = perlindata[4];
-        float frequency = perlindata[5];
-        float lacunarity = perlindata[6];
-        float persistence = perlindata[7];
-        float octaves = perlindata[8];
+        float size =perlindata[0];
+        float scale = perlindata[1];
+        float lookingatx = perlindata[2];
+        float lookingaty = perlindata[3];
+        float frequency = perlindata[4];
+        float lacunarity = perlindata[5];
+        float persistence = perlindata[6];
+        float octaves = perlindata[7];
         float amplitude = 1;
         
        octaves = Mathf.RoundToInt(octaves);
-       float[,] map = new float[(int)width,(int)height];
+       float[,] map = new float[(int)size,(int)size];
        for (int octloop = 1; octloop < octaves + 1; octloop++)
        {
-           for (int x = 0; x < width; x++)
+           for (int x = 0; x < size; x++)
            {
-               for (int y = 0; y < height; y++)
+               for (int y = 0; y < size; y++)
                 {
                     float xCoord = ((lookingatx + x * (scale/10)) * frequency);
                     float yCoord = ((lookingaty + y * (scale/10)) * frequency);

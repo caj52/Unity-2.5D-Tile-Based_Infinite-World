@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Collaborate
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 471}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 780.8
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 471}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,7 +119,7 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 730.8
-  m_MinSize: {x: 881, y: 342}
+  m_MinSize: {x: 862, y: 421}
   m_MaxSize: {x: 16006, y: 8042}
   vertical: 0
   controlID: 120
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: CollaborateWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -298,14 +298,14 @@ MonoBehaviour:
     y: 0
     width: 492.80005
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 257, y: 421}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -427,7 +427,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4afbffff3c460000
+      m_ExpandedIDs: cacbffff4afbffff3c46000080ce0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 28.990755, y: -0.30881593, z: 15.176681}
+    m_Target: {x: -52.266846, y: 39.225117, z: 31.348372}
     speed: 2
-    m_Value: {x: 28.990755, y: -0.30881593, z: 15.176681}
+    m_Value: {x: -52.266834, y: 39.22511, z: 31.348372}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -537,13 +537,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.023756828, y: -0.95552796, z: 0.080169916, w: -0.28302637}
+    m_Target: {x: -0.23245409, y: -0.5306162, z: 0.15407702, w: -0.8005103}
     speed: 2
-    m_Value: {x: -0.023755293, y: -0.9554662, z: 0.08016474, w: -0.28300807}
+    m_Value: {x: -0.23289838, y: -0.52817404, z: 0.15336785, w: -0.8020404}
   m_Size:
-    m_Target: 44.547726
+    m_Target: 7.0710697
     speed: 2
-    m_Value: 44.547726
+    m_Value: 7.0710697
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -591,8 +591,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 503.2
-    width: 1042
-    height: 280
+    width: 1042.2
+    height: 280.19998
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -607,13 +607,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script/WorldGen
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script/WorldGen
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\caj52\OneDrive\Desktop\DEVUTIL\PersonalProjects\Unity
     Projects\Elyria
@@ -621,8 +621,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 24470000
-    m_LastClickedID: 18212
+    m_SelectedIDs: 34470000
+    m_LastClickedID: 18228
     m_ExpandedIDs: 000000007446000076460000784600007a4600007c4600007e46000080460000824600008446000086460000884600008a4600008c4600008e460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -676,8 +676,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: feeeffff
-    m_LastClickedInstanceID: -4354
+    m_SelectedInstanceIDs: b4baffff
+    m_LastClickedInstanceID: -17740
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300007246000084480000ee25010096040200b2290400a0500000464f00004c5900001a500000d24f000002590000a23f0000aa460000943d000000000000d6f10000
     m_RenameOverlay:
@@ -793,8 +793,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1043.2001
     y: 73.6
-    width: 492
-    height: 710
+    width: 491.80005
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
