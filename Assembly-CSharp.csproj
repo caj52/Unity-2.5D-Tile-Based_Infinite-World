@@ -57,8 +57,9 @@
      <Compile Include="Assets\Script\InGame\MainStart.cs" />
      <Compile Include="Assets\Script\InGame\Player.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />
-     <Compile Include="Assets\Script\WorldGen\OverWorldMesh.cs" />
+     <Compile Include="Assets\Script\WorldGen\OverWorldManager.cs" />
      <Compile Include="Assets\Script\CharCreate\SkinToneSlider.cs" />
+     <Compile Include="Assets\Script\WorldGen\ZoneManager.cs" />
      <Compile Include="Assets\Script\CancelScript.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
@@ -79,6 +80,8 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
+     <Compile Include="Assets\Script\WorldGen\OverWorldTextureManager.cs" />
+     <Compile Include="Assets\Script\Data\TileUVs.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

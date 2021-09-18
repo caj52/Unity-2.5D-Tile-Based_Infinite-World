@@ -10,11 +10,12 @@ public class WorldInit : MonoBehaviour
     {
         Instance = this;
         PerlinArrays.SetPerlinSize(_worldSize);
+        TileUVs.Init();
     }
     public IEnumerator CreateWorldMesh()
     {
         Debug.Log("Firing Create Mesh Coroutine");
-        StartCoroutine(OverWorldMesh.instance.CreateMesh());
+        StartCoroutine(OverWorldManager.Instance.CreateMesh());
 
 
         yield return null;

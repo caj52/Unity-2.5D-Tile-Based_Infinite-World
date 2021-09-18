@@ -5,6 +5,7 @@ public class PerlinArrays : MonoBehaviour
     private const float UnitCoordinatesBase = 10;
     private static float[] _heightMapArray =       { 0, .3f, 0, 0, 0.1f, 3, .7f, 2 };
     private static float[] _heightIntensityArray = { 0, .2f, 0, 0, 0.1f, 1.15f, 1.25f, 4 };
+    private static float[] _zonesArray =           { 0, .1f, 0, 0, 0.01f, 2f, 1f, 6 };
     public static float[] GetHeightMapPerlinArray()
     {   
         return _heightMapArray;   
@@ -13,11 +14,15 @@ public class PerlinArrays : MonoBehaviour
     {    
         return _heightIntensityArray;  
     }
-
+    public static float[] GetZonesArray()
+    {   
+        return _zonesArray;   
+    }   
     public static void SetPerlinSize(int size)
     {
         _heightMapArray[0] = size;
         _heightIntensityArray[0] = size;
+        _zonesArray[0] = size;
     }
     
     public static void AdjustHeightMapPerlinCoordinates(Vector3 perlinCoordinates)

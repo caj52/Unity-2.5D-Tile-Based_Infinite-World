@@ -15,15 +15,20 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/Scenes/MainGame.unity
+    - Assets/Script/Data.meta
+    - Assets/Script/Data/TileUVs.cs
+    - Assets/Script/Data/TileUVs.cs.meta
     - Assets/Script/PerlinClasses/PerlinArrays.cs
-    - Assets/Script/PerlinClasses/PerlinGen.cs
-    - Assets/Script/PerlinClasses/PerlinRender.cs
     - Assets/Script/WorldGen/HeightMapManager.cs
-    - Assets/Script/WorldGen/OverWorldMesh.cs
+    - Assets/Script/WorldGen/OverWorldManager.cs
+    - Assets/Script/WorldGen/OverWorldManager.cs.meta
+    - Assets/Script/WorldGen/OverWorldTextureManager.cs
+    - Assets/Script/WorldGen/OverWorldTextureManager.cs.meta
     - Assets/Script/WorldGen/WorldInit.cs
-    - Assets/Script/WorldGen/WorldInit.cs.meta
+    - Assets/Script/WorldGen/ZoneManager.cs
+    - Assets/Script/WorldGen/ZoneManager.cs.meta
     - 
-    m_Values: 010101010101010101
+    m_Values: 0000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

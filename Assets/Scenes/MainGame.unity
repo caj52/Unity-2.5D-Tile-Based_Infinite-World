@@ -515,14 +515,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   me: {fileID: 1573920713}
   shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
-  pixWidthandHeight: 128
-  scale: 1.3
-  xOrg: 1000
-  yOrg: 1000
-  frequency: 0.3
-  lacunarity: 1
-  persistence: 0.5
-  octaves: 2
+  pixWidthandHeight: 256
+  scale: 0.8
+  xOrg: 0
+  yOrg: 0
+  frequency: 0.1
+  lacunarity: 1.15
+  persistence: 1.25
+  octaves: 4
   minrange: 0
   maxrange: 0
   showrange: 0
@@ -901,6 +901,8 @@ GameObject:
   - component: {fileID: 2064009872}
   - component: {fileID: 2064009871}
   - component: {fileID: 2064009874}
+  - component: {fileID: 2064009875}
+  - component: {fileID: 2064009876}
   m_Layer: 0
   m_Name: OverWorldManager
   m_TagString: Untagged
@@ -920,7 +922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166168f59f321f642926ee983bbb4974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldSize: 256
+  _worldSize: 128
 --- !u!114 &2064009872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -959,3 +961,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d376fa8f1db99174e8f7780562bb89e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2064009875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064009870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69abb2d9726bfba448397a3224bcb654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2064009876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064009870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fd79835b429d9147bb15769632eef9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _overworldSpriteSheet: {fileID: 2800000, guid: bccd47a70f336944598a2158f099ff3e,
+    type: 3}
