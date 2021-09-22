@@ -5,7 +5,9 @@ using System.Collections;
 public class WorldInit : MonoBehaviour
 {
     public static WorldInit Instance;
-    [SerializeField] private int _worldSize; 
+    [SerializeField] private int _worldSize;
+    [SerializeField] public int worldSize { get=>_worldSize; } //255 is max size for now
+
     private void Start()
     {
         Instance = this;
