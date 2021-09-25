@@ -14,17 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Resources/OverworldTex/Grassland@128x128.png.meta
-    - Assets/Scenes/MainGame.unity
-    - Assets/Script/Data/TileUVs.cs
-    - Assets/Script/PerlinClasses/PerlinArrays.cs
-    - Assets/Script/PerlinClasses/PerlinGen.cs
     - Assets/Script/WorldGen/HeightMapManager.cs
     - Assets/Script/WorldGen/OverWorldManager.cs
     - Assets/Script/WorldGen/OverWorldTextureManager.cs
-    - Assets/Script/WorldGen/WorldInit.cs
     - 
-    m_Values: 00000000000000000000
+    m_Values: 00000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
