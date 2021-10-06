@@ -6,7 +6,7 @@ public class WorldInit : MonoBehaviour
 {
     public static WorldInit Instance;
     [SerializeField] private int _worldSize;
-    [SerializeField] public int worldSize { get=>_worldSize; } //255 is max size for now
+    [SerializeField] public int worldSize { get=>_worldSize; }
 
     private void Start()
     {

@@ -35,7 +35,6 @@ public class PerlinGen : MonoBehaviour
         float persistence = perlindata[6];
         float octaves = perlindata[7];
         float amplitude = 1;
-        float vertexPerlin = perlindata[8];; //0=false 
         
        octaves = Mathf.RoundToInt(octaves);
        float[,] map = new float[(int)size,(int)size];

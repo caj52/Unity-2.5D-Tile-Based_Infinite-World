@@ -792,7 +792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1812721848}
   m_Layer: 0
-  m_Name: MobManager
+  m_Name: EntityManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166168f59f321f642926ee983bbb4974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldSize: 64
+  _worldSize: 128
 --- !u!114 &2064009872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,7 +860,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overWorldMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  gizmoArray: []
 --- !u!4 &2064009873
 Transform:
   m_ObjectHideFlags: 0
