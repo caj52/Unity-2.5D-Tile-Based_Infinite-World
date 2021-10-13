@@ -12,7 +12,6 @@ public class WorldInit : MonoBehaviour
     {
         Instance = this;
         PerlinArrays.SetPerlinSize(_worldSize);
-        TileUVs.Init();
     }
     public IEnumerator CreateWorldMesh()
     {
