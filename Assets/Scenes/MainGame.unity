@@ -426,6 +426,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9183d7a00faf70c4fa30a50de52887a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  overWorldTextureManager: {fileID: 2064009876}
+  overWorldManager: {fileID: 2064009872}
+  worldInit: {fileID: 2064009871}
 --- !u!4 &1506561555
 Transform:
   m_ObjectHideFlags: 0

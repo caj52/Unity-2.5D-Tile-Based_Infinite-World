@@ -14,22 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/MainGame.unity
     - Assets/Script/Data/TileTypes.cs
-    - Assets/Script/Data/TileTypes.cs.meta
-    - Assets/Script/Data/TileUVs.cs
     - Assets/Script/Data/ZoneTypes.cs
-    - Assets/Script/Data/ZoneTypes.cs.meta
-    - Assets/Script/PerlinClasses/PerlinArrays.cs
+    - Assets/Script/Initilizations.cs
+    - Assets/Script/Initilizations.cs.meta
     - Assets/Script/WorldGen/HeightMapManager.cs
+    - Assets/Script/WorldGen/HeightMapManager.cs.meta
     - Assets/Script/WorldGen/OverWorldManager.cs
+    - Assets/Script/WorldGen/OverWorldManager.cs.meta
     - Assets/Script/WorldGen/OverWorldTextureManager.cs
-    - Assets/Script/WorldGen/TilesManager.cs
-    - Assets/Script/WorldGen/TilesManager.cs.meta
     - Assets/Script/WorldGen/WorldInit.cs
-    - Assets/Script/WorldGen/ZoneManager.cs
+    - Assets/Script/WorldGen/WorldInit.cs.meta
     - 
-    m_Values: 000000000000000000000000000000
+    m_Values: 000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

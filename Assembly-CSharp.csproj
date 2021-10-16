@@ -54,7 +54,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\MoveSelectionArrow.cs" />
-     <Compile Include="Assets\Script\InGame\MainStart.cs" />
+     <Compile Include="Assets\Script\Initilizations.cs" />
      <Compile Include="Assets\Script\InGame\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />

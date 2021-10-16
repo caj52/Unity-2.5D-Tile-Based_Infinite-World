@@ -7,8 +7,8 @@ public class WorldInit : MonoBehaviour
     public static WorldInit Instance;
     [SerializeField] private int _worldSize;
     [SerializeField] public int worldSize { get=>_worldSize; }
-
-    private void Start()
+    
+    public void Init()
     {
         Instance = this;
         PerlinArrays.SetPerlinSize(_worldSize);
