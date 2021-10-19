@@ -14,13 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Script/Initilizations.cs
-    - Assets/Script/WorldGen/HeightMapManager.cs
     - Assets/Script/WorldGen/OverWorldManager.cs
-    - Assets/Script/WorldGen/OverWorldTextureManager.cs
-    - Assets/Script/WorldGen/ZoneManager.cs
     - 
-    m_Values: 010101010101
+    m_Values: 0000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
