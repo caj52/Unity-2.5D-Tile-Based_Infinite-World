@@ -14,9 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Script/Data/ZoneTypes.cs
     - Assets/Script/WorldGen/OverWorldManager.cs
+    - Assets/Script/WorldGen/OverWorldTextureManager.cs
+    - Assets/Script/WorldGen/TilesManager.cs
+    - Assets/Script/WorldGen/ZoneManager.cs
     - 
-    m_Values: 0000
+    m_Values: 000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
