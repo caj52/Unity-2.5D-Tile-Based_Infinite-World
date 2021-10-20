@@ -2,7 +2,7 @@
 This is a Unity Based 2.5d RPG project I dump some hours into every few months or so. Currently the project is composed of 3 scenes.
 1. The Title Screen where players can pick a save slot.
 2. Character creation Screen, where players can use customization tools to create a character. Visual only right now, the game doesnt have a stats system as of yet
-3. The World. I had an old system. ngl, It was bad. Currently I'm writing the new system which is way better. The mesh that composes the world updates and changes dynamically depending on its position, which will be determined relative to the player position. I plan on reintroducing the curved world shader I had before so the player will never actually see the ends of the mesh and thanks to that I'll never have to worry about draw distance. Currently writing out zones generation system (like biomes from minecraft) and working on linking it up to the dynamic overworld texturing system.
+3. The World. Currently writing in additional features to optimize world generation.
 
 Development Trello: https://trello.com/b/j3bCKSAN/25d-rpg
 
