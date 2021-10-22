@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 
@@ -21,4 +22,5 @@ public class WorldInit : MonoBehaviour
 
         yield return null;
     }
+    
 }
