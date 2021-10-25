@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overWorldTextureManager: {fileID: 2064009876}
-  overWorldManager: {fileID: 2064009872}
+  overWorldMesh: {fileID: 2064009872}
   worldInit: {fileID: 2064009871}
   heightMapManager: {fileID: 2064009874}
 --- !u!4 &1506561555

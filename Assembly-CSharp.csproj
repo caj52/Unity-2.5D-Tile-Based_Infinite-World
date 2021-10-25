@@ -58,7 +58,7 @@
      <Compile Include="Assets\Script\InGame\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />
-     <Compile Include="Assets\Script\WorldGen\OverWorldManager.cs" />
+     <Compile Include="Assets\Script\WorldGen\OverWorldMesh.cs" />
      <Compile Include="Assets\Script\CharCreate\SkinToneSlider.cs" />
      <Compile Include="Assets\Script\Data\ZoneTypes.cs" />
      <Compile Include="Assets\Script\WorldGen\ZoneManager.cs" />
