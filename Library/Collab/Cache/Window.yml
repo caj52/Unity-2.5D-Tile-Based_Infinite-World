@@ -14,20 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Script/WorldGen/OverWorldManager.cs
     - Assets/Script/WorldGen/OverWorldTextureManager.cs
     - 
-    m_Values: 0101
-  RevisionSummary: '-Finished UV memory system, where upon position change
-
-    UVS
-    shift the current entries and only generates
-
-    new tiles for the now blank
-    entries,
-
-    instead of reassigning all entries
-
-    all entries/'
+    m_Values: 010101
+  RevisionSummary: -Cleaned up UV Logic a bit
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
