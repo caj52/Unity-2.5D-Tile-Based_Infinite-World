@@ -52,7 +52,8 @@ public class PerlinGen : MonoBehaviour
            }
             frequency *= lacunarity;
             amplitude *= persistence;
-        }
+           
+       }
        return map;
     }
 

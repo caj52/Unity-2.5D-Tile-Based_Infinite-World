@@ -14,17 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Script/Initilizations.cs
-    - Assets/Script/WorldGen/HeightMapManager.cs
-    - Assets/Script/WorldGen/OverWorldMesh.cs
-    - Assets/Script/WorldGen/OverWorldMesh.cs.meta
-    - Assets/Script/WorldGen/OverWorldTextureManager.cs
-    - Assets/Script/WorldGen/TilesManager.cs
-    - Assets/Script/WorldGen/WorldInit.cs
-    - Assets/Script/WorldGen/ZoneManager.cs
+    - Assets/Scenes/MainGame.unity
+    - Assets/Script/EditorTools.meta
+    - Assets/Script/EditorTools/PerlinEditor.cs
+    - Assets/Script/EditorTools/PerlinEditor.cs.meta
+    - Assets/Script/PerlinClasses/PerlinArrays.cs
+    - Assets/Script/PerlinClasses/PerlinGen.cs
     - 
-    m_Values: 010101010101010101
-  RevisionSummary: -Cleaned up triangles assignment logic
+    m_Values: 01010101010101
+  RevisionSummary: -Move overworldmanager stuff to new script OverWorldMesh
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
