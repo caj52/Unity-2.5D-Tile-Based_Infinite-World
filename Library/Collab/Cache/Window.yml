@@ -15,14 +15,12 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/Scenes/MainGame.unity
-    - Assets/Script/EditorTools.meta
     - Assets/Script/EditorTools/PerlinEditor.cs
-    - Assets/Script/EditorTools/PerlinEditor.cs.meta
-    - Assets/Script/PerlinClasses/PerlinArrays.cs
-    - Assets/Script/PerlinClasses/PerlinGen.cs
+    - Assets/Script/PerlinClasses/PerlinFilters.cs
+    - Assets/Script/PerlinClasses/PerlinFilters.cs.meta
     - 
-    m_Values: 01010101010101
-  RevisionSummary: -Move overworldmanager stuff to new script OverWorldMesh
+    m_Values: 0000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
