@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/MainGame.unity
     - Assets/Script/EditorTools/PerlinEditor.cs
-    - Assets/Script/PerlinClasses/PerlinFilters.cs
-    - Assets/Script/PerlinClasses/PerlinFilters.cs.meta
+    - Assets/UniPix.meta
+    - Assets/UniPix/Editor.meta
     - 
-    m_Values: 0000000000
+    m_Values: 00010000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
