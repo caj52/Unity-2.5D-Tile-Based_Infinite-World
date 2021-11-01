@@ -15,10 +15,11 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/Script/EditorTools/PerlinEditor.cs
-    - Assets/UniPix.meta
-    - Assets/UniPix/Editor.meta
+    - Assets/Script/PerlinClasses/Perlin.cs
+    - Assets/Script/PerlinClasses/Perlin.cs.meta
+    - Assets/Script/PerlinClasses/PerlinGen.cs
     - 
-    m_Values: 00010000
+    m_Values: 0000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

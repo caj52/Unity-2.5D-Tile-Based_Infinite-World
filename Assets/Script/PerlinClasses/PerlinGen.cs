@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class PerlinGen : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class PerlinGen : MonoBehaviour
                 {
                     float xCoord = ((lookingatx + x * (scale/10)) * frequency);
                     float yCoord = ((lookingaty + y * (scale/10)) * frequency);
-                    map[x,y] += (Mathf.PerlinNoise(xCoord, yCoord)*amplitude)/octaves;
+                    map[x,y] += Mathf.Clamp(Perlin.Generate(xCoord, yCoord,0)*amplitude,0,1)/octaves;
                 }
 
            }
