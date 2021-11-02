@@ -76,8 +76,8 @@
      <Compile Include="Assets\Script\Data\TileUVs.cs" />
      <Compile Include="Assets\Script\WorldGen\WorldInit.cs" />
      <Compile Include="Assets\Script\SpriteCopy.cs" />
+     <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <Compile Include="Assets\Script\EditorTools\PerlinEditor.cs" />
-     <Compile Include="Assets\Script\PerlinClasses\PerlinRender.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
      <Compile Include="Assets\Script\CharCreate\CCDraw.cs" />
@@ -87,7 +87,6 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
