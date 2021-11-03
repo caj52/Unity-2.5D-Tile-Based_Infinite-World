@@ -428,6 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overWorldTextureManager: {fileID: 2064009876}
   overWorldMesh: {fileID: 2064009872}
+  oceanManager: {fileID: 2064009875}
   worldInit: {fileID: 2064009871}
   heightMapManager: {fileID: 2064009874}
 --- !u!4 &1506561555
@@ -707,6 +708,7 @@ GameObject:
   - component: {fileID: 2064009871}
   - component: {fileID: 2064009874}
   - component: {fileID: 2064009876}
+  - component: {fileID: 2064009875}
   m_Layer: 0
   m_Name: OverWorldManager
   m_TagString: Untagged
@@ -726,7 +728,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166168f59f321f642926ee983bbb4974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldSize: 32
+  _worldSize: 16
 --- !u!114 &2064009872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,6 +768,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d376fa8f1db99174e8f7780562bb89e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2064009875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064009870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8820af5de8560b4a84b15ebf434e56d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oceanMaterial: {fileID: 2100000, guid: 49ac8a23629582342a83c95389acd3f8, type: 2}
 --- !u!114 &2064009876
 MonoBehaviour:
   m_ObjectHideFlags: 0
