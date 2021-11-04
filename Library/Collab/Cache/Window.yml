@@ -14,25 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Prefabs.meta
-    - Assets/Prefabs/EnviornmentalObjects.meta
-    - Assets/Prefabs/EnviornmentalObjects/Tree.prefab
-    - Assets/Prefabs/EnviornmentalObjects/Tree.prefab.meta
-    - Assets/Resources/2D Hand Painted Tilesets/2D Hand Painted - Grassland Tileset/Prefabs/Sign.prefab
-    - Assets/Resources/2D Hand Painted Tilesets/2D Hand Painted - Grassland Tileset/Sprites/Tilesets
-      64x64/Grassland Spring@64x64.png.meta
-    - Assets/Script/Data/TileTypes.cs
-    - Assets/Script/Data/TileUVs.cs
-    - Assets/Script/Data/ZoneTypes.cs
-    - Assets/Script/Initilizations.cs
+    - Assets/New Material.mat
+    - Assets/OverWorld.mat
+    - Assets/OverWorld.mat.meta
+    - Assets/Resources/Shaders/WorldShader.shadergraph
+    - Assets/Resources/Shaders/WorldShader.shadergraph.meta
+    - Assets/Resources/UniversalRenderPipelineAsset.asset
+    - Assets/Resources/UniversalRenderPipelineAsset.asset.meta
+    - Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset
+    - Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset.meta
+    - Assets/Scenes/MainGame.unity
     - Assets/Script/WorldGen/ConditionalUVS.cs
     - Assets/Script/WorldGen/OceanManager.cs
-    - Assets/Script/WorldGen/OverWorldMesh.cs
-    - Assets/Script/WorldGen/OverWorldObjectManager.cs
-    - Assets/Script/WorldGen/OverWorldObjectManager.cs.meta
+    - Assets/Shaders.meta
+    - Assets/Shaders/OverWorld.shader
+    - Assets/Shaders/OverWorld.shader.meta
+    - ProjectSettings/GraphicsSettings.asset
     - 
-    m_Values: 01010101010101010101010101010101
-  RevisionSummary: "-Added conditionalUVS.cs to the files \nas well as cliff faces."
+    m_Values: 0101010101010101010101010101010101
+  RevisionSummary: '-Created the OverWorldObjectManager script
+
+    -Underwater tiles
+    are always sand now
+
+    (new function in ConditionalUVS) '
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

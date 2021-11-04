@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &467960730
 Transform:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467960729}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 5.69, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1812721848}
@@ -270,6 +270,49 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &697660737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 697660739}
+  - component: {fileID: 697660738}
+  m_Layer: 0
+  m_Name: OverWorldObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &697660738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697660737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f67dc2653de2f944a7156c45674cd86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &697660739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697660737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &750320648
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -431,6 +474,7 @@ MonoBehaviour:
   oceanManager: {fileID: 2064009875}
   worldInit: {fileID: 2064009871}
   heightMapManager: {fileID: 2064009874}
+  overWorldObjectManager: {fileID: 697660738}
 --- !u!4 &1506561555
 Transform:
   m_ObjectHideFlags: 0
@@ -728,7 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166168f59f321f642926ee983bbb4974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _worldSize: 32
+  _worldSize: 48
 --- !u!114 &2064009872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,7 +785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6eb4b436d38ea264b89f22b46b1eb956, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  overWorldMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  overWorldMaterial: {fileID: 2100000, guid: 62a0ed6c7c340a64597c753500a28d2b, type: 2}
 --- !u!4 &2064009873
 Transform:
   m_ObjectHideFlags: 0
@@ -781,6 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   oceanMaterial: {fileID: 2100000, guid: 49ac8a23629582342a83c95389acd3f8, type: 2}
+  seaLevel: 20
 --- !u!114 &2064009876
 MonoBehaviour:
   m_ObjectHideFlags: 0
