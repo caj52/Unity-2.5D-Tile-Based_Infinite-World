@@ -84,10 +84,11 @@
      <Compile Include="Assets\Script\CharCreate\CCInstantiate.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\BlinkingText.cs" />
      <Compile Include="Assets\Script\UI\Cursor_Set.cs" />
+     <Compile Include="Assets\Script\WorldGen\OceanManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\WorldGen\OceanManager.cs" />
+     <Compile Include="Assets\Script\WorldGen\ConditionalUVS.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
