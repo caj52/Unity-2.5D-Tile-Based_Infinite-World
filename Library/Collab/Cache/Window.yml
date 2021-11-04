@@ -14,15 +14,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/EnviornmentalObjects.meta
+    - Assets/Prefabs/EnviornmentalObjects/Tree.prefab
+    - Assets/Prefabs/EnviornmentalObjects/Tree.prefab.meta
+    - Assets/Resources/2D Hand Painted Tilesets/2D Hand Painted - Grassland Tileset/Prefabs/Sign.prefab
+    - Assets/Resources/2D Hand Painted Tilesets/2D Hand Painted - Grassland Tileset/Sprites/Tilesets
+      64x64/Grassland Spring@64x64.png.meta
     - Assets/Script/Data/TileTypes.cs
     - Assets/Script/Data/TileUVs.cs
+    - Assets/Script/Data/ZoneTypes.cs
+    - Assets/Script/Initilizations.cs
     - Assets/Script/WorldGen/ConditionalUVS.cs
-    - Assets/Script/WorldGen/ConditionalUVS.cs.meta
+    - Assets/Script/WorldGen/OceanManager.cs
     - Assets/Script/WorldGen/OverWorldMesh.cs
-    - Assets/Script/WorldGen/OverWorldTextureManager.cs
+    - Assets/Script/WorldGen/OverWorldObjectManager.cs
+    - Assets/Script/WorldGen/OverWorldObjectManager.cs.meta
     - 
-    m_Values: 01010101010101
-  RevisionSummary: 
+    m_Values: 01010101010101010101010101010101
+  RevisionSummary: "-Added conditionalUVS.cs to the files \nas well as cliff faces."
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
