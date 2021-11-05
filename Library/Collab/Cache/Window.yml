@@ -14,30 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/New Material.mat
-    - Assets/OverWorld.mat
-    - Assets/OverWorld.mat.meta
-    - Assets/Resources/Shaders/WorldShader.shadergraph
-    - Assets/Resources/Shaders/WorldShader.shadergraph.meta
-    - Assets/Resources/UniversalRenderPipelineAsset.asset
-    - Assets/Resources/UniversalRenderPipelineAsset.asset.meta
-    - Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset
-    - Assets/Resources/UniversalRenderPipelineAsset_Renderer.asset.meta
+    - Assets/Resources/Prefabs.meta
+    - Assets/Resources/Prefabs/EnviornmentalObjects.meta
+    - Assets/Resources/Prefabs/EnviornmentalObjects/Tree.prefab
+    - Assets/Resources/Prefabs/EnviornmentalObjects/Tree.prefab.meta
     - Assets/Scenes/MainGame.unity
+    - Assets/Script/Data/ObjectTypes.cs
+    - Assets/Script/Data/ObjectTypes.cs.meta
+    - Assets/Script/Data/TileTypes.cs
+    - Assets/Script/Data/ZoneTypes.cs
+    - Assets/Script/Initilizations.cs
+    - Assets/Script/PerlinClasses/PerlinArrays.cs
     - Assets/Script/WorldGen/ConditionalUVS.cs
-    - Assets/Script/WorldGen/OceanManager.cs
-    - Assets/Shaders.meta
-    - Assets/Shaders/OverWorld.shader
-    - Assets/Shaders/OverWorld.shader.meta
-    - ProjectSettings/GraphicsSettings.asset
+    - Assets/Script/WorldGen/HeightMapManager.cs
+    - Assets/Script/WorldGen/OverWorldMesh.cs
+    - Assets/Script/WorldGen/OverWorldObjectManager.cs
+    - Assets/Script/WorldGen/WorldInit.cs
+    - Assets/Sky_Day_BlueSky_Nothing_Cam_1_Back-Z.png.meta
     - 
-    m_Values: 0101010101010101010101010101010101
-  RevisionSummary: '-Created the OverWorldObjectManager script
-
-    -Underwater tiles
-    are always sand now
-
-    (new function in ConditionalUVS) '
+    m_Values: 000000000000000000000000000000000000
+  RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0

@@ -64,6 +64,7 @@
      <Compile Include="Assets\Script\WorldGen\ZoneManager.cs" />
      <Compile Include="Assets\Script\WorldGen\OverWorldTextureManager.cs" />
      <Compile Include="Assets\Script\CancelScript.cs" />
+     <Compile Include="Assets\Script\WorldGen\ConditionalUVS.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
      <Compile Include="Assets\Script\WorldGen\TilesManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
@@ -81,15 +82,15 @@
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
      <Compile Include="Assets\Script\CharCreate\CCDraw.cs" />
+     <Compile Include="Assets\Script\Data\ObjectTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\CCInstantiate.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\BlinkingText.cs" />
      <Compile Include="Assets\Script\UI\Cursor_Set.cs" />
      <Compile Include="Assets\Script\WorldGen\OceanManager.cs" />
+     <Compile Include="Assets\Script\WorldGen\OverWorldObjectManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\WorldGen\ConditionalUVS.cs" />
-     <Compile Include="Assets\Script\WorldGen\OverWorldObjectManager.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />

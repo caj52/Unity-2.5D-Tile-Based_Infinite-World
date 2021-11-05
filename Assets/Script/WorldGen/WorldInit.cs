@@ -19,7 +19,7 @@ public class WorldInit : MonoBehaviour
         Debug.Log("Firing Create Mesh Coroutine");
         StartCoroutine(OverWorldMesh.Instance.CreateMesh());
         StartCoroutine(OceanManager.Instance.CreateOceanMesh());
-
+        StartCoroutine(OverWorldObjectManager.Instance.PlaceOverWorldObjects());
 
         yield return null;
     }
