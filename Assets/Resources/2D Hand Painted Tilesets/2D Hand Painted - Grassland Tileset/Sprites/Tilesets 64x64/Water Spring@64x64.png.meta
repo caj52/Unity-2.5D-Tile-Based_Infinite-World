@@ -1,0 +1,6732 @@
+fileFormatVersion: 2
+guid: 265d140699e8f0a489056596e7afa90c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Water Spring@64x64_0
+  - first:
+      213: 21300002
+    second: Water Spring@64x64_1
+  - first:
+      213: 21300004
+    second: Water Spring@64x64_2
+  - first:
+      213: 21300006
+    second: Water Spring@64x64_3
+  - first:
+      213: 21300008
+    second: Water Spring@64x64_4
+  - first:
+      213: 21300010
+    second: Water Spring@64x64_5
+  - first:
+      213: 21300012
+    second: Water Spring@64x64_6
+  - first:
+      213: 21300014
+    second: Water Spring@64x64_7
+  - first:
+      213: 21300016
+    second: Water Spring@64x64_8
+  - first:
+      213: 21300018
+    second: Water Spring@64x64_9
+  - first:
+      213: 21300020
+    second: Water Spring@64x64_10
+  - first:
+      213: 21300022
+    second: Water Spring@64x64_11
+  - first:
+      213: 21300024
+    second: Water Spring@64x64_12
+  - first:
+      213: 21300026
+    second: Water Spring@64x64_13
+  - first:
+      213: 21300028
+    second: Water Spring@64x64_14
+  - first:
+      213: 21300030
+    second: Water Spring@64x64_15
+  - first:
+      213: 21300032
+    second: Water Spring@64x64_16
+  - first:
+      213: 21300034
+    second: Water Spring@64x64_17
+  - first:
+      213: 21300036
+    second: Water Spring@64x64_18
+  - first:
+      213: 21300038
+    second: Water Spring@64x64_19
+  - first:
+      213: 21300040
+    second: Water Spring@64x64_20
+  - first:
+      213: 21300042
+    second: Water Spring@64x64_21
+  - first:
+      213: 21300044
+    second: Water Spring@64x64_22
+  - first:
+      213: 21300046
+    second: Water Spring@64x64_23
+  - first:
+      213: 21300048
+    second: Water Spring@64x64_24
+  - first:
+      213: 21300050
+    second: Water Spring@64x64_25
+  - first:
+      213: 21300052
+    second: Water Spring@64x64_26
+  - first:
+      213: 21300054
+    second: Water Spring@64x64_27
+  - first:
+      213: 21300056
+    second: Water Spring@64x64_28
+  - first:
+      213: 21300058
+    second: Water Spring@64x64_29
+  - first:
+      213: 21300060
+    second: Water Spring@64x64_30
+  - first:
+      213: 21300062
+    second: Water Spring@64x64_31
+  - first:
+      213: 21300064
+    second: Water Spring@64x64_32
+  - first:
+      213: 21300066
+    second: Water Spring@64x64_33
+  - first:
+      213: 21300068
+    second: Water Spring@64x64_34
+  - first:
+      213: 21300070
+    second: Water Spring@64x64_35
+  - first:
+      213: 21300072
+    second: Water Spring@64x64_36
+  - first:
+      213: 21300074
+    second: Water Spring@64x64_37
+  - first:
+      213: 21300076
+    second: Water Spring@64x64_38
+  - first:
+      213: 21300078
+    second: Water Spring@64x64_39
+  - first:
+      213: 21300080
+    second: Water Spring@64x64_40
+  - first:
+      213: 21300082
+    second: Water Spring@64x64_41
+  - first:
+      213: 21300084
+    second: Water Spring@64x64_42
+  - first:
+      213: 21300086
+    second: Water Spring@64x64_43
+  - first:
+      213: 21300088
+    second: Water Spring@64x64_44
+  - first:
+      213: 21300090
+    second: Water Spring@64x64_45
+  - first:
+      213: 21300092
+    second: Water Spring@64x64_46
+  - first:
+      213: 21300094
+    second: Water Spring@64x64_47
+  - first:
+      213: 21300096
+    second: Water Spring@64x64_48
+  - first:
+      213: 21300098
+    second: Water Spring@64x64_49
+  - first:
+      213: 21300100
+    second: Water Spring@64x64_50
+  - first:
+      213: 21300102
+    second: Water Spring@64x64_51
+  - first:
+      213: 21300104
+    second: Water Spring@64x64_52
+  - first:
+      213: 21300106
+    second: Water Spring@64x64_53
+  - first:
+      213: 21300108
+    second: Water Spring@64x64_54
+  - first:
+      213: 21300110
+    second: Water Spring@64x64_55
+  - first:
+      213: 21300112
+    second: Water Spring@64x64_56
+  - first:
+      213: 21300114
+    second: Water Spring@64x64_57
+  - first:
+      213: 21300116
+    second: Water Spring@64x64_58
+  - first:
+      213: 21300118
+    second: Water Spring@64x64_59
+  - first:
+      213: 21300120
+    second: Water Spring@64x64_60
+  - first:
+      213: 21300122
+    second: Water Spring@64x64_61
+  - first:
+      213: 21300124
+    second: Water Spring@64x64_62
+  - first:
+      213: 21300126
+    second: Water Spring@64x64_63
+  - first:
+      213: 21300128
+    second: Water Spring@64x64_64
+  - first:
+      213: 21300130
+    second: Water Spring@64x64_65
+  - first:
+      213: 21300132
+    second: Water Spring@64x64_66
+  - first:
+      213: 21300134
+    second: Water Spring@64x64_67
+  - first:
+      213: 21300136
+    second: Water Spring@64x64_68
+  - first:
+      213: 21300138
+    second: Water Spring@64x64_69
+  - first:
+      213: 21300140
+    second: Water Spring@64x64_70
+  - first:
+      213: 21300142
+    second: Water Spring@64x64_71
+  - first:
+      213: 21300144
+    second: Water Spring@64x64_72
+  - first:
+      213: 21300146
+    second: Water Spring@64x64_73
+  - first:
+      213: 21300148
+    second: Water Spring@64x64_74
+  - first:
+      213: 21300150
+    second: Water Spring@64x64_75
+  - first:
+      213: 21300152
+    second: Water Spring@64x64_76
+  - first:
+      213: 21300154
+    second: Water Spring@64x64_77
+  - first:
+      213: 21300156
+    second: Water Spring@64x64_78
+  - first:
+      213: 21300158
+    second: Water Spring@64x64_79
+  - first:
+      213: 21300160
+    second: Water Spring@64x64_80
+  - first:
+      213: 21300162
+    second: Water Spring@64x64_81
+  - first:
+      213: 21300164
+    second: Water Spring@64x64_82
+  - first:
+      213: 21300166
+    second: Water Spring@64x64_83
+  - first:
+      213: 21300168
+    second: Water Spring@64x64_84
+  - first:
+      213: 21300170
+    second: Water Spring@64x64_85
+  - first:
+      213: 21300172
+    second: Water Spring@64x64_86
+  - first:
+      213: 21300174
+    second: Water Spring@64x64_87
+  - first:
+      213: 21300176
+    second: Water Spring@64x64_88
+  - first:
+      213: 21300178
+    second: Water Spring@64x64_89
+  - first:
+      213: 21300180
+    second: Water Spring@64x64_90
+  - first:
+      213: 21300182
+    second: Water Spring@64x64_91
+  - first:
+      213: 21300184
+    second: Water Spring@64x64_92
+  - first:
+      213: 21300186
+    second: Water Spring@64x64_93
+  - first:
+      213: 21300188
+    second: Water Spring@64x64_94
+  - first:
+      213: 21300190
+    second: Water Spring@64x64_95
+  - first:
+      213: 21300192
+    second: Water Spring@64x64_96
+  - first:
+      213: 21300194
+    second: Water Spring@64x64_97
+  - first:
+      213: 21300196
+    second: Water Spring@64x64_98
+  - first:
+      213: 21300198
+    second: Water Spring@64x64_99
+  - first:
+      213: 21300200
+    second: Water Spring@64x64_100
+  - first:
+      213: 21300202
+    second: Water Spring@64x64_101
+  - first:
+      213: 21300204
+    second: Water Spring@64x64_102
+  - first:
+      213: 21300206
+    second: Water Spring@64x64_103
+  - first:
+      213: 21300208
+    second: Water Spring@64x64_104
+  - first:
+      213: 21300210
+    second: Water Spring@64x64_105
+  - first:
+      213: 21300212
+    second: Water Spring@64x64_106
+  - first:
+      213: 21300214
+    second: Water Spring@64x64_107
+  - first:
+      213: 21300216
+    second: Water Spring@64x64_108
+  - first:
+      213: 21300218
+    second: Water Spring@64x64_109
+  - first:
+      213: 21300220
+    second: Water Spring@64x64_110
+  - first:
+      213: 21300222
+    second: Water Spring@64x64_111
+  - first:
+      213: 21300224
+    second: Water Spring@64x64_112
+  - first:
+      213: 21300226
+    second: Water Spring@64x64_113
+  - first:
+      213: 21300228
+    second: Water Spring@64x64_114
+  - first:
+      213: 21300230
+    second: Water Spring@64x64_115
+  - first:
+      213: 21300232
+    second: Water Spring@64x64_116
+  - first:
+      213: 21300234
+    second: Water Spring@64x64_117
+  - first:
+      213: 21300236
+    second: Water Spring@64x64_118
+  - first:
+      213: 21300238
+    second: Water Spring@64x64_119
+  - first:
+      213: 21300240
+    second: Water Spring@64x64_120
+  - first:
+      213: 21300242
+    second: Water Spring@64x64_121
+  - first:
+      213: 21300244
+    second: Water Spring@64x64_122
+  - first:
+      213: 21300246
+    second: Water Spring@64x64_123
+  - first:
+      213: 21300248
+    second: Water Spring@64x64_124
+  - first:
+      213: 21300250
+    second: Water Spring@64x64_125
+  - first:
+      213: 21300252
+    second: Water Spring@64x64_126
+  - first:
+      213: 21300254
+    second: Water Spring@64x64_127
+  - first:
+      213: 21300256
+    second: Water Spring@64x64_128
+  - first:
+      213: 21300258
+    second: Water Spring@64x64_129
+  - first:
+      213: 21300260
+    second: Water Spring@64x64_130
+  - first:
+      213: 21300262
+    second: Water Spring@64x64_131
+  - first:
+      213: 21300264
+    second: Water Spring@64x64_132
+  - first:
+      213: 21300266
+    second: Water Spring@64x64_133
+  - first:
+      213: 21300268
+    second: Water Spring@64x64_134
+  - first:
+      213: 21300270
+    second: Water Spring@64x64_135
+  - first:
+      213: 21300272
+    second: Water Spring@64x64_136
+  - first:
+      213: 21300274
+    second: Water Spring@64x64_137
+  - first:
+      213: 21300276
+    second: Water Spring@64x64_138
+  - first:
+      213: 21300278
+    second: Water Spring@64x64_139
+  - first:
+      213: 21300280
+    second: Water Spring@64x64_140
+  - first:
+      213: 21300282
+    second: Water Spring@64x64_141
+  - first:
+      213: 21300284
+    second: Water Spring@64x64_142
+  - first:
+      213: 21300286
+    second: Water Spring@64x64_143
+  - first:
+      213: 21300288
+    second: Water Spring@64x64_144
+  - first:
+      213: 21300290
+    second: Water Spring@64x64_145
+  - first:
+      213: 21300292
+    second: Water Spring@64x64_146
+  - first:
+      213: 21300294
+    second: Water Spring@64x64_147
+  - first:
+      213: 21300296
+    second: Water Spring@64x64_148
+  - first:
+      213: 21300298
+    second: Water Spring@64x64_149
+  - first:
+      213: 21300300
+    second: Water Spring@64x64_150
+  - first:
+      213: 21300302
+    second: Water Spring@64x64_151
+  - first:
+      213: 21300304
+    second: Water Spring@64x64_152
+  - first:
+      213: 21300306
+    second: Water Spring@64x64_153
+  - first:
+      213: 21300308
+    second: Water Spring@64x64_154
+  - first:
+      213: 21300310
+    second: Water Spring@64x64_155
+  - first:
+      213: 21300312
+    second: Water Spring@64x64_156
+  - first:
+      213: 21300314
+    second: Water Spring@64x64_157
+  - first:
+      213: 21300316
+    second: Water Spring@64x64_158
+  - first:
+      213: 21300318
+    second: Water Spring@64x64_159
+  - first:
+      213: 4063941230430284175
+    second: Water Spring@64x64_0
+  - first:
+      213: -1676102272755660939
+    second: Water Spring@64x64_1
+  - first:
+      213: 332291815030084277
+    second: Water Spring@64x64_2
+  - first:
+      213: 2116347744874036
+    second: Water Spring@64x64_3
+  - first:
+      213: -1119115549149202600
+    second: Water Spring@64x64_4
+  - first:
+      213: 454870261530793074
+    second: Water Spring@64x64_5
+  - first:
+      213: -8954207791556649302
+    second: Water Spring@64x64_6
+  - first:
+      213: 152546191366079430
+    second: Water Spring@64x64_7
+  - first:
+      213: -2121846802914318345
+    second: Water Spring@64x64_8
+  - first:
+      213: 1299408486401329760
+    second: Water Spring@64x64_9
+  - first:
+      213: 896885259552893519
+    second: Water Spring@64x64_10
+  - first:
+      213: 5864642115866564261
+    second: Water Spring@64x64_11
+  - first:
+      213: -8404565844184480387
+    second: Water Spring@64x64_12
+  - first:
+      213: -5190821277414444263
+    second: Water Spring@64x64_13
+  - first:
+      213: 6433249657526029586
+    second: Water Spring@64x64_14
+  - first:
+      213: -3488456477220003644
+    second: Water Spring@64x64_15
+  - first:
+      213: 1224798013421201585
+    second: Water Spring@64x64_16
+  - first:
+      213: -7549047868154458584
+    second: Water Spring@64x64_17
+  - first:
+      213: -7270820476596384886
+    second: Water Spring@64x64_18
+  - first:
+      213: -7658136770062015506
+    second: Water Spring@64x64_19
+  - first:
+      213: 1907363483566737874
+    second: Water Spring@64x64_20
+  - first:
+      213: 6416636688484839671
+    second: Water Spring@64x64_21
+  - first:
+      213: 5152685425381651211
+    second: Water Spring@64x64_22
+  - first:
+      213: -1796584215980296395
+    second: Water Spring@64x64_23
+  - first:
+      213: 9119780439911122485
+    second: Water Spring@64x64_24
+  - first:
+      213: 5351632356222294763
+    second: Water Spring@64x64_25
+  - first:
+      213: -5190040174965101485
+    second: Water Spring@64x64_26
+  - first:
+      213: -758239330815265143
+    second: Water Spring@64x64_27
+  - first:
+      213: -2850737197313282462
+    second: Water Spring@64x64_28
+  - first:
+      213: -503937806397991798
+    second: Water Spring@64x64_29
+  - first:
+      213: 1884243394122270022
+    second: Water Spring@64x64_30
+  - first:
+      213: -987385498694435636
+    second: Water Spring@64x64_31
+  - first:
+      213: -2190710774405565047
+    second: Water Spring@64x64_32
+  - first:
+      213: -6785451355036206470
+    second: Water Spring@64x64_33
+  - first:
+      213: -3793514070663404478
+    second: Water Spring@64x64_34
+  - first:
+      213: 2332999356115631831
+    second: Water Spring@64x64_35
+  - first:
+      213: 135363550868062030
+    second: Water Spring@64x64_36
+  - first:
+      213: -8617059074588529234
+    second: Water Spring@64x64_37
+  - first:
+      213: -1876235966473733937
+    second: Water Spring@64x64_38
+  - first:
+      213: -1063610706382123587
+    second: Water Spring@64x64_39
+  - first:
+      213: -3674622813168756629
+    second: Water Spring@64x64_40
+  - first:
+      213: -1806909614400838146
+    second: Water Spring@64x64_41
+  - first:
+      213: -3796139186021689932
+    second: Water Spring@64x64_42
+  - first:
+      213: -5113336967004347711
+    second: Water Spring@64x64_43
+  - first:
+      213: 4594648481318180955
+    second: Water Spring@64x64_44
+  - first:
+      213: 109025575096306432
+    second: Water Spring@64x64_45
+  - first:
+      213: 6268145684934665343
+    second: Water Spring@64x64_46
+  - first:
+      213: -9100197267567568012
+    second: Water Spring@64x64_47
+  - first:
+      213: 3398311647047875780
+    second: Water Spring@64x64_48
+  - first:
+      213: -8549909262066199498
+    second: Water Spring@64x64_49
+  - first:
+      213: 4984517564714081055
+    second: Water Spring@64x64_50
+  - first:
+      213: 5544619153644183600
+    second: Water Spring@64x64_51
+  - first:
+      213: 6836214318174806367
+    second: Water Spring@64x64_52
+  - first:
+      213: 1906870256074205117
+    second: Water Spring@64x64_53
+  - first:
+      213: 2774439407720397658
+    second: Water Spring@64x64_54
+  - first:
+      213: 8947062167046304899
+    second: Water Spring@64x64_55
+  - first:
+      213: 7918700253495795925
+    second: Water Spring@64x64_56
+  - first:
+      213: -1204650313808325097
+    second: Water Spring@64x64_57
+  - first:
+      213: 243107418000777847
+    second: Water Spring@64x64_58
+  - first:
+      213: 1283888426537269149
+    second: Water Spring@64x64_59
+  - first:
+      213: 6266966399395740796
+    second: Water Spring@64x64_60
+  - first:
+      213: -1246872785326745150
+    second: Water Spring@64x64_61
+  - first:
+      213: -7335416405258066022
+    second: Water Spring@64x64_62
+  - first:
+      213: 3084861129083312684
+    second: Water Spring@64x64_63
+  - first:
+      213: 2552038291519622259
+    second: Water Spring@64x64_64
+  - first:
+      213: 2420665067608329815
+    second: Water Spring@64x64_65
+  - first:
+      213: 1789921443959280100
+    second: Water Spring@64x64_66
+  - first:
+      213: 700724515783347411
+    second: Water Spring@64x64_67
+  - first:
+      213: -288619205806191158
+    second: Water Spring@64x64_68
+  - first:
+      213: 5861577382361071123
+    second: Water Spring@64x64_69
+  - first:
+      213: 7912748955395039986
+    second: Water Spring@64x64_70
+  - first:
+      213: 3174176690837724315
+    second: Water Spring@64x64_71
+  - first:
+      213: 9051445926949362049
+    second: Water Spring@64x64_72
+  - first:
+      213: -459652020073395845
+    second: Water Spring@64x64_73
+  - first:
+      213: -8757409223241210005
+    second: Water Spring@64x64_74
+  - first:
+      213: 3829372934567281202
+    second: Water Spring@64x64_75
+  - first:
+      213: 7472132961316584799
+    second: Water Spring@64x64_76
+  - first:
+      213: 8061901173630370019
+    second: Water Spring@64x64_77
+  - first:
+      213: 5844812924863894301
+    second: Water Spring@64x64_78
+  - first:
+      213: 7146988371159760496
+    second: Water Spring@64x64_79
+  - first:
+      213: -3829287228411190971
+    second: Water Spring@64x64_80
+  - first:
+      213: 8082391225535098484
+    second: Water Spring@64x64_81
+  - first:
+      213: 7914781588712288403
+    second: Water Spring@64x64_82
+  - first:
+      213: 8447744491774267200
+    second: Water Spring@64x64_83
+  - first:
+      213: -1227583383973703243
+    second: Water Spring@64x64_84
+  - first:
+      213: 7608606026126227222
+    second: Water Spring@64x64_85
+  - first:
+      213: -569868393630629198
+    second: Water Spring@64x64_86
+  - first:
+      213: 4382822502859977544
+    second: Water Spring@64x64_87
+  - first:
+      213: 2960790709934046298
+    second: Water Spring@64x64_88
+  - first:
+      213: -6978696362912698709
+    second: Water Spring@64x64_89
+  - first:
+      213: -4951206701624498012
+    second: Water Spring@64x64_90
+  - first:
+      213: -6246005002917183257
+    second: Water Spring@64x64_91
+  - first:
+      213: 3717195428892813520
+    second: Water Spring@64x64_92
+  - first:
+      213: -1405112723341915948
+    second: Water Spring@64x64_93
+  - first:
+      213: 6226174064756142056
+    second: Water Spring@64x64_94
+  - first:
+      213: 135061819230968239
+    second: Water Spring@64x64_95
+  - first:
+      213: 4738097564018304186
+    second: Water Spring@64x64_96
+  - first:
+      213: 8677502771028545328
+    second: Water Spring@64x64_97
+  - first:
+      213: -8118519042288345445
+    second: Water Spring@64x64_98
+  - first:
+      213: 2210567057852354403
+    second: Water Spring@64x64_99
+  - first:
+      213: -7307439984799802641
+    second: Water Spring@64x64_100
+  - first:
+      213: 6486064760328671240
+    second: Water Spring@64x64_101
+  - first:
+      213: -6484503941173561389
+    second: Water Spring@64x64_102
+  - first:
+      213: 7006868877476082863
+    second: Water Spring@64x64_103
+  - first:
+      213: -6584134827164365743
+    second: Water Spring@64x64_104
+  - first:
+      213: 109621184844484533
+    second: Water Spring@64x64_105
+  - first:
+      213: 5482422496681094202
+    second: Water Spring@64x64_106
+  - first:
+      213: -6688191067691854459
+    second: Water Spring@64x64_107
+  - first:
+      213: 8069053765604625962
+    second: Water Spring@64x64_108
+  - first:
+      213: 4565922631926503617
+    second: Water Spring@64x64_109
+  - first:
+      213: 4559224067719991612
+    second: Water Spring@64x64_110
+  - first:
+      213: 8686411858737766407
+    second: Water Spring@64x64_111
+  - first:
+      213: -7800774972340158960
+    second: Water Spring@64x64_112
+  - first:
+      213: 8956142327394947589
+    second: Water Spring@64x64_113
+  - first:
+      213: 1637222613618001939
+    second: Water Spring@64x64_114
+  - first:
+      213: -1719741873110223634
+    second: Water Spring@64x64_115
+  - first:
+      213: -5361700391193754460
+    second: Water Spring@64x64_116
+  - first:
+      213: 2672015420447210190
+    second: Water Spring@64x64_117
+  - first:
+      213: -240440229935611470
+    second: Water Spring@64x64_118
+  - first:
+      213: 4231822101368145516
+    second: Water Spring@64x64_119
+  - first:
+      213: 4416394271624181619
+    second: Water Spring@64x64_120
+  - first:
+      213: -8016864172906566966
+    second: Water Spring@64x64_121
+  - first:
+      213: -1055268010702197331
+    second: Water Spring@64x64_122
+  - first:
+      213: -2832435467081799851
+    second: Water Spring@64x64_123
+  - first:
+      213: 4259665769410278989
+    second: Water Spring@64x64_124
+  - first:
+      213: 7821019371482774435
+    second: Water Spring@64x64_125
+  - first:
+      213: 3446770981077848344
+    second: Water Spring@64x64_126
+  - first:
+      213: -3538830806843464002
+    second: Water Spring@64x64_127
+  - first:
+      213: 7759231251448989318
+    second: Water Spring@64x64_128
+  - first:
+      213: 238746212722887052
+    second: Water Spring@64x64_129
+  - first:
+      213: 4818236713047630281
+    second: Water Spring@64x64_130
+  - first:
+      213: -5190703155522662839
+    second: Water Spring@64x64_131
+  - first:
+      213: -2599304276576097082
+    second: Water Spring@64x64_132
+  - first:
+      213: 3703320468981801710
+    second: Water Spring@64x64_133
+  - first:
+      213: -5303729141722865656
+    second: Water Spring@64x64_134
+  - first:
+      213: -1802857148238472677
+    second: Water Spring@64x64_135
+  - first:
+      213: -7817812993098909621
+    second: Water Spring@64x64_136
+  - first:
+      213: 9055789236350049953
+    second: Water Spring@64x64_137
+  - first:
+      213: 8472012042814685441
+    second: Water Spring@64x64_138
+  - first:
+      213: -5475261103154040359
+    second: Water Spring@64x64_139
+  - first:
+      213: 6583592437291105870
+    second: Water Spring@64x64_140
+  - first:
+      213: 884794738018178696
+    second: Water Spring@64x64_141
+  - first:
+      213: -5473752580233988696
+    second: Water Spring@64x64_142
+  - first:
+      213: 1455128859655581701
+    second: Water Spring@64x64_143
+  - first:
+      213: 3024077602138981720
+    second: Water Spring@64x64_144
+  - first:
+      213: 2700883887642209230
+    second: Water Spring@64x64_145
+  - first:
+      213: -5389775099863543350
+    second: Water Spring@64x64_146
+  - first:
+      213: 4296470624312803578
+    second: Water Spring@64x64_147
+  - first:
+      213: 2635791703851869224
+    second: Water Spring@64x64_148
+  - first:
+      213: -7973007403173158967
+    second: Water Spring@64x64_149
+  - first:
+      213: 1124030381982425278
+    second: Water Spring@64x64_150
+  - first:
+      213: -7631387243356425055
+    second: Water Spring@64x64_151
+  - first:
+      213: -6427911432244648274
+    second: Water Spring@64x64_152
+  - first:
+      213: 6438726793091793847
+    second: Water Spring@64x64_153
+  - first:
+      213: 8115386281129542592
+    second: Water Spring@64x64_154
+  - first:
+      213: 3303004740853377789
+    second: Water Spring@64x64_155
+  - first:
+      213: -1330000135936075893
+    second: Water Spring@64x64_156
+  - first:
+      213: -5046420652670134578
+    second: Water Spring@64x64_157
+  - first:
+      213: -6663796092889667809
+    second: Water Spring@64x64_158
+  - first:
+      213: 4451852906305753019
+    second: Water Spring@64x64_159
+  - first:
+      213: 4130636225972781262
+    second: Water Spring@64x64_160
+  - first:
+      213: -4435464807920896728
+    second: Water Spring@64x64_161
+  - first:
+      213: -6183304382365819125
+    second: Water Spring@64x64_162
+  - first:
+      213: 5039583824082437893
+    second: Water Spring@64x64_163
+  - first:
+      213: 6728357513179862888
+    second: Water Spring@64x64_164
+  - first:
+      213: -1742120873055500900
+    second: Water Spring@64x64_165
+  - first:
+      213: 440060365947024695
+    second: Water Spring@64x64_166
+  - first:
+      213: 5364174764913520333
+    second: Water Spring@64x64_167
+  - first:
+      213: 6752845883021657998
+    second: Water Spring@64x64_168
+  - first:
+      213: 6718684232417070744
+    second: Water Spring@64x64_169
+  - first:
+      213: 6141329819581516015
+    second: Water Spring@64x64_170
+  - first:
+      213: -2062233975432029538
+    second: Water Spring@64x64_171
+  - first:
+      213: 8911042563872088234
+    second: Water Spring@64x64_172
+  - first:
+      213: -7933646437015514136
+    second: Water Spring@64x64_173
+  - first:
+      213: 4466594809104460475
+    second: Water Spring@64x64_174
+  - first:
+      213: -6033268283528932207
+    second: Water Spring@64x64_175
+  - first:
+      213: -2008845739109383359
+    second: Water Spring@64x64_176
+  - first:
+      213: 6824947551786422930
+    second: Water Spring@64x64_177
+  - first:
+      213: 1406941136841287277
+    second: Water Spring@64x64_178
+  - first:
+      213: 3700310590568513117
+    second: Water Spring@64x64_179
+  - first:
+      213: 3353134587010064847
+    second: Water Spring@64x64_180
+  - first:
+      213: 7792221788365574475
+    second: Water Spring@64x64_181
+  - first:
+      213: -8971351082490472046
+    second: Water Spring@64x64_182
+  - first:
+      213: -566031434432001725
+    second: Water Spring@64x64_183
+  - first:
+      213: -5152389480238568715
+    second: Water Spring@64x64_184
+  - first:
+      213: 3890195260290685331
+    second: Water Spring@64x64_185
+  - first:
+      213: -1701319489478116537
+    second: Water Spring@64x64_186
+  - first:
+      213: 2017348709349071812
+    second: Water Spring@64x64_187
+  - first:
+      213: -6496368168255472432
+    second: Water Spring@64x64_188
+  - first:
+      213: -239024198069377605
+    second: Water Spring@64x64_189
+  - first:
+      213: -1797618139348044895
+    second: Water Spring@64x64_190
+  - first:
+      213: 1652244248570930020
+    second: Water Spring@64x64_191
+  - first:
+      213: -7303786696733917622
+    second: Water Spring@64x64_192
+  - first:
+      213: 5094401080301640003
+    second: Water Spring@64x64_193
+  - first:
+      213: 4940607080061401072
+    second: Water Spring@64x64_194
+  - first:
+      213: -6663068315992103517
+    second: Water Spring@64x64_195
+  - first:
+      213: -997128687908609001
+    second: Water Spring@64x64_196
+  - first:
+      213: -7060291081512856125
+    second: Water Spring@64x64_197
+  - first:
+      213: -1572983828150418699
+    second: Water Spring@64x64_198
+  - first:
+      213: 1304226680582526239
+    second: Water Spring@64x64_199
+  - first:
+      213: -7886461693387510215
+    second: Water Spring@64x64_200
+  - first:
+      213: -6985705648841633087
+    second: Water Spring@64x64_201
+  - first:
+      213: -1580872611255902532
+    second: Water Spring@64x64_202
+  - first:
+      213: 2235189581272499255
+    second: Water Spring@64x64_203
+  - first:
+      213: 5979557844964192112
+    second: Water Spring@64x64_204
+  - first:
+      213: 5831824715150206109
+    second: Water Spring@64x64_205
+  - first:
+      213: 8185528860343537532
+    second: Water Spring@64x64_206
+  - first:
+      213: 5946028943440315831
+    second: Water Spring@64x64_207
+  - first:
+      213: -247185840824952966
+    second: Water Spring@64x64_208
+  - first:
+      213: 8193973074837144408
+    second: Water Spring@64x64_209
+  - first:
+      213: 3692802867060626622
+    second: Water Spring@64x64_210
+  - first:
+      213: 6757139278241221042
+    second: Water Spring@64x64_211
+  - first:
+      213: -1640372915062610503
+    second: Water Spring@64x64_212
+  - first:
+      213: 1267477250009135092
+    second: Water Spring@64x64_213
+  - first:
+      213: 669441261997640992
+    second: Water Spring@64x64_214
+  - first:
+      213: -5571720048903530599
+    second: Water Spring@64x64_215
+  - first:
+      213: 4651637878223874794
+    second: Water Spring@64x64_216
+  - first:
+      213: -6941176237658593959
+    second: Water Spring@64x64_217
+  - first:
+      213: -4906267725605134201
+    second: Water Spring@64x64_218
+  - first:
+      213: 809219594164977286
+    second: Water Spring@64x64_219
+  - first:
+      213: -3003521105929042856
+    second: Water Spring@64x64_220
+  - first:
+      213: 8905361370743603538
+    second: Water Spring@64x64_221
+  - first:
+      213: -1286357155055839654
+    second: Water Spring@64x64_222
+  - first:
+      213: 7176226835768248542
+    second: Water Spring@64x64_223
+  - first:
+      213: -2598851034622459885
+    second: Water Spring@64x64_224
+  - first:
+      213: 8498927933148781636
+    second: Water Spring@64x64_225
+  - first:
+      213: -3779253179268587098
+    second: Water Spring@64x64_226
+  - first:
+      213: -4747199430270599139
+    second: Water Spring@64x64_227
+  - first:
+      213: -4818809566749089839
+    second: Water Spring@64x64_228
+  - first:
+      213: -7414381700172703491
+    second: Water Spring@64x64_229
+  - first:
+      213: -8032895197288916972
+    second: Water Spring@64x64_230
+  - first:
+      213: 8821266244107535259
+    second: Water Spring@64x64_231
+  - first:
+      213: -7968687592549527137
+    second: Water Spring@64x64_232
+  - first:
+      213: -6886777711081153986
+    second: Water Spring@64x64_233
+  - first:
+      213: 981668580311574035
+    second: Water Spring@64x64_234
+  - first:
+      213: -2810375733964045159
+    second: Water Spring@64x64_235
+  - first:
+      213: -1531063403199954558
+    second: Water Spring@64x64_236
+  - first:
+      213: 4298835864821792549
+    second: Water Spring@64x64_237
+  - first:
+      213: 542465805761900425
+    second: Water Spring@64x64_238
+  - first:
+      213: -2997629066664441617
+    second: Water Spring@64x64_239
+  - first:
+      213: -6712183239284320732
+    second: Water Spring@64x64_240
+  - first:
+      213: -1498018649454625278
+    second: Water Spring@64x64_241
+  - first:
+      213: 6439730459017316779
+    second: Water Spring@64x64_242
+  - first:
+      213: -1425126274056817133
+    second: Water Spring@64x64_243
+  - first:
+      213: 1320000220594997942
+    second: Water Spring@64x64_244
+  - first:
+      213: 4277008730885033735
+    second: Water Spring@64x64_245
+  - first:
+      213: 5445743218111059343
+    second: Water Spring@64x64_246
+  - first:
+      213: 551280052237336168
+    second: Water Spring@64x64_247
+  - first:
+      213: -1016849921790331387
+    second: Water Spring@64x64_248
+  - first:
+      213: -4465675592366649101
+    second: Water Spring@64x64_249
+  - first:
+      213: -5921408932346253942
+    second: Water Spring@64x64_250
+  - first:
+      213: -5407458498808550505
+    second: Water Spring@64x64_251
+  - first:
+      213: -2276747866069526535
+    second: Water Spring@64x64_252
+  - first:
+      213: 8612286048267173635
+    second: Water Spring@64x64_253
+  - first:
+      213: -4125169937391264359
+    second: Water Spring@64x64_254
+  - first:
+      213: 7362352575520771972
+    second: Water Spring@64x64_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Spring@64x64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f896cd37405066830800000000000000
+      internalID: 4063941230430284175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5778c210dd94db8e0800000000000000
+      internalID: -1676102272755660939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b253ac25a98c9400800000000000000
+      internalID: 332291815030084277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eed8b9ec4870000800000000000000
+      internalID: 2116347744874036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857785e565a1870f0800000000000000
+      internalID: -1119115549149202600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2749e65c716005600800000000000000
+      internalID: 454870261530793074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae1b3b74734cb380800000000000000
+      internalID: -8954207791556649302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3c63ce3f3fd1200800000000000000
+      internalID: 152546191366079430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f76e74239fad82e0800000000000000
+      internalID: -2121846802914318345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4412422d680210800000000000000
+      internalID: 1299408486401329760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a2fe34460627c00800000000000000
+      internalID: 896885259552893519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a69503aee4636150800000000000000
+      internalID: 5864642115866564261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c00ed4ebfc5b80800000000000000
+      internalID: -8404565844184480387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9133c23ec8f76f7b0800000000000000
+      internalID: -5190821277414444263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d0e3c8a7e774950800000000000000
+      internalID: 6433249657526029586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c024ec0153869fc0800000000000000
+      internalID: -3488456477220003644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8239fcd4b5ff010800000000000000
+      internalID: 1224798013421201585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ecb32e5f46c3790800000000000000
+      internalID: -7549047868154458584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b06da8c4bd81b90800000000000000
+      internalID: -7270820476596384886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3a813ae25d8b590800000000000000
+      internalID: -7658136770062015506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d90c8f8bf0587a10800000000000000
+      internalID: 1907363483566737874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0b0e542197c0950800000000000000
+      internalID: 6416636688484839671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03b4332814028740800000000000000
+      internalID: 5152685425381651211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537bb6d9c204117e0800000000000000
+      internalID: -1796584215980296395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536457ecdf7ff8e70800000000000000
+      internalID: 9119780439911122485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beadd191641d44a40800000000000000
+      internalID: 5351632356222294763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce23975f549f7b0800000000000000
+      internalID: -5190040174965101485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986b60098513a75f0800000000000000
+      internalID: -758239330815265143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e26267f952078d0800000000000000
+      internalID: -2850737197313282462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8412cc2c37a109f0800000000000000
+      internalID: -503937806397991798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645c801426d262a10800000000000000
+      internalID: 1884243394122270022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc32fdce1a1c42f0800000000000000
+      internalID: -987385498694435636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9857fe558280991e0800000000000000
+      internalID: -2190710774405565047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7abf5681fb35d1a0800000000000000
+      internalID: -6785451355036206470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24469a73d0bba5bc0800000000000000
+      internalID: -3793514070663404478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7debc7abd8a706020800000000000000
+      internalID: 2332999356115631831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fb60dae68e0e100800000000000000
+      internalID: 135363550868062030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead28924d6e0a6880800000000000000
+      internalID: -8617059074588529234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc87587445546f5e0800000000000000
+      internalID: -1876235966473733937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd8ac2a2bb4d31f0800000000000000
+      internalID: -1063610706382123587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b689789350e110dc0800000000000000
+      internalID: -3674622813168756629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5666477419ce6e0800000000000000
+      internalID: -1806909614400838146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b59c3be587615bc0800000000000000
+      internalID: -3796139186021689932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c225d0ce17c909b0800000000000000
+      internalID: -5113336967004347711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5812c4437873cf30800000000000000
+      internalID: 4594648481318180955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b4c03de26538100800000000000000
+      internalID: 109025575096306432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74ade65a4decf650800000000000000
+      internalID: 6268145684934665343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b97a0dcca95b180800000000000000
+      internalID: -9100197267567568012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc7c5e107a392f20800000000000000
+      internalID: 3398311647047875780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d8b453de985980800000000000000
+      internalID: -8549909262066199498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b5a75e0509c2540800000000000000
+      internalID: 4984517564714081055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030e9cb5eb172fc40800000000000000
+      internalID: 5544619153644183600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51af3bd3bc1fde50800000000000000
+      internalID: 6836214318174806367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7af061560967a10800000000000000
+      internalID: 1906870256074205117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bf40411f9c08620800000000000000
+      internalID: 2774439407720397658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384b12a23a95a2c70800000000000000
+      internalID: 8947062167046304899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0a96cecefd4ed60800000000000000
+      internalID: 7918700253495795925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71654ee0ce8384fe0800000000000000
+      internalID: -1204650313808325097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772e23c98e0bf5300800000000000000
+      internalID: 243107418000777847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d973dfab8b941d110800000000000000
+      internalID: 1283888426537269149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cba478cbcb8f650800000000000000
+      internalID: 6266966399395740796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c95f76dec732bee0800000000000000
+      internalID: -1246872785326745150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972505e4ad533a90800000000000000
+      internalID: -7335416405258066022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2adb644ad0afca20800000000000000
+      internalID: 3084861129083312684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cc83b0e49aa6320800000000000000
+      internalID: 2552038291519622259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ecdf2cd0ee79120800000000000000
+      internalID: 2420665067608329815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e11c03e11417d810800000000000000
+      internalID: 1789921443959280100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc8ca80c3979b900800000000000000
+      internalID: 700724515783347411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd019a8c5e9efbf0800000000000000
+      internalID: -288619205806191158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7813c291885150800000000000000
+      internalID: 5861577382361071123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f22a2b504bbfcd60800000000000000
+      internalID: 7912748955395039986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c15bff1e0fc0c20800000000000000
+      internalID: 3174176690837724315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189197b2d123d9d70800000000000000
+      internalID: 9051445926949362049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790c3f4cecfe99f0800000000000000
+      internalID: -459652020073395845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b676affc5be677680800000000000000
+      internalID: -8757409223241210005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232c065256aa42530800000000000000
+      internalID: 3829372934567281202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d33c9d65952b760800000000000000
+      internalID: 7472132961316584799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e00b845760a1ef60800000000000000
+      internalID: 8061901173630370019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13df155362fc1150800000000000000
+      internalID: 5844812924863894301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e33d4ae043f2360800000000000000
+      internalID: 7146988371159760496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5416c9fdd83abdac0800000000000000
+      internalID: -3829287228411190971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ee0cd4ffb6a2070800000000000000
+      internalID: 8082391225535098484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3907ffdabe3f6dd60800000000000000
+      internalID: 7914781588712288403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fc7717bda6c3570800000000000000
+      internalID: 8447744491774267200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b153129a6fb6fee0800000000000000
+      internalID: -1227583383973703243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617762f5ed2379960800000000000000
+      internalID: 7608606026126227222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b28cec17bb6718f0800000000000000
+      internalID: -569868393630629198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843be8c58d9e2dc30800000000000000
+      internalID: 4382822502859977544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c35e7b677d61920800000000000000
+      internalID: 2960790709934046298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2745f1a0b62f90800000000000000
+      internalID: -6978696362912698709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8632cccb7c94bb0800000000000000
+      internalID: -4951206701624498012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e00fc7ea8bb159a0800000000000000
+      internalID: -6246005002917183257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8acdb4c81269330800000000000000
+      internalID: 3717195428892813520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c2d73c69008ce0800000000000000
+      internalID: -1405112723341915948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef2a8ff250d76650800000000000000
+      internalID: 6226174064756142056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9dafd4206dfd100800000000000000
+      internalID: 135061819230968239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4647681aa11c140800000000000000
+      internalID: 4738097564018304186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fcf9c7bceac6870800000000000000
+      internalID: 8677502771028545328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e982ed1f9355f80800000000000000
+      internalID: -8118519042288345445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f487be6038dae10800000000000000
+      internalID: 2210567057852354403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea9580ec02c69a90800000000000000
+      internalID: -7307439984799802641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800d19de881230a50800000000000000
+      internalID: 6486064760328671240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7bab9950a6206a0800000000000000
+      internalID: -6484503941173561389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4b3bdbe166d3160800000000000000
+      internalID: 7006868877476082863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c0799424470a4a0800000000000000
+      internalID: -6584134827164365743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf438603e3758100800000000000000
+      internalID: 109621184844484533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c694fa63a751c40800000000000000
+      internalID: 5482422496681094202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5855944d8a5ce23a0800000000000000
+      internalID: -6688191067691854459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e446ce5a90bff60800000000000000
+      internalID: 8069053765604625962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c855e3417a6d5f30800000000000000
+      internalID: 4565922631926503617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319cdf322e954f30800000000000000
+      internalID: 4559224067719991612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_111
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7002ecc10955c8870800000000000000
+      internalID: 8686411858737766407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e38e03e741eb390800000000000000
+      internalID: -7800774972340158960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502573ebefb9a4c70800000000000000
+      internalID: 8956142327394947589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31800feea4598b610800000000000000
+      internalID: 1637222613618001939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee476e3c0ef3228e0800000000000000
+      internalID: -1719741873110223634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4c2d6d6e96795b0800000000000000
+      internalID: -5361700391193754460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca3f123ed7e41520800000000000000
+      internalID: 2672015420447210190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b189f082e8c9acf0800000000000000
+      internalID: -240440229935611470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6602b0b7c37aba30800000000000000
+      internalID: 4231822101368145516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377ba34e03f2a4d30800000000000000
+      internalID: 4416394271624181619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca295982806eb090800000000000000
+      internalID: -8016864172906566966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad2347d55fea51f0800000000000000
+      internalID: -1055268010702197331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5572f5713fa21b8d0800000000000000
+      internalID: -2832435467081799851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d463797d27f5d1b30800000000000000
+      internalID: 4259665769410278989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_125
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abfdaa4ea7d98c60800000000000000
+      internalID: 7821019371482774435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811154d02f365df20800000000000000
+      internalID: 3446770981077848344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_127
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6e2e5712c83eec0800000000000000
+      internalID: -3538830806843464002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6860ab886b35eab60800000000000000
+      internalID: 7759231251448989318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8941d06a62305300800000000000000
+      internalID: 238746212722887052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c123fc23c0ddd240800000000000000
+      internalID: 4818236713047630281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e82984bfae6f7b0800000000000000
+      internalID: -5190703155522662839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc278b388a6debd0800000000000000
+      internalID: -2599304276576097082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e7137856d46330800000000000000
+      internalID: 3703320468981801710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800a8ba227e5566b0800000000000000
+      internalID: -5303729141722865656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ad872c9f6faf6e0800000000000000
+      internalID: -1802857148238472677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48f7e9d08c818390800000000000000
+      internalID: -7817812993098909621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae5371b450acad70800000000000000
+      internalID: 9055789236350049953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_138
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1010dc8f012a29570800000000000000
+      internalID: 8472012042814685441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_139
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d17dfd2907f304b0800000000000000
+      internalID: -5475261103154040359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_140
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e3faab07e9d5b50800000000000000
+      internalID: 6583592437291105870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_141
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88655ba502c674c00800000000000000
+      internalID: 884794738018178696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_142
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a576ca87035904b0800000000000000
+      internalID: -5473752580233988696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500b03efcf7a13410800000000000000
+      internalID: 1455128859655581701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85585b09e8ea7f920800000000000000
+      internalID: 3024077602138981720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb6d7ef5977b7520800000000000000
+      internalID: 2700883887642209230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac153695a1ca335b0800000000000000
+      internalID: -5389775099863543350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0c016e44120ab30800000000000000
+      internalID: 4296470624312803578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8242302f696349420800000000000000
+      internalID: 2635791703851869224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfdd4672003a5190800000000000000
+      internalID: -7973007403173158967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb02fc25dab599f00800000000000000
+      internalID: 1124030381982425278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4fa482cbdd71690800000000000000
+      internalID: -7631387243356425055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6a261eb987bc6a0800000000000000
+      internalID: -6427911432244648274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3c60c87e3fa5950800000000000000
+      internalID: 6438726793091793847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c30ec553d4af9070800000000000000
+      internalID: 8115386281129542592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_155
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2ffdcf41a6dd20800000000000000
+      internalID: 3303004740853377789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_156
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b871f4a4ce3ea8de0800000000000000
+      internalID: -1330000135936075893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_157
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6d66a472387f9b0800000000000000
+      internalID: -5046420652670134578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_158
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17eca382c07583a0800000000000000
+      internalID: -6663796092889667809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_159
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf05a0a1a828cd30800000000000000
+      internalID: 4451852906305753019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c77133c7f25930800000000000000
+      internalID: 4130636225972781262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825f02ed1401272c0800000000000000
+      internalID: -4435464807920896728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f18febc6d703aa0800000000000000
+      internalID: -6183304382365819125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5070d3289c230f540800000000000000
+      internalID: 5039583824082437893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8679ae6828def5d50800000000000000
+      internalID: 6728357513179862888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95cbbdcb4eb2d7e0800000000000000
+      internalID: -1742120873055500900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735300042986b1600800000000000000
+      internalID: 440060365947024695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_167
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcee8cf2780617a40800000000000000
+      internalID: 5364174764913520333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_168
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8707707d8de6bd50800000000000000
+      internalID: 6752845883021657998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ecc3756bf8d3d50800000000000000
+      internalID: 6718684232417070744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe88ba8cee26a3550800000000000000
+      internalID: 6141329819581516015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_171
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ad1a220297163e0800000000000000
+      internalID: -2062233975432029538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_172
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa06bf5cff16aab70800000000000000
+      internalID: 8911042563872088234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3952c899606e190800000000000000
+      internalID: -7933646437015514136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_174
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba664850588cfd30800000000000000
+      internalID: 4466594809104460475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_175
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19490a53676854ca0800000000000000
+      internalID: -6033268283528932207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14304df81752f14e0800000000000000
+      internalID: -2008845739109383359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292d6e263a517be50800000000000000
+      internalID: 6824947551786422930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662f497285768310800000000000000
+      internalID: 1406941136841287277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb37580e42a5330800000000000000
+      internalID: 3700310590568513117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1afc6242ab88e20800000000000000
+      internalID: 3353134587010064847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41d69a7e68832c60800000000000000
+      internalID: 7792221788365574475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d6d409bb5f7380800000000000000
+      internalID: -8971351082490472046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349c9fac86d0528f0800000000000000
+      internalID: -566031434432001725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faabe5f0190f78b0800000000000000
+      internalID: -5152389480238568715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399d8846affbcf530800000000000000
+      internalID: 3890195260290685331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b353430f2b368e0800000000000000
+      internalID: -1701319489478116537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb18d876ff0ffb10800000000000000
+      internalID: 2017348709349071812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_188
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc3af8f19348d5a0800000000000000
+      internalID: -6496368168255472432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_189
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52a5d12c0deacf0800000000000000
+      internalID: -239024198069377605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_190
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a37c5293d39d07e0800000000000000
+      internalID: -1797618139348044895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_191
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463a04ed363fde610800000000000000
+      internalID: 1652244248570930020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e73f942bcb3aa90800000000000000
+      internalID: -7303786696733917622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349debe8ac2f2b640800000000000000
+      internalID: 5094401080301640003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_194
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7f6dd76ff809440800000000000000
+      internalID: 4940607080061401072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_195
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a561274ba60883a0800000000000000
+      internalID: -6663068315992103517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7142bd9cdbc7922f0800000000000000
+      internalID: -997128687908609001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5519b1baec40e90800000000000000
+      internalID: -7060291081512856125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_198
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f209a5da83ab2ae0800000000000000
+      internalID: -1572983828150418699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1555b2814b891210800000000000000
+      internalID: 1304226680582526239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e69e6cfd8ad8290800000000000000
+      internalID: -7886461693387510215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2da5769b9cd0f90800000000000000
+      internalID: -6985705648841633087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_202
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe92f26cbc9f0ae0800000000000000
+      internalID: -1580872611255902532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_203
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734c665e41df40f10800000000000000
+      internalID: 2235189581272499255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_204
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07fadfecd28abf250800000000000000
+      internalID: 5979557844964192112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_205
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942fda1eadcee050800000000000000
+      internalID: 5831824715150206109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_206
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f0c733127d89170800000000000000
+      internalID: 8185528860343537532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_207
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b583f512d9848250800000000000000
+      internalID: 5946028943440315831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a775f1499c1d19cf0800000000000000
+      internalID: -247185840824952966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85388c81917d6b170800000000000000
+      internalID: 8193973074837144408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb451bc64a87f3330800000000000000
+      internalID: 3692802867060626622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_211
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b948696f5e26cd50800000000000000
+      internalID: 6757139278241221042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5658a56893c39e0800000000000000
+      internalID: -1640372915062610503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7feafe7dbf69110800000000000000
+      internalID: 1267477250009135092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_214
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dcb5be7455a4900800000000000000
+      internalID: 669441261997640992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997de21c2264da2b0800000000000000
+      internalID: -5571720048903530599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea294b3100fd8040800000000000000
+      internalID: 4651637878223874794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_217
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9552afedcfcfbaf90800000000000000
+      internalID: -6941176237658593959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_218
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780a7528f7f69ebb0800000000000000
+      internalID: -4906267725605134201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_219
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e3d77feecea3b00800000000000000
+      internalID: 809219594164977286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_220
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85406bda7795156d0800000000000000
+      internalID: -3003521105929042856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_221
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25188abebf2369b70800000000000000
+      internalID: 8905361370743603538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_222
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a565d9e9bf0f52ee0800000000000000
+      internalID: -1286357155055839654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_223
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8879d2944179360800000000000000
+      internalID: 7176226835768248542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3100c29d0c60febd0800000000000000
+      internalID: -2598851034622459885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c5afa0de142f570800000000000000
+      internalID: 8498927933148781636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a12e6db1456d8bc0800000000000000
+      internalID: -3779253179268587098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10c8c8154f8e1eb0800000000000000
+      internalID: -4747199430270599139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df9aadea36202db0800000000000000
+      internalID: -4818809566749089839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89c047023da1990800000000000000
+      internalID: -7414381700172703491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41817afc06c658090800000000000000
+      internalID: -8032895197288916972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b938c2579ee6b6a70800000000000000
+      internalID: 8821266244107535259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91d500cad8896190800000000000000
+      internalID: -7968687592549527137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_233
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a1ee3d8204d60a0800000000000000
+      internalID: -6886777711081153986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_234
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31622a86f569f9d00800000000000000
+      internalID: 981668580311574035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_235
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99402b3f82a8ff8d0800000000000000
+      internalID: -2810375733964045159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_236
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2818aab52f190cae0800000000000000
+      internalID: -1531063403199954558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_237
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f796e517888ab30800000000000000
+      internalID: 4298835864821792549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_238
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98feb37b6c9378700800000000000000
+      internalID: 542465805761900425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_239
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe88419fe384666d0800000000000000
+      internalID: -2997629066664441617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426902318e889d2a0800000000000000
+      internalID: -6712183239284320732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eb854a9f7f53be0800000000000000
+      internalID: -1498018649454625278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba98dfabbb48e5950800000000000000
+      internalID: 6439730459017316779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_243
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31674c2543fe83ce0800000000000000
+      internalID: -1425126274056817133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_244
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba800cf435915210800000000000000
+      internalID: 1320000220594997942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_245
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f85a9b7ccfa5b30800000000000000
+      internalID: 4277008730885033735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_246
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f859085aa9a239b40800000000000000
+      internalID: 5445743218111059343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7d55694a86a700800000000000000
+      internalID: 551280052237336168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506bdc5326c63e1f0800000000000000
+      internalID: -1016849921790331387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_249
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f09ada75bbb602c0800000000000000
+      internalID: -4465675592366649101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_250
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d2da1f2fde2dda0800000000000000
+      internalID: -5921408932346253942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_251
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b69d03529d4f4b0800000000000000
+      internalID: -5407458498808550505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_252
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f71cc7e0ed5760e0800000000000000
+      internalID: -2276747866069526535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_253
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f7403f78cf48770800000000000000
+      internalID: 8612286048267173635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_254
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d5cab4cc370c6c0800000000000000
+      internalID: -4125169937391264359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Spring@64x64_255
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f0917f8a45c2660800000000000000
+      internalID: 7362352575520771972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ba6c192007988a249829425b09ae07f4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

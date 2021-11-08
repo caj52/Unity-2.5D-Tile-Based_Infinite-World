@@ -1,0 +1,6732 @@
+fileFormatVersion: 2
+guid: 58b693e4d4592da4bb1f5f8a3a3f165d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Water Winter@64x64_0
+  - first:
+      213: 21300002
+    second: Water Winter@64x64_1
+  - first:
+      213: 21300004
+    second: Water Winter@64x64_2
+  - first:
+      213: 21300006
+    second: Water Winter@64x64_3
+  - first:
+      213: 21300008
+    second: Water Winter@64x64_4
+  - first:
+      213: 21300010
+    second: Water Winter@64x64_5
+  - first:
+      213: 21300012
+    second: Water Winter@64x64_6
+  - first:
+      213: 21300014
+    second: Water Winter@64x64_7
+  - first:
+      213: 21300016
+    second: Water Winter@64x64_8
+  - first:
+      213: 21300018
+    second: Water Winter@64x64_9
+  - first:
+      213: 21300020
+    second: Water Winter@64x64_10
+  - first:
+      213: 21300022
+    second: Water Winter@64x64_11
+  - first:
+      213: 21300024
+    second: Water Winter@64x64_12
+  - first:
+      213: 21300026
+    second: Water Winter@64x64_13
+  - first:
+      213: 21300028
+    second: Water Winter@64x64_14
+  - first:
+      213: 21300030
+    second: Water Winter@64x64_15
+  - first:
+      213: 21300032
+    second: Water Winter@64x64_16
+  - first:
+      213: 21300034
+    second: Water Winter@64x64_17
+  - first:
+      213: 21300036
+    second: Water Winter@64x64_18
+  - first:
+      213: 21300038
+    second: Water Winter@64x64_19
+  - first:
+      213: 21300040
+    second: Water Winter@64x64_20
+  - first:
+      213: 21300042
+    second: Water Winter@64x64_21
+  - first:
+      213: 21300044
+    second: Water Winter@64x64_22
+  - first:
+      213: 21300046
+    second: Water Winter@64x64_23
+  - first:
+      213: 21300048
+    second: Water Winter@64x64_24
+  - first:
+      213: 21300050
+    second: Water Winter@64x64_25
+  - first:
+      213: 21300052
+    second: Water Winter@64x64_26
+  - first:
+      213: 21300054
+    second: Water Winter@64x64_27
+  - first:
+      213: 21300056
+    second: Water Winter@64x64_28
+  - first:
+      213: 21300058
+    second: Water Winter@64x64_29
+  - first:
+      213: 21300060
+    second: Water Winter@64x64_30
+  - first:
+      213: 21300062
+    second: Water Winter@64x64_31
+  - first:
+      213: 21300064
+    second: Water Winter@64x64_32
+  - first:
+      213: 21300066
+    second: Water Winter@64x64_33
+  - first:
+      213: 21300068
+    second: Water Winter@64x64_34
+  - first:
+      213: 21300070
+    second: Water Winter@64x64_35
+  - first:
+      213: 21300072
+    second: Water Winter@64x64_36
+  - first:
+      213: 21300074
+    second: Water Winter@64x64_37
+  - first:
+      213: 21300076
+    second: Water Winter@64x64_38
+  - first:
+      213: 21300078
+    second: Water Winter@64x64_39
+  - first:
+      213: 21300080
+    second: Water Winter@64x64_40
+  - first:
+      213: 21300082
+    second: Water Winter@64x64_41
+  - first:
+      213: 21300084
+    second: Water Winter@64x64_42
+  - first:
+      213: 21300086
+    second: Water Winter@64x64_43
+  - first:
+      213: 21300088
+    second: Water Winter@64x64_44
+  - first:
+      213: 21300090
+    second: Water Winter@64x64_45
+  - first:
+      213: 21300092
+    second: Water Winter@64x64_46
+  - first:
+      213: 21300094
+    second: Water Winter@64x64_47
+  - first:
+      213: 21300096
+    second: Water Winter@64x64_48
+  - first:
+      213: 21300098
+    second: Water Winter@64x64_49
+  - first:
+      213: 21300100
+    second: Water Winter@64x64_50
+  - first:
+      213: 21300102
+    second: Water Winter@64x64_51
+  - first:
+      213: 21300104
+    second: Water Winter@64x64_52
+  - first:
+      213: 21300106
+    second: Water Winter@64x64_53
+  - first:
+      213: 21300108
+    second: Water Winter@64x64_54
+  - first:
+      213: 21300110
+    second: Water Winter@64x64_55
+  - first:
+      213: 21300112
+    second: Water Winter@64x64_56
+  - first:
+      213: 21300114
+    second: Water Winter@64x64_57
+  - first:
+      213: 21300116
+    second: Water Winter@64x64_58
+  - first:
+      213: 21300118
+    second: Water Winter@64x64_59
+  - first:
+      213: 21300120
+    second: Water Winter@64x64_60
+  - first:
+      213: 21300122
+    second: Water Winter@64x64_61
+  - first:
+      213: 21300124
+    second: Water Winter@64x64_62
+  - first:
+      213: 21300126
+    second: Water Winter@64x64_63
+  - first:
+      213: 21300128
+    second: Water Winter@64x64_64
+  - first:
+      213: 21300130
+    second: Water Winter@64x64_65
+  - first:
+      213: 21300132
+    second: Water Winter@64x64_66
+  - first:
+      213: 21300134
+    second: Water Winter@64x64_67
+  - first:
+      213: 21300136
+    second: Water Winter@64x64_68
+  - first:
+      213: 21300138
+    second: Water Winter@64x64_69
+  - first:
+      213: 21300140
+    second: Water Winter@64x64_70
+  - first:
+      213: 21300142
+    second: Water Winter@64x64_71
+  - first:
+      213: 21300144
+    second: Water Winter@64x64_72
+  - first:
+      213: 21300146
+    second: Water Winter@64x64_73
+  - first:
+      213: 21300148
+    second: Water Winter@64x64_74
+  - first:
+      213: 21300150
+    second: Water Winter@64x64_75
+  - first:
+      213: 21300152
+    second: Water Winter@64x64_76
+  - first:
+      213: 21300154
+    second: Water Winter@64x64_77
+  - first:
+      213: 21300156
+    second: Water Winter@64x64_78
+  - first:
+      213: 21300158
+    second: Water Winter@64x64_79
+  - first:
+      213: 21300160
+    second: Water Winter@64x64_80
+  - first:
+      213: 21300162
+    second: Water Winter@64x64_81
+  - first:
+      213: 21300164
+    second: Water Winter@64x64_82
+  - first:
+      213: 21300166
+    second: Water Winter@64x64_83
+  - first:
+      213: 21300168
+    second: Water Winter@64x64_84
+  - first:
+      213: 21300170
+    second: Water Winter@64x64_85
+  - first:
+      213: 21300172
+    second: Water Winter@64x64_86
+  - first:
+      213: 21300174
+    second: Water Winter@64x64_87
+  - first:
+      213: 21300176
+    second: Water Winter@64x64_88
+  - first:
+      213: 21300178
+    second: Water Winter@64x64_89
+  - first:
+      213: 21300180
+    second: Water Winter@64x64_90
+  - first:
+      213: 21300182
+    second: Water Winter@64x64_91
+  - first:
+      213: 21300184
+    second: Water Winter@64x64_92
+  - first:
+      213: 21300186
+    second: Water Winter@64x64_93
+  - first:
+      213: 21300188
+    second: Water Winter@64x64_94
+  - first:
+      213: 21300190
+    second: Water Winter@64x64_95
+  - first:
+      213: 21300192
+    second: Water Winter@64x64_96
+  - first:
+      213: 21300194
+    second: Water Winter@64x64_97
+  - first:
+      213: 21300196
+    second: Water Winter@64x64_98
+  - first:
+      213: 21300198
+    second: Water Winter@64x64_99
+  - first:
+      213: 21300200
+    second: Water Winter@64x64_100
+  - first:
+      213: 21300202
+    second: Water Winter@64x64_101
+  - first:
+      213: 21300204
+    second: Water Winter@64x64_102
+  - first:
+      213: 21300206
+    second: Water Winter@64x64_103
+  - first:
+      213: 21300208
+    second: Water Winter@64x64_104
+  - first:
+      213: 21300210
+    second: Water Winter@64x64_105
+  - first:
+      213: 21300212
+    second: Water Winter@64x64_106
+  - first:
+      213: 21300214
+    second: Water Winter@64x64_107
+  - first:
+      213: 21300216
+    second: Water Winter@64x64_108
+  - first:
+      213: 21300218
+    second: Water Winter@64x64_109
+  - first:
+      213: 21300220
+    second: Water Winter@64x64_110
+  - first:
+      213: 21300222
+    second: Water Winter@64x64_111
+  - first:
+      213: 21300224
+    second: Water Winter@64x64_112
+  - first:
+      213: 21300226
+    second: Water Winter@64x64_113
+  - first:
+      213: 21300228
+    second: Water Winter@64x64_114
+  - first:
+      213: 21300230
+    second: Water Winter@64x64_115
+  - first:
+      213: 21300232
+    second: Water Winter@64x64_116
+  - first:
+      213: 21300234
+    second: Water Winter@64x64_117
+  - first:
+      213: 21300236
+    second: Water Winter@64x64_118
+  - first:
+      213: 21300238
+    second: Water Winter@64x64_119
+  - first:
+      213: 21300240
+    second: Water Winter@64x64_120
+  - first:
+      213: 21300242
+    second: Water Winter@64x64_121
+  - first:
+      213: 21300244
+    second: Water Winter@64x64_122
+  - first:
+      213: 21300246
+    second: Water Winter@64x64_123
+  - first:
+      213: 21300248
+    second: Water Winter@64x64_124
+  - first:
+      213: 21300250
+    second: Water Winter@64x64_125
+  - first:
+      213: 21300252
+    second: Water Winter@64x64_126
+  - first:
+      213: 21300254
+    second: Water Winter@64x64_127
+  - first:
+      213: 21300256
+    second: Water Winter@64x64_128
+  - first:
+      213: 21300258
+    second: Water Winter@64x64_129
+  - first:
+      213: 21300260
+    second: Water Winter@64x64_130
+  - first:
+      213: 21300262
+    second: Water Winter@64x64_131
+  - first:
+      213: 21300264
+    second: Water Winter@64x64_132
+  - first:
+      213: 21300266
+    second: Water Winter@64x64_133
+  - first:
+      213: 21300268
+    second: Water Winter@64x64_134
+  - first:
+      213: 21300270
+    second: Water Winter@64x64_135
+  - first:
+      213: 21300272
+    second: Water Winter@64x64_136
+  - first:
+      213: 21300274
+    second: Water Winter@64x64_137
+  - first:
+      213: 21300276
+    second: Water Winter@64x64_138
+  - first:
+      213: 21300278
+    second: Water Winter@64x64_139
+  - first:
+      213: 21300280
+    second: Water Winter@64x64_140
+  - first:
+      213: 21300282
+    second: Water Winter@64x64_141
+  - first:
+      213: 21300284
+    second: Water Winter@64x64_142
+  - first:
+      213: 21300286
+    second: Water Winter@64x64_143
+  - first:
+      213: 21300288
+    second: Water Winter@64x64_144
+  - first:
+      213: 21300290
+    second: Water Winter@64x64_145
+  - first:
+      213: 21300292
+    second: Water Winter@64x64_146
+  - first:
+      213: 21300294
+    second: Water Winter@64x64_147
+  - first:
+      213: 21300296
+    second: Water Winter@64x64_148
+  - first:
+      213: 21300298
+    second: Water Winter@64x64_149
+  - first:
+      213: 21300300
+    second: Water Winter@64x64_150
+  - first:
+      213: 21300302
+    second: Water Winter@64x64_151
+  - first:
+      213: 21300304
+    second: Water Winter@64x64_152
+  - first:
+      213: 21300306
+    second: Water Winter@64x64_153
+  - first:
+      213: 21300308
+    second: Water Winter@64x64_154
+  - first:
+      213: 21300310
+    second: Water Winter@64x64_155
+  - first:
+      213: 21300312
+    second: Water Winter@64x64_156
+  - first:
+      213: 21300314
+    second: Water Winter@64x64_157
+  - first:
+      213: 21300316
+    second: Water Winter@64x64_158
+  - first:
+      213: 21300318
+    second: Water Winter@64x64_159
+  - first:
+      213: -7953347963297621814
+    second: Water Winter@64x64_0
+  - first:
+      213: 9028423038052289587
+    second: Water Winter@64x64_1
+  - first:
+      213: 7325953983625567035
+    second: Water Winter@64x64_2
+  - first:
+      213: -358588059388571621
+    second: Water Winter@64x64_3
+  - first:
+      213: 5909856538527177012
+    second: Water Winter@64x64_4
+  - first:
+      213: 4536964414300588991
+    second: Water Winter@64x64_5
+  - first:
+      213: 929031098003644478
+    second: Water Winter@64x64_6
+  - first:
+      213: 3649804647908160201
+    second: Water Winter@64x64_7
+  - first:
+      213: 1241122766809836017
+    second: Water Winter@64x64_8
+  - first:
+      213: -1833611574573944158
+    second: Water Winter@64x64_9
+  - first:
+      213: -5707771797019744316
+    second: Water Winter@64x64_10
+  - first:
+      213: 6521183649275536336
+    second: Water Winter@64x64_11
+  - first:
+      213: 8351986268710827634
+    second: Water Winter@64x64_12
+  - first:
+      213: 667550053286849578
+    second: Water Winter@64x64_13
+  - first:
+      213: 1689213103320785314
+    second: Water Winter@64x64_14
+  - first:
+      213: -979288847578561528
+    second: Water Winter@64x64_15
+  - first:
+      213: 1549298856759512887
+    second: Water Winter@64x64_16
+  - first:
+      213: -2850424216021774615
+    second: Water Winter@64x64_17
+  - first:
+      213: 4686321189632399438
+    second: Water Winter@64x64_18
+  - first:
+      213: -4335903566278923150
+    second: Water Winter@64x64_19
+  - first:
+      213: -1094966469623723871
+    second: Water Winter@64x64_20
+  - first:
+      213: -8936509053694234842
+    second: Water Winter@64x64_21
+  - first:
+      213: -5597908787139025383
+    second: Water Winter@64x64_22
+  - first:
+      213: 4390741063565527018
+    second: Water Winter@64x64_23
+  - first:
+      213: 8119635347781679725
+    second: Water Winter@64x64_24
+  - first:
+      213: -5600400929357972509
+    second: Water Winter@64x64_25
+  - first:
+      213: -5737596507233327700
+    second: Water Winter@64x64_26
+  - first:
+      213: 1195152821942540967
+    second: Water Winter@64x64_27
+  - first:
+      213: 2444600898586582520
+    second: Water Winter@64x64_28
+  - first:
+      213: 8292519404026294917
+    second: Water Winter@64x64_29
+  - first:
+      213: 291240301484614294
+    second: Water Winter@64x64_30
+  - first:
+      213: 6564121398752722050
+    second: Water Winter@64x64_31
+  - first:
+      213: 7732234830487148244
+    second: Water Winter@64x64_32
+  - first:
+      213: -7317057551458559489
+    second: Water Winter@64x64_33
+  - first:
+      213: -2983927461561262358
+    second: Water Winter@64x64_34
+  - first:
+      213: -1267007208435845249
+    second: Water Winter@64x64_35
+  - first:
+      213: -1493064633373318452
+    second: Water Winter@64x64_36
+  - first:
+      213: -888646112419040899
+    second: Water Winter@64x64_37
+  - first:
+      213: 6364718937482577903
+    second: Water Winter@64x64_38
+  - first:
+      213: 7089935734575949111
+    second: Water Winter@64x64_39
+  - first:
+      213: -7586545006593726402
+    second: Water Winter@64x64_40
+  - first:
+      213: -8854749097887856208
+    second: Water Winter@64x64_41
+  - first:
+      213: 2118087540630335139
+    second: Water Winter@64x64_42
+  - first:
+      213: 8961451782306550832
+    second: Water Winter@64x64_43
+  - first:
+      213: -6614641548206016939
+    second: Water Winter@64x64_44
+  - first:
+      213: -2521824299704027427
+    second: Water Winter@64x64_45
+  - first:
+      213: -49294083736958783
+    second: Water Winter@64x64_46
+  - first:
+      213: -5880088543728711750
+    second: Water Winter@64x64_47
+  - first:
+      213: -4315185583564215880
+    second: Water Winter@64x64_48
+  - first:
+      213: -7776412288859550234
+    second: Water Winter@64x64_49
+  - first:
+      213: 5023417360169184072
+    second: Water Winter@64x64_50
+  - first:
+      213: 2986877322126030238
+    second: Water Winter@64x64_51
+  - first:
+      213: -6366155635641241221
+    second: Water Winter@64x64_52
+  - first:
+      213: 7171028202968912899
+    second: Water Winter@64x64_53
+  - first:
+      213: 8023830684308130518
+    second: Water Winter@64x64_54
+  - first:
+      213: -1845668376597125293
+    second: Water Winter@64x64_55
+  - first:
+      213: 7453228969056074585
+    second: Water Winter@64x64_56
+  - first:
+      213: -367820956670059677
+    second: Water Winter@64x64_57
+  - first:
+      213: 4006034353414479912
+    second: Water Winter@64x64_58
+  - first:
+      213: 4578939243171656421
+    second: Water Winter@64x64_59
+  - first:
+      213: -2176825850636724371
+    second: Water Winter@64x64_60
+  - first:
+      213: -8123462024229773940
+    second: Water Winter@64x64_61
+  - first:
+      213: 932546512656008013
+    second: Water Winter@64x64_62
+  - first:
+      213: 2389791596612133789
+    second: Water Winter@64x64_63
+  - first:
+      213: -8344023583467455172
+    second: Water Winter@64x64_64
+  - first:
+      213: 8556567031719736487
+    second: Water Winter@64x64_65
+  - first:
+      213: 5888032852530281475
+    second: Water Winter@64x64_66
+  - first:
+      213: 2515543215889460210
+    second: Water Winter@64x64_67
+  - first:
+      213: -6180267600759272226
+    second: Water Winter@64x64_68
+  - first:
+      213: 8686230174414751186
+    second: Water Winter@64x64_69
+  - first:
+      213: 4457246057034177563
+    second: Water Winter@64x64_70
+  - first:
+      213: 4004165100558188809
+    second: Water Winter@64x64_71
+  - first:
+      213: -5795918330113093942
+    second: Water Winter@64x64_72
+  - first:
+      213: -2063937717331902060
+    second: Water Winter@64x64_73
+  - first:
+      213: -7587529095329842673
+    second: Water Winter@64x64_74
+  - first:
+      213: -8581765006382290917
+    second: Water Winter@64x64_75
+  - first:
+      213: -3252385917410747228
+    second: Water Winter@64x64_76
+  - first:
+      213: -771356024764266335
+    second: Water Winter@64x64_77
+  - first:
+      213: 4471795357411110281
+    second: Water Winter@64x64_78
+  - first:
+      213: -5225464856516011505
+    second: Water Winter@64x64_79
+  - first:
+      213: -5450036137357210491
+    second: Water Winter@64x64_80
+  - first:
+      213: 7702792577405113469
+    second: Water Winter@64x64_81
+  - first:
+      213: 6062335620661109703
+    second: Water Winter@64x64_82
+  - first:
+      213: -19558047047456046
+    second: Water Winter@64x64_83
+  - first:
+      213: -6838283282918608618
+    second: Water Winter@64x64_84
+  - first:
+      213: 6429398118555657821
+    second: Water Winter@64x64_85
+  - first:
+      213: -8897006422557943765
+    second: Water Winter@64x64_86
+  - first:
+      213: 929083812649954225
+    second: Water Winter@64x64_87
+  - first:
+      213: 6871600780917660672
+    second: Water Winter@64x64_88
+  - first:
+      213: 8756184401126188317
+    second: Water Winter@64x64_89
+  - first:
+      213: -1286284736198938879
+    second: Water Winter@64x64_90
+  - first:
+      213: -317275533075495051
+    second: Water Winter@64x64_91
+  - first:
+      213: 859781819777053334
+    second: Water Winter@64x64_92
+  - first:
+      213: -7251676907283219359
+    second: Water Winter@64x64_93
+  - first:
+      213: -1718093942005064109
+    second: Water Winter@64x64_94
+  - first:
+      213: -7769549782152772026
+    second: Water Winter@64x64_95
+  - first:
+      213: 8218107993971277366
+    second: Water Winter@64x64_96
+  - first:
+      213: 3771081246613831912
+    second: Water Winter@64x64_97
+  - first:
+      213: -8352168095724336920
+    second: Water Winter@64x64_98
+  - first:
+      213: 2740449837151292950
+    second: Water Winter@64x64_99
+  - first:
+      213: 8557228022506023648
+    second: Water Winter@64x64_100
+  - first:
+      213: -1412685824728230869
+    second: Water Winter@64x64_101
+  - first:
+      213: -1197376722885280978
+    second: Water Winter@64x64_102
+  - first:
+      213: 5691780746091513405
+    second: Water Winter@64x64_103
+  - first:
+      213: -4042270221597286
+    second: Water Winter@64x64_104
+  - first:
+      213: -2764665920428682702
+    second: Water Winter@64x64_105
+  - first:
+      213: 3653138750250899443
+    second: Water Winter@64x64_106
+  - first:
+      213: -7894678962027175051
+    second: Water Winter@64x64_107
+  - first:
+      213: -4472536201494274433
+    second: Water Winter@64x64_108
+  - first:
+      213: 7075946918029751305
+    second: Water Winter@64x64_109
+  - first:
+      213: 775767225663159020
+    second: Water Winter@64x64_110
+  - first:
+      213: -3843733503678892228
+    second: Water Winter@64x64_111
+  - first:
+      213: -2078099523853228839
+    second: Water Winter@64x64_112
+  - first:
+      213: -3747524207817115336
+    second: Water Winter@64x64_113
+  - first:
+      213: 1183956438784276315
+    second: Water Winter@64x64_114
+  - first:
+      213: 911548057527056279
+    second: Water Winter@64x64_115
+  - first:
+      213: 2311918428168829618
+    second: Water Winter@64x64_116
+  - first:
+      213: -1941366008232905950
+    second: Water Winter@64x64_117
+  - first:
+      213: 1827954655623212859
+    second: Water Winter@64x64_118
+  - first:
+      213: 4458820563621487211
+    second: Water Winter@64x64_119
+  - first:
+      213: 3890924966458022071
+    second: Water Winter@64x64_120
+  - first:
+      213: 4466751509874778820
+    second: Water Winter@64x64_121
+  - first:
+      213: -8047274373677006827
+    second: Water Winter@64x64_122
+  - first:
+      213: -4494612410107847712
+    second: Water Winter@64x64_123
+  - first:
+      213: -7270027073536317083
+    second: Water Winter@64x64_124
+  - first:
+      213: 3035647900604245029
+    second: Water Winter@64x64_125
+  - first:
+      213: 2041120248500753527
+    second: Water Winter@64x64_126
+  - first:
+      213: 9025668783220616078
+    second: Water Winter@64x64_127
+  - first:
+      213: -6031581508402503856
+    second: Water Winter@64x64_128
+  - first:
+      213: 3197204654730811490
+    second: Water Winter@64x64_129
+  - first:
+      213: 7712413648825948362
+    second: Water Winter@64x64_130
+  - first:
+      213: 6464422248743073847
+    second: Water Winter@64x64_131
+  - first:
+      213: -2954903266560879026
+    second: Water Winter@64x64_132
+  - first:
+      213: 5280433176545037747
+    second: Water Winter@64x64_133
+  - first:
+      213: -1526736966506017507
+    second: Water Winter@64x64_134
+  - first:
+      213: 7887970904854423853
+    second: Water Winter@64x64_135
+  - first:
+      213: -7643227231651944372
+    second: Water Winter@64x64_136
+  - first:
+      213: 943539164486726887
+    second: Water Winter@64x64_137
+  - first:
+      213: 1102688910533139760
+    second: Water Winter@64x64_138
+  - first:
+      213: -4431370862847054750
+    second: Water Winter@64x64_139
+  - first:
+      213: 6061395681513709555
+    second: Water Winter@64x64_140
+  - first:
+      213: -1300602290435555771
+    second: Water Winter@64x64_141
+  - first:
+      213: -522434903776423777
+    second: Water Winter@64x64_142
+  - first:
+      213: -5577521257679526254
+    second: Water Winter@64x64_143
+  - first:
+      213: 2085433833180621110
+    second: Water Winter@64x64_144
+  - first:
+      213: -3366167652306618805
+    second: Water Winter@64x64_145
+  - first:
+      213: 4777164851904958244
+    second: Water Winter@64x64_146
+  - first:
+      213: -6963283465608155996
+    second: Water Winter@64x64_147
+  - first:
+      213: 1352058415583369665
+    second: Water Winter@64x64_148
+  - first:
+      213: 3676911160741641669
+    second: Water Winter@64x64_149
+  - first:
+      213: 4044919290807779042
+    second: Water Winter@64x64_150
+  - first:
+      213: -4716153188045034288
+    second: Water Winter@64x64_151
+  - first:
+      213: 8744672244423592470
+    second: Water Winter@64x64_152
+  - first:
+      213: 2688683429579694862
+    second: Water Winter@64x64_153
+  - first:
+      213: 3173816708809407237
+    second: Water Winter@64x64_154
+  - first:
+      213: 3885489911212485171
+    second: Water Winter@64x64_155
+  - first:
+      213: -6801816718010648940
+    second: Water Winter@64x64_156
+  - first:
+      213: 1534405974536786940
+    second: Water Winter@64x64_157
+  - first:
+      213: -9103835562826665119
+    second: Water Winter@64x64_158
+  - first:
+      213: -7348829078521102608
+    second: Water Winter@64x64_159
+  - first:
+      213: 178904699126487079
+    second: Water Winter@64x64_160
+  - first:
+      213: -2200334229488489938
+    second: Water Winter@64x64_161
+  - first:
+      213: -7626447319721229796
+    second: Water Winter@64x64_162
+  - first:
+      213: 8087991526206899821
+    second: Water Winter@64x64_163
+  - first:
+      213: -7368102214526634597
+    second: Water Winter@64x64_164
+  - first:
+      213: -5443676638399232791
+    second: Water Winter@64x64_165
+  - first:
+      213: -963178854547900011
+    second: Water Winter@64x64_166
+  - first:
+      213: 7642979864505523463
+    second: Water Winter@64x64_167
+  - first:
+      213: 4195225040668775597
+    second: Water Winter@64x64_168
+  - first:
+      213: -2753916740859341062
+    second: Water Winter@64x64_169
+  - first:
+      213: 3957630884205436251
+    second: Water Winter@64x64_170
+  - first:
+      213: 9185204509453565403
+    second: Water Winter@64x64_171
+  - first:
+      213: -8177554953987039134
+    second: Water Winter@64x64_172
+  - first:
+      213: 2719368111191606121
+    second: Water Winter@64x64_173
+  - first:
+      213: 6502992417154114109
+    second: Water Winter@64x64_174
+  - first:
+      213: -6242577171846262386
+    second: Water Winter@64x64_175
+  - first:
+      213: 1842327087832041445
+    second: Water Winter@64x64_176
+  - first:
+      213: 5206967961735485713
+    second: Water Winter@64x64_177
+  - first:
+      213: -1117636644377164865
+    second: Water Winter@64x64_178
+  - first:
+      213: -1678240778730669062
+    second: Water Winter@64x64_179
+  - first:
+      213: -1764212562702856568
+    second: Water Winter@64x64_180
+  - first:
+      213: 7540635715285115241
+    second: Water Winter@64x64_181
+  - first:
+      213: -5558889971176261070
+    second: Water Winter@64x64_182
+  - first:
+      213: -2180289517231480998
+    second: Water Winter@64x64_183
+  - first:
+      213: 5571519480647515578
+    second: Water Winter@64x64_184
+  - first:
+      213: -3647554866739338794
+    second: Water Winter@64x64_185
+  - first:
+      213: 1375883914103251417
+    second: Water Winter@64x64_186
+  - first:
+      213: 2481389484605722857
+    second: Water Winter@64x64_187
+  - first:
+      213: 2364473448360361839
+    second: Water Winter@64x64_188
+  - first:
+      213: 2885108998385246314
+    second: Water Winter@64x64_189
+  - first:
+      213: 664032282850965535
+    second: Water Winter@64x64_190
+  - first:
+      213: -6022395997193962235
+    second: Water Winter@64x64_191
+  - first:
+      213: 8289332432459564553
+    second: Water Winter@64x64_192
+  - first:
+      213: -5576324958777427779
+    second: Water Winter@64x64_193
+  - first:
+      213: 7251798050386994833
+    second: Water Winter@64x64_194
+  - first:
+      213: 8541058460123787206
+    second: Water Winter@64x64_195
+  - first:
+      213: -1690402274308932828
+    second: Water Winter@64x64_196
+  - first:
+      213: 8464910591782390919
+    second: Water Winter@64x64_197
+  - first:
+      213: 4215381939207016952
+    second: Water Winter@64x64_198
+  - first:
+      213: 526737766942729294
+    second: Water Winter@64x64_199
+  - first:
+      213: 4644760207366056643
+    second: Water Winter@64x64_200
+  - first:
+      213: 8140251379078848313
+    second: Water Winter@64x64_201
+  - first:
+      213: 1327973646708835235
+    second: Water Winter@64x64_202
+  - first:
+      213: 1829240939983587082
+    second: Water Winter@64x64_203
+  - first:
+      213: -6937545654419091287
+    second: Water Winter@64x64_204
+  - first:
+      213: -3539386164092008494
+    second: Water Winter@64x64_205
+  - first:
+      213: -9038152164948920381
+    second: Water Winter@64x64_206
+  - first:
+      213: 4851571827677208531
+    second: Water Winter@64x64_207
+  - first:
+      213: 3929069460329327716
+    second: Water Winter@64x64_208
+  - first:
+      213: -1906542021860034456
+    second: Water Winter@64x64_209
+  - first:
+      213: 8582025941250265515
+    second: Water Winter@64x64_210
+  - first:
+      213: 2252654381102999846
+    second: Water Winter@64x64_211
+  - first:
+      213: -5223773707146540902
+    second: Water Winter@64x64_212
+  - first:
+      213: 5539508126763726740
+    second: Water Winter@64x64_213
+  - first:
+      213: -6744503083003294203
+    second: Water Winter@64x64_214
+  - first:
+      213: 8839153698423775242
+    second: Water Winter@64x64_215
+  - first:
+      213: 3776736087169997491
+    second: Water Winter@64x64_216
+  - first:
+      213: -8239188046579281213
+    second: Water Winter@64x64_217
+  - first:
+      213: 7415127601270453525
+    second: Water Winter@64x64_218
+  - first:
+      213: 3765923990115334066
+    second: Water Winter@64x64_219
+  - first:
+      213: -6186497259985191458
+    second: Water Winter@64x64_220
+  - first:
+      213: -3850984998177320200
+    second: Water Winter@64x64_221
+  - first:
+      213: 294709989415218169
+    second: Water Winter@64x64_222
+  - first:
+      213: -892155946531660363
+    second: Water Winter@64x64_223
+  - first:
+      213: 6403078901560340069
+    second: Water Winter@64x64_224
+  - first:
+      213: -1859147728896431151
+    second: Water Winter@64x64_225
+  - first:
+      213: -8566091401009872632
+    second: Water Winter@64x64_226
+  - first:
+      213: 6333527929405532807
+    second: Water Winter@64x64_227
+  - first:
+      213: 6912334681003457524
+    second: Water Winter@64x64_228
+  - first:
+      213: -7629483918501165029
+    second: Water Winter@64x64_229
+  - first:
+      213: -3879202429882339409
+    second: Water Winter@64x64_230
+  - first:
+      213: 7517738418328606119
+    second: Water Winter@64x64_231
+  - first:
+      213: -9063482969620254766
+    second: Water Winter@64x64_232
+  - first:
+      213: 3971615351949258197
+    second: Water Winter@64x64_233
+  - first:
+      213: -3597919286387136065
+    second: Water Winter@64x64_234
+  - first:
+      213: -3059994822252295487
+    second: Water Winter@64x64_235
+  - first:
+      213: 995518833976551497
+    second: Water Winter@64x64_236
+  - first:
+      213: 2850019599148436630
+    second: Water Winter@64x64_237
+  - first:
+      213: 6687176503767905894
+    second: Water Winter@64x64_238
+  - first:
+      213: -117577779081644547
+    second: Water Winter@64x64_239
+  - first:
+      213: 2111224419713264188
+    second: Water Winter@64x64_240
+  - first:
+      213: -6127900104219055942
+    second: Water Winter@64x64_241
+  - first:
+      213: 5725377941298429544
+    second: Water Winter@64x64_242
+  - first:
+      213: -6343202566987273480
+    second: Water Winter@64x64_243
+  - first:
+      213: 7254116195579562367
+    second: Water Winter@64x64_244
+  - first:
+      213: 5250406454850748412
+    second: Water Winter@64x64_245
+  - first:
+      213: 4099072434410892867
+    second: Water Winter@64x64_246
+  - first:
+      213: -3806479545735436341
+    second: Water Winter@64x64_247
+  - first:
+      213: 8286885598316756914
+    second: Water Winter@64x64_248
+  - first:
+      213: -1928550270769112482
+    second: Water Winter@64x64_249
+  - first:
+      213: 5279722440265141265
+    second: Water Winter@64x64_250
+  - first:
+      213: 3562964001754532415
+    second: Water Winter@64x64_251
+  - first:
+      213: 127600126943236726
+    second: Water Winter@64x64_252
+  - first:
+      213: -4026212630584017256
+    second: Water Winter@64x64_253
+  - first:
+      213: 6778820451555555583
+    second: Water Winter@64x64_254
+  - first:
+      213: -3028013477618754770
+    second: Water Winter@64x64_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Water Winter@64x64_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac891908a2800a190800000000000000
+      internalID: -7953347963297621814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c4f012be66b4d70800000000000000
+      internalID: 9028423038052289587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b1cd265540ba560800000000000000
+      internalID: 7325953983625567035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1092735f0a060bf0800000000000000
+      internalID: -358588059388571621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4399e64c537040250800000000000000
+      internalID: 5909856538527177012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb89f0d81986fe30800000000000000
+      internalID: 4536964414300588991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e306cc58cd494ec00800000000000000
+      internalID: 929031098003644478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2b2226df5b6a230800000000000000
+      internalID: 3649804647908160201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9a956a49a593110800000000000000
+      internalID: 1241122766809836017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2b971ecf3bd86e0800000000000000
+      internalID: -1833611574573944158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c725abaacbe9c0b0800000000000000
+      internalID: -5707771797019744316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d367227af5ef7a50800000000000000
+      internalID: 6521183649275536336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276f27bb24738e370800000000000000
+      internalID: 8351986268710827634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ca4f39c3d934900800000000000000
+      internalID: 667550053286849578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1ee5d1e5a417710800000000000000
+      internalID: 1689213103320785314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804049b4bfdd862f0800000000000000
+      internalID: -979288847578561528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fc1180a17308510800000000000000
+      internalID: 1549298856759512887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eec9d817424178d0800000000000000
+      internalID: -2850424216021774615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48dc63fa48290140800000000000000
+      internalID: 4686321189632399438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c6897dda6c3d3c0800000000000000
+      internalID: -4335903566278923150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a84d191cc5edc0f0800000000000000
+      internalID: -1094966469623723871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f2e720d542bf380800000000000000
+      internalID: -8936509053694234842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9166a89fd9b3052b0800000000000000
+      internalID: -5597908787139025383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74b82fbbb0fec30800000000000000
+      internalID: 4390741063565527018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7b32445dbea070800000000000000
+      internalID: 8119635347781679725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebb9d5e6016742b0800000000000000
+      internalID: -5600400929357972509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5e5d13066ff50b0800000000000000
+      internalID: -5737596507233327700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aad03cc829069010800000000000000
+      internalID: 1195152821942540967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd9ad1b097fce120800000000000000
+      internalID: 2444600898586582520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582750a5672f41370800000000000000
+      internalID: 8292519404026294917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a44ad281ba0400800000000000000
+      internalID: 291240301484614294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c323b42a1781b50800000000000000
+      internalID: 6564121398752722050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d6177c9a6e4b60800000000000000
+      internalID: 7732234830487148244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff91934ace6947a90800000000000000
+      internalID: -7317057551458559489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee9b1288c5f696d0800000000000000
+      internalID: -2983927461561262358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77725528afaa6ee0800000000000000
+      internalID: -1267007208435845249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2a51560a1974be0800000000000000
+      internalID: -1493064633373318452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d713b3aa115eaa3f0800000000000000
+      internalID: -888646112419040899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7c9d3e626045850800000000000000
+      internalID: 6364718937482577903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7356fbb8cf2846260800000000000000
+      internalID: 7089935734575949111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38a771038d27b690800000000000000
+      internalID: -7586545006593726402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b90f252c9c9d1580800000000000000
+      internalID: -8854749097887856208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aea3766565f46d10800000000000000
+      internalID: 2118087540630335139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0345c2c8ae87d5c70800000000000000
+      internalID: 8961451782306550832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556f3aace821434a0800000000000000
+      internalID: -6614641548206016939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6713e192ea00dd0800000000000000
+      internalID: -2521824299704027427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c88451ca4fd05ff0800000000000000
+      internalID: -49294083736958783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c43f9f9ab56ea0800000000000000
+      internalID: -5880088543728711750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9a4c713916d14c0800000000000000
+      internalID: -4315185583564215880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed4b877932a41490800000000000000
+      internalID: -7776412288859550234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b2a6f4973c6b540800000000000000
+      internalID: 5023417360169184072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95fdfc6915837920800000000000000
+      internalID: 2986877322126030238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b0c0cd2fd6a7a0800000000000000
+      internalID: -6366155635641241221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3041548282c948360800000000000000
+      internalID: 7171028202968912899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dac01cce7f5a5f60800000000000000
+      internalID: 8023830684308130518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357a1c7e36ed266e0800000000000000
+      internalID: -1845668376597125293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bfc3a22403f6760800000000000000
+      internalID: 7453228969056074585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b9cb8e9cc35eaf0800000000000000
+      internalID: -367820956670059677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202841050b489730800000000000000
+      internalID: 4006034353414479912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2b75d3bf8ab8f30800000000000000
+      internalID: 4578939243171656421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6719e21c6c5ac1e0800000000000000
+      internalID: -2176825850636724371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d9863345aa34f80800000000000000
+      internalID: -8123462024229773940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d430467cc1211fc00800000000000000
+      internalID: 932546512656008013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93a743abce3a2120800000000000000
+      internalID: 2389791596612133789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3db0f562c2143c80800000000000000
+      internalID: -8344023583467455172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4397671680fb670800000000000000
+      internalID: 8556567031719736487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb5e8eeae76b150800000000000000
+      internalID: 5888032852530281475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb2c381a3109e220800000000000000
+      internalID: 2515543215889460210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc43ef8c574b3aa0800000000000000
+      internalID: -6180267600759272226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5454f6250bb8870800000000000000
+      internalID: 8686230174414751186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c58026ca15bdd30800000000000000
+      internalID: 4457246057034177563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90189c8a1f6a19730800000000000000
+      internalID: 4004165100558188809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace0f62acf2c09fa0800000000000000
+      internalID: -5795918330113093942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491c6efc49b6b53e0800000000000000
+      internalID: -2063937717331902060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a7cedfc7ea3b690800000000000000
+      internalID: -7587529095329842673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18a4b0e13277e880800000000000000
+      internalID: -8581765006382290917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acdf307d343dd2d0800000000000000
+      internalID: -3252385917410747228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8819448c79b45f0800000000000000
+      internalID: -771356024764266335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98deaba5f220f0e30800000000000000
+      internalID: 4471795357411110281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a5311166b6b77b0800000000000000
+      internalID: -5225464856516011505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c08c332059d54b0800000000000000
+      internalID: -5450036137357210491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d745fbab901d5ea60800000000000000
+      internalID: 7702792577405113469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3e3ba902eb12450800000000000000
+      internalID: 6062335620661109703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da6c315f048abff0800000000000000
+      internalID: -19558047047456046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611f420c5998911a0800000000000000
+      internalID: -6838283282918608618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d562310468fc93950800000000000000
+      internalID: 6429398118555657821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28901b0ccb778480800000000000000
+      internalID: -8897006422557943765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe09b1ec4c4ec00800000000000000
+      internalID: 929083812649954225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cd4e0c084dc5f50800000000000000
+      internalID: 6871600780917660672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1561f01257348970800000000000000
+      internalID: 8756184401126188317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fead2f8d2362ee0800000000000000
+      internalID: -1286284736198938879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577cc1b659fc89bf0800000000000000
+      internalID: -317275533075495051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6927620820f8eeb00800000000000000
+      internalID: 859781819777053334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cfa7b164edc5b90800000000000000
+      internalID: -7251676907283219359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e9900a9aa1828e0800000000000000
+      internalID: -1718093942005064109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646021253a30d2490800000000000000
+      internalID: -7769549782152772026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb47adda59c0270800000000000000
+      internalID: 8218107993971277366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00e8be962955430800000000000000
+      internalID: 3771081246613831912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8000e5e53271c80800000000000000
+      internalID: -8352168095724336920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e0e2c7b98080620800000000000000
+      internalID: 2740449837151292950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea6d7f5c8161c670800000000000000
+      internalID: 8557228022506023648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2418d52ab1256ce0800000000000000
+      internalID: -1412685824728230869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bf91ae630126fe0800000000000000
+      internalID: -1197376722885280978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d364136ae644dfe40800000000000000
+      internalID: 5691780746091513405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a950b5f9393a1fff0800000000000000
+      internalID: -4042270221597286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23258324efee1a9d0800000000000000
+      internalID: -2764665920428682702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f75be3965e82b230800000000000000
+      internalID: 3653138750250899443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ee94df47707290800000000000000
+      internalID: -7894678962027175051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7edbd0750c5ee1c0800000000000000
+      internalID: -4472536201494274433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904fea26b30d23260800000000000000
+      internalID: 7075946918029751305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceafa0a7e2414ca00800000000000000
+      internalID: 775767225663159020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_111
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37b3fd4eb058aac0800000000000000
+      internalID: -3843733503678892228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4e1d84e7b1923e0800000000000000
+      internalID: -2078099523853228839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83932e5969e1efbc0800000000000000
+      internalID: -3747524207817115336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f543bb124e6010800000000000000
+      internalID: 1183956438784276315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797f894f02876ac00800000000000000
+      internalID: 911548057527056279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2babea4bf85951020800000000000000
+      internalID: 2311918428168829618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223724cb6e1ee05e0800000000000000
+      internalID: -1941366008232905950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f61f903133e5910800000000000000
+      internalID: 1827954655623212859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62add3cda9e0ed30800000000000000
+      internalID: 4458820563621487211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8dd6954a75ff530800000000000000
+      internalID: 3890924966458022071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a60615d61dfd30800000000000000
+      internalID: 4466751509874778820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510c0eae796525090800000000000000
+      internalID: -8047274373677006827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb957493ddef91c0800000000000000
+      internalID: -4494612410107847712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569256615ecab1b90800000000000000
+      internalID: -7270027073536317083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_125
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5242daa9ea9c02a20800000000000000
+      internalID: 3035647900604245029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7749ebb3d04835c10800000000000000
+      internalID: 2041120248500753527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_127
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b623430fd914d70800000000000000
+      internalID: 9025668783220616078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9ad523948b4ca0800000000000000
+      internalID: -6031581508402503856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2689477a1b0ce5c20800000000000000
+      internalID: 3197204654730811490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8152bf95ff70b60800000000000000
+      internalID: 7712413648825948362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738767609cd36b950800000000000000
+      internalID: 6464422248743073847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e465ff282231ef6d0800000000000000
+      internalID: -2954903266560879026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd87244ffdd74940800000000000000
+      internalID: 5280433176545037747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d83f561d0ffcae0800000000000000
+      internalID: -1526736966506017507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29e676eeb3b77d60800000000000000
+      internalID: 7887970904854423853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c482bcf045dcde590800000000000000
+      internalID: -7643227231651944372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e476eafedf181d00800000000000000
+      internalID: 943539164486726887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_138
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d171ac8b98d4f00800000000000000
+      internalID: 1102688910533139760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_139
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c2cfbbdab9082c0800000000000000
+      internalID: -4431370862847054750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_140
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff16b7f1476e1450800000000000000
+      internalID: 6061395681513709555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_141
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e77849b1553fde0800000000000000
+      internalID: -1300602290435555771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_142
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9014261930ffb8f0800000000000000
+      internalID: -522434903776423777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29662d497f9a892b0800000000000000
+      internalID: -5577521257679526254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639ef4da503f0fc10800000000000000
+      internalID: 2085433833180621110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b467addda58f841d0800000000000000
+      internalID: -3366167652306618805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc64f4f16eb4240800000000000000
+      internalID: 4777164851904958244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac2312c4927d5f90800000000000000
+      internalID: -6963283465608155996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c99c6827f973c210800000000000000
+      internalID: 1352058415583369665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdbca63833070330800000000000000
+      internalID: 3676911160741641669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef8b10aa0722830800000000000000
+      internalID: 4044919290807779042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcef38a9abdc8eb0800000000000000
+      internalID: -4716153188045034288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a061633115b5970800000000000000
+      internalID: 8744672244423592470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a39d755f105520800000000000000
+      internalID: 2688683429579694862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bb8c62b79ab0c20800000000000000
+      internalID: 3173816708809407237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_155
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2f20fc780ce530800000000000000
+      internalID: 3885489911212485171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_156
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49679a78bb71b91a0800000000000000
+      internalID: -6801816718010648940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_157
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3908daa1e4b4510800000000000000
+      internalID: 1534405974536786940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_158
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163f5203acda8a180800000000000000
+      internalID: -9103835562826665119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_159
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe30bb83e6b30a90800000000000000
+      internalID: -7348829078521102608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728151040e89b7200800000000000000
+      internalID: 178904699126487079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aa4381da7d671e0800000000000000
+      internalID: -2200334229488489938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1249c1c19a692690800000000000000
+      internalID: -7626447319721229796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d668ee9e0715e3070800000000000000
+      internalID: 8087991526206899821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95fe52e21e3fb990800000000000000
+      internalID: -7368102214526634597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e40f1070fc2474b0800000000000000
+      internalID: -5443676638399232791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59931875fe912a2f0800000000000000
+      internalID: -963178854547900011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_167
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d905941b1511a60800000000000000
+      internalID: 7642979864505523463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_168
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4d2ed72fe683a30800000000000000
+      internalID: 4195225040668775597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d318a05f18c9d0800000000000000
+      internalID: -2753916740859341062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d1e2d12545ce630800000000000000
+      internalID: 3957630884205436251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_171
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddbb4706d6687f70800000000000000
+      internalID: 9185204509453565403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_172
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260ed5c881d738e80800000000000000
+      internalID: -8177554953987039134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963c919a3e22db520800000000000000
+      internalID: 2719368111191606121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_174
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32a78926254f3a50800000000000000
+      internalID: 6502992417154114109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_175
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8114250329ed59a0800000000000000
+      internalID: -6242577171846262386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e70f4ea9b2419910800000000000000
+      internalID: 1842327087832041445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119551406cdd24840800000000000000
+      internalID: 5206967961735485713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb380f7b46b5d70f0800000000000000
+      internalID: -1117636644377164865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbfe2847e0b5b8e0800000000000000
+      internalID: -1678240778730669062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e80db75024487e0800000000000000
+      internalID: -1764212562702856568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96161362b38b5a860800000000000000
+      internalID: 7540635715285115241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23abe82060bdad2b0800000000000000
+      internalID: -5558889971176261070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fd8e95c3e0eb1e0800000000000000
+      internalID: -2180289517231480998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdf92fc273025d40800000000000000
+      internalID: 5571519480647515578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1214d9c28416dc0800000000000000
+      internalID: -3647554866739338794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16c40512f181310800000000000000
+      internalID: 1375883914103251417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0505bd69aaf6220800000000000000
+      internalID: 2481389484605722857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_188
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fbc52e21c40d020800000000000000
+      internalID: 2364473448360361839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_189
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60290b1957f90820800000000000000
+      internalID: 2885108998385246314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_190
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1839b2d7dd173900800000000000000
+      internalID: 664032282850965535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_191
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50df482afb62c6ca0800000000000000
+      internalID: -6022395997193962235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90680e5bdef990370800000000000000
+      internalID: 8289332432459564553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83def9ef9ec92b0800000000000000
+      internalID: -5576324958777427779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_194
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196ef28b7ef83a460800000000000000
+      internalID: 7251798050386994833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_195
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe581ca6fe78670800000000000000
+      internalID: 8541058460123787206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bbd40761c7a88e0800000000000000
+      internalID: -1690402274308932828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c81ae8557697570800000000000000
+      internalID: 8464910591782390919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_198
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f118072a8b008a30800000000000000
+      internalID: 4215381939207016952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44676055395f4700800000000000000
+      internalID: 526737766942729294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6ce2bcc0857040800000000000000
+      internalID: 4644760207366056643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fd068108bf7f070800000000000000
+      internalID: 8140251379078848313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_202
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3092beef8ed6210800000000000000
+      internalID: 1327973646708835235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_203
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c25471f4c26910800000000000000
+      internalID: 1829240939983587082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_204
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a09b47ebf2e8bf90800000000000000
+      internalID: -6937545654419091287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_205
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d70d56490391eec0800000000000000
+      internalID: -3539386164092008494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_206
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7ba4efd78029280800000000000000
+      internalID: -9038152164948920381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_207
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1efe5fde345340800000000000000
+      internalID: 4851571827677208531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ce3c86bdbd68630800000000000000
+      internalID: 3929069460329327716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8687da5e12a9a85e0800000000000000
+      internalID: -1906542021860034456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1d861cf1b791770800000000000000
+      internalID: 8582025941250265515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_211
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6292f5b7939034f10800000000000000
+      internalID: 2252654381102999846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9841867d7d6187b0800000000000000
+      internalID: -5223773707146540902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497342eaa4940ec40800000000000000
+      internalID: 5539508126763726740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_214
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ecf0f0e26b662a0800000000000000
+      internalID: -6744503083003294203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0021a5f47bfaaa70800000000000000
+      internalID: 8839153698423775242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba9a261679a96430800000000000000
+      internalID: 3776736087169997491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_217
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c25ffdef1688ad80800000000000000
+      internalID: -8239188046579281213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_218
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5157bed2443d7e660800000000000000
+      internalID: 7415127601270453525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_219
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b732f19aef334430800000000000000
+      internalID: 3765923990115334066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_220
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddb7aef485252aa0800000000000000
+      internalID: -6186497259985191458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_221
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2584c2c8d8e8ac0800000000000000
+      internalID: -3850984998177320200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_222
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb6ad68c25071400800000000000000
+      internalID: 294709989415218169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_223
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd5abab4ec6e93f0800000000000000
+      internalID: -892155946531660363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e6d44065e4cd850800000000000000
+      internalID: 6403078901560340069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db6722adfaf236e0800000000000000
+      internalID: -1859147728896431151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801474181412f1980800000000000000
+      internalID: -8566091401009872632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a6b37681635e750800000000000000
+      internalID: 6333527929405532807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbf2dde4cb8def50800000000000000
+      internalID: 6912334681003457524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ce228cc0ae1690800000000000000
+      internalID: -7629483918501165029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafe70361fd4a2ac0800000000000000
+      internalID: -3879202429882339409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a598c2c24f545860800000000000000
+      internalID: 7517738418328606119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df6bff624a083280800000000000000
+      internalID: -9063482969620254766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_233
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd6c6dbe130e1730800000000000000
+      internalID: 3971615351949258197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_234
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb92e5cb87f911ec0800000000000000
+      internalID: -3597919286387136065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_235
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca0e15fbe6b885d0800000000000000
+      internalID: -3059994822252295487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_236
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9482262ea1bc0dd00800000000000000
+      internalID: 995518833976551497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_237
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cc422b9bd4d8720800000000000000
+      internalID: 2850019599148436630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_238
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666bc69999f9dcc50800000000000000
+      internalID: 6687176503767905894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_239
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5fb5402a74e5ef0800000000000000
+      internalID: -117577779081644547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3aa32a8c639c4d10800000000000000
+      internalID: 2111224419713264188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8a1fc725355faa0800000000000000
+      internalID: -6127900104219055942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e33fb37e0a47f40800000000000000
+      internalID: 5725377941298429544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_243
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faa0608fda68f7a0800000000000000
+      internalID: -6343202566987273480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_244
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f798de4fe3ccba460800000000000000
+      internalID: 7254116195579562367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_245
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfffbc35ad03dd840800000000000000
+      internalID: 5250406454850748412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_246
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e28a949a4d2e830800000000000000
+      internalID: 4099072434410892867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc726af450bac2bc0800000000000000
+      internalID: -3806479545735436341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf78fdbb8ee00370800000000000000
+      internalID: 8286885598316756914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_249
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ad2532fb96c35e0800000000000000
+      internalID: -1928550270769112482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_250
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c89a41697554940800000000000000
+      internalID: 5279722440265141265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_251
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a4518d1e0327130800000000000000
+      internalID: 3562964001754532415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_252
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6721fbfa3a355c100800000000000000
+      internalID: 127600126943236726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_253
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e39dbb1f40028c0800000000000000
+      internalID: -4026212630584017256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_254
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff83f13f845331e50800000000000000
+      internalID: 6778820451555555583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Winter@64x64_255
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b507309c55af5d0800000000000000
+      internalID: -3028013477618754770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 60c126d504b4c354cafb6ed2e871b605
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
