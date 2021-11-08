@@ -14,18 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/MainGame.unity
-    - Assets/Script/Initilizations.cs
+    - Assets/Script/PerlinClasses/PerlinArrays.cs
     - Assets/Script/WorldGen/ConditionalUVS.cs
-    - Assets/Script/WorldGen/HeightMapManager.cs
+    - Assets/Script/WorldGen/OceanManager.cs
     - Assets/Script/WorldGen/OverWorldMesh.cs
     - Assets/Script/WorldGen/OverWorldMeshUtility.cs
+    - Assets/Script/WorldGen/OverWorldObjectManager.cs
     - Assets/Script/WorldGen/OverWorldTextureManager.cs
-    - Assets/Script/WorldGen/TilesManager.cs
-    - Assets/Script/WorldGen/WorldInit.cs
     - Assets/Script/WorldGen/ZoneManager.cs
     - 
-    m_Values: 0000000000000000000000
+    m_Values: 000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
