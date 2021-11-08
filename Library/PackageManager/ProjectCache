@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637720013321094865
-    m_Hash: 999684301
+      ticks: 637720026373061065
+    m_Hash: 1760496793
   m_LockFileStatus:
     m_FilePath: C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/Unity Projects/Elyria/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637720013321150742
-    m_Hash: 193404542
+      ticks: 637720026373163322
+    m_Hash: 2822062150
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -120,125 +120,6 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
-        path: 
-    - packageId: com.unity.collab-proxy@1.14.1
-      testable: 0
-      isDirectDependency: 1
-      version: 1.14.1
-      source: 1
-      resolvedPath: C:\Users\caj52\OneDrive\Desktop\DEVUTIL\PersonalProjects\Unity
-        Projects\Elyria\Library\PackageCache\com.unity.collab-proxy@1.14.1
-      assetPath: Packages/com.unity.collab-proxy
-      name: com.unity.collab-proxy
-      displayName: Version Control
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: The Version Control package gives you the ability to use either
-        Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
-        SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
-        about how you can get started for free by visiting plasticscm.com.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.2.3-preview
-        - 1.2.4-preview
-        - 1.2.6
-        - 1.2.7
-        - 1.2.9
-        - 1.2.11
-        - 1.2.15
-        - 1.2.16
-        - 1.2.17-preview.3
-        - 1.3.2
-        - 1.3.3
-        - 1.3.4
-        - 1.3.5
-        - 1.3.6
-        - 1.3.7
-        - 1.3.8
-        - 1.3.9
-        - 1.4.9
-        - 1.5.7
-        - 1.6.0
-        - 1.7.1
-        - 1.8.0
-        - 1.9.0
-        - 1.10.2
-        - 1.11.2
-        - 1.12.5
-        - 1.13.5
-        - 1.14.1
-        - 1.15.1
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
-        compatible:
-        - 1.3.9
-        - 1.4.9
-        - 1.5.7
-        - 1.6.0
-        - 1.8.0
-        - 1.10.2
-        - 1.12.5
-        - 1.14.1
-        - 2.0.0-preview.6
-        - 2.0.0-preview.8
-        - 2.0.0-preview.15
-        - 2.0.0-preview.17
-        - 2.0.0-preview.20
-        - 2.0.0-preview.21
-        - 2.0.0-preview.22
-        - 2.1.0-preview.3
-        - 2.1.0-preview.5
-        - 2.1.0-preview.6
-        verified: 1.3.9
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - backup
-      - cloud
-      - collab
-      - collaborate
-      - collaboration
-      - control
-      - plastic
-      - plasticscm
-      - source
-      - team
-      - teams
-      - version
-      - vcs
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637705007660000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.collab-proxy.git
-        revision: 67af339e1574a6707e969af3a82b2880a3e90be3
         path: 
     - packageId: com.unity.ext.nunit@1.0.6
       testable: 0
@@ -3348,6 +3229,7 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
+        - 1.2.5
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -3364,7 +3246,8 @@ m_PackageAssets:
         - 1.1.0
         - 1.2.1
         - 1.2.4
-        verified: 1.2.4
+        - 1.2.5
+        verified: 1.2.5
       dependencies: []
       resolvedDependencies: []
       keywords:
