@@ -27,19 +27,24 @@ public static class ObjectTypes
             {OverWorldObject.Rock,rock}
         };
     }
-    
+    private static readonly Dictionary<float, OverWorldObject> ObjectProbabilities = new Dictionary<float, OverWorldObject>
+    {
+        {.1f,OverWorldObject.Tree},
+        {.2f,OverWorldObject.Tree},
+        {.3f,OverWorldObject.Tree},
+        {.4f,OverWorldObject.Tree},
+        {.5f,OverWorldObject.Tree}
+    };
     public static OverWorldObject GetObjectTypeFromPerlinData(float perlinData)
     {
         OverWorldObject returnObject;
+        var defaultObject = OverWorldObject.None;
         
-        if (perlinData<.52)
-        {
-            returnObject = OverWorldObject.Tree;
-        }
-        else
-        {
-            returnObject = OverWorldObject.None;
-        }
+        var flooredEntry = (Mathf.Round(perlinData * 10)) / 10;
+        
+        if (!ObjectProbabilities.TryGetValue(flooredEntry, out returnObject))
+            returnObject = defaultObject;
+
         return returnObject;
     }
 

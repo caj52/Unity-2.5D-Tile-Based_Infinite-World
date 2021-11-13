@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13954, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SnapEnabled: 0
+  m_SnapEnabled: 1
   m_SnapSettings:
     m_SnapValue: {x: 0.25, y: 0.25, z: 0.25}
     m_SnapMultiplier: {x: 2048, y: 2048, z: 2048}

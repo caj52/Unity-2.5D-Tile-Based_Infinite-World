@@ -148,8 +148,9 @@ public class OverWorldMeshUtility
         var worldWindowPosition = OverWorldMesh.Instance.GetWorldWindowPosition()-halfMeshSize;
         
         var tileHeightAverage = GetAverageHeightInTile(tilecoordinates);
-        
-        var vec3TileCoordinate = new Vector3(tilecoordinates.x,tileHeightAverage , tilecoordinates.y);
+
+        var centerOffset = new Vector2(.5f, .5f);
+        var vec3TileCoordinate = new Vector3(tilecoordinates.x+centerOffset.x,tileHeightAverage , tilecoordinates.y+centerOffset.y);
         var tilePosition = worldWindowPosition + vec3TileCoordinate;
 
         return tilePosition;

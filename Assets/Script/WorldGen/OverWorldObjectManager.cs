@@ -17,13 +17,14 @@ public class OverWorldObjectManager : MonoBehaviour
         var meshSize = OverWorldMesh._meshSize;
         var zoneTypesPerlin = PerlinGen.Generate(PerlinArrays.GetZonesArray());
         OverWorldZone lastZone = OverWorldZone.None;
+        float[,] zonePerlin = new float[meshSize,meshSize];
+
         for(int y=0;y<meshSize;y++)
         {
             for(int x=0;x<meshSize;x++)
             {
                 var zoneType = ZoneTypes.GetZoneTypeFromPerlinData(zoneTypesPerlin[x, y]);
                 
-                float[,] zonePerlin = new float[meshSize,meshSize];
                 
                 if (lastZone!=zoneType)
                 {
@@ -31,7 +32,6 @@ public class OverWorldObjectManager : MonoBehaviour
                     zonePerlin = PerlinGen.Generate(zoneArray);
                     lastZone = zoneType;
                 }
-                
                 
                 var objectToPlace = ObjectTypes.GetObjectTypeFromPerlinData(zonePerlin[x,y]);
                 if(objectToPlace==OverWorldObject.None)

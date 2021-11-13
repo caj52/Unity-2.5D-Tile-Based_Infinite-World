@@ -2,16 +2,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PerlinArrays : MonoBehaviour
-{//////////////////////////////////height&width,scale,coordx,coordy,frequency,lacunarity,persistance,octaves,amplitude
+{//////////////////////////////////height&width,          scale,coordx,coordy,frequency,lacunarity,persistance,octaves,amplitude
     private const float UnitCoordinatesBase = 10;
     private const float seed = 420;
-    private static float[] _heightMapArray =       { 200, .3f, 10, 10, 0.1f,   3,    .7f,  2 ,1};
-    private static float[] _heightIntensityArray = { 200, .2f, 10, 10, 0.1f, 1.15f, 1.25f, 4 ,1};
-    private static float[] _zonesArray =           { 200, .1f, 10, 10, 0.01f,  2f,   1f,   6 ,0};
-    private static float[] _forestArray =           { 200, 1, 10, 10, 0.18f,  1f,  .44f,   6 ,0};
+    private static float[] _heightMapArray =       { 200f,   .3f,  10f,   10f,     0.1f,        3f,      1.3f,       2f ,    1};
+    private static float[] _heightIntensityArray = { 200f,   .5f,  10f,   10f,     0.2f,     .21f,      1.3f,       2f ,    1};
+    private static float[] _zonesArray =    { 200f, .005f,          10f,   10f,     2.6f,      2f,      1.2f,       3f ,    1};
+    private static float[] _forestObjectArray =    { 200f,      1f, 10f,   10f,     0.18f,      1f,    .44f,       6f,    1};
     private static readonly Dictionary<OverWorldZone, float[]> OverWorldZonePerlinArrays = new Dictionary<OverWorldZone, float[]>
     {
-        {OverWorldZone.Forest,_forestArray},
+        {OverWorldZone.Forest,_forestObjectArray},
+        {OverWorldZone.Sand,_forestObjectArray},
     };
     public static float[] GetHeightMapArray()
     {   
@@ -55,13 +56,13 @@ public class PerlinArrays : MonoBehaviour
     {
         perlinCoordinates += new Vector3(seed, 0, seed);
         var zoneScale = _zonesArray[1];
-        var forestScale = _forestArray[1];
+        var forestScale = _zonesArray[1];
         
         _zonesArray[2] = perlinCoordinates.x/ UnitCoordinatesBase * zoneScale;
         _zonesArray[3] = perlinCoordinates.z/ UnitCoordinatesBase * zoneScale;
         
-        _forestArray[2] = perlinCoordinates.x/ UnitCoordinatesBase * forestScale;
-        _forestArray[3] = perlinCoordinates.z/ UnitCoordinatesBase * forestScale;
+        _forestObjectArray[2] = perlinCoordinates.x/ UnitCoordinatesBase * forestScale;
+        _forestObjectArray[3] = perlinCoordinates.z/ UnitCoordinatesBase * forestScale;
 
     }
 }
