@@ -20,10 +20,12 @@ public class OverWorldMesh : MonoBehaviour
         Instance = this;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         OverWorldMeshUtility.RoundWorldWindowPosition();
+        
         CheckPositionChangeAndFireUpdateMethods();
+        
         SetCurrentWorldWindowPosition();
     }
     private void UpdateMeshVerts()
@@ -38,7 +40,9 @@ public class OverWorldMesh : MonoBehaviour
             return;
         
         UpdateMeshVerts();
+        ZoneManager.GenerateNewZonePerlinIfPositionChanged();
         OverWorldTextureManager.Instance.UpdateUVS();
+        OverWorldObjectManager.Instance.UpdateOverWorldObjects();
 
     }
     private void InitMeshVariables()

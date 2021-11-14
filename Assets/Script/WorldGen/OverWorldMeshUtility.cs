@@ -155,4 +155,44 @@ public class OverWorldMeshUtility
 
         return tilePosition;
     }
+    public static bool ShouldTileBeRecalculated(Vector2Int amountShifted,Vector2Int tileCoordinate)
+    {
+
+        var totalTilesInRow = (meshSize - 1);
+        
+        var x = tileCoordinate.x;
+        var y = tileCoordinate.y;
+        
+        if (amountShifted.x>0)
+        {
+            if (x>(totalTilesInRow-amountShifted.x))
+            {
+                return true;
+            }
+        }
+        else if (amountShifted.x<0)
+        {
+            if (x< -amountShifted.x)
+            {
+                return true;
+            }
+        }
+        
+        if (amountShifted.y<0)
+        {
+            if (y< -amountShifted.y)
+            {
+                return true;
+            }
+        }
+        else if (amountShifted.y>0)
+        {
+            if (y>(totalTilesInRow-amountShifted.y))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }

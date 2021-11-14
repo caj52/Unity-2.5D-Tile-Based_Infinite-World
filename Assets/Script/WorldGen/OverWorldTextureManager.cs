@@ -42,7 +42,7 @@ public class OverWorldTextureManager : MonoBehaviour
         _GlobalBuildingUVS = new Vector2[OverWorldMesh.vertices.Length];
         
         int sqrtOfTotalChunks = meshSize / 16;
-
+        
         var startTime = Time.realtimeSinceStartupAsDouble;
         for (int z =0; z < sqrtOfTotalChunks; z++)
         { 
@@ -72,7 +72,7 @@ public class OverWorldTextureManager : MonoBehaviour
     private void SetTileUV(Vector2Int tileCoordinate)
     {
         var meshSizeUVMultiplier = meshSize / spritesheetDimensions;
-
+        
         var tileType = TilesManager.GetTileTypeFromXAndYCoordinate(tileCoordinate);
         
         var tileSelection = TileUVs.GetTileUV(tileType);
@@ -105,7 +105,7 @@ public class OverWorldTextureManager : MonoBehaviour
             for (int x = xMods[0]; x != xMods[1]; x+=xMods[2])
             {
                 var thisTile = new Vector2Int(x, z);
-                var recalculate = ShouldTileBeRecalculated(amountToShift, thisTile);
+                var recalculate = OverWorldMeshUtility.ShouldTileBeRecalculated(amountToShift, thisTile);
                 if (recalculate)
                 {
                     tilesToRecalculate[recalculateIndexCounter] = thisTile;
@@ -187,45 +187,6 @@ public class OverWorldTextureManager : MonoBehaviour
         return TileIndices;
     }
 
-    private bool ShouldTileBeRecalculated(Vector2Int amountShifted,Vector2Int tileCoordinate)
-    {
-
-        var totalTilesInRow = (meshSize - 1);
-        
-        var x = tileCoordinate.x;
-        var y = tileCoordinate.y;
-        
-        if (amountShifted.x>0)
-        {
-            if (x>(totalTilesInRow-amountShifted.x))
-            {
-                return true;
-            }
-        }
-        else if (amountShifted.x<0)
-        {
-            if (x< -amountShifted.x)
-            {
-                return true;
-            }
-        }
-        
-        if (amountShifted.y<0)
-        {
-            if (y< -amountShifted.y)
-            {
-                return true;
-            }
-        }
-        else if (amountShifted.y>0)
-        {
-            if (y>(totalTilesInRow-amountShifted.y))
-            {
-                return true;
-            }
-        }
-
-        return false;
-    }
+   
 }
 

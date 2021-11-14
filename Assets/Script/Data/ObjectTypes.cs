@@ -29,11 +29,11 @@ public static class ObjectTypes
     }
     private static readonly Dictionary<float, OverWorldObject> ObjectProbabilities = new Dictionary<float, OverWorldObject>
     {
-        {.1f,OverWorldObject.Tree},
+        {.1f,OverWorldObject.None},
         {.2f,OverWorldObject.Tree},
-        {.3f,OverWorldObject.Tree},
-        {.4f,OverWorldObject.Tree},
-        {.5f,OverWorldObject.Tree}
+        {.3f,OverWorldObject.None},
+        {.4f,OverWorldObject.None},
+        {.5f,OverWorldObject.None}
     };
     public static OverWorldObject GetObjectTypeFromPerlinData(float perlinData)
     {
