@@ -1,22 +1,49 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.PlayerLoop;
+
 public class Player : MonoBehaviour
 {
-    public static Player Instance;
-
-    public void Start()
+    public Creature creature;
+    private void Start()
     {
-        Instance = this;
-    }
-    void Update()
-    {
-
+        UpdateWorldWindowPosition();
     }
 
-
-
-    void OnLoad()
+    private void Update()
     {
+        HandleMovement();
+    }
 
+    private void HandleMovement()
+    {
+        var moved = false;
+        if (Input.GetKey(KeyCode.W))
+        {
+            creature.Move(transform.forward);
+            moved = true;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            creature.Move(-transform.forward);
+            moved = true;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            creature.Move(transform.right);
+            moved = true;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            creature.Move(-transform.right);
+            moved = true;
+        }
+        if(moved)
+            UpdateWorldWindowPosition();
+    }
 
+    public void UpdateWorldWindowPosition()
+    {
+        OverWorldMesh.Instance.SetWorldWindowPosition(transform.position);
     }
 }

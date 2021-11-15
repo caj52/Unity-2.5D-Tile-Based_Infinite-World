@@ -6,7 +6,6 @@ Shader "Custom/pixelizerObject"
 	SubShader {
 		Tags { "RenderType"="Opaque" "Queue" = "Geometry-1"}
 
-		LOD 200
 		Stencil 
 		{
 			Ref 1

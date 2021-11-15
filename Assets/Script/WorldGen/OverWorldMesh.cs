@@ -26,7 +26,7 @@ public class OverWorldMesh : MonoBehaviour
         
         CheckPositionChangeAndFireUpdateMethods();
         
-        SetCurrentWorldWindowPosition();
+        SetWorldWindowLastPosition();
     }
     private void UpdateMeshVerts()
     {
@@ -53,18 +53,16 @@ public class OverWorldMesh : MonoBehaviour
         _overWorld.transform.SetParent(transform);
 
         _overWorld.AddComponent<MeshRenderer>();
-        
-        _overWorld.AddComponent<MeshCollider>();
-        
+
         var meshFilter = _overWorld.AddComponent<MeshFilter>();
-        meshFilter.mesh = _overWorldMesh = new Mesh(); 
-        
+        meshFilter.mesh = _overWorldMesh = new Mesh();
+
         _worldWindow =  new GameObject("World Window");
         _worldWindow.transform.SetParent(_overWorld.transform);
         var halfMeshSize = _meshSize / 2;
         _worldWindow.transform.position = new Vector3(halfMeshSize, 0, halfMeshSize);
         
-        SetCurrentWorldWindowPosition();
+        SetWorldWindowLastPosition();
         
         
     }
@@ -132,6 +130,7 @@ public class OverWorldMesh : MonoBehaviour
             
         _overWorldMesh.RecalculateNormals();
         material = _overWorld.GetComponent<MeshRenderer>().material = overWorldMaterial;
+        _overWorld.AddComponent<MeshCollider>();
         yield return null;
     }
 
@@ -200,7 +199,7 @@ public class OverWorldMesh : MonoBehaviour
     {
         Vector2Int amountToShift = OverWorldMeshUtility.GetPositionChange();
         ShiftVerticesInOverworldMesh(amountToShift);
-        _overWorldMesh.RecalculateBounds();
+        
     }
     private void ShiftVerticesInOverworldMesh(Vector2Int amountToShift)
     {
@@ -218,11 +217,22 @@ public class OverWorldMesh : MonoBehaviour
     
     private void SetOverWorldVertices(Vector3[] newVertices)
     {
+        
         _overWorldMesh.vertices = newVertices;
         _overWorldMesh.RecalculateNormals();
         _overWorldMesh.RecalculateBounds();
+        
     }
-    public void SetCurrentWorldWindowPosition()
+
+    public void SetWorldWindowPosition(Vector3 newPosition)
+    {
+        var oldPosition = _worldWindow.transform.position;
+        var position = new Vector3(newPosition.x, oldPosition.y, newPosition.z);
+        _worldWindow.transform.position = position;
+        _overWorld.GetComponent<MeshCollider>().sharedMesh = null;
+        _overWorld.GetComponent<MeshCollider>().sharedMesh = _overWorldMesh;
+    }
+    public void SetWorldWindowLastPosition()
     {
         var worldWindowPosition = _worldWindow.transform.position;
         worldWindowLastPosition = worldWindowPosition;
