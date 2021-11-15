@@ -7,6 +7,7 @@ public class Initilizations : MonoBehaviour
     public WorldInit worldInit;
     public HeightMapManager heightMapManager;
     public OverWorldObjectManager overWorldObjectManager;
+    public Player player;
     public void Start()
     {
         Init();
@@ -23,5 +24,6 @@ public class Initilizations : MonoBehaviour
         heightMapManager.Init();
         overWorldObjectManager.Init();
         StartCoroutine(worldInit.CreateWorldMesh());
+        player.Init();
     }
 }

@@ -263,7 +263,7 @@ Rigidbody:
   m_GameObject: {fileID: 467960729}
   serializedVersion: 2
   m_Mass: 100
-  m_Drag: 15
+  m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -591,6 +591,7 @@ MonoBehaviour:
   worldInit: {fileID: 2064009871}
   heightMapManager: {fileID: 2064009874}
   overWorldObjectManager: {fileID: 697660738}
+  player: {fileID: 467960733}
 --- !u!4 &1506561555
 Transform:
   m_ObjectHideFlags: 0
