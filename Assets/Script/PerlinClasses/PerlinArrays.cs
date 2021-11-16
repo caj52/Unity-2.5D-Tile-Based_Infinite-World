@@ -4,7 +4,7 @@ using UnityEngine;
 public class PerlinArrays : MonoBehaviour
 {//////////////////////////////////height&width,          scale,coordx,coordy,frequency,lacunarity,persistance,octaves,amplitude
     private const float UnitCoordinatesBase = 10;
-    private const float seed = 420;
+    public const float seed = 420;
     private static float[] _heightMapArray =       { 200f,   .3f,  10f,   10f,     0.1f,        3f,      1.3f,       2f ,    1};
     private static float[] _heightIntensityArray = { 200f,   .5f,  10f,   10f,     0.2f,     .21f,      1.3f,       2f ,    1};
     private static float[] _zonesArray =            { 200f, .005f, 10f,   10f,     2.6f,      2f,      1.2f,       3f ,    1};

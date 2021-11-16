@@ -7,7 +7,6 @@ Shader "Unlit/CameraPixelizer"
     SubShader
     {
         Tags { "RenderType"="Opaque""Queue"="Geometry" }
-        Cull Off ZWrite Off ZTest Always
         
         Pass
         {

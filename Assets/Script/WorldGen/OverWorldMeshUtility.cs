@@ -112,6 +112,12 @@ public class OverWorldMeshUtility
 
         return Mathf.Lerp(points[0], points[1], .5f);
     }
+
+    public static void recaluclateMeshCollider()
+    {
+        OverWorldMesh._overWorld.GetComponent<MeshCollider>().sharedMesh = null;
+        OverWorldMesh._overWorld.GetComponent<MeshCollider>().sharedMesh = OverWorldMesh._overWorldMesh;
+    }
     public static void RoundWorldWindowPosition()
     {
         var roundedWindowPosition = new Vector3Int();

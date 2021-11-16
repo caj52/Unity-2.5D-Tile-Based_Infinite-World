@@ -9,9 +9,9 @@ public class OverWorldMesh : MonoBehaviour
     public static int _meshSize{get; private set; }
     public static Vector3[] vertices{get => _overWorldMesh.vertices;}
     public static Vector4[,] tileHeights {get; private set;}
-    private static GameObject _overWorld;
+    public static GameObject _overWorld { get; private set; }
     [SerializeField] private Material overWorldMaterial;
-    private static Mesh _overWorldMesh;
+    public static Mesh _overWorldMesh { get; private set; }
     public static GameObject _worldWindow { get; private set; }
     private Material material;
     public static Vector3 worldWindowLastPosition{ get; private set; }
@@ -43,6 +43,8 @@ public class OverWorldMesh : MonoBehaviour
         ZoneManager.GenerateNewZonePerlinIfPositionChanged();
         OverWorldTextureManager.Instance.UpdateUVS();
         OverWorldObjectManager.Instance.UpdateOverWorldObjects();
+        OverWorldMeshUtility.recaluclateMeshCollider();
+
 
     }
     private void InitMeshVariables()
@@ -63,8 +65,6 @@ public class OverWorldMesh : MonoBehaviour
         _worldWindow.transform.position = new Vector3(halfMeshSize, 0, halfMeshSize);
         
         SetWorldWindowLastPosition();
-        
-        
     }
     
     public IEnumerator CreateMesh()
@@ -199,7 +199,6 @@ public class OverWorldMesh : MonoBehaviour
     {
         Vector2Int amountToShift = OverWorldMeshUtility.GetPositionChange();
         ShiftVerticesInOverworldMesh(amountToShift);
-        
     }
     private void ShiftVerticesInOverworldMesh(Vector2Int amountToShift)
     {
@@ -223,14 +222,11 @@ public class OverWorldMesh : MonoBehaviour
         _overWorldMesh.RecalculateBounds();
         
     }
-
     public void SetWorldWindowPosition(Vector3 newPosition)
     {
         var oldPosition = _worldWindow.transform.position;
         var position = new Vector3(newPosition.x, oldPosition.y, newPosition.z);
         _worldWindow.transform.position = position;
-        _overWorld.GetComponent<MeshCollider>().sharedMesh = null;
-        _overWorld.GetComponent<MeshCollider>().sharedMesh = _overWorldMesh;
     }
     public void SetWorldWindowLastPosition()
     {

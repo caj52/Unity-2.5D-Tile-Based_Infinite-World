@@ -16,7 +16,6 @@ public class Initilizations : MonoBehaviour
     private void Init()
     {
         Debug.Log("Game Init");
-        ObjectTypes.Init();
         worldInit.Init();
         overWorldMesh.Init();
         oceanManager.Init();

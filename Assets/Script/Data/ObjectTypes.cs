@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
+
 public enum OverWorldObject
 {
     None,
@@ -9,24 +12,7 @@ public enum OverWorldObject
 }
 public static class ObjectTypes
 {
-    private static GameObject tree;
-    private static GameObject rock;
-    private static GameObject flowers;
 
-    private static Dictionary<OverWorldObject, GameObject> OverWorldGameObjects;
-    public static void Init()
-    {
-        tree = Resources.Load<GameObject>("Prefabs/EnviornmentalObjects/Tree");
-        rock = Resources.Load<GameObject>("");
-        flowers = Resources.Load<GameObject>("");
-
-        OverWorldGameObjects = new Dictionary<OverWorldObject, GameObject>
-        {
-            {OverWorldObject.None,null},
-            {OverWorldObject.Tree,tree},
-            {OverWorldObject.Rock,rock}
-        };
-    }
     private static readonly Dictionary<float, OverWorldObject> ObjectProbabilities = new Dictionary<float, OverWorldObject>
     {
         {.1f,OverWorldObject.None},
@@ -35,6 +21,7 @@ public static class ObjectTypes
         {.4f,OverWorldObject.None},
         {.5f,OverWorldObject.None}
     };
+    
     public static OverWorldObject GetObjectTypeFromPerlinData(float perlinData)
     {
         OverWorldObject returnObject;
@@ -51,8 +38,29 @@ public static class ObjectTypes
     public static GameObject GetGameObjectFromOverWorldObject(OverWorldObject objectType)
     {
         GameObject returnObject;
-        OverWorldGameObjects.TryGetValue(objectType, out returnObject);
+        returnObject = GetVariantObject(objectType);
         return returnObject;
     }
-    
+
+    private static GameObject GetVariantObject(OverWorldObject objectType)
+    {
+        GameObject returnObject = null;
+        switch (objectType)
+        {
+            case OverWorldObject.Tree:
+                returnObject = GetPineTreeVariant();
+                break;
+        }
+        return returnObject;
+    }
+
+    private static GameObject GetPineTreeVariant()
+    {
+        //implement seed based off position here
+        var randomVariant = UnityEngine.Random.Range(1, 38);
+        string directoryString;
+        
+        TreePrefabDirectories.PineTreeVariants.TryGetValue(randomVariant,out directoryString);
+        return Resources.Load<GameObject>(directoryString);
+    }
 }
