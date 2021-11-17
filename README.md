@@ -4,7 +4,7 @@ This is a Unity Based 2.5d RPG project. Conceptually, I'm going for a mixture of
 Currently the project is composed of 3 scenes.
 1. The Title Screen where players can pick a save slot.
 2. Character creation Screen, where players can use customization tools to create a character. Visual only right now, the game doesnt have a stats system as of yet
-3. The World. So far we pretty much just have terrain thats textured with either sand or grass. The texturing system is all set up so I'm currently sorting out "Zones" (like biomes) and messing with tree and object placement. The heights are all layered to give kind of an old school feel. It is however, procedurally generated and, for all intents and purposes, "Infinite".
+3. The World. The basic systems have all but been written so right now I'm focusing on fleshing them out. IE adding more zones, objects, dialing in the procedural generation variables. I'm starting out on some gameplay stuff now as well!
 
 I log my progress and plan out upcoming things on my Trello. I also do a lot of my problem solving there. Feel free to check it out.
 Development Trello: https://trello.com/b/j3bCKSAN/25d-rpg
