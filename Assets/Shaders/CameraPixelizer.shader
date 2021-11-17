@@ -7,7 +7,6 @@ Shader "Unlit/CameraPixelizer"
     SubShader
     {
         Tags { "RenderType"="Opaque""Queue"="Geometry" }
-        
         Pass
         {
             //TESTED. THIS IS CORRECT
@@ -50,7 +49,7 @@ Shader "Unlit/CameraPixelizer"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float clarity = 4.5;
+                float clarity = 8;
                 float pixelSize = 1;
                 float2 uvs = i.uv;
                 float depth = tex2D(_CameraDepthTexture, uvs).r;
