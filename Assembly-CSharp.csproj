@@ -56,7 +56,7 @@
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\MoveSelectionArrow.cs" />
      <Compile Include="Assets\Script\Initilizations.cs" />
-     <Compile Include="Assets\Script\InGame\Player.cs" />
+     <Compile Include="Assets\Script\Player\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />
      <Compile Include="Assets\Script\WorldGen\OverWorldMesh.cs" />
@@ -70,6 +70,7 @@
      <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
      <Compile Include="Assets\Script\WorldGen\TilesManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
+     <Compile Include="Assets\ShadowedButtonPress.cs" />
      <Compile Include="Assets\Script\Camera\CameraPixelizer.cs" />
      <Compile Include="Assets\Script\TitleSc\NewGameStart.cs" />
      <Compile Include="Assets\Script\Data\TreePrefabDirectories.cs" />
@@ -80,7 +81,7 @@
      <Compile Include="Assets\Script\PerlinClasses\PerlinFilters.cs" />
      <Compile Include="Assets\Script\Data\TileUVs.cs" />
      <Compile Include="Assets\Script\WorldGen\WorldInit.cs" />
-     <Compile Include="Assets\Script\SpriteCopy.cs" />
+     <Compile Include="Assets\Script\CharCreate\SpriteCopy.cs" />
      <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <Compile Include="Assets\Script\EditorTools\PerlinEditor.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
@@ -95,7 +96,10 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\ShadowedButtonPress.cs" />
+     <Compile Include="Assets\Script\InputManager.cs" />
+     <Compile Include="Assets\Script\Data\InputTarget.cs" />
+     <Compile Include="Assets\Script\Data\InputData.cs" />
+     <Compile Include="Assets\Script\Data\InputActions.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
