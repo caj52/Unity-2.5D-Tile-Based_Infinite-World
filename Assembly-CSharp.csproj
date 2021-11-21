@@ -72,6 +72,7 @@
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
      <Compile Include="Assets\Script\Camera\CameraPixelizer.cs" />
      <Compile Include="Assets\Script\TitleSc\NewGameStart.cs" />
+     <Compile Include="Assets\Script\Data\TreePrefabDirectories.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinArrays.cs" />
      <Compile Include="Assets\Script\WorldGen\HeightMapManager.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\TextClick.cs" />
@@ -94,7 +95,7 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\Data\TreePrefabDirectories.cs" />
+     <Compile Include="Assets\ShadowedButtonPress.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
