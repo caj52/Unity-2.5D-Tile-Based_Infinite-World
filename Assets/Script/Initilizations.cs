@@ -8,6 +8,7 @@ public class Initilizations : MonoBehaviour
     public HeightMapManager heightMapManager;
     public OverWorldObjectManager overWorldObjectManager;
     public Player player;
+    public PlayerHealth playerHealth;
     public void Start()
     {
         Init();
@@ -23,6 +24,7 @@ public class Initilizations : MonoBehaviour
         heightMapManager.Init();
         overWorldObjectManager.Init();
         StartCoroutine(worldInit.CreateWorldMesh());
+        playerHealth.Init();
         player.Init();
     }
 }

@@ -101,6 +101,7 @@
      <Compile Include="Assets\Script\Data\InputData.cs" />
      <Compile Include="Assets\Script\Data\InputActions.cs" />
      <Compile Include="Assets\Script\Data\StatsUtility.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
