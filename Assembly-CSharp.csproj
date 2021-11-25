@@ -56,6 +56,7 @@
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\MoveSelectionArrow.cs" />
      <Compile Include="Assets\Script\Initilizations.cs" />
+     <Compile Include="Assets\Script\Cactus.cs" />
      <Compile Include="Assets\Script\Player\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\Data\InputActions.cs" />
@@ -89,6 +90,7 @@
      <Compile Include="Assets\Script\CharCreate\SpriteCopy.cs" />
      <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <Compile Include="Assets\Script\EditorTools\PerlinEditor.cs" />
+     <Compile Include="Assets\StatusNumbers.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
@@ -102,7 +104,6 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\Cactus.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
