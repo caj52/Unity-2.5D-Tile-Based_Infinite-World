@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\InteractableObject.cs" />
      <Compile Include="Assets\Script\InGame\NPC\Creature.cs" />
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\MoveSelectionArrow.cs" />
@@ -69,7 +70,6 @@
      <Compile Include="Assets\Script\WorldGen\OverWorldTextureManager.cs" />
      <Compile Include="Assets\Script\CancelScript.cs" />
      <Compile Include="Assets\Script\WorldGen\ConditionalUVS.cs" />
-     <Compile Include="Assets\Script\Data\InputData.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
      <Compile Include="Assets\Script\WorldGen\TilesManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
@@ -104,6 +104,7 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
+     <Compile Include="Assets\Rock.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
