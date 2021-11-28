@@ -49,7 +49,7 @@ Shader "Unlit/CameraPixelizer"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float clarity = 8;
+                float clarity = 6;
                 float pixelSize = 1;
                 float2 uvs = i.uv;
                 float depth = tex2D(_CameraDepthTexture, uvs).r;
@@ -58,7 +58,7 @@ Shader "Unlit/CameraPixelizer"
                 UNITY_APPLY_FOG(i.fogCoord, col);
                 depth /=200;
                 depth = Linear01Depth(depth);
-                pixelSize = floor(pixelSize*depth*10)/10;
+                pixelSize = floor(pixelSize*depth*10)/5;
                 
                 uvs = (floor(uvs*multiplier*pixelSize)/pixelSize)/multiplier;
                 fixed4 col = tex2D(_MainTex, uvs);

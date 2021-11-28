@@ -9,6 +9,7 @@ public class Initilizations : MonoBehaviour
     public OverWorldObjectManager overWorldObjectManager;
     public Player player;
     public PlayerHealth playerHealth;
+    public InteractionsPool interactionsPool;
     public void Start()
     {
         Init();
@@ -26,5 +27,6 @@ public class Initilizations : MonoBehaviour
         StartCoroutine(worldInit.CreateWorldMesh());
         playerHealth.Init();
         player.Init();
+        interactionsPool.Init();
     }
 }

@@ -52,12 +52,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\InteractableObject.cs" />
+     <Compile Include="Assets\Script\InGame\Objects\InteractableObject.cs" />
      <Compile Include="Assets\Script\InGame\NPC\Creature.cs" />
      <Compile Include="Assets\Script\CharCreate\EyeColorWheel.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\MoveSelectionArrow.cs" />
      <Compile Include="Assets\Script\Initilizations.cs" />
-     <Compile Include="Assets\Script\Cactus.cs" />
+     <Compile Include="Assets\Script\InGame\Objects\Cactus.cs" />
      <Compile Include="Assets\Script\Player\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\Data\InputActions.cs" />
@@ -70,10 +70,10 @@
      <Compile Include="Assets\Script\WorldGen\OverWorldTextureManager.cs" />
      <Compile Include="Assets\Script\CancelScript.cs" />
      <Compile Include="Assets\Script\WorldGen\ConditionalUVS.cs" />
+     <Compile Include="Assets\Script\InGame\Objects\Rock.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\PressAnyKey.cs" />
      <Compile Include="Assets\Script\WorldGen\TilesManager.cs" />
      <Compile Include="Assets\Script\CharCreate\CCStateMachine.cs" />
-     <Compile Include="Assets\ShadowedButtonPress.cs" />
      <Compile Include="Assets\Script\InputManager.cs" />
      <Compile Include="Assets\Script\Camera\CameraPixelizer.cs" />
      <Compile Include="Assets\Script\TitleSc\NewGameStart.cs" />
@@ -90,10 +90,11 @@
      <Compile Include="Assets\Script\CharCreate\SpriteCopy.cs" />
      <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <Compile Include="Assets\Script\EditorTools\PerlinEditor.cs" />
-     <Compile Include="Assets\StatusNumbers.cs" />
+     <Compile Include="Assets\Script\UI\InteractionsPool.cs" />
+     <Compile Include="Assets\Script\UI\StatusNumbers.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
-     <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\Script\UI\PlayerHealth.cs" />
      <Compile Include="Assets\Script\CharCreate\CCDraw.cs" />
      <Compile Include="Assets\Script\Data\ObjectTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\CCInstantiate.cs" />
@@ -104,7 +105,6 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Rock.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
