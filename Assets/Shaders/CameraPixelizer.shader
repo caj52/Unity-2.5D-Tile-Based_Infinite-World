@@ -56,7 +56,7 @@ Shader "Unlit/CameraPixelizer"
                 float2 multiplier = float2(80*clarity,25*clarity);
                 
                 UNITY_APPLY_FOG(i.fogCoord, col);
-                depth /=200;
+                depth /=400;
                 depth = Linear01Depth(depth);
                 pixelSize = floor(pixelSize*depth*10)/5;
                 
