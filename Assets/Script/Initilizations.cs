@@ -10,6 +10,7 @@ public class Initilizations : MonoBehaviour
     public Player player;
     public PlayerHealth playerHealth;
     public InteractionsPool interactionsPool;
+    public QuickAccessInventory quickAccessInventory;
     public void Start()
     {
         Init();
@@ -26,6 +27,7 @@ public class Initilizations : MonoBehaviour
         overWorldObjectManager.Init();
         StartCoroutine(worldInit.CreateWorldMesh());
         playerHealth.Init();
+        quickAccessInventory.Init();
         player.Init();
         interactionsPool.Init();
     }
