@@ -71,8 +71,16 @@ public class Player : MonoBehaviour, InputTarget
         HandleNumbersInput();
         HandleKeysInput();
         HandleScrollBar();
+        HandleMouseInput();
     }
 
+    private void HandleMouseInput()
+    {
+        var currentChoice = InteractionPoolMouseSelection.Instance.scrollBarTracker;
+        if (InputActions.lmbDown)
+            InteractionsPool.Instance.FillOptionExecutionBar(currentChoice);
+        
+    }
     private void HandleScrollBar()
     {
         var scrollIncrement = Mathf.RoundToInt(-InputActions.ScrollWheelDelta.y);
