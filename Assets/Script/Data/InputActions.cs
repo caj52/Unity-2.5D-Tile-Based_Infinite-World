@@ -10,6 +10,14 @@ public static class InputActions
     {
         get => (nineUp||eightUp||sevenUp||sixUp||fiveUp||fourUp||threeUp||twoUp||oneUp||zeroUp);
     }
+    public static Vector2 ScrollWheelDelta
+    {
+        get => Input.mouseScrollDelta;
+    }
+    public static bool shiftDown
+    {
+        get => Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ;
+    }
     public static bool lmbDown
     {
         get => Input.GetMouseButton(0);
@@ -24,7 +32,7 @@ public static class InputActions
     }
     public static bool eightDown
     {
-        get => Input.GetKey("8");
+        get => Input.GetKeyDown("8");
     }
     public static bool eightUp
     {
@@ -32,7 +40,7 @@ public static class InputActions
     }
     public static bool sevenDown
     {
-        get => Input.GetKey("7");
+        get => Input.GetKeyDown("7");
     }
     public static bool sevenUp
     {
@@ -40,7 +48,7 @@ public static class InputActions
     }
     public static bool sixDown
     {
-        get => Input.GetKey("6");
+        get => Input.GetKeyDown("6");
     }
     public static bool sixUp
     {
@@ -48,7 +56,7 @@ public static class InputActions
     }
     public static bool fiveDown
     {
-        get => Input.GetKey("5");
+        get => Input.GetKeyDown("5");
     }
     public static bool fiveUp
     {
@@ -56,7 +64,7 @@ public static class InputActions
     }
     public static bool fourDown
     {
-        get => Input.GetKey("4");
+        get => Input.GetKeyDown("4");
     }
     public static bool fourUp
     {
@@ -64,7 +72,7 @@ public static class InputActions
     }
     public static bool threeDown
     {
-        get => Input.GetKey("3");
+        get => Input.GetKeyDown("3");
     }
     public static bool threeUp
     {
@@ -72,7 +80,7 @@ public static class InputActions
     }
     public static bool twoDown
     {
-        get => Input.GetKey("2");
+        get => Input.GetKeyDown("2");
     }
     public static bool twoUp
     {
@@ -80,7 +88,7 @@ public static class InputActions
     }
     public static bool oneDown
     {
-        get => Input.GetKey("1");
+        get => Input.GetKeyDown("1");
     }
     public static bool oneUp
     {
@@ -88,7 +96,7 @@ public static class InputActions
     }
     public static bool zeroDown
     {
-        get => Input.GetKey("0");
+        get => Input.GetKeyDown("0");
     }
     public static bool zeroUp
     {

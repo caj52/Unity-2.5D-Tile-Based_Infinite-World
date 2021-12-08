@@ -14,6 +14,7 @@ public class Creature : MonoBehaviour
     public Dictionary<StatType, int> stats{ get; private set; }
     public StatusNumbers statusNumbers;
     private bool inUpdateMethod;
+    public InventoryObjectType.InventoryObject heldObject { get; private set; }
 
     public Dictionary<NeedsTypes.Need, int> needsValue = new Dictionary<NeedsTypes.Need, int>()
     {
@@ -40,6 +41,7 @@ public class Creature : MonoBehaviour
         
         SetTotalHealth();
         SetSpeed();
+        SetHeldObject(InventoryObjectType.InventoryObject.None);
     }
 
     public void Move(Vector3 direction)
@@ -63,6 +65,11 @@ public class Creature : MonoBehaviour
         speed = StatsUtility.GetSpeed(stats);
     }
 
+    public void SetHeldObject(InventoryObjectType.InventoryObject newObejct)
+    {
+        heldObject = newObejct;
+        Debug.Log($"Now Holding {heldObject}");
+    }
     public IEnumerator TakeDamage(int totalDamage)
     {
         var finalDamage = StatsUtility.CalculateDamageMitigated(stats, totalDamage);

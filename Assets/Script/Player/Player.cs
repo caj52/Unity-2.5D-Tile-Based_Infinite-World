@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class Player : MonoBehaviour, InputTarget
 {
@@ -14,8 +16,7 @@ public class Player : MonoBehaviour, InputTarget
 
         creature = GetComponent<Creature>();
         creature.Init();
-
-        Cursor.visible = false;
+        
         InputManager.Instance.SetInputTarget(this);
         Instance = this;
         
@@ -25,6 +26,10 @@ public class Player : MonoBehaviour, InputTarget
 
     private void InitializeQuickAccessInventory()
     {
+        for (int x = 0; x < 3; x++)
+            quickAccess[x] = InventoryObjectType.InventoryObject.None;
+        
+        
         quickAccess[0] = InventoryObjectType.InventoryObject.Apple;
     }
     public void UpdateWorldWindowPosition()
@@ -32,13 +37,14 @@ public class Player : MonoBehaviour, InputTarget
         OverWorldMesh.Instance.SetWorldWindowPosition(transform.position);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
-        if (other.TryGetComponent(out InteractableObject interactableObject))
+        if (creature.heldObject == InventoryObjectType.InventoryObject.None)
         {
-            var interactions = interactableObject.GetCurrentInteractions();
-            var interactionsPool = InteractionsPool.Instance;
-            interactionsPool.AddOptionsToPool(interactions,interactableObject);
+            if (other.TryGetComponent(out InteractableObject interactableObject))
+            {
+                AddInteractionsToPool(interactableObject);
+            }
         }
     }
     private void OnTriggerExit(Collider other)
@@ -49,6 +55,12 @@ public class Player : MonoBehaviour, InputTarget
             interactionsPool.RemoveOptionsFromPool(interactableObject);
         }
     }
+    private void AddInteractionsToPool(InteractableObject interactableObject)
+    {
+        var interactions = interactableObject.GetCurrentInteractions();
+        var interactionsPool = InteractionsPool.Instance;
+        interactionsPool.AddOptionsToPool(interactions,interactableObject);
+    }
     public virtual void ProcessInput()
     {
         if(inputFrozen)
@@ -57,23 +69,36 @@ public class Player : MonoBehaviour, InputTarget
         HandleMovement();
         HandleRotation();
         HandleNumbersInput();
+        HandleKeysInput();
+        HandleScrollBar();
     }
 
+    private void HandleScrollBar()
+    {
+        var scrollIncrement = Mathf.RoundToInt(-InputActions.ScrollWheelDelta.y);
+        InteractionPoolMouseSelection.Instance.IncrementScrollBarTrackerAndUpdatePosition(scrollIncrement);
+    }
+    private void HandleKeysInput()
+    {
+        if (InputActions.shiftDown)
+            Cursor.visible = true;
+        else
+            Cursor.visible = false;
+    }
     private void HandleNumbersInput()
     {
-        var amntOfBars = InteractionsPool.Instance.executionBars.transform.childCount;
         var numberPressed = InputActions.GetNumberPressed();
 
-        if (numberPressed>=0 && numberPressed<amntOfBars)
-            if (InputActions.anyNumDown)
-                InteractionsPool.Instance.FillOptionExecutionBar(numberPressed);
-        if(InputActions.lmbDown && amntOfBars>0)
-            InteractionsPool.Instance.FillOptionExecutionBar(1);
+        if (numberPressed == 6 || numberPressed == 7 || numberPressed == 8 || numberPressed == 9)
+            ExecuteToolBarInputLogic(numberPressed);
     }
     private void HandleRotation()
     {
-        float rotateHorizontal = Input.GetAxis ("Mouse X");
-        transform.RotateAround (transform.position, -Vector3.up, rotateHorizontal * -2f); //use transform.Rotate(-transform.up * rotateHorizontal * sensitivity) instead if you dont want the camera to rotate around the player
+        if (!Cursor.visible)
+        {
+            float rotateHorizontal = Input.GetAxis("Mouse X");
+            transform.RotateAround(transform.position, -Vector3.up, rotateHorizontal * -2f);
+        }
     }
     private void HandleMovement()
     {
@@ -102,6 +127,35 @@ public class Player : MonoBehaviour, InputTarget
             creature.StopMoveImmediate();
         if(moved)
             UpdateWorldWindowPosition();
+    }
+    
+    private void ExecuteToolBarInputLogic(int numberPressed)
+    {
+        if (numberPressed == ToolBarSelectionHand.Instance.currentlySelected)
+        {
+            ToolBarSelectionHand.Instance.Unselect();
+            creature.SetHeldObject(InventoryObjectType.InventoryObject.None);
+            InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+        }
+        else
+        {
+
+            ToolBarSelectionHand.Instance.SetCurrentlySelected(numberPressed);
+
+            ToolBarSelectionHand.Instance.SetPositionFromToolbarNumber(numberPressed);
+
+            var objectAtNumber = ToolBarSelectionHand.Instance.GetObjectFromKeyInput(numberPressed);
+            creature.SetHeldObject(objectAtNumber);
+
+            var heldObject = new InteractableObject();
+            InventoryObjectType.InventoryObjectInteractions.TryGetValue(objectAtNumber, out var interactions);
+            InventoryObjectType.objectNameStrings.TryGetValue(objectAtNumber, out var objectName);
+
+            heldObject.name = objectName;
+            heldObject.Interactions = interactions;
+            InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+            AddInteractionsToPool(heldObject);
+        }
     }
     public void SetFreezeInput(bool state)
     {

@@ -11,6 +11,8 @@ public class Initilizations : MonoBehaviour
     public PlayerHealth playerHealth;
     public InteractionsPool interactionsPool;
     public QuickAccessInventory quickAccessInventory;
+    public ToolBarSelectionHand toolBarSelectionHand;
+    public InteractionPoolMouseSelection interactionPoolMouseSelection;
     public void Start()
     {
         Init();
@@ -30,5 +32,7 @@ public class Initilizations : MonoBehaviour
         quickAccessInventory.Init();
         player.Init();
         interactionsPool.Init();
+        toolBarSelectionHand.Init();
+        interactionPoolMouseSelection.Init();
     }
 }

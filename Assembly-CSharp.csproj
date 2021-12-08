@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\Player\Player.cs" />
      <Compile Include="Assets\Script\Data\TileTypes.cs" />
      <Compile Include="Assets\Script\Data\InputActions.cs" />
+     <Compile Include="Assets\Script\Data\InventoryObjectType.cs" />
      <Compile Include="Assets\Script\CharCreate\RotationButton.cs" />
      <Compile Include="Assets\Script\WorldGen\OverWorldMesh.cs" />
      <Compile Include="Assets\Script\CharCreate\SkinToneSlider.cs" />
@@ -91,11 +92,12 @@
      <Compile Include="Assets\Script\CharCreate\SpriteCopy.cs" />
      <Compile Include="Assets\Script\PerlinClasses\Perlin.cs" />
      <Compile Include="Assets\Script\EditorTools\PerlinEditor.cs" />
-     <Compile Include="Assets\Script\UI\InteractionsPool.cs" />
+     <Compile Include="Assets\ToolBarSelectionHand.cs" />
+     <Compile Include="Assets\Script\Player\InteractionsPool.cs" />
      <Compile Include="Assets\Script\UI\StatusNumbers.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
-     <Compile Include="Assets\Script\UI\PlayerHealth.cs" />
+     <Compile Include="Assets\Script\Player\PlayerHealth.cs" />
      <Compile Include="Assets\Script\CharCreate\CCDraw.cs" />
      <Compile Include="Assets\Script\Data\ObjectTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\CCInstantiate.cs" />
@@ -106,8 +108,8 @@
      <Compile Include="Assets\Script\CharCreate\CCSpriteCompiler.cs" />
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
-     <Compile Include="Assets\Script\Data\InventoryObjectType.cs" />
      <Compile Include="Assets\Script\Player\QuickAccessInventory.cs" />
+     <Compile Include="Assets\interactionPoolMouseSelection.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
