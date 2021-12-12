@@ -1,6 +1,9 @@
 # Unity 2.5D-RPG-Project
 This is a Unity Based 2.5d RPG project. Conceptually, I'm going for a mixture of Legend of Zelda, Minecraft, and The Sims, mixed with popular mechanics from RPGS, such as stats and skill trees. RPG questing and adventure in a fully procedural, infinte world. Where you can take control of an adventurer and guide their decisions, relationships, and goals.
 
+I'm trying to get all new art for the game bu tboy is getting 8 directional sprites challenging. And expensive. So thats a pretty big undertaking. 
+Currently all the art is placeholder.
+
 Currently the project is composed of 3 scenes.
 1. The Title Screen where players can pick a save slot.
 2. Character creation Screen, where players can use customization tools to create a character. Visual only right now, the game doesnt have a stats system as of yet
