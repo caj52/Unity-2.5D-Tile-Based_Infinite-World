@@ -29,6 +29,5 @@ public class InteractionPoolMouseSelection : MonoBehaviour
             scrollBarTracker = 0;
         if (scrollBarTracker > interactions-1)
             scrollBarTracker = interactions-1;
-        Debug.Log(scrollBarTracker);
     }
 }

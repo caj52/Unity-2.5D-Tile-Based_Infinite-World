@@ -37,7 +37,7 @@ public class Player : MonoBehaviour, InputTarget
         OverWorldMesh.Instance.SetWorldWindowPosition(transform.position);
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (creature.heldObject == InventoryObjectType.InventoryObject.None)
         {
@@ -78,7 +78,8 @@ public class Player : MonoBehaviour, InputTarget
     {
         var currentChoice = InteractionPoolMouseSelection.Instance.scrollBarTracker;
         if (InputActions.lmbDown)
-            InteractionsPool.Instance.FillOptionExecutionBar(currentChoice);
+            if(InteractionsPool.Instance.interactionPool.Count>0)
+                InteractionsPool.Instance.FillOptionExecutionBar(currentChoice);
         
     }
     private void HandleScrollBar()
@@ -141,18 +142,21 @@ public class Player : MonoBehaviour, InputTarget
     {
         if (numberPressed == ToolBarSelectionHand.Instance.currentlySelected)
         {
-            ToolBarSelectionHand.Instance.Unselect();
-            creature.SetHeldObject(InventoryObjectType.InventoryObject.None);
-            InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+            ResetInteractionsSystem();
         }
         else
         {
+            var objectAtNumber = ToolBarSelectionHand.Instance.GetObjectFromKeyInput(numberPressed);
 
+
+            if (objectAtNumber == InventoryObjectType.InventoryObject.None)
+                return;
+            
             ToolBarSelectionHand.Instance.SetCurrentlySelected(numberPressed);
 
             ToolBarSelectionHand.Instance.SetPositionFromToolbarNumber(numberPressed);
-
-            var objectAtNumber = ToolBarSelectionHand.Instance.GetObjectFromKeyInput(numberPressed);
+            
+            InteractionsPool.Instance.SetInteractionsColliderActive(false);
             creature.SetHeldObject(objectAtNumber);
 
             var heldObject = new InteractableObject();
@@ -162,8 +166,17 @@ public class Player : MonoBehaviour, InputTarget
             heldObject.name = objectName;
             heldObject.Interactions = interactions;
             InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+
             AddInteractionsToPool(heldObject);
         }
+    }
+
+    private void ResetInteractionsSystem()
+    {
+        ToolBarSelectionHand.Instance.Unselect();
+        creature.SetHeldObject(InventoryObjectType.InventoryObject.None);
+        InteractionsPool.Instance.SetInteractionsColliderActive(true);
+        InteractionsPool.Instance.ClearAndUpdateInteractionPool();
     }
     public void SetFreezeInput(bool state)
     {

@@ -98,6 +98,7 @@
      <Compile Include="Assets\Script\UI\MenusUtil\ButtonClick.cs" />
      <Compile Include="Assets\Script\UI\MenusUtil\SelectBox.cs" />
      <Compile Include="Assets\Script\Player\PlayerHealth.cs" />
+     <Compile Include="Assets\InteractionPoolMouseSelection.cs" />
      <Compile Include="Assets\Script\CharCreate\CCDraw.cs" />
      <Compile Include="Assets\Script\Data\ObjectTypes.cs" />
      <Compile Include="Assets\Script\CharCreate\CCInstantiate.cs" />
@@ -109,7 +110,6 @@
      <Compile Include="Assets\Script\PerlinClasses\PerlinGen.cs" />
      <Compile Include="Assets\Script\InGame\BendManager.cs" />
      <Compile Include="Assets\Script\Player\QuickAccessInventory.cs" />
-     <Compile Include="Assets\interactionPoolMouseSelection.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Shaders\CameraPixelizer.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

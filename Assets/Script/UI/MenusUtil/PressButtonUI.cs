@@ -1,24 +1,24 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 public class PressButtonUI : MonoBehaviour
 {
     //Simple utility class that handles the appearance of abuttone being pressed
-    public GameObject box = null;
-    public GameObject boxtext = null;
-    string boxstr;
-    private void OnMouseDown()
+    public GameObject shadow;
+    public GameObject button;
+    private Vector3 startingPosition;
+
+    private void Awake()
     {
-        box.transform.localPosition += new Vector3(.02f, 0, .02f);
-        if (boxtext != null)
-        {
-            boxtext.transform.localPosition += new Vector3(.02f, 0, .02f);
-        }
+        startingPosition = button.transform.localPosition;
+    }
+
+    public void a()
+    {
+        Debug.Log("ahh");
+        button.transform.localPosition = shadow.transform.localPosition;
     }
     private void OnMouseUp()
     {
-        box.transform.localPosition -= new Vector3(.02f, 0, .02f);
-        if (boxtext != null)
-        {
-            boxtext.transform.localPosition -= new Vector3(.02f, 0, .02f);
-        }
+        button.transform.localPosition = startingPosition;
     }
 }

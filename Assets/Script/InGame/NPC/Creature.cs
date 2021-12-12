@@ -68,7 +68,6 @@ public class Creature : MonoBehaviour
     public void SetHeldObject(InventoryObjectType.InventoryObject newObejct)
     {
         heldObject = newObejct;
-        Debug.Log($"Now Holding {heldObject}");
     }
     public IEnumerator TakeDamage(int totalDamage)
     {

@@ -17,6 +17,7 @@ public class InteractionsPool : MonoBehaviour
     private Text interactionsPoolText;
     private Text interactionsPoolTitle;
     private bool inCoroutine;
+    private BoxCollider _boxCollider;
     public GameObject interactionsPoolObjectName;
     [HideInInspector]public Dictionary<string,int> interactionPool = new Dictionary<string, int>();
     [HideInInspector]public List<InteractableObject> interactionPoolObjectReferences;
@@ -26,6 +27,7 @@ public class InteractionsPool : MonoBehaviour
         Instance = this;
         interactionsPoolText = interactionsPoolTextObject.GetComponent<Text>();
         interactionsPoolTitle = interactionsPoolObjectName.GetComponent<Text>();
+        _boxCollider = Player.Instance.GetComponent<BoxCollider>();
     }
     private void FixedUpdate()
     {
@@ -67,14 +69,8 @@ public class InteractionsPool : MonoBehaviour
             interactionPool.Remove(keysToRemove[x]);
             objectIndex -= 1;
         }
-        
-        var difference = executionBars.transform.childCount - interactionPoolObjectReferences.Count;
-        var lastChildIndex = executionBars.transform.childCount - 1;
-        for (int x =0;x<difference;x++)
-        {
-            Destroy(executionBars.transform.GetChild(lastChildIndex-x).gameObject);
-        }
-        
+
+        UpdateExecutionBars();
     }
 
     public void ClearAndUpdateInteractionPool()
@@ -93,10 +89,23 @@ public class InteractionsPool : MonoBehaviour
         var offset = new Vector3(0,10,0);
         for (int x=0;x<executionBars.transform.childCount;x++)
         {
-           var thisBar =  executionBars.transform.GetChild(x);
-           var newPosition = execBar.localPosition + offset;
-           newPosition.y = newPosition.y - (25f * x);
-           thisBar.localPosition = newPosition;
+            var amntOfBars = executionBars.transform.childCount;
+            var amntOfInteractions = interactionPool.Count;
+            
+            if (amntOfBars<=amntOfInteractions)
+            {
+                var thisBar = executionBars.transform.GetChild(x);
+                var newPosition = execBar.localPosition + offset;
+                newPosition.y = newPosition.y - (25f * x);
+                thisBar.localPosition = newPosition;
+            }
+            else
+            {
+                for (int i = amntOfBars; i > amntOfInteractions; i--)
+                { 
+                    Destroy(executionBars.transform.GetChild(x).gameObject);
+                }
+            }
 
         }
     }
@@ -126,14 +135,6 @@ public class InteractionsPool : MonoBehaviour
         var barImage = newBar.GetComponent<Image>();
         barImage.fillAmount +=.01f;
     }
-
-    public void SetMouseSelectionFromToolbarNumber(int toolbarNumber)
-    {
-        var bar = mouseSelectionBar.GetComponent<RectTransform>();
-        var newPosition = bar.position;
-        newPosition.y = ((toolbarNumber-6)*24)+14;
-        bar.position = newPosition;
-    }
     private void UpdateInteractionsPool()
     {
         string interactionsString = "";
@@ -147,9 +148,6 @@ public class InteractionsPool : MonoBehaviour
         {
             var thisOption = keyValuePair.Key;
             interactionsString +=  $"\n{thisOption}";
-
-            
-            
             interactionCount++;
         }
 
@@ -180,5 +178,10 @@ public class InteractionsPool : MonoBehaviour
                 EmptyOptionExecutionBar(x);
         }
 
+    }
+
+    public void SetInteractionsColliderActive(bool state)
+    {
+        _boxCollider.enabled = state;
     }
 }
