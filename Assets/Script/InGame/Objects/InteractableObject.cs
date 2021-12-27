@@ -1,7 +1,5 @@
-
-using System;
 using System.Collections.Generic;
-using UnityEditor;
+using System.Linq;
 using UnityEngine;
 
 
@@ -10,30 +8,36 @@ public class InteractableObject: MonoBehaviour
    public string name;
    public bool beingHeld;
    public string examineDescription;
+   private bool inventoryObject;
 
    [Header("Unique Interactions")] 
    public bool canPickUp;
-   
-   public Dictionary<string, int> Interactions = new Dictionary<string, int>
-   {
-      {"Examine", 0},
-   };
-   public Dictionary<string, int> HeldInteractions = new Dictionary<string, int>
-   {
-      {"Drop", 1},
-      {"Throw", 2}
-   };
 
+   public bool isConsumable;
+
+   public List<InteractionTypes.Interaction> Interactions = new List<InteractionTypes.Interaction>()
+   {
+      InteractionTypes.Interaction.Examine
+   };
+   public List<InteractionTypes.Interaction> HeldInteractions = new List<InteractionTypes.Interaction>()
+   {
+      InteractionTypes.Interaction.Drop,
+      InteractionTypes.Interaction.Throw
+   };
+   
    private void Awake()
    {
       InitUniqueObjectVariables();
    }
 
-   public Dictionary<string, int> GetCurrentInteractions()
+   public List<InteractionTypes.Interaction> GetCurrentInteractions()
    {
       if (beingHeld)
-         return HeldInteractions;
-      
+      {
+         foreach (var interaction in HeldInteractions)
+            Interactions.Add(interaction);
+      }
+
       return Interactions;
    }
 
@@ -46,18 +50,31 @@ public class InteractableObject: MonoBehaviour
    public virtual void InitUniqueObjectVariables()
    {
       if (canPickUp)
+         Interactions.Add(InteractionTypes.Interaction.Pick_Up);
+      if (isConsumable)
+         Interactions.Add(InteractionTypes.Interaction.Eat);
+   }
+
+   public virtual void ExecuteInteraction(int interaction)
+   {
+      switch (interaction)
       {
-         Interactions.Add("Pick Up",Interactions.Count+1);
+         case 0:
+            Examine();
+            break;
+         case 1:
+            break;
+         case 2:
+            break;
       }
    }
-   public virtual void ExecuteInteraction(int interaction) { }
 
    public virtual void Drop()
    {
    }
    public virtual void Examine()
    {
-      Debug.Log(examineDescription);
+      HUDTextBox.Instance.ShowText(examineDescription);
    }
    public virtual void Throw()
    {

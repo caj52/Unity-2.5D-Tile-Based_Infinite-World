@@ -9,7 +9,8 @@ public class Player : MonoBehaviour, InputTarget
     public static Creature creature;
     public static Player Instance;
     private bool inputFrozen;
-    public InventoryObjectType.InventoryObject[] quickAccess = new InventoryObjectType.InventoryObject[4];
+    private bool continuousMouseHold;
+    public InventoryObjectType.InventoryObject[] quickAccess = new InventoryObjectType.InventoryObject[5];
     public void Init()
     {
         UpdateWorldWindowPosition();
@@ -20,23 +21,16 @@ public class Player : MonoBehaviour, InputTarget
         InputManager.Instance.SetInputTarget(this);
         Instance = this;
         
-        InitializeQuickAccessInventory();
         QuickAccessInventory.Instance.UpdateInventoryImages();
     }
-
-    private void InitializeQuickAccessInventory()
-    {
-        for (int x = 0; x < 3; x++)
-            quickAccess[x] = InventoryObjectType.InventoryObject.None;
-        
-        
-        quickAccess[0] = InventoryObjectType.InventoryObject.Apple;
-    }
+    
     public void UpdateWorldWindowPosition()
     {
         OverWorldMesh.Instance.SetWorldWindowPosition(transform.position);
     }
+    
 
+    #region Interactions
     private void OnTriggerEnter(Collider other)
     {
         if (creature.heldObject == InventoryObjectType.InventoryObject.None)
@@ -57,10 +51,19 @@ public class Player : MonoBehaviour, InputTarget
     }
     private void AddInteractionsToPool(InteractableObject interactableObject)
     {
-        var interactions = interactableObject.GetCurrentInteractions();
         var interactionsPool = InteractionsPool.Instance;
-        interactionsPool.AddOptionsToPool(interactions,interactableObject);
+        interactionsPool.SetInteractableObject(interactableObject);
+        interactionsPool.AddOptionsToPool();
     }
+    private void ResetInteractionsSystem()
+    {
+        ToolBarSelectionHand.Instance.Unselect();
+        creature.SetHeldObject(InventoryObjectType.InventoryObject.None);
+        InteractionsPool.Instance.SetInteractionsColliderActive(true);
+        InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+    }
+    #endregion
+    #region InputFunctions
     public virtual void ProcessInput()
     {
         if(inputFrozen)
@@ -72,42 +75,6 @@ public class Player : MonoBehaviour, InputTarget
         HandleKeysInput();
         HandleScrollBar();
         HandleMouseInput();
-    }
-
-    private void HandleMouseInput()
-    {
-        var currentChoice = InteractionPoolMouseSelection.Instance.scrollBarTracker;
-        if (InputActions.lmbDown)
-            if(InteractionsPool.Instance.interactionPool.Count>0)
-                InteractionsPool.Instance.FillOptionExecutionBar(currentChoice);
-        
-    }
-    private void HandleScrollBar()
-    {
-        var scrollIncrement = Mathf.RoundToInt(-InputActions.ScrollWheelDelta.y);
-        InteractionPoolMouseSelection.Instance.IncrementScrollBarTrackerAndUpdatePosition(scrollIncrement);
-    }
-    private void HandleKeysInput()
-    {
-        if (InputActions.shiftDown)
-            Cursor.visible = true;
-        else
-            Cursor.visible = false;
-    }
-    private void HandleNumbersInput()
-    {
-        var numberPressed = InputActions.GetNumberPressed();
-
-        if (numberPressed == 6 || numberPressed == 7 || numberPressed == 8 || numberPressed == 9)
-            ExecuteToolBarInputLogic(numberPressed);
-    }
-    private void HandleRotation()
-    {
-        if (!Cursor.visible)
-        {
-            float rotateHorizontal = Input.GetAxis("Mouse X");
-            transform.RotateAround(transform.position, -Vector3.up, rotateHorizontal * -2f);
-        }
     }
     private void HandleMovement()
     {
@@ -137,9 +104,60 @@ public class Player : MonoBehaviour, InputTarget
         if(moved)
             UpdateWorldWindowPosition();
     }
-    
-    private void ExecuteToolBarInputLogic(int numberPressed)
+    private void HandleRotation()
     {
+        if (!Cursor.visible)
+        {
+            float rotateHorizontal = Input.GetAxis("Mouse X");
+            transform.RotateAround(transform.position, -Vector3.up, rotateHorizontal * -2f);
+        }
+    }
+    private void HandleNumbersInput()
+    {
+        var numberPressed = InputActions.GetNumberPressed();
+
+        if (numberPressed == 6 || numberPressed == 7 || numberPressed == 8 || numberPressed == 9 || numberPressed == 0)
+            ExecuteToolBarInputLogic(numberPressed);
+    }
+
+    private void HandleKeysInput()
+    {
+        if (InputActions.shiftDown)
+            Cursor.visible = true;
+        else
+            Cursor.visible = false;
+    }
+    private void HandleScrollBar()
+    {
+        var scrollIncrement = Mathf.RoundToInt(-InputActions.ScrollWheelDelta.y);
+        
+        if(scrollIncrement!=0)
+            InteractionPoolMouseSelection.Instance.IncrementScrollBarTrackerAndUpdatePosition(scrollIncrement);
+    }
+   
+    private void HandleMouseInput()
+    {
+        var currentChoice = InteractionPoolMouseSelection.Instance.scrollBarTracker;
+        if (InputActions.lmbDown)
+            if(InteractionsPool.Instance.interactionPool.Count>0)
+                if (!Cursor.visible&&!continuousMouseHold)
+                {
+                    if (InteractionsPool.Instance.canExecute)
+                    {
+                        InteractionPoolMouseSelection.Instance.ExecuteCurrentSelection();
+                        continuousMouseHold = true;
+                    }
+                    InteractionsPool.Instance.FillOptionExecutionBar(currentChoice);
+                }
+
+        if (InputActions.lmbReleased)
+            continuousMouseHold = false;
+    }
+    public void ExecuteToolBarInputLogic(int numberPressed)
+    {
+        if (numberPressed == 0)
+            numberPressed = 10;
+        
         if (numberPressed == ToolBarSelectionHand.Instance.currentlySelected)
         {
             ResetInteractionsSystem();
@@ -152,34 +170,29 @@ public class Player : MonoBehaviour, InputTarget
             if (objectAtNumber == InventoryObjectType.InventoryObject.None)
                 return;
             
-            ToolBarSelectionHand.Instance.SetCurrentlySelected(numberPressed);
-
-            ToolBarSelectionHand.Instance.SetPositionFromToolbarNumber(numberPressed);
+            ToolBarSelectionHand.Instance.Select(numberPressed);
             
             InteractionsPool.Instance.SetInteractionsColliderActive(false);
             creature.SetHeldObject(objectAtNumber);
-
-            var heldObject = new InteractableObject();
-            InventoryObjectType.InventoryObjectInteractions.TryGetValue(objectAtNumber, out var interactions);
-            InventoryObjectType.objectNameStrings.TryGetValue(objectAtNumber, out var objectName);
-
-            heldObject.name = objectName;
-            heldObject.Interactions = interactions;
+            
+             var interactableObject = InventoryObjectType.GetInteractableObjectFromInventoryObject(objectAtNumber);
+             
             InteractionsPool.Instance.ClearAndUpdateInteractionPool();
 
-            AddInteractionsToPool(heldObject);
+            AddInteractionsToPool(interactableObject);
         }
     }
 
-    private void ResetInteractionsSystem()
+    public void UpdateNeedsIcons()
     {
-        ToolBarSelectionHand.Instance.Unselect();
-        creature.SetHeldObject(InventoryObjectType.InventoryObject.None);
-        InteractionsPool.Instance.SetInteractionsColliderActive(true);
-        InteractionsPool.Instance.ClearAndUpdateInteractionPool();
+        creature.needsValue.TryGetValue(NeedsTypes.Need.Hunger, out var currentHunger);
+        HungerIcon.Instance.UpdateHungerIcon(currentHunger);
     }
     public void SetFreezeInput(bool state)
     {
         inputFrozen = state;
     }
+    #endregion
+    
+
 }

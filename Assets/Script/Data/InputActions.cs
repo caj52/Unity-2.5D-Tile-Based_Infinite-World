@@ -2,6 +2,10 @@ using UnityEngine;
 
 public static class InputActions
 {
+    public static bool anyKey
+    {
+        get => Input.anyKey;
+    }
     public static bool anyNumDown
     {
         get => (nineDown||eightDown||sevenDown||sixDown||fiveDown||fourDown||threeDown||twoDown||oneDown||zeroDown);
@@ -21,6 +25,18 @@ public static class InputActions
     public static bool lmbDown
     {
         get => Input.GetMouseButton(0);
+    }
+    public static bool lmbPressed
+    {
+        get => Input.GetMouseButtonDown(0);
+    }
+    public static bool lmbReleased
+    {
+        get => Input.GetMouseButtonUp(0);
+    }
+    public static bool rmbDown
+    {
+        get => Input.GetMouseButton(1);
     }
     public static bool nineDown
     {

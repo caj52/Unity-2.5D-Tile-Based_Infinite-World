@@ -13,6 +13,7 @@ public enum StatType
 
 public static class StatsUtility
 {
+    public static int maxStatValue = 20;
     public static Dictionary<StatType,int> GetDefaultStats()
     {
 
@@ -33,40 +34,55 @@ public static class StatsUtility
     }
     public static int GetTotalHealth(Dictionary<StatType,int> stats)
     {
-        var fortitude = GetStat(stats, StatType.Fortitude);
-        var might = GetStat(stats, StatType.Might);
-        var endurance = GetStat(stats, StatType.Endurance);
+        float fortitude = GetStat(stats, StatType.Fortitude);
+        float might = GetStat(stats, StatType.Might);
+        float endurance = GetStat(stats, StatType.Endurance);
 
         return Mathf.RoundToInt(((fortitude * 2) + endurance+(might/2))/2);
     }
     public static int GetSpeed(Dictionary<StatType,int> stats)
     {
-        var reflex = GetStat(stats, StatType.Reflex);
-        var might = GetStat(stats, StatType.Might);
+        float reflex = GetStat(stats, StatType.Reflex);
+        float might = GetStat(stats, StatType.Might);
 
         return Mathf.RoundToInt(((reflex * 2) + (might/2))/2);
     }
-    public static int CalculateDamageMitigated(Dictionary<StatType,int> stats, int damage)
+    public static int CalculateDamageMitigated(Dictionary<StatType,int> stats, float damage)
     {
         float randomFloat = ((float)Random.Range(0, 60) / 100);
         
-        var fortitude = randomFloat * ((damage/GetStat(stats, StatType.Fortitude))/2);
-        var endurance = randomFloat * ((damage/GetStat(stats, StatType.Endurance))/2);
-        var might = randomFloat * ((damage/GetStat(stats, StatType.Might))/2);
-        var reflex = randomFloat * ((damage/GetStat(stats, StatType.Reflex))/2);
+        float fortitude = randomFloat * ((damage/GetStat(stats, StatType.Fortitude))/2);
+        float endurance = randomFloat * ((damage/GetStat(stats, StatType.Endurance))/2);
+        float might = randomFloat * ((damage/GetStat(stats, StatType.Might))/2);
+        float reflex = randomFloat * ((damage/GetStat(stats, StatType.Reflex))/2);
 
-        var damageMitigated = fortitude + endurance + might + reflex;
+        float damageMitigated = fortitude + endurance + might + reflex;
         
         if (damage - damageMitigated < 0)
             return 0;
         
         return Mathf.RoundToInt(damage - damageMitigated);
     }
-
-    public static Vector3 CalculateKnockbackVelocity(Dictionary<StatType,int> stats,Creature creature ,int knockBackStrength)
+    public static Dictionary<NeedsTypes.Need, int> GetNeedsDepreciation(Dictionary<StatType,int> stats)
     {
+        Dictionary<NeedsTypes.Need,int> newValues = new Dictionary<NeedsTypes.Need,int>();
+        
+        stats.TryGetValue(StatType.Endurance, out var endurance);
+        int hungerDepreciation = Mathf.Abs(endurance - maxStatValue) / 2;
+        
+        stats.TryGetValue(StatType.Will, out var will);
+        int sleepDepreciation = Mathf.Abs(  ( (endurance+will) /2 ) - maxStatValue) / 2;
+        
+        newValues.Add(NeedsTypes.Need.Hunger,hungerDepreciation);
+        newValues.Add(NeedsTypes.Need.Sleep,sleepDepreciation);
+
+        return newValues;
+    }
+    public static Vector3 CalculateKnockbackVelocity(Dictionary<StatType,int> stats,Creature creature ,float knockBackStrength)
+    {
+        var creatureTransform = creature.transform;
         var might = GetStat(stats, StatType.Might);
-        var direction = -creature.transform.forward+(creature.transform.up/might);
+        var direction = -creatureTransform.forward+(creatureTransform.up/might);
         direction *= (knockBackStrength/6);
         return direction;
     }

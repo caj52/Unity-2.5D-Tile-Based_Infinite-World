@@ -26,11 +26,12 @@ public class Creature : MonoBehaviour
         {NeedsTypes.Need.Hunger,1},
         {NeedsTypes.Need.Sleep,1}
     };
+    
 
     private void Update()
     {
         if (!inUpdateMethod)
-            StartCoroutine(CheckForNeedsDepreciation());
+            StartCoroutine(DeppreciateNeeds());
     }
 
     public void Init()
@@ -41,6 +42,7 @@ public class Creature : MonoBehaviour
         
         SetTotalHealth();
         SetSpeed();
+        SetNeedsDepreciation();
         SetHeldObject(InventoryObjectType.InventoryObject.None);
     }
 
@@ -65,9 +67,13 @@ public class Creature : MonoBehaviour
         speed = StatsUtility.GetSpeed(stats);
     }
 
-    public void SetHeldObject(InventoryObjectType.InventoryObject newObejct)
+    private void SetNeedsDepreciation()
     {
-        heldObject = newObejct;
+        needsDepreciation = StatsUtility.GetNeedsDepreciation(stats);
+    }
+    public void SetHeldObject(InventoryObjectType.InventoryObject newObject)
+    {
+        heldObject = newObject;
     }
     public IEnumerator TakeDamage(int totalDamage)
     {
@@ -111,11 +117,11 @@ public class Creature : MonoBehaviour
         currentHealth += amountToAdd;
     }
 
-    private IEnumerator CheckForNeedsDepreciation()
+    private IEnumerator DeppreciateNeeds()
     {
         inUpdateMethod = true;
 
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(30);
         
         var newNeeds = new Dictionary<NeedsTypes.Need, int>();
         foreach (var entry in needsValue)
@@ -124,8 +130,17 @@ public class Creature : MonoBehaviour
             var newValue = entry.Value - depreciationValue;
             newNeeds.Add(entry.Key,newValue);
         }
-
+        
         needsValue = newNeeds;
+
+        if (TryGetComponent<Player>(out var player))
+            player.UpdateNeedsIcons();
+        
         inUpdateMethod = false;
+    }
+
+    public void Eat(InteractableObject consumable)
+    {
+        
     }
 }

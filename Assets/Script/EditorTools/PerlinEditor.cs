@@ -7,7 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using Debug = UnityEngine.Debug;
-
+#if UNITY_EDITOR
 public class PerlinEditor : EditorWindow
 { 
     private static PerlinEditor editorWindow;
@@ -337,3 +337,4 @@ public class PerlinEditor : EditorWindow
     }
     
 }
+#endif

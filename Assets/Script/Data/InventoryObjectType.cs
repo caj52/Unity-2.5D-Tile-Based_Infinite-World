@@ -20,21 +20,31 @@ public class InventoryObjectType : MonoBehaviour
     {InventoryObject.None, "None"},
     {InventoryObject.Apple, "Apple"}
   };
-
-  public static Dictionary<InventoryObject, Dictionary<string, int>> InventoryObjectInteractions =
-    new Dictionary<InventoryObject, Dictionary<string, int>>()
-    {
-      /*Object/ReferenceCombos*/
-      {
-        InventoryObject.Apple, new Dictionary<string, int>()
-        {
-          /*Interactions*/ {"Examine", 0}, {"Eat", 1}, {"Throw", 2} /*End Interactions*/
-        }
-      }
-      /*Object/ReferenceCombos End*/
-    };
-
-
+  public static Dictionary<InventoryObject, string> examineDescriptions= new Dictionary<InventoryObject, string>()
+  {
+    {InventoryObject.None, "You shouldn't be reading this"},
+    {InventoryObject.Apple, "Its an Apple! Red, Juicy and Delicious"}
+  };
+  public static Dictionary<InventoryObject, bool> consumableTypes= new Dictionary<InventoryObject, bool>()
+  {
+    {InventoryObject.None, false},
+    {InventoryObject.Apple, true}
+  };
+  public static InteractableObject GetInteractableObjectFromInventoryObject(InventoryObject inventoryObject)
+  {
+    var newObject = new InteractableObject();
+    objectNameStrings.TryGetValue(inventoryObject, out var objectName);
+    examineDescriptions.TryGetValue(inventoryObject, out var objectDescription);
+    consumableTypes.TryGetValue(inventoryObject, out var _isConsumable);
+    newObject.name = objectName;
+    newObject.isConsumable = _isConsumable;
+    newObject.beingHeld = true;
+    newObject.examineDescription = objectDescription;
+    
+    newObject.InitUniqueObjectVariables();
+    
+    return newObject;
+  }
 public static string[] ParseGetBaseReferenceAndIndexNumber(string URLReference)
   {
     var lastIndex = URLReference.LastIndexOf("_");

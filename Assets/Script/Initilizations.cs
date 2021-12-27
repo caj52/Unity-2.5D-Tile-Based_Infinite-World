@@ -13,6 +13,8 @@ public class Initilizations : MonoBehaviour
     public QuickAccessInventory quickAccessInventory;
     public ToolBarSelectionHand toolBarSelectionHand;
     public InteractionPoolMouseSelection interactionPoolMouseSelection;
+    public HUDTextBox hudDialogueBox;
+    public HungerIcon hungerIcon;
     public void Start()
     {
         Init();
@@ -34,5 +36,7 @@ public class Initilizations : MonoBehaviour
         interactionsPool.Init();
         toolBarSelectionHand.Init();
         interactionPoolMouseSelection.Init();
+        hudDialogueBox.Init();
+        hungerIcon.Init();
     }
 }

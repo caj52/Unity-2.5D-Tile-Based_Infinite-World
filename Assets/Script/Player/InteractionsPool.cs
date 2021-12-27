@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,14 +13,16 @@ public class InteractionsPool : MonoBehaviour
     public GameObject interactionsPoolTextObject;
     public GameObject executionBar;
     public GameObject executionBars;
-    public GameObject mouseSelectionBar;
     public RectMask2D interactionsPoolMask;
     private Text interactionsPoolText;
     private Text interactionsPoolTitle;
     private bool inCoroutine;
     private BoxCollider _boxCollider;
+    public bool canExecute { get; private set; }
+    public InteractableObject interactableObject { get; private set; }
     public GameObject interactionsPoolObjectName;
-    [HideInInspector]public Dictionary<string,int> interactionPool = new Dictionary<string, int>();
+    public GameObject areaRect;
+    [HideInInspector]public List<InteractionTypes.Interaction> interactionPool = new List<InteractionTypes.Interaction>();
     [HideInInspector]public List<InteractableObject> interactionPoolObjectReferences;
 
     public void Init()
@@ -31,17 +34,19 @@ public class InteractionsPool : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        UpdateInteractionsPool();
         if(!inCoroutine) 
             StartCoroutine(CheckUnHeldExecutionBars());
     }
-    public void AddOptionsToPool(Dictionary<string,int> interactionsToAdd, InteractableObject objectReference)
+    public void AddOptionsToPool()
     {
+        var interactionsToAdd = interactableObject.GetCurrentInteractions();
+        var objectReference = interactableObject;
+        
         var counter = 0;
-        foreach (var keyValuePair in interactionsToAdd)
+        foreach (var interaction in interactionsToAdd)
         {
             
-            interactionPool.Add(keyValuePair.Key, keyValuePair.Value);
+            interactionPool.Add(interaction);
             
             interactionPoolObjectReferences.Add(objectReference);
             
@@ -49,30 +54,33 @@ public class InteractionsPool : MonoBehaviour
             newBar.transform.parent = executionBars.transform;
             counter++;
         } 
+        UpdateInteractionsPool();
     }
     public void RemoveOptionsFromPool(InteractableObject objectToRemove)
     {
         int counter=0;
-        string[] keysToRemove = new string[interactionPool.Count];
-        foreach (var keyValuePair in interactionPool)
+        InteractionTypes.Interaction[] interactionsToRemove = new InteractionTypes.Interaction[interactionPool.Count];
+        foreach (var interaction in interactionPool)
         {
             if (interactionPoolObjectReferences[counter] == objectToRemove)
-                keysToRemove[counter] = keyValuePair.Key;
+                interactionsToRemove[counter] = interaction;
             counter++;
         }
 
-        for (int x =0, objectIndex =0; x < keysToRemove.Length ;x++)
+        for (int x =0, objectIndex =0; x < interactionsToRemove.Length ;x++)
         {
-            if(keysToRemove[x] == null)
-                continue;
             interactionPoolObjectReferences.RemoveAt(x + objectIndex);
-            interactionPool.Remove(keysToRemove[x]);
+            interactionPool.Remove(interactionsToRemove[x]);
             objectIndex -= 1;
         }
-
+        UpdateInteractionsPool();
         UpdateExecutionBars();
     }
 
+    public void SetInteractableObject(InteractableObject _interactableObject)
+    {
+        interactableObject = _interactableObject;
+    }
     public void ClearAndUpdateInteractionPool()
     {
         interactionPool.Clear();
@@ -128,12 +136,28 @@ public class InteractionsPool : MonoBehaviour
         var newBar = executionBars.transform.GetChild(option).GetChild(1);
         var barImage = newBar.GetComponent<Image>();
         barImage.fillAmount -=.01f;
+        canExecute = false;
     }
     public void FillOptionExecutionBar(int option)
     {
+        var interaction = interactableObject.Interactions[option];
+
+        InteractionTypes.executionSpeeds.TryGetValue(interaction, out var interactionSpeed);
+        
         var newBar = executionBars.transform.GetChild(option).GetChild(1);
         var barImage = newBar.GetComponent<Image>();
-        barImage.fillAmount +=.01f;
+        
+        if (barImage.fillAmount > .99f)
+            canExecute = true;
+        
+        barImage.fillAmount +=(.01f*interactionSpeed);
+    }
+    public void ResetOptionExecutionBar(int option)
+    {
+        var newBar = executionBars.transform.GetChild(option).GetChild(1);
+        var barImage = newBar.GetComponent<Image>();
+        barImage.fillAmount =0;
+        canExecute = false;
     }
     private void UpdateInteractionsPool()
     {
@@ -144,15 +168,16 @@ public class InteractionsPool : MonoBehaviour
         if (interactionPoolObjectReferences.Count>=1)
             interactionObjectName = interactionPoolObjectReferences[0].name;
         
-        foreach (var keyValuePair in interactionPool)
+        foreach (var interaction in interactionPool)
         {
-            var thisOption = keyValuePair.Key;
+            var thisOption = interaction;
             interactionsString +=  $"\n{thisOption}";
             interactionCount++;
         }
 
         UpdateInteractionsPoolBottom();
         UpdateInteractionsPoolMask();
+        UpdateAreaRect();
         UpdateExecutionBars();
         interactionsPoolText.text = interactionsString;
         interactionsPoolTitle.text = interactionObjectName;
@@ -180,6 +205,17 @@ public class InteractionsPool : MonoBehaviour
 
     }
 
+    public void SetCanExecute(bool state)
+    {
+        canExecute = state;
+    }
+    private void UpdateAreaRect()
+    {
+        var newBottom = ((interactionPool.Count + 1) * -30);
+        var newRect = areaRect.GetComponent<RectTransform>().rect;
+        newRect.yMin = newBottom;
+        areaRect.GetComponent<RectTransform>().rect.Set(newRect.x,newRect.y,newRect.width,newRect.height);
+    }
     public void SetInteractionsColliderActive(bool state)
     {
         _boxCollider.enabled = state;

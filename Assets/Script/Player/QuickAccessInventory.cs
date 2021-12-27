@@ -7,15 +7,15 @@ using UnityEngine.UI;
 public class QuickAccessInventory : MonoBehaviour
 {
     public static QuickAccessInventory Instance;
-    private GameObject[] objectImages = new GameObject[4];
+    private GameObject[] objectImages = new GameObject[5];
 
-    public void Init()
+public void Init()
     {
         Instance = this;
     }
     public void UpdateInventoryImages()
     {
-        for (int x =0;x<4;x++)
+        for (int x =0;x<5;x++)
         {
             var parentObject = transform.GetChild(x);
             var lastIndex = parentObject.childCount;
