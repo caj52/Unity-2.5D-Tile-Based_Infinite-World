@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7289652300960628035}
   - component: {fileID: -5523968866988387698}
   m_Layer: 0
-  m_Name: pine_2
+  m_Name: fir_tree_36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9091343045805366422}
-  m_Mesh: {fileID: 872130618353899444, guid: 5df346de9508df64a92392129a5282a5, type: 3}
+  m_Mesh: {fileID: -1652014107081757404, guid: bee2f422bc0626f47a67869fa790bc1a, type: 3}
 --- !u!23 &7289652300960628035
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -56,10 +56,11 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ef2cde9210185db4fbf65c0aa839fee7, type: 2}
+  - {fileID: 2100000, guid: 2dc20adebbe11144e8c789876e0daeef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -80,6 +81,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &-5523968866988387698
 BoxCollider:
   m_ObjectHideFlags: 0

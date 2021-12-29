@@ -92,13 +92,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 185300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98d3835c93401264f8ed5dbca93a5c0f, type: 3}
+  m_Script: {fileID: 11500000, guid: e3b104e4505e1ac4d8873236f8d37d67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   name: Rock
   beingHeld: 0
-  examineDescription: It's a rock...
+  examineDescription: ...It's a Rock
   canPickUp: 1
+  isConsumable: 0
+  Interactions: 00000000
+  HeldInteractions: 0100000002000000
 --- !u!65 &7360629589288988838
 BoxCollider:
   m_ObjectHideFlags: 0
