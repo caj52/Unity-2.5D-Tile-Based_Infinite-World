@@ -40,7 +40,7 @@ An **Input Field** is a way to make the text of a [Text Control](script-Text.md)
 | |**Multi Line Submit** |Allows text to use multiple lines. Only uses a new line when needed.|
 | |**Multi Line Newline** |Allows text to use multiple lines. User can use a newline by pressing the return key.|
 
-|****Placeholder**** ||This is an optional ‘empty’ [Graphic](../api/UnityEngine.UI.Graphic.html.md) to show that  the _*Input Field*_ is empty of text. Note that this ‘empty' graphic still displays even when the _*Input Field*_ is selected (that is; when there is focus on it). eg; "Enter text...".|
+|****Placeholder**** ||This is an optional ‘empty’ [Graphic](xref:UnityEngine.UI.Graphic) to show that  the _*Input Field*_ is empty of text. Note that this ‘empty' graphic still displays even when the _*Input Field*_ is selected (that is; when there is focus on it). eg; "Enter text...".|
 
 |****Caret Blink Rate**** ||Defines the blink rate for the mark placed on the line to indicate a proposed insertion of text.|
 
@@ -53,8 +53,8 @@ An **Input Field** is a way to make the text of a [Text Control](script-Text.md)
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Change** | A [UnityEvent](UnityEvents.md) that is invoked when the text content of the Input Field changes. The event can send the current text content as a `string` type dynamic argument. |
-|**End Edit** | A [UnityEvent](UnityEvents.md) that is invoked when the user finishes editing the text content either by submitting or by clicking somewhere that removes the focus from the Input Field. The event can send the current text content as a `string` type dynamic argument. |
+|**On Value Change** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the text content of the Input Field changes. The event can send the current text content as a `string` type dynamic argument. |
+|**End Edit** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the user finishes editing the text content either by submitting or by clicking somewhere that removes the focus from the Input Field. The event can send the current text content as a `string` type dynamic argument. |
 
 
 ## Details

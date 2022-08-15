@@ -242,6 +242,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// //Attach this script to an Image GameObject and set its Source Image to the Sprite you would like.
         /// //Press the space key to change the Sprite. Remember to assign a second Sprite in this script's section of the Inspector.
         ///
@@ -269,7 +270,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
 
         public Sprite sprite
@@ -334,6 +336,7 @@ namespace UnityEngine.UI
         /// the example code.  /Example1/ and /Example2/ are functions called by the button OnClick
         /// functions.  Example1 calls overrideSprite and Example2 sets overrideSprite to null.
         /// <code>
+        /// <![CDATA[
         /// using System.Collections;
         /// using System.Collections.Generic;
         /// using UnityEngine;
@@ -368,7 +371,8 @@ namespace UnityEngine.UI
         ///         i.overrideSprite = null;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public Sprite overrideSprite
         {
@@ -417,6 +421,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;
@@ -431,7 +436,8 @@ namespace UnityEngine.UI
         ///         xmasCalenderDoor.fillCenter = false;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public bool fillCenter { get { return m_FillCenter; } set { if (SetPropertyUtility.SetStruct(ref m_FillCenter, value)) SetVerticesDirty(); } }
 
@@ -452,6 +458,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -472,7 +479,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public float fillAmount { get { return m_FillAmount; } set { if (SetPropertyUtility.SetStruct(ref m_FillAmount, Mathf.Clamp01(value))) SetVerticesDirty(); } }
 
@@ -487,6 +495,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -509,7 +518,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public bool fillClockwise { get { return m_FillClockwise; } set { if (SetPropertyUtility.SetStruct(ref m_FillClockwise, value)) SetVerticesDirty(); } }
 
@@ -525,6 +535,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using UnityEngine.UI;
         /// using System.Collections;
@@ -560,7 +571,8 @@ namespace UnityEngine.UI
         ///         Debug.Log(string.Format("{0} is using {1} fill method with the origin on {2}", name, image.fillMethod, fillOriginName));
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public int fillOrigin { get { return m_FillOrigin; } set { if (SetPropertyUtility.SetStruct(ref m_FillOrigin, value)) SetVerticesDirty(); } }
 
@@ -588,6 +600,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -602,7 +615,8 @@ namespace UnityEngine.UI
         ///         theButton.alphaHitTestMinimumThreshold = 0.5f;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public float alphaHitTestMinimumThreshold { get { return m_AlphaHitTestMinimumThreshold; } set { m_AlphaHitTestMinimumThreshold = value; } }
 

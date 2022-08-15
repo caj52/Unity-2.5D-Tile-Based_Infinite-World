@@ -1,6 +1,6 @@
 # Raw Image
 
-The **Raw Image** control displays a non-interactive image to the user. You can use this for purposes such as decorations or icons, and you can change the image from a script to reflect changes in other controls. The control is similar to the [Image](script-Image.md) control, but offers more options for animating the image and accurately filling the control rectangle. However, the Image control requires its Texture to be a [Sprite](class-TextureImporter.md), while the Raw Image can accept any Texture.
+The **Raw Image** control displays a non-interactive image to the user. You can use this for purposes such as decorations or icons, and you can change the image from a script to reflect changes in other controls. The control is similar to the [Image](script-Image.md) control, but offers more options for animating the image and accurately filling the control rectangle. However, the Image control requires its Texture to be a [Sprite](https://docs.unity3d.com/Manual/class-TextureImporter.html), while the Raw Image can accept any Texture.
 
 ![A Raw Image control](images/RawImageCtrlExample.png)
 
@@ -12,7 +12,7 @@ The **Raw Image** control displays a non-interactive image to the user. You can 
 |:---|:---|
 |**Texture** |The texture that represents the image to display.|
 |**Color** |The color to apply to the image. |
-|**Material** | The [Material](class-Material.md) to use for rendering the image. |
+|**Material** | The [Material](https://docs.unity3d.com/Manual/class-Material.html) to use for rendering the image. |
 |**Raycast Target** | Enable **Raycast Target** if you want Unity to consider the image a target for raycasting. |
 |**UV Rectangle** |The image's offset and size within the control rectangle, given in normalized coordinates (range 0.0 to 1.0). The edges of the image are stretched to fill the space around the UV rectangle. |
 

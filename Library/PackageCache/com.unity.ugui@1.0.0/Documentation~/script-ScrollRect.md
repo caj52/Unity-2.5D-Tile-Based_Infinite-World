@@ -33,7 +33,7 @@ Usually a Scroll Rect is combined with a [Mask](script-Mask.md) in order to crea
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Changed** | A [UnityEvent](UnityEvents.md) that is invoked when the scroll position of the Scroll Rect changes. The event can send the current scroll position as a `Vector2` type dynamic argument. |
+|**On Value Changed** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the scroll position of the Scroll Rect changes. The event can send the current scroll position as a `Vector2` type dynamic argument. |
 
 
 ## Details

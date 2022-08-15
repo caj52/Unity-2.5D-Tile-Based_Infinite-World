@@ -118,13 +118,13 @@ namespace UnityEngine.UI
 
             newEnt.customMat.name = string.Format("Stencil Id:{0}, Op:{1}, Comp:{2}, WriteMask:{3}, ReadMask:{4}, ColorMask:{5} AlphaClip:{6} ({7})", stencilID, operation, compareFunction, writeMask, readMask, colorWriteMask, newEnt.useAlphaClip, baseMat.name);
 
-            newEnt.customMat.SetInt("_Stencil", stencilID);
-            newEnt.customMat.SetInt("_StencilOp", (int)operation);
-            newEnt.customMat.SetInt("_StencilComp", (int)compareFunction);
-            newEnt.customMat.SetInt("_StencilReadMask", readMask);
-            newEnt.customMat.SetInt("_StencilWriteMask", writeMask);
-            newEnt.customMat.SetInt("_ColorMask", (int)colorWriteMask);
-            newEnt.customMat.SetInt("_UseUIAlphaClip", newEnt.useAlphaClip ? 1 : 0);
+            newEnt.customMat.SetFloat("_Stencil", (float)stencilID);
+            newEnt.customMat.SetFloat("_StencilOp", (float)operation);
+            newEnt.customMat.SetFloat("_StencilComp", (float)compareFunction);
+            newEnt.customMat.SetFloat("_StencilReadMask", (float)readMask);
+            newEnt.customMat.SetFloat("_StencilWriteMask", (float)writeMask);
+            newEnt.customMat.SetFloat("_ColorMask", (float)colorWriteMask);
+            newEnt.customMat.SetFloat("_UseUIAlphaClip", newEnt.useAlphaClip ? 1.0f : 0.0f);
 
             if (newEnt.useAlphaClip)
                 newEnt.customMat.EnableKeyword("UNITY_UI_ALPHACLIP");

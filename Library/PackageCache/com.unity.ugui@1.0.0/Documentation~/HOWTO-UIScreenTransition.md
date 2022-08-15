@@ -4,7 +4,7 @@ The need to transition between multiple UI screens is fairly common. In this pag
 
 ## Overview
 
-The high-level idea is that each of our screens will have an [Animator Controller](class-AnimatorController.md) with two [states](class-State.md) (Open and Closed) and a boolean [Parameter](AnimationParameters.md) (Open). To transition between screens you will only need to close the currently open Screen and open the desired one. To make this process easier we will create a small Class ScreenManager that will keep track and take care of closing any already open Screen for us. The button that triggers the transition will only have to ask the ScreenManager to open the desired screen.
+The high-level idea is that each of our screens will have an [Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html) with two [states](https://docs.unity3d.com/Manual/class-State.html) (Open and Closed) and a boolean [Parameter](https://docs.unity3d.com/Manual/AnimationParameters.html) (Open). To transition between screens you will only need to close the currently open Screen and open the desired one. To make this process easier we will create a small Class ScreenManager that will keep track and take care of closing any already open Screen for us. The button that triggers the transition will only have to ask the ScreenManager to open the desired screen.
 
 ### Thinking about Navigation
 
@@ -18,7 +18,7 @@ Let's take a look at the most common and minimal setup for the Animation Control
 
 ![The Closed state and animation](images/UI_ScreenTransitionAnimatorClosed.png)
 
-Now we need to create the [transition](class-Transition.md) between both states, let's start with the transition from Open to Closed and let's set the condition properly, we want to go from Open to Closed when the parameter Open is set to false. Now we create the transition from Closed to Open and set the condition to go from Closed to Open when the parameter Open is true.
+Now we need to create the [transition](https://docs.unity3d.com/Manual/class-Transition.html) between both states, let's start with the transition from Open to Closed and let's set the condition properly, we want to go from Open to Closed when the parameter Open is set to false. Now we create the transition from Closed to Open and set the condition to go from Closed to Open when the parameter Open is true.
 
 ![The Transition from Closed to Open](images/UI_ScreenTransitionAnimatorTransitionToOpen.png)
 

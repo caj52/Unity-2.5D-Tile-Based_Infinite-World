@@ -1,6 +1,6 @@
 # Touch Input Module
 
-**Note: TouchInputModule is obsolete. Touch input is now handled in [StandaloneInputModule](script-StandaloneInputModule).**
+**Note: TouchInputModule is obsolete. Touch input is now handled in [StandaloneInputModule](script-StandaloneInputModule.md).**
 
 This module is designed to work with touch devices. It sends pointer events for touching and dragging in response to user input. The module supports multitouch.
 

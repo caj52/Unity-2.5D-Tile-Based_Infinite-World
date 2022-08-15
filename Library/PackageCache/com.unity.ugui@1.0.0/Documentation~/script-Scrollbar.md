@@ -24,7 +24,7 @@ The **Scrollbar** control allows the user to scroll an image or other view that 
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Changed** | A [UnityEvent](UnityEvents.md) that is invoked when the current value of the Scrollbar changes. The event can send the value as a `float` type dynamic argument. |
+|**On Value Changed** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the current value of the Scrollbar changes. The event can send the value as a `float` type dynamic argument. |
 
 
 ## Details

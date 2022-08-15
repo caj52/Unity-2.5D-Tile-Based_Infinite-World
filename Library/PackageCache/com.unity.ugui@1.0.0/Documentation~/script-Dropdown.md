@@ -29,7 +29,7 @@ The control shows the currently chosen option. Once clicked, it opens up the lis
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Changed** | A [UnityEvent](UnityEvents.md) that is invoked when a user has clicked one of the options in the dropdown list. |
+|**On Value Changed** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when a user has clicked one of the options in the dropdown list. |
 
 
 ## Details

@@ -22,11 +22,8 @@ namespace UnityEditor.Events
 
             public Styles()
             {
-                Color fontColor = new Color(0.7f, 0.7f, 0.7f);
                 labelStyle.padding.right += 4;
-                labelStyle.normal.textColor = fontColor;
                 headerStyle.padding.right += 4;
-                headerStyle.normal.textColor = fontColor;
             }
         }
 

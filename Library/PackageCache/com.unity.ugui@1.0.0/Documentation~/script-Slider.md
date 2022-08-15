@@ -25,7 +25,7 @@ The **Slider** control allows the user to select a numeric value from a predeter
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Changed** | A [UnityEvent](UnityEvents.md) that is invoked when the current value of the Slider has changed. The event can send the current value as a `float` type dynamic argument. The value is passed as a float type regardless of whether the _Whole Numbers_ property is enabled. |
+|**On Value Changed** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the current value of the Slider has changed. The event can send the current value as a `float` type dynamic argument. The value is passed as a float type regardless of whether the _Whole Numbers_ property is enabled. |
 
 
 ## Details

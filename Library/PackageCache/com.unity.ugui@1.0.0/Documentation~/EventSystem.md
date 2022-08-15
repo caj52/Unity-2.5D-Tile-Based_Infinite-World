@@ -34,4 +34,4 @@ There are 3 provided Raycasters that exist by default:
 - [Physics 2D Raycaster](script-Physics2DRaycaster.md) - Used for 2D physics elements
 - [Physics Raycaster](script-PhysicsRaycaster.md) - Used for 3D physics elements
 
-If you have a 2d / 3d Raycaster configured in your Scene, it is easy to make non-UI elements receive messages from the Input Module. Simply attach a script that implements one of the event interfaces. For examples of this, see the [IPointerEnterHandler](../api/UnityEngine.EventSystems.IPointerEnterHandler.html) and [IPointerClickHandler](../api/UnityEngine.EventSystems.IPointerClickHandler.html) Scripting Reference pages.
+If you have a 2d / 3d Raycaster configured in your Scene, it is easy to make non-UI elements receive messages from the Input Module. Simply attach a script that implements one of the event interfaces. For examples of this, see the [IPointerEnterHandler](xref:UnityEngine.EventSystems.IPointerEnterHandler) and [IPointerClickHandler](xref:UnityEngine.EventSystems.IPointerClickHandler) Scripting Reference pages.

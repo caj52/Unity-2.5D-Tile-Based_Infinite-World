@@ -101,6 +101,13 @@ namespace UnityEngine.EventSystems
                 pointerData.pointerCurrentRaycast = raycast;
                 m_RaycastResultCache.Clear();
             }
+
+            pointerData.pressure = input.pressure;
+            pointerData.altitudeAngle = input.altitudeAngle;
+            pointerData.azimuthAngle = input.azimuthAngle;
+            pointerData.radius = Vector2.one * input.radius;
+            pointerData.radiusVariance = Vector2.one * input.radiusVariance;
+
             return pointerData;
         }
 
@@ -114,6 +121,14 @@ namespace UnityEngine.EventSystems
             @to.scrollDelta = @from.scrollDelta;
             @to.pointerCurrentRaycast = @from.pointerCurrentRaycast;
             @to.pointerEnter = @from.pointerEnter;
+
+            @to.pressure = @from.pressure;
+            @to.tangentialPressure = @from.tangentialPressure;
+            @to.altitudeAngle = @from.altitudeAngle;
+            @to.azimuthAngle = @from.azimuthAngle;
+            @to.twist = @from.twist;
+            @to.radius = @from.radius;
+            @to.radiusVariance = @from.radiusVariance;
         }
 
         /// <summary>

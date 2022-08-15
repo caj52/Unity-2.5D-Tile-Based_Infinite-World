@@ -22,6 +22,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -48,7 +49,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public enum MovementType
         {
@@ -106,6 +108,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -122,7 +125,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.content = scrollableContent;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public RectTransform content { get { return m_Content; } set { m_Content = value; } }
 
@@ -134,6 +138,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -151,7 +156,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public bool horizontal { get { return m_Horizontal; } set { m_Horizontal = value; } }
 
@@ -163,6 +169,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -180,7 +187,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public bool vertical { get { return m_Vertical; } set { m_Vertical = value; } }
 
@@ -200,6 +208,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;
@@ -215,7 +224,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.elasticity = 3.0f;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public float elasticity { get { return m_Elasticity; } set { m_Elasticity = value; } }
 
@@ -241,6 +251,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI; // Required when Using UI elements.
@@ -256,7 +267,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.decelerationRate = 5.0f;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public float decelerationRate { get { return m_DecelerationRate; } set { m_DecelerationRate = value; } }
 
@@ -287,6 +299,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -302,7 +315,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.horizontalScrollbar = newScrollBar;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public Scrollbar horizontalScrollbar
         {
@@ -329,6 +343,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -344,7 +359,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.verticalScrollbar = newScrollBar;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public Scrollbar verticalScrollbar
         {
@@ -416,6 +432,7 @@ namespace UnityEngine.UI
         /// </remarks>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using UnityEngine.UI;
         ///
@@ -434,7 +451,8 @@ namespace UnityEngine.UI
         ///         Debug.Log("ListenerMethod: " + value);
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public ScrollRectEvent onValueChanged { get { return m_OnValueChanged; } set { m_OnValueChanged = value; } }
 
@@ -586,6 +604,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -603,7 +622,8 @@ namespace UnityEngine.UI
         ///         }
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public override bool IsActive()
         {
@@ -673,6 +693,7 @@ namespace UnityEngine.UI
         /// </summary>
         ///<example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.EventSystems; // Required when using event data
@@ -685,7 +706,8 @@ namespace UnityEngine.UI
         ///         Debug.Log("They started dragging " + this.name);
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public virtual void OnBeginDrag(PointerEventData eventData)
         {
@@ -708,6 +730,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.EventSystems; // Required when using event data
@@ -720,7 +743,8 @@ namespace UnityEngine.UI
         ///         Debug.Log("Stopped dragging " + this.name + "!");
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public virtual void OnEndDrag(PointerEventData eventData)
         {
@@ -735,6 +759,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.EventSystems; // Required when using event data
@@ -747,7 +772,8 @@ namespace UnityEngine.UI
         ///         Debug.Log("Currently dragging " + this.name);
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public virtual void OnDrag(PointerEventData eventData)
         {
@@ -809,51 +835,54 @@ namespace UnityEngine.UI
             UpdateBounds();
             float deltaTime = Time.unscaledDeltaTime;
             Vector2 offset = CalculateOffset(Vector2.zero);
-            if (!m_Dragging && (offset != Vector2.zero || m_Velocity != Vector2.zero))
+            if (deltaTime > 0.0f)
             {
-                Vector2 position = m_Content.anchoredPosition;
-                for (int axis = 0; axis < 2; axis++)
+                if (!m_Dragging && (offset != Vector2.zero || m_Velocity != Vector2.zero))
                 {
-                    // Apply spring physics if movement is elastic and content has an offset from the view.
-                    if (m_MovementType == MovementType.Elastic && offset[axis] != 0)
+                    Vector2 position = m_Content.anchoredPosition;
+                    for (int axis = 0; axis < 2; axis++)
                     {
-                        float speed = m_Velocity[axis];
-                        float smoothTime = m_Elasticity;
-                        if (m_Scrolling)
-                            smoothTime *= 3.0f;
-                        position[axis] = Mathf.SmoothDamp(m_Content.anchoredPosition[axis], m_Content.anchoredPosition[axis] + offset[axis], ref speed, smoothTime, Mathf.Infinity, deltaTime);
-                        if (Mathf.Abs(speed) < 1)
-                            speed = 0;
-                        m_Velocity[axis] = speed;
-                    }
-                    // Else move content according to velocity with deceleration applied.
-                    else if (m_Inertia)
-                    {
-                        m_Velocity[axis] *= Mathf.Pow(m_DecelerationRate, deltaTime);
-                        if (Mathf.Abs(m_Velocity[axis]) < 1)
+                        // Apply spring physics if movement is elastic and content has an offset from the view.
+                        if (m_MovementType == MovementType.Elastic && offset[axis] != 0)
+                        {
+                            float speed = m_Velocity[axis];
+                            float smoothTime = m_Elasticity;
+                            if (m_Scrolling)
+                                smoothTime *= 3.0f;
+                            position[axis] = Mathf.SmoothDamp(m_Content.anchoredPosition[axis], m_Content.anchoredPosition[axis] + offset[axis], ref speed, smoothTime, Mathf.Infinity, deltaTime);
+                            if (Mathf.Abs(speed) < 1)
+                                speed = 0;
+                            m_Velocity[axis] = speed;
+                        }
+                        // Else move content according to velocity with deceleration applied.
+                        else if (m_Inertia)
+                        {
+                            m_Velocity[axis] *= Mathf.Pow(m_DecelerationRate, deltaTime);
+                            if (Mathf.Abs(m_Velocity[axis]) < 1)
+                                m_Velocity[axis] = 0;
+                            position[axis] += m_Velocity[axis] * deltaTime;
+                        }
+                        // If we have neither elaticity or friction, there shouldn't be any velocity.
+                        else
+                        {
                             m_Velocity[axis] = 0;
-                        position[axis] += m_Velocity[axis] * deltaTime;
+                        }
                     }
-                    // If we have neither elaticity or friction, there shouldn't be any velocity.
-                    else
+
+                    if (m_MovementType == MovementType.Clamped)
                     {
-                        m_Velocity[axis] = 0;
+                        offset = CalculateOffset(position - m_Content.anchoredPosition);
+                        position += offset;
                     }
+
+                    SetContentAnchoredPosition(position);
                 }
 
-                if (m_MovementType == MovementType.Clamped)
+                if (m_Dragging && m_Inertia)
                 {
-                    offset = CalculateOffset(position - m_Content.anchoredPosition);
-                    position += offset;
+                    Vector3 newVelocity = (m_Content.anchoredPosition - m_PrevPosition) / deltaTime;
+                    m_Velocity = Vector3.Lerp(m_Velocity, newVelocity, deltaTime * 10);
                 }
-
-                SetContentAnchoredPosition(position);
-            }
-
-            if (m_Dragging && m_Inertia)
-            {
-                Vector3 newVelocity = (m_Content.anchoredPosition - m_PrevPosition) / deltaTime;
-                m_Velocity = Vector3.Lerp(m_Velocity, newVelocity, deltaTime * 10);
             }
 
             if (m_ViewBounds != m_PrevViewBounds || m_ContentBounds != m_PrevContentBounds || m_Content.anchoredPosition != m_PrevPosition)
@@ -908,6 +937,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -923,7 +953,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.normalizedPosition = myPosition;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public Vector2 normalizedPosition
         {
@@ -943,6 +974,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -958,7 +990,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.horizontalNormalizedPosition = 0.5f;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
         public float horizontalNormalizedPosition
         {
@@ -980,6 +1013,7 @@ namespace UnityEngine.UI
         /// </summary>
         /// <example>
         /// <code>
+        /// <![CDATA[
         /// using UnityEngine;
         /// using System.Collections;
         /// using UnityEngine.UI;  // Required when Using UI elements.
@@ -995,7 +1029,8 @@ namespace UnityEngine.UI
         ///         myScrollRect.verticalNormalizedPosition = 0.5f;
         ///     }
         /// }
-        /// </code>
+        /// ]]>
+        ///</code>
         /// </example>
 
         public float verticalNormalizedPosition

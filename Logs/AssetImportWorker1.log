@@ -1,0 +1,422 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'en' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/2.5D-RPG-Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59442
+Successfully changed project path to: C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/2.5D-RPG-Project
+C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/2.5D-RPG-Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 84.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/caj52/OneDrive/Desktop/DEVUTIL/PersonalProjects/2.5D-RPG-Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.371427 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1139ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (84ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 58.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.154 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (427ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2920 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (0.7 MB). Loaded Objects now: 3400.
+Memory consumption went from 216.5 MB to 215.8 MB.
+Total: 5.092900 ms (FindLiveObjects: 0.663000 ms CreateObjectMapping: 0.269000 ms MarkObjects: 3.542800 ms  DeleteObjects: 0.616200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6867.843227 seconds.
+  path: Assets/Cubits_Warrior
+  artifactKey: Guid(cdaacb9e8a01ed24ca781f46af2acbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior using Guid(cdaacb9e8a01ed24ca781f46af2acbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fff323de6201e5e25d81ed31dde2ae') in 0.013141 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1924ms)
+		BeginReloadAssembly (848ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (97ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (460ms)
+		EndReloadAssembly (937ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (0.7 MB). Loaded Objects now: 3403.
+Memory consumption went from 211.2 MB to 210.6 MB.
+Total: 5.764300 ms (FindLiveObjects: 0.508900 ms CreateObjectMapping: 0.101200 ms MarkObjects: 4.345600 ms  DeleteObjects: 0.806700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.550618 seconds.
+  path: Assets/Cubits_Warrior/Prefabs/Cubits_Warrior_Prefab.prefab
+  artifactKey: Guid(69fcf183e6db18b4cb3ba02b78887d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Prefabs/Cubits_Warrior_Prefab.prefab using Guid(69fcf183e6db18b4cb3ba02b78887d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Tester': Transition 'AnyState -> Locomotion' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor\Src\Animation\StateMachine.cpp line 1845]
+
+ -> (artifact id: 'defeb75af77c83db7fa995abd6b8c718') in 0.320613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Cubits_Warrior/Resources/CW_Helmet.prefab
+  artifactKey: Guid(2eab128d0c13cbe4bb58037394f99b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Resources/CW_Helmet.prefab using Guid(2eab128d0c13cbe4bb58037394f99b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8880e896489eb4684c55e2db57cd851e') in 0.039193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Cubits_Warrior/Resources/Shadow.psd
+  artifactKey: Guid(d63d07b63e15d544e8af5662c998d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Resources/Shadow.psd using Guid(d63d07b63e15d544e8af5662c998d8b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9551d53b88644ca85e35b12e4da0d6') in 0.096741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.683624 seconds.
+  path: Assets/Cubits_Warrior/Models/Cubits_Warrior_Armor.fbx
+  artifactKey: Guid(90326744e89241f45a444576bdaa52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Models/Cubits_Warrior_Armor.fbx using Guid(90326744e89241f45a444576bdaa52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb88edc469e35ddea8105de4a026604') in 0.308453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cubits_Warrior/Models/Cubits_Warrior_Sword.fbx
+  artifactKey: Guid(55985dc3c77051c428906aa2269e3400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Models/Cubits_Warrior_Sword.fbx using Guid(55985dc3c77051c428906aa2269e3400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4211cc94cf7e99bd3f4ae33fae8f434c') in 0.059229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cubits_Warrior/Models/Cubits_Warrior_Body_LOD2.fbx
+  artifactKey: Guid(035e8c177b030cf48955e6b52090cc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Models/Cubits_Warrior_Body_LOD2.fbx using Guid(035e8c177b030cf48955e6b52090cc34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cab0e4f813dcce3bae6e879e4fa7215') in 0.061701 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (895ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (466ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2831 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 12 unused Assets / (0.7 MB). Loaded Objects now: 3418.
+Memory consumption went from 216.1 MB to 215.4 MB.
+Total: 4.227000 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.107600 ms MarkObjects: 3.098600 ms  DeleteObjects: 0.634300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 486.481417 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/messy2.png
+  artifactKey: Guid(70891bb9ace604e4ab83d818241c6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/messy2.png using Guid(70891bb9ace604e4ab83d818241c6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efd9a8b12ba5e72a0bac83904451b05') in 1.411623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Resources/CCSprites/Hair/Boy/ponytail2.png
+  artifactKey: Guid(4fe57d6c5788cea46b3d9c1c1a8b125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Boy/ponytail2.png using Guid(4fe57d6c5788cea46b3d9c1c1a8b125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c63edf7fa7615657422a9dc26a29b64') in 1.170564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Cubits_Warrior/Premade_Textures/Premade_Armor_01.png
+  artifactKey: Guid(3501683d7803d1d4d8dcd40008a5d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Premade_Textures/Premade_Armor_01.png using Guid(3501683d7803d1d4d8dcd40008a5d50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4b56317f3bd3f7944c5a8247b258f6') in 0.054217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Cubits_Warrior/Shield_Logos/Shield_Emblem_03.png
+  artifactKey: Guid(43d1a6b97d9b17d4d9875323cba92f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Shield_Logos/Shield_Emblem_03.png using Guid(43d1a6b97d9b17d4d9875323cba92f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba181642ba561eaadcfc4e1f8aece7e') in 0.033888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Cubits_Warrior/Shield_Logos/Shield_Emblem_05.png
+  artifactKey: Guid(840d1643dcb7b3342afe3cd3f301eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cubits_Warrior/Shield_Logos/Shield_Emblem_05.png using Guid(840d1643dcb7b3342afe3cd3f301eb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270814260315d876bdbd9f3362e276bb') in 0.037273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Resources/CCSprites/Hair/Boy/shoulderl.png
+  artifactKey: Guid(2a0089ccc8372714aa1baa576becab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Boy/shoulderl.png using Guid(2a0089ccc8372714aa1baa576becab3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b381d1d1b0ed7820e90130e732f3fc') in 1.325852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/princess.png
+  artifactKey: Guid(9952b49f0b873b442824d2260e631c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/princess.png using Guid(9952b49f0b873b442824d2260e631c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8680e4a9252c6daba2c2bfc485722c') in 1.185983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Resources/CCSprites/Hair/Boy/shortknot.png
+  artifactKey: Guid(f4f5906310de6d44c80bbf627cefc436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Boy/shortknot.png using Guid(f4f5906310de6d44c80bbf627cefc436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676ccebd2f2393610b4d38be411b6402') in 1.081074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Resources/CCSprites/Hair/Boy/shorthawk.png
+  artifactKey: Guid(75f6a9a54dd7528439e15200a20af146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Boy/shorthawk.png using Guid(75f6a9a54dd7528439e15200a20af146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106b3fba37110bd8ede3255baaa00686') in 1.086677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/plain.png
+  artifactKey: Guid(b0dd68839a3d7574cb63ea3010afa262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/plain.png using Guid(b0dd68839a3d7574cb63ea3010afa262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e30d87f6b5877e93a191f39657fa46') in 0.987579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Resources/CCSprites/Hair/Boy/shoudlerr.png
+  artifactKey: Guid(138e534e960860249bdb0da569ae7579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Boy/shoudlerr.png using Guid(138e534e960860249bdb0da569ae7579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80697c51c67898cbdc63bd4f2ae1ff3') in 1.134059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/mohawk.png
+  artifactKey: Guid(d96c0256573644f4db315b3ae34fdc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/mohawk.png using Guid(d96c0256573644f4db315b3ae34fdc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b0cc0954dcf466335634fe3aab5d58') in 1.074477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/shortknot.png
+  artifactKey: Guid(1cc7a201cd4cfef40a474582bf0c0eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/shortknot.png using Guid(1cc7a201cd4cfef40a474582bf0c0eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96799df5bed2dcf5d4ef49d3e1c7eab7') in 1.249823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/CCSprites/Hair/Girl/ponytail2.png
+  artifactKey: Guid(6947715da7304b64d8492b77d803bf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CCSprites/Hair/Girl/ponytail2.png using Guid(6947715da7304b64d8492b77d803bf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e378bf95da89a4785f186785f6c7329') in 0.933634 seconds 

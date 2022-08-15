@@ -20,5 +20,5 @@ For more information about minimum, preferred, and flexible height, see the docu
 |**Spacing** |The spacing between the layout elements. |
 |**Child Alignment** |The alignment to use for the child layout elements if they don't fill out all the available space. |
 |**Control Child Size** |Whether the Layout Group controls the width and height of its child layout elements.|
-|**Use Child Scale** |Whether the Layout Group considers the scale of its child layout elements when sizing and laying out elements. <br/><br/> **Width** and **Height**  correspond to the **Scale > X** and **Scale > Y** values in each child layout element's [Rect Transform](class-RectTransform.md) component.|
+|**Use Child Scale** |Whether the Layout Group considers the scale of its child layout elements when sizing and laying out elements. <br/><br/> **Width** and **Height**  correspond to the **Scale > X** and **Scale > Y** values in each child layout element's [Rect Transform](class-RectTransform.md) component. <br/><br/>You cannot animate the Scale values using the [Animator Controller](https://docs.unity3d.com/Manual/class-AnimatorController.html) |
 |**Child Force Expand** |Whether to force the child layout elements to expand to fill additional available space. |

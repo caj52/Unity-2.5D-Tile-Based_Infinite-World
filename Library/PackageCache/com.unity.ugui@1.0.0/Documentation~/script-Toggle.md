@@ -21,7 +21,7 @@ The **Toggle** control is a checkbox that allows the user to switch an option on
 
 |**Property:** |**Function:** |
 |:---|:---|
-|**On Value Changed** | A [UnityEvent](UnityEvents.md) that is invoked when the Toggle is clicked. The event can send the current state as a `bool` type dynamic argument. |
+|**On Value Changed** | A [UnityEvent](https://docs.unity3d.com/Manual/UnityEvents.html) that is invoked when the Toggle is clicked. The event can send the current state as a `bool` type dynamic argument. |
 
 
 ## Details

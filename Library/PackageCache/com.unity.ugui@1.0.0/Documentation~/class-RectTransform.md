@@ -1,6 +1,6 @@
 # Rect Transform
 
-The **Rect Transform** component is the 2D layout counterpart of the [Transform](class-Transform.md) component. Where Transform represents a single point, Rect Transform represent a rectangle that a UI element can be placed inside. If the parent of a Rect Transform is also a Rect Transform, the child Rect Transform can also specify how it should be positioned and sized relative to the parent rectangle.
+The **Rect Transform** component is the 2D layout counterpart of the [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component. Where Transform represents a single point, Rect Transform represent a rectangle that a UI element can be placed inside. If the parent of a Rect Transform is also a Rect Transform, the child Rect Transform can also specify how it should be positioned and sized relative to the parent rectangle.
 
 ![](images/UI_RectTransform.png)
 

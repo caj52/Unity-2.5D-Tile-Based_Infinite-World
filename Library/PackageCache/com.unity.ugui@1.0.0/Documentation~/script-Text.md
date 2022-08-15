@@ -10,7 +10,7 @@ The **Text** control displays a non-interactive piece of text to the user. This 
 |:---|:---|
 |**Text** |The text displayed by the control. |
 | **Character** |
-| **Font** | The [Font](class-Font.md) used to display the text. |
+| **Font** | The [Font](https://docs.unity3d.com/Manual/class-Font.html) used to display the text. |
 |**Font Style** | The style applied to the text. The options are _Normal_, _Bold_, _Italic_ and _Bold And Italic_. |
 |**Font Size** | The size of the displayed text. |
 |**Line Spacing** | The vertical separation between lines of text. |
@@ -23,7 +23,7 @@ The **Text** control displays a non-interactive piece of text to the user. This 
 |**Best Fit** | Should Unity ignore the size properties and simply try to fit the text to the control's rectangle? |
 | | |
 |**Color** | The color used to render the text. |
-|**Material** | The [Material](class-Material.md) used to render the text. |
+|**Material** | The [Material](https://docs.unity3d.com/Manual/class-Material.html) used to render the text. |
 
 A default text element looks like this:
 

@@ -12,10 +12,6 @@ using System.Reflection;
 
 namespace InputfieldTests
 {
-    [UnityPlatform(exclude = new RuntimePlatform[]
-    {
-        RuntimePlatform.Android /* case 1094042 */
-    })]
     public class TouchInputFieldTests : BaseInputFieldTests, IPrebuildSetup
     {
         protected const string kPrefabPath = "Assets/Resources/TouchInputFieldPrefab.prefab";
@@ -90,6 +86,9 @@ namespace InputfieldTests
         [TestCase(" -10,0x", "-10,0", InputField.CharacterValidation.Decimal)]
         [TestCase("A10,0 ", "10,0", InputField.CharacterValidation.Decimal)]
         [TestCase("A'a aaa  aaa", "A'a Aaa Aaa", InputField.CharacterValidation.Name)]
+        [TestCase("Unity-Editor", "Unity-Editor", InputField.CharacterValidation.Name)]
+        [TestCase("Unity--Editor", "Unity-Editor", InputField.CharacterValidation.Name)]
+        [TestCase("-UnityEditor", "Unityeditor", InputField.CharacterValidation.Name)]
         [TestCase(" _JOHN*   (Doe)", "John Doe", InputField.CharacterValidation.Name)]
         [TestCase("johndoe@unity3d.com", "johndoe@unity3d.com", InputField.CharacterValidation.EmailAddress)]
         [TestCase(">john doe\\@unity3d.com", "johndoe@unity3d.com", InputField.CharacterValidation.EmailAddress)]
@@ -184,12 +183,12 @@ namespace InputfieldTests
         }
 
         [UnityTest]
-        [UnityPlatform(exclude = new[]
-        {
-            RuntimePlatform.Android // case 1338327
-        })]
         public IEnumerator FocusOpensTouchScreenKeyboard()
         {
+            var isInPlaceEditingDisabled = typeof(TouchScreenKeyboard).GetProperty("disableInPlaceEditing",
+                System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+            isInPlaceEditingDisabled.SetValue(null, true);
+
             if (!TouchScreenKeyboard.isSupported)
                 yield break;
             InputField inputField = m_PrefabRoot.GetComponentInChildren<InputField>();

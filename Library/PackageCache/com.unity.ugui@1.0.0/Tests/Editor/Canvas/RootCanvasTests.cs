@@ -46,4 +46,11 @@ public class RootCanvasTests : TestBehaviourBase<UnityEngine.Canvas>
         Assert.AreEqual(m_TestObject, rootCanvasChild.rootCanvas);
         Assert.AreEqual(m_TestObject, baseCanvas.rootCanvas);
     }
+
+    [Test]
+    public void IsNotRootCanvasWhenDisabled()
+    {
+        baseCanvas.enabled = false;
+        Assert.IsFalse(baseCanvas.isRootCanvas);
+    }
 }

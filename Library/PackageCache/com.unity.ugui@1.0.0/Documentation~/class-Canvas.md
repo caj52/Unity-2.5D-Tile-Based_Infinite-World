@@ -36,7 +36,7 @@ Note: The Screen Space - Overlay canvas needs to be stored at the top level of t
 
 ### Screen Space - Camera
 
-In this mode, the Canvas is rendered as if it were drawn on a plane object some distance in front of a given camera. The onscreen size of the UI does not vary with the distance since it is always rescaled to fit exactly within the [camera frustum](FrustumSizeAtDistance.md). If the screen's size or resolution or the camera frustum are changed then the UI will automatically rescale to fit. Any 3D objects in the scene that are closer to the camera than the UI plane will be rendered in front of the UI, while objects behind the plane will be obscured.
+In this mode, the Canvas is rendered as if it were drawn on a plane object some distance in front of a given camera. The onscreen size of the UI does not vary with the distance since it is always rescaled to fit exactly within the [camera frustum](https://docs.unity3d.com/Manual/FrustumSizeAtDistance.html). If the screen's size or resolution or the camera frustum are changed then the UI will automatically rescale to fit. Any 3D objects in the scene that are closer to the camera than the UI plane will be rendered in front of the UI, while objects behind the plane will be obscured.
 
 ![Camera mode UI with scene objects in front](images/CanvasCamera.png)
 
