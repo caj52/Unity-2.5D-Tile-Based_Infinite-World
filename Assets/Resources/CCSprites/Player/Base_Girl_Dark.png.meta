@@ -557,6 +557,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,11 +568,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -588,9 +590,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4368,6 +4373,185 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Base_Woman_Dark_6: -5938541624676405911
+      Base_Woman_Dark_153: -7227947041609937147
+      Base_Woman_Dark_56: 3331954643966143073
+      Base_Woman_Dark_69: -8453893505897801282
+      Base_Woman_Dark_17: -7477797223171716805
+      Base_Woman_Dark_87: 7181465685956429287
+      Base_Woman_Dark_18: 4291243056798267408
+      Base_Woman_Dark_73: 1642189626165032625
+      Base_Woman_Dark_2: -3920522536725093969
+      Base_Woman_Dark_102: 3681741245419933615
+      Base_Woman_Dark_15: 119840938768768704
+      Base_Woman_Dark_21: 3528185343687850148
+      Base_Woman_Dark_173: 7991689867582654174
+      Base_Woman_Dark_89: 9022884641523215579
+      Base_Woman_Dark_32: 4703064951820283880
+      Base_Woman_Dark_46: 8451967848562624690
+      Base_Woman_Dark_14: 5730005183365496014
+      Base_Woman_Dark_132: -4320850144425298122
+      Base_Woman_Dark_53: 2501662147442694786
+      Base_Woman_Dark_7: 4653265502530271791
+      Base_Woman_Dark_162: -2454518609119535306
+      Base_Woman_Dark_129: 7544218412787155165
+      Base_Woman_Dark_0: -7494423470027520690
+      Base_Woman_Dark_31: -7689667009695053111
+      Base_Woman_Dark_3: -8689332704069297929
+      Base_Woman_Dark_169: -4621661147634063357
+      Base_Woman_Dark_170: -8083555310245535624
+      Base_Woman_Dark_151: 557040909551687613
+      Base_Woman_Dark_116: -1803913109604795267
+      Base_Woman_Dark_105: -8940472637456444692
+      Base_Woman_Dark_34: -8490392103382248178
+      Base_Woman_Dark_45: 4990124796864158109
+      Base_Woman_Dark_80: 4191320117130662380
+      Base_Woman_Dark_168: 3370075940051619451
+      Base_Woman_Dark_66: 1093374854029159770
+      Base_Woman_Dark_131: -6738063547018648916
+      Base_Woman_Dark_159: 5181058448577695145
+      Base_Woman_Dark_157: 3201622297534178613
+      Base_Woman_Dark_154: 3332791359696801372
+      Base_Woman_Dark_81: 5635431164153102918
+      Base_Woman_Dark_88: -586700981422096692
+      Base_Woman_Dark_127: 8490798030161753443
+      Base_Woman_Dark_124: -694867993959991448
+      Base_Woman_Dark_10: -1788776479226385354
+      Base_Woman_Dark_114: -9038000482339058577
+      Base_Woman_Dark_152: 8279380895821220079
+      Base_Woman_Dark_156: 4674096930910239944
+      Base_Woman_Dark_59: 8111290671982969341
+      Base_Woman_Dark_128: 878816559427361802
+      Base_Woman_Dark_106: -3206457480636349138
+      Base_Woman_Dark_144: -7311144393706635338
+      Base_Woman_Dark_176: -3755772280963678508
+      Base_Woman_Dark_109: -5857729873848463278
+      Base_Woman_Dark_57: -936908132349381589
+      Base_Woman_Dark_130: -5473640281646491786
+      Base_Woman_Dark_164: 3264459886730570872
+      Base_Woman_Dark_30: -8028684647287876633
+      Base_Woman_Dark_133: -3219167025665857094
+      Base_Woman_Dark_161: -2945322587736957539
+      Base_Woman_Dark_146: 5911443139520969396
+      Base_Woman_Dark_113: -5335757673205807683
+      Base_Woman_Dark_165: -1385411103366739952
+      Base_Woman_Dark_58: -2300830357643280349
+      Base_Woman_Dark_100: 5448904330363608958
+      Base_Woman_Dark_39: -5804138578489350112
+      Base_Woman_Dark_72: 4252682310519583033
+      Base_Woman_Dark_97: 4963970163311069431
+      Base_Woman_Dark_8: -7372134858229884021
+      Base_Woman_Dark_42: -918907665574589748
+      Base_Woman_Dark_28: 4569684224153087325
+      Base_Woman_Dark_55: 8847017897024320160
+      Base_Woman_Dark_112: -9050701475889770481
+      Base_Woman_Dark_158: 4977905084378430963
+      Base_Woman_Dark_122: 1231760136022536999
+      Base_Woman_Dark_41: 4141034254854435893
+      Base_Woman_Dark_111: 179681280856426408
+      Base_Woman_Dark_120: 2410163491446354267
+      Base_Woman_Dark_70: 8837638747027521667
+      Base_Woman_Dark_117: -6549584741429658160
+      Base_Woman_Dark_43: -5382366476259678131
+      Base_Woman_Dark_71: 7331172358277422804
+      Base_Woman_Dark_25: 6637945697966488683
+      Base_Woman_Dark_65: 9077737171241720887
+      Base_Woman_Dark_4: 9025837689873572719
+      Base_Woman_Dark_135: 1556448865082589223
+      Base_Woman_Dark_140: -4243231090226663419
+      Base_Woman_Dark_19: -4865407299281932830
+      Base_Woman_Dark_172: -8383339617705118017
+      Base_Woman_Dark_93: 1818052832196869628
+      Base_Woman_Dark_50: 1675394750926335760
+      Base_Woman_Dark_83: -5374151881299017802
+      Base_Woman_Dark_47: -4794913979722141134
+      Base_Woman_Dark_98: 5396149866527305427
+      Base_Woman_Dark_86: 1264259024746741825
+      Base_Woman_Dark_84: -8622499563592764370
+      Base_Woman_Dark_91: 1524762758660798902
+      Base_Woman_Dark_12: 1602517887463917044
+      Base_Woman_Dark_118: 8519783973152703121
+      Base_Woman_Dark_22: -8302620265225507394
+      Base_Woman_Dark_148: -1861800917356424130
+      Base_Woman_Dark_37: -8567155442474147306
+      Base_Woman_Dark_11: 208920362568665706
+      Base_Woman_Dark_35: 8043415445624253352
+      Base_Woman_Dark_139: -8493139638764661985
+      Base_Woman_Dark_1: 490362359263630928
+      Base_Woman_Dark_166: -847675590614853930
+      Base_Woman_Dark_125: 3925752879549562152
+      Base_Woman_Dark_108: 2450292930938136925
+      Base_Woman_Dark_77: 410288373241892873
+      Base_Woman_Dark_29: -3133988404514264343
+      Base_Woman_Dark_167: -7682504380655107480
+      Base_Woman_Dark_95: -1923797205308556465
+      Base_Woman_Dark_141: -8286540303260816631
+      Base_Woman_Dark_62: -6588744792894434668
+      Base_Woman_Dark_138: -1756990963708452996
+      Base_Woman_Dark_78: -5354713012273092939
+      Base_Woman_Dark_90: 3345133264904536858
+      Base_Woman_Dark_126: -2297670865276736298
+      Base_Woman_Dark_85: -2581282054630756240
+      Base_Woman_Dark_20: 2477022852137990325
+      Base_Woman_Dark_155: -3631287449451769764
+      Base_Woman_Dark_121: 9073353043375421983
+      Base_Woman_Dark_5: 4134218346624981408
+      Base_Woman_Dark_26: -2487377530611591542
+      Base_Woman_Dark_82: -2397963063201880627
+      Base_Woman_Dark_136: 6148194645904367842
+      Base_Woman_Dark_36: 3996619895500152810
+      Base_Woman_Dark_123: -582319572481610416
+      Base_Woman_Dark_44: -1287358779044430109
+      Base_Woman_Dark_63: -6211723612436715363
+      Base_Woman_Dark_40: -1789256158807774135
+      Base_Woman_Dark_33: 5107026883392080986
+      Base_Woman_Dark_52: 4517276548954497549
+      Base_Woman_Dark_137: -2603355816735418367
+      Base_Woman_Dark_24: 1101803217998394527
+      Base_Woman_Dark_174: 3455969073368818454
+      Base_Woman_Dark_171: -5565364272848282142
+      Base_Woman_Dark_9: -8765578343761069328
+      Base_Woman_Dark_160: -8841275176276770160
+      Base_Woman_Dark_119: 7518250673722134176
+      Base_Woman_Dark_163: -8250763718106159553
+      Base_Woman_Dark_115: -7637686209966840900
+      Base_Woman_Dark_143: -4430643273178316303
+      Base_Woman_Dark_60: 6729868066729159002
+      Base_Woman_Dark_51: 7934424316455393850
+      Base_Woman_Dark_68: -509342703810695302
+      Base_Woman_Dark_13: 1923669362918036251
+      Base_Woman_Dark_48: -2955824163310902750
+      Base_Woman_Dark_76: -2188785673002691211
+      Base_Woman_Dark_96: 6321130369312286552
+      Base_Woman_Dark_99: -6497032233862292859
+      Base_Woman_Dark_175: -2463025674831937032
+      Base_Woman_Dark_64: -407967954452096566
+      Base_Woman_Dark_150: -2413000937689964967
+      Base_Woman_Dark_110: 2465782826622913643
+      Base_Woman_Dark_145: 1446772852514157372
+      Base_Woman_Dark_79: 6485613104767902810
+      Base_Woman_Dark_107: 2527500963814880966
+      Base_Woman_Dark_101: -4329350046344641432
+      Base_Woman_Dark_75: 1862240364241223735
+      Base_Woman_Dark_149: -26422564215374376
+      Base_Woman_Dark_67: 905113741949826678
+      Base_Woman_Dark_142: 5649748877460921505
+      Base_Woman_Dark_177: 499525770993164125
+      Base_Woman_Dark_134: 8479221787380288349
+      Base_Woman_Dark_23: 4757523719043090151
+      Base_Woman_Dark_38: -8638069738840138538
+      Base_Woman_Dark_103: -638624797980913978
+      Base_Woman_Dark_147: -1310033014507346954
+      Base_Woman_Dark_54: -4203914704407163853
+      Base_Woman_Dark_27: -3933374082513821887
+      Base_Woman_Dark_61: 592013530510516193
+      Base_Woman_Dark_74: 3492631507473375571
+      Base_Woman_Dark_92: 8849499078954540866
+      Base_Woman_Dark_16: 5157614540262875425
+      Base_Woman_Dark_104: -6724244228616572702
+      Base_Woman_Dark_49: 8766523205269357488
+      Base_Woman_Dark_94: 3608384930482749013
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

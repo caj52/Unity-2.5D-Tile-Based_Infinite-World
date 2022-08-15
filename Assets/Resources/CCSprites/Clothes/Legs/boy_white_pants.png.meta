@@ -554,6 +554,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -563,11 +565,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -585,9 +587,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4344,6 +4349,184 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      boy_white_pants_127: 1821129912443205694
+      boy_white_pants_118: -6321269783109360707
+      boy_white_pants_171: -4120742291949590112
+      boy_white_pants_15: 860410206581489164
+      boy_white_pants_12: 46328421568738670
+      boy_white_pants_132: -2079797795808285335
+      boy_white_pants_99: 1492681061620468366
+      boy_white_pants_34: -6851218497909224013
+      boy_white_pants_67: -9164730104383079847
+      boy_white_pants_163: -2189887639914950517
+      boy_white_pants_122: -3852998001746547723
+      boy_white_pants_148: 2732415941616593000
+      boy_white_pants_78: 1991520251531866324
+      boy_white_pants_27: 936360955311309516
+      boy_white_pants_55: -5573614105900044024
+      boy_white_pants_146: 6650181598726644411
+      boy_white_pants_33: -35675701664585392
+      boy_white_pants_102: 865548304448446153
+      boy_white_pants_117: 856080381409401576
+      boy_white_pants_129: 5291635714280882098
+      boy_white_pants_25: -29738299054752195
+      boy_white_pants_140: -628795692399248738
+      boy_white_pants_90: 7128652018899827123
+      boy_white_pants_101: 7366002255196546658
+      boy_white_pants_40: -5407131488418514120
+      boy_white_pants_166: -2801256287627298313
+      boy_white_pants_0: 8083547679796757895
+      boy_white_pants_46: 5776851167911590469
+      boy_white_pants_85: 7733103929906332025
+      boy_white_pants_133: 5621096742926357734
+      boy_white_pants_44: -3450181616602229881
+      boy_white_pants_48: -7617377624785645753
+      boy_white_pants_5: 8055100434264868035
+      boy_white_pants_105: -401141184003782873
+      boy_white_pants_24: 3732945252082677571
+      boy_white_pants_131: 1678683205195631748
+      boy_white_pants_79: -9180720469195872610
+      boy_white_pants_92: -1865670683000153824
+      boy_white_pants_158: -5214396201418839461
+      boy_white_pants_109: -122147064227335941
+      boy_white_pants_64: 5134000165127546438
+      boy_white_pants_94: 7475821889083035919
+      boy_white_pants_88: 7241734880859384778
+      boy_white_pants_141: -3579637316891250883
+      boy_white_pants_3: -4322057924457449183
+      boy_white_pants_35: -3343010758931548195
+      boy_white_pants_28: -4898840217139414459
+      boy_white_pants_160: 5504340921750417620
+      boy_white_pants_29: 7781562944571862914
+      boy_white_pants_7: -8677379349452179649
+      boy_white_pants_107: 8546754379301092581
+      boy_white_pants_154: 8240211732010033965
+      boy_white_pants_72: -8015689715649850447
+      boy_white_pants_86: 2545295355611347415
+      boy_white_pants_32: 5306908343946292983
+      boy_white_pants_58: -275725038015974519
+      boy_white_pants_17: 7031896630564595719
+      boy_white_pants_57: 8067252149801031252
+      boy_white_pants_144: -7462677292505178326
+      boy_white_pants_21: -1954932924071528822
+      boy_white_pants_169: -4239000463808151949
+      boy_white_pants_6: -1483890066273103581
+      boy_white_pants_54: -7366667047337899308
+      boy_white_pants_153: -4018502282902685724
+      boy_white_pants_119: 9102887624701240512
+      boy_white_pants_4: -695880311867346762
+      boy_white_pants_52: 8640157493150239416
+      boy_white_pants_37: 3822222112504534148
+      boy_white_pants_149: -4452276957552579515
+      boy_white_pants_87: 8332339830577086798
+      boy_white_pants_112: 363302212477438788
+      boy_white_pants_168: 6457686924482352733
+      boy_white_pants_2: 1718083583244612268
+      boy_white_pants_123: 5652681766448555593
+      boy_white_pants_116: 7560952948752582871
+      boy_white_pants_1: 1488613534614521911
+      boy_white_pants_162: -8217729298638355611
+      boy_white_pants_126: -4526765557505067684
+      boy_white_pants_62: -5424746970317581240
+      boy_white_pants_59: 2853295041532330487
+      boy_white_pants_13: 8548841599080696846
+      boy_white_pants_103: 6377715101750917795
+      boy_white_pants_68: 3513386767118575036
+      boy_white_pants_104: 5979940691910040238
+      boy_white_pants_145: -3653695259935697864
+      boy_white_pants_106: -1566328275454743054
+      boy_white_pants_174: 7570181443899149232
+      boy_white_pants_128: 5589017201522265594
+      boy_white_pants_73: -1913166092466867938
+      boy_white_pants_14: -622681096596488496
+      boy_white_pants_138: -2126803858823110939
+      boy_white_pants_82: -6840143203965080497
+      boy_white_pants_108: -6019862841601606239
+      boy_white_pants_172: 5003805314110660016
+      boy_white_pants_136: 667817786642039405
+      boy_white_pants_142: -8968237453930037917
+      boy_white_pants_155: 6716764609665471508
+      boy_white_pants_111: -8540866266394914901
+      boy_white_pants_22: 4779228777605473555
+      boy_white_pants_125: -4762737810232682838
+      boy_white_pants_157: -1758126296853277386
+      boy_white_pants_41: 4249339931733716981
+      boy_white_pants_167: -605478160116893177
+      boy_white_pants_130: -8119158048046289310
+      boy_white_pants_170: 2688512308278935069
+      boy_white_pants_75: 63434671902684825
+      boy_white_pants_63: -4187293861220588695
+      boy_white_pants_150: 8482320596335679028
+      boy_white_pants_100: -3029484239255309340
+      boy_white_pants_156: -8865305849791915790
+      boy_white_pants_80: -8146322976451252132
+      boy_white_pants_51: -8006253929257166088
+      boy_white_pants_165: -4885058377369172661
+      boy_white_pants_97: -6098725861943049463
+      boy_white_pants_147: 7677687226197055564
+      boy_white_pants_49: -695063120845392360
+      boy_white_pants_98: -4937115232461328753
+      boy_white_pants_71: -4622737660693746878
+      boy_white_pants_135: -1905028219098005980
+      boy_white_pants_16: 1592993149070704601
+      boy_white_pants_61: -8959386010278441848
+      boy_white_pants_36: 2886516334984474376
+      boy_white_pants_23: -889238562347234126
+      boy_white_pants_30: -2810761092644697031
+      boy_white_pants_120: -3132221879436957873
+      boy_white_pants_11: -2227366608580708717
+      boy_white_pants_66: 8100299841576973421
+      boy_white_pants_134: 6382552719946084876
+      boy_white_pants_20: 6842902991724099264
+      boy_white_pants_152: 9103136981135255242
+      boy_white_pants_137: 1007500510765201455
+      boy_white_pants_42: 7162276394592789247
+      boy_white_pants_76: -5814719114539585964
+      boy_white_pants_95: -8579918577693031964
+      boy_white_pants_43: -8486994343451383343
+      boy_white_pants_8: -7522701692181844919
+      boy_white_pants_65: -8542405886288235030
+      boy_white_pants_69: 3649812191909094034
+      boy_white_pants_159: 4515866174216193525
+      boy_white_pants_74: -2102327790381539612
+      boy_white_pants_18: 809978752065047891
+      boy_white_pants_70: 4413197205562893526
+      boy_white_pants_10: -6984429785507168133
+      boy_white_pants_53: 2698376309715138405
+      boy_white_pants_31: 1399603848186891650
+      boy_white_pants_161: -2624025872411966972
+      boy_white_pants_56: -469229160636359015
+      boy_white_pants_38: 4252225788590223266
+      boy_white_pants_139: -8969923779868051593
+      boy_white_pants_176: -420057387549880959
+      boy_white_pants_173: 1106422458336712515
+      boy_white_pants_151: -7571462920798859120
+      boy_white_pants_175: 3702809701026361822
+      boy_white_pants_45: 2330613560245229196
+      boy_white_pants_83: -8785109409484429006
+      boy_white_pants_96: 7905761598224661880
+      boy_white_pants_91: 1800726495669483422
+      boy_white_pants_115: 330795353036858956
+      boy_white_pants_50: -1371882173644799172
+      boy_white_pants_19: -8268805978350406638
+      boy_white_pants_77: 849513722780522251
+      boy_white_pants_143: 6704412289268906363
+      boy_white_pants_9: -3247151688930958513
+      boy_white_pants_26: 1366366696317072891
+      boy_white_pants_114: -8871536696966316844
+      boy_white_pants_60: -997891197568744491
+      boy_white_pants_113: 1987027696428354599
+      boy_white_pants_121: -4676921819601799975
+      boy_white_pants_84: 2852864589468485478
+      boy_white_pants_39: 8696981206528314943
+      boy_white_pants_47: 2571432735215958274
+      boy_white_pants_93: -27374974191002306
+      boy_white_pants_89: -2060411403898061672
+      boy_white_pants_164: -2224901733229359685
+      boy_white_pants_81: -8707776647455076809
+      boy_white_pants_110: -2132297992276808422
+      boy_white_pants_124: 9038257280046350810
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 4d19c66954abc964bb23cbb9793fd74c
+timeCreated: 1485893438
+licenseType: Store
+SubstanceImporter:
+  serializedVersion: 5
+  materialInstances:
+  - serializedVersion: 16
+    name: Cubits_Warrior_Body_Substance_Maker
+    prototypeName: Cubits_Warrior_Body_Substance_Maker
+    shaderName: 
+    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shaderKeywords: _EMISSION
+    renderQueue: -1
+    lightmapFlags: 1
+    inputs:
+    - name: $pixelsize
+      value:
+        scalar[0]: 1
+        scalar[1]: 1
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: $randomseed
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {instanceID: 0}
+    - name: _Skin_Color_
+      value:
+        scalar[0]: 0.933333
+        scalar[1]: 0.797604
+        scalar[2]: 0.607584
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Underwear_Color_
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Beard_Color_
+      value:
+        scalar[0]: 0.278431
+        scalar[1]: 0.158053
+        scalar[2]: 0.0720684
+        scalar[3]: 0.270588
+        texture: {instanceID: 0}
+    - name: _Hair_Color_
+      value:
+        scalar[0]: 0.278431
+        scalar[1]: 0.158053
+        scalar[2]: 0.0720684
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Hairstyle_
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: 29304b57f80cd0d47b2eb0357b473233, type: 3}
+    - name: _Pants_Color_Main_
+      value:
+        scalar[0]: 0.513726
+        scalar[1]: 0.353094
+        scalar[2]: 0.0946822
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Pants_Color_Details_
+      value:
+        scalar[0]: 0.729412
+        scalar[1]: 0.544671
+        scalar[2]: 0.286046
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Pants_Stitching_Color_
+      value:
+        scalar[0]: 0.94902
+        scalar[1]: 0.919997
+        scalar[2]: 0.815045
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Shoes_Color_Main_
+      value:
+        scalar[0]: 0.454902
+        scalar[1]: 0.295689
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Shoes_Color_Details_
+      value:
+        scalar[0]: 0.654902
+        scalar[1]: 0.414771
+        scalar[2]: 0
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Shirt_Color_Main_
+      value:
+        scalar[0]: 0.94902
+        scalar[1]: 0.919997
+        scalar[2]: 0.815045
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Shirt_Color_Details_
+      value:
+        scalar[0]: 0.701961
+        scalar[1]: 0.660212
+        scalar[2]: 0.50927
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Vest_Color_Main_
+      value:
+        scalar[0]: 0.482353
+        scalar[1]: 0.115129
+        scalar[2]: 0.0888991
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Vest_Color_Details_
+      value:
+        scalar[0]: 0.686275
+        scalar[1]: 0.471504
+        scalar[2]: 0.460212
+        scalar[3]: 1
+        texture: {instanceID: 0}
+    - name: _Eyes_
+      value:
+        scalar[0]: 0
+        scalar[1]: 0
+        scalar[2]: 0
+        scalar[3]: 0
+        texture: {fileID: 2800000, guid: 50973cf41fd03dc4996d8f905f9083e9, type: 3}
+    materialInformation:
+      serializedVersion: 5
+      offset: {x: 0, y: 0}
+      scale: {x: 1, y: 1}
+      generateMipmaps: 1
+      generateAllOutputs: 0
+      animationUpdateRate: 42
+    materialProperties:
+      serializedVersion: 2
+      texEnvs:
+      - first:
+          name: _BumpMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailAlbedoMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailMask
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _DetailNormalMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _EmissionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MainTex
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _MetallicGlossMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _OcclusionMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - first:
+          name: _ParallaxMap
+        second:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      floats:
+      - first:
+          name: _BumpScale
+        second: 1
+      - first:
+          name: _Cutoff
+        second: 0.5
+      - first:
+          name: _DetailNormalMapScale
+        second: 1
+      - first:
+          name: _DstBlend
+        second: 0
+      - first:
+          name: _GlossMapScale
+        second: 1
+      - first:
+          name: _Glossiness
+        second: 0.234
+      - first:
+          name: _GlossyReflections
+        second: 1
+      - first:
+          name: _Metallic
+        second: 0
+      - first:
+          name: _Mode
+        second: 0
+      - first:
+          name: _OcclusionStrength
+        second: 1
+      - first:
+          name: _Parallax
+        second: 0.02
+      - first:
+          name: _SmoothnessTextureChannel
+        second: 0
+      - first:
+          name: _SpecularHighlights
+        second: 1
+      - first:
+          name: _SrcBlend
+        second: 1
+      - first:
+          name: _UVSec
+        second: 0
+      - first:
+          name: _ZWrite
+        second: 1
+      colors:
+      - first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      - first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+    textureParameters:
+    - name: Cubits_Warrior_Body_Substance_Maker_basecolor
+      alphaSource: 6
+      filterMode: 1
+      aniso: 1
+      wrapMode: 0
+    textureAssignments:
+    - shaderProp:
+        name: _MainTex
+      material: {instanceID: 0}
+      baseUID: 2292337048
+    buildTargetSettings:
+    - serializedVersion: 2
+      buildTarget: 
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 1
+      loadingBehavior: 1
+  deletedPrototypes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -786,6 +786,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -795,11 +796,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -6196,6 +6197,261 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Grassland Fall@128x128_147: 21300294
+      Grassland Fall@128x128_171: 21300342
+      Grassland Fall@128x128_185: 21300370
+      Grassland Fall@128x128_44: 21300088
+      Grassland Fall@128x128_108: 21300216
+      Grassland Fall@128x128_227: 21300454
+      Grassland Fall@128x128_155: 21300310
+      Grassland Fall@128x128_8: 21300016
+      Grassland Fall@128x128_239: 21300478
+      Grassland Fall@128x128_175: 21300350
+      Grassland Fall@128x128_34: 21300068
+      Grassland Fall@128x128_219: 21300438
+      Grassland Fall@128x128_252: 21300504
+      Grassland Fall@128x128_5: 21300010
+      Grassland Fall@128x128_127: 21300254
+      Grassland Fall@128x128_79: 21300158
+      Grassland Fall@128x128_133: 21300266
+      Grassland Fall@128x128_51: 21300102
+      Grassland Fall@128x128_243: 21300486
+      Grassland Fall@128x128_207: 21300414
+      Grassland Fall@128x128_97: 21300194
+      Grassland Fall@128x128_179: 21300358
+      Grassland Fall@128x128_6: 21300012
+      Grassland Fall@128x128_174: 21300348
+      Grassland Fall@128x128_120: 21300240
+      Grassland Fall@128x128_0: 21300000
+      Grassland Fall@128x128_37: 21300074
+      Grassland Fall@128x128_72: 21300144
+      Grassland Fall@128x128_224: 21300448
+      Grassland Fall@128x128_240: 21300480
+      Grassland Fall@128x128_135: 21300270
+      Grassland Fall@128x128_196: 21300392
+      Grassland Fall@128x128_114: 21300228
+      Grassland Fall@128x128_190: 21300380
+      Grassland Fall@128x128_83: 21300166
+      Grassland Fall@128x128_113: 21300226
+      Grassland Fall@128x128_63: 21300126
+      Grassland Fall@128x128_130: 21300260
+      Grassland Fall@128x128_100: 21300200
+      Grassland Fall@128x128_32: 21300064
+      Grassland Fall@128x128_76: 21300152
+      Grassland Fall@128x128_206: 21300412
+      Grassland Fall@128x128_233: 21300466
+      Grassland Fall@128x128_52: 21300104
+      Grassland Fall@128x128_54: 21300108
+      Grassland Fall@128x128_26: 21300052
+      Grassland Fall@128x128_59: 21300118
+      Grassland Fall@128x128_40: 21300080
+      Grassland Fall@128x128_21: 21300042
+      Grassland Fall@128x128_220: 21300440
+      Grassland Fall@128x128_211: 21300422
+      Grassland Fall@128x128_7: 21300014
+      Grassland Fall@128x128_215: 21300430
+      Grassland Fall@128x128_58: 21300116
+      Grassland Fall@128x128_73: 21300146
+      Grassland Fall@128x128_246: 21300492
+      Grassland Fall@128x128_136: 21300272
+      Grassland Fall@128x128_20: 21300040
+      Grassland Fall@128x128_22: 21300044
+      Grassland Fall@128x128_150: 21300300
+      Grassland Fall@128x128_36: 21300072
+      Grassland Fall@128x128_188: 21300376
+      Grassland Fall@128x128_200: 21300400
+      Grassland Fall@128x128_115: 21300230
+      Grassland Fall@128x128_18: 21300036
+      Grassland Fall@128x128_129: 21300258
+      Grassland Fall@128x128_225: 21300450
+      Grassland Fall@128x128_68: 21300136
+      Grassland Fall@128x128_47: 21300094
+      Grassland Fall@128x128_152: 21300304
+      Grassland Fall@128x128_53: 21300106
+      Grassland Fall@128x128_162: 21300324
+      Grassland Fall@128x128_141: 21300282
+      Grassland Fall@128x128_160: 21300320
+      Grassland Fall@128x128_15: 21300030
+      Grassland Fall@128x128_45: 21300090
+      Grassland Fall@128x128_71: 21300142
+      Grassland Fall@128x128_125: 21300250
+      Grassland Fall@128x128_184: 21300368
+      Grassland Fall@128x128_149: 21300298
+      Grassland Fall@128x128_217: 21300434
+      Grassland Fall@128x128_87: 21300174
+      Grassland Fall@128x128_124: 21300248
+      Grassland Fall@128x128_156: 21300312
+      Grassland Fall@128x128_187: 21300374
+      Grassland Fall@128x128_69: 21300138
+      Grassland Fall@128x128_189: 21300378
+      Grassland Fall@128x128_244: 21300488
+      Grassland Fall@128x128_177: 21300354
+      Grassland Fall@128x128_43: 21300086
+      Grassland Fall@128x128_159: 21300318
+      Grassland Fall@128x128_13: 21300026
+      Grassland Fall@128x128_111: 21300222
+      Grassland Fall@128x128_198: 21300396
+      Grassland Fall@128x128_55: 21300110
+      Grassland Fall@128x128_213: 21300426
+      Grassland Fall@128x128_250: 21300500
+      Grassland Fall@128x128_14: 21300028
+      Grassland Fall@128x128_238: 21300476
+      Grassland Fall@128x128_74: 21300148
+      Grassland Fall@128x128_132: 21300264
+      Grassland Fall@128x128_9: 21300018
+      Grassland Fall@128x128_96: 21300192
+      Grassland Fall@128x128_249: 21300498
+      Grassland Fall@128x128_50: 21300100
+      Grassland Fall@128x128_230: 21300460
+      Grassland Fall@128x128_82: 21300164
+      Grassland Fall@128x128_16: 21300032
+      Grassland Fall@128x128_165: 21300330
+      Grassland Fall@128x128_182: 21300364
+      Grassland Fall@128x128_81: 21300162
+      Grassland Fall@128x128_110: 21300220
+      Grassland Fall@128x128_197: 21300394
+      Grassland Fall@128x128_199: 21300398
+      Grassland Fall@128x128_221: 21300442
+      Grassland Fall@128x128_234: 21300468
+      Grassland Fall@128x128_172: 21300344
+      Grassland Fall@128x128_128: 21300256
+      Grassland Fall@128x128_137: 21300274
+      Grassland Fall@128x128_180: 21300360
+      Grassland Fall@128x128_145: 21300290
+      Grassland Fall@128x128_49: 21300098
+      Grassland Fall@128x128_142: 21300284
+      Grassland Fall@128x128_4: 21300008
+      Grassland Fall@128x128_118: 21300236
+      Grassland Fall@128x128_216: 21300432
+      Grassland Fall@128x128_123: 21300246
+      Grassland Fall@128x128_116: 21300232
+      Grassland Fall@128x128_214: 21300428
+      Grassland Fall@128x128_31: 21300062
+      Grassland Fall@128x128_11: 21300022
+      Grassland Fall@128x128_191: 21300382
+      Grassland Fall@128x128_247: 21300494
+      Grassland Fall@128x128_12: 21300024
+      Grassland Fall@128x128_107: 21300214
+      Grassland Fall@128x128_236: 21300472
+      Grassland Fall@128x128_35: 21300070
+      Grassland Fall@128x128_46: 21300092
+      Grassland Fall@128x128_148: 21300296
+      Grassland Fall@128x128_183: 21300366
+      Grassland Fall@128x128_169: 21300338
+      Grassland Fall@128x128_91: 21300182
+      Grassland Fall@128x128_195: 21300390
+      Grassland Fall@128x128_23: 21300046
+      Grassland Fall@128x128_146: 21300292
+      Grassland Fall@128x128_151: 21300302
+      Grassland Fall@128x128_112: 21300224
+      Grassland Fall@128x128_38: 21300076
+      Grassland Fall@128x128_105: 21300210
+      Grassland Fall@128x128_85: 21300170
+      Grassland Fall@128x128_168: 21300336
+      Grassland Fall@128x128_121: 21300242
+      Grassland Fall@128x128_17: 21300034
+      Grassland Fall@128x128_61: 21300122
+      Grassland Fall@128x128_78: 21300156
+      Grassland Fall@128x128_89: 21300178
+      Grassland Fall@128x128_181: 21300362
+      Grassland Fall@128x128_251: 21300502
+      Grassland Fall@128x128_235: 21300470
+      Grassland Fall@128x128_248: 21300496
+      Grassland Fall@128x128_70: 21300140
+      Grassland Fall@128x128_29: 21300058
+      Grassland Fall@128x128_84: 21300168
+      Grassland Fall@128x128_134: 21300268
+      Grassland Fall@128x128_153: 21300306
+      Grassland Fall@128x128_205: 21300410
+      Grassland Fall@128x128_253: 21300506
+      Grassland Fall@128x128_99: 21300198
+      Grassland Fall@128x128_232: 21300464
+      Grassland Fall@128x128_62: 21300124
+      Grassland Fall@128x128_77: 21300154
+      Grassland Fall@128x128_161: 21300322
+      Grassland Fall@128x128_30: 21300060
+      Grassland Fall@128x128_106: 21300212
+      Grassland Fall@128x128_192: 21300384
+      Grassland Fall@128x128_229: 21300458
+      Grassland Fall@128x128_24: 21300048
+      Grassland Fall@128x128_25: 21300050
+      Grassland Fall@128x128_167: 21300334
+      Grassland Fall@128x128_48: 21300096
+      Grassland Fall@128x128_57: 21300114
+      Grassland Fall@128x128_94: 21300188
+      Grassland Fall@128x128_80: 21300160
+      Grassland Fall@128x128_170: 21300340
+      Grassland Fall@128x128_131: 21300262
+      Grassland Fall@128x128_139: 21300278
+      Grassland Fall@128x128_41: 21300082
+      Grassland Fall@128x128_90: 21300180
+      Grassland Fall@128x128_154: 21300308
+      Grassland Fall@128x128_75: 21300150
+      Grassland Fall@128x128_218: 21300436
+      Grassland Fall@128x128_204: 21300408
+      Grassland Fall@128x128_117: 21300234
+      Grassland Fall@128x128_93: 21300186
+      Grassland Fall@128x128_157: 21300314
+      Grassland Fall@128x128_173: 21300346
+      Grassland Fall@128x128_201: 21300402
+      Grassland Fall@128x128_166: 21300332
+      Grassland Fall@128x128_194: 21300388
+      Grassland Fall@128x128_101: 21300202
+      Grassland Fall@128x128_56: 21300112
+      Grassland Fall@128x128_176: 21300352
+      Grassland Fall@128x128_223: 21300446
+      Grassland Fall@128x128_3: 21300006
+      Grassland Fall@128x128_2: 21300004
+      Grassland Fall@128x128_163: 21300326
+      Grassland Fall@128x128_65: 21300130
+      Grassland Fall@128x128_208: 21300416
+      Grassland Fall@128x128_193: 21300386
+      Grassland Fall@128x128_27: 21300054
+      Grassland Fall@128x128_19: 21300038
+      Grassland Fall@128x128_28: 21300056
+      Grassland Fall@128x128_119: 21300238
+      Grassland Fall@128x128_231: 21300462
+      Grassland Fall@128x128_33: 21300066
+      Grassland Fall@128x128_98: 21300196
+      Grassland Fall@128x128_126: 21300252
+      Grassland Fall@128x128_88: 21300176
+      Grassland Fall@128x128_178: 21300356
+      Grassland Fall@128x128_203: 21300406
+      Grassland Fall@128x128_209: 21300418
+      Grassland Fall@128x128_67: 21300134
+      Grassland Fall@128x128_186: 21300372
+      Grassland Fall@128x128_64: 21300128
+      Grassland Fall@128x128_104: 21300208
+      Grassland Fall@128x128_158: 21300316
+      Grassland Fall@128x128_212: 21300424
+      Grassland Fall@128x128_228: 21300456
+      Grassland Fall@128x128_102: 21300204
+      Grassland Fall@128x128_222: 21300444
+      Grassland Fall@128x128_241: 21300482
+      Grassland Fall@128x128_237: 21300474
+      Grassland Fall@128x128_226: 21300452
+      Grassland Fall@128x128_210: 21300420
+      Grassland Fall@128x128_103: 21300206
+      Grassland Fall@128x128_39: 21300078
+      Grassland Fall@128x128_1: 21300002
+      Grassland Fall@128x128_86: 21300172
+      Grassland Fall@128x128_92: 21300184
+      Grassland Fall@128x128_140: 21300280
+      Grassland Fall@128x128_95: 21300190
+      Grassland Fall@128x128_245: 21300490
+      Grassland Fall@128x128_122: 21300244
+      Grassland Fall@128x128_164: 21300328
+      Grassland Fall@128x128_109: 21300218
+      Grassland Fall@128x128_202: 21300404
+      Grassland Fall@128x128_143: 21300286
+      Grassland Fall@128x128_242: 21300484
+      Grassland Fall@128x128_10: 21300020
+      Grassland Fall@128x128_60: 21300120
+      Grassland Fall@128x128_66: 21300132
+      Grassland Fall@128x128_138: 21300276
+      Grassland Fall@128x128_144: 21300288
+      Grassland Fall@128x128_42: 21300084
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

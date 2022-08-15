@@ -4,11 +4,11 @@ using UnityEngine;
 public class PerlinArrays : MonoBehaviour
 {//////////////////////////////////height&width,          scale,coordx,coordy,frequency,lacunarity,persistance,octaves,amplitude
     private const float UnitCoordinatesBase = 10;
-    public const float seed = 420;
+
     private static float[] _heightMapArray =       { 200f,   .3f,  10f,   10f,     0.1f,        3f,      1.3f,       2f ,    1};
     private static float[] _heightIntensityArray = { 200f,   .5f,  10f,   10f,     0.2f,     .21f,      1.3f,       2f ,    1};
     private static float[] _zonesArray =            { 200f, .005f, 10f,   10f,     2.6f,      2f,      1.2f,       3f ,    1};
-    private static float[] _forestObjectArray =    { 200f,      1f, 10f,   10f,     0.18f,      1f,    .44f,       6f,    1};
+    private static float[] _forestObjectArray =    { 200f,      1f, 10f,   10f,     0.18f,      1f,    .74f,       6f,    1};
     private static readonly Dictionary<OverWorldZone, float[]> OverWorldZonePerlinArrays = new Dictionary<OverWorldZone, float[]>
     {
         {OverWorldZone.Forest,_forestObjectArray},
@@ -26,7 +26,10 @@ public class PerlinArrays : MonoBehaviour
     {   
         return _zonesArray;   
     }
-
+    public static float[] GetForestObjectArray()
+    {   
+        return _forestObjectArray;   
+    }
     public static float[] GetZoneArrayFromZoneType(OverWorldZone zoneType)
     {
         float[] returnZone = new float[8];
@@ -43,6 +46,7 @@ public class PerlinArrays : MonoBehaviour
     
     public static void AdjustHeightMapPerlinCoordinates(Vector3 perlinCoordinates)
     {
+        var seed = SeedGenerationManager.seed;
         perlinCoordinates += new Vector3(seed, 0, seed);
         var heightMapScale = _heightMapArray[1];
         var heightIntensityScale = _heightIntensityArray[1];
@@ -55,6 +59,8 @@ public class PerlinArrays : MonoBehaviour
     }
     public static void AdjustZonesPerlinCoordinates(Vector3 perlinCoordinates)
     {
+        var seed = SeedGenerationManager.seed;
+
         perlinCoordinates += new Vector3(seed, 0, seed);
         var zoneScale = _zonesArray[1];
         var forestScale = _forestObjectArray[1];

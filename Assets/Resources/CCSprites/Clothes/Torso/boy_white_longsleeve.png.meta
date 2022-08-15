@@ -557,6 +557,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,11 +568,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -588,9 +590,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4368,6 +4373,185 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      white_longsleeve_151: -5920810986406162475
+      white_longsleeve_144: -152151550829202219
+      white_longsleeve_55: 1368136643810550539
+      white_longsleeve_46: -7925111441913989302
+      white_longsleeve_29: -7021374212238754915
+      white_longsleeve_167: -3921166470037995166
+      white_longsleeve_47: -4504390412137891476
+      white_longsleeve_124: -8814034470104425795
+      white_longsleeve_14: 8767312097540987899
+      white_longsleeve_83: -4406905589364933058
+      white_longsleeve_81: 8851395741572063081
+      white_longsleeve_140: -3738522751881289932
+      white_longsleeve_145: -1221599169734725252
+      white_longsleeve_112: -8945341925974991165
+      white_longsleeve_2: -4563031284497909772
+      white_longsleeve_103: -5928304713724357795
+      white_longsleeve_177: 8613554246011481976
+      white_longsleeve_132: -3085360208498555019
+      white_longsleeve_3: -1099463604629633871
+      white_longsleeve_122: 8179585592966409855
+      white_longsleeve_119: 6690493551965061173
+      white_longsleeve_100: 6772032088849777507
+      white_longsleeve_5: 5111495931617370825
+      white_longsleeve_40: -7526356009888409409
+      white_longsleeve_34: -6100017436184668447
+      white_longsleeve_141: -3078305652374885619
+      white_longsleeve_125: -7303295396539393672
+      white_longsleeve_159: -7698956208331506278
+      white_longsleeve_51: 8630681475138178484
+      white_longsleeve_25: 4178801611658348257
+      white_longsleeve_9: -1333802611479638898
+      white_longsleeve_173: 8226066352522486456
+      white_longsleeve_90: -23415277660671883
+      white_longsleeve_77: 7453625005565072862
+      white_longsleeve_20: -7243553486050872365
+      white_longsleeve_17: -3385661714307169374
+      white_longsleeve_107: 173480521926286529
+      white_longsleeve_134: -4393619596121546143
+      white_longsleeve_27: -3497243889975021337
+      white_longsleeve_57: -7368764278289370781
+      white_longsleeve_118: 2585961735321054286
+      white_longsleeve_97: -8037792174062647646
+      white_longsleeve_73: 734106063000587004
+      white_longsleeve_152: -4199541882147197543
+      white_longsleeve_21: -2927651600506422208
+      white_longsleeve_110: -3640866220434711147
+      white_longsleeve_33: 3828017360057972097
+      white_longsleeve_7: -6269541806008560412
+      white_longsleeve_147: -7653306431286930401
+      white_longsleeve_170: 5460134269365856423
+      white_longsleeve_157: 9027808075166485339
+      white_longsleeve_95: 2670558327115609313
+      white_longsleeve_148: -4795688890350804289
+      white_longsleeve_54: -6398320517954582001
+      white_longsleeve_106: 5021153339802257067
+      white_longsleeve_108: -1379754776689338881
+      white_longsleeve_31: 1164581307705952291
+      white_longsleeve_70: 1699701576711527368
+      white_longsleeve_36: -7639263660832945838
+      white_longsleeve_0: 5919272698428538579
+      white_longsleeve_171: -2254037603535856337
+      white_longsleeve_75: 1002898925971214112
+      white_longsleeve_58: -8533905837693864120
+      white_longsleeve_87: 321407376837434277
+      white_longsleeve_117: -8740910507321906702
+      white_longsleeve_30: -3607724871621949430
+      white_longsleeve_105: 7446132187333119970
+      white_longsleeve_79: 4000752736234513226
+      white_longsleeve_149: 3482156851231461878
+      white_longsleeve_56: 8620847811179794672
+      white_longsleeve_164: 3344573944117224613
+      white_longsleeve_102: -9183127109811980241
+      white_longsleeve_60: 5523697487923009617
+      white_longsleeve_45: 8240550639364018725
+      white_longsleeve_109: -3652472930915222249
+      white_longsleeve_53: -3838052998788536170
+      white_longsleeve_42: 7832199308837541887
+      white_longsleeve_69: 7485154789091070337
+      white_longsleeve_59: -7413986785590604057
+      white_longsleeve_130: -1925909780287226432
+      white_longsleeve_166: -7862250396223329931
+      white_longsleeve_11: -4240943655154524281
+      white_longsleeve_137: 8533092004010928817
+      white_longsleeve_64: 5407839747225596285
+      white_longsleeve_71: -1247141867657589284
+      white_longsleeve_49: 5475292204750548392
+      white_longsleeve_85: -6399695719568276458
+      white_longsleeve_169: -5652727094296547563
+      white_longsleeve_116: 8229230636685956987
+      white_longsleeve_91: -3767840713540096936
+      white_longsleeve_65: -5729734419293749856
+      white_longsleeve_48: 1263988939868603114
+      white_longsleeve_139: 4630316902157146601
+      white_longsleeve_13: -5619556607866677587
+      white_longsleeve_128: 7502359053996160458
+      white_longsleeve_153: 809844879685912023
+      white_longsleeve_41: 152453555698690732
+      white_longsleeve_62: -1741247128222130561
+      white_longsleeve_161: 472371832904084170
+      white_longsleeve_72: -5074381736563737108
+      white_longsleeve_76: -7373341926077636753
+      white_longsleeve_150: -9211444399283643681
+      white_longsleeve_35: -8976864187248657972
+      white_longsleeve_138: -8870042531812947188
+      white_longsleeve_168: -8714113021496765728
+      white_longsleeve_146: 2115456327985709444
+      white_longsleeve_38: 8690224813675299805
+      white_longsleeve_66: -7683028682429626736
+      white_longsleeve_175: -5433935544295359464
+      white_longsleeve_4: 4519283105563891941
+      white_longsleeve_39: 7465168980195973112
+      white_longsleeve_63: -9062207014975551036
+      white_longsleeve_50: -3485242422833785807
+      white_longsleeve_111: 3049840217048794069
+      white_longsleeve_160: -5923357255975192272
+      white_longsleeve_93: 8108499761254461860
+      white_longsleeve_136: -3484107261882286922
+      white_longsleeve_52: 8628522669328876113
+      white_longsleeve_61: -4303774585311181573
+      white_longsleeve_143: -2134015704524699761
+      white_longsleeve_135: 3553955179310869421
+      white_longsleeve_15: -8849959262114825221
+      white_longsleeve_98: 2732771731722353512
+      white_longsleeve_123: 8482896401954697826
+      white_longsleeve_163: 3687695983216924650
+      white_longsleeve_96: -5422857495035404558
+      white_longsleeve_82: -8228037208370258741
+      white_longsleeve_121: -8288858107372962310
+      white_longsleeve_22: 321578971217854570
+      white_longsleeve_174: -6150499880154725941
+      white_longsleeve_23: -1733500924359200654
+      white_longsleeve_142: -1636058235471772474
+      white_longsleeve_74: 988511020620383590
+      white_longsleeve_99: 7415511901664003579
+      white_longsleeve_19: -6092288631553028591
+      white_longsleeve_86: 8905472517902022435
+      white_longsleeve_114: -468477087969852361
+      white_longsleeve_32: 9174953874198423189
+      white_longsleeve_44: 8938041109542116193
+      white_longsleeve_129: -1784518552179639166
+      white_longsleeve_78: -3499078438076696200
+      white_longsleeve_88: 7199087632465980766
+      white_longsleeve_28: 8081327631540511360
+      white_longsleeve_16: 986237933480341246
+      white_longsleeve_172: -3881205561846300396
+      white_longsleeve_12: 5265153803522000483
+      white_longsleeve_18: -1441262581608383527
+      white_longsleeve_37: 4469203726056989249
+      white_longsleeve_92: -8534092110837541361
+      white_longsleeve_94: 9079404710382984806
+      white_longsleeve_133: 8390952091306558573
+      white_longsleeve_126: -6630574115934844903
+      white_longsleeve_127: 5730601608311052719
+      white_longsleeve_155: 6206152858941350935
+      white_longsleeve_67: 3146245512732059916
+      white_longsleeve_68: -2113222629373908153
+      white_longsleeve_8: 9075111849041293569
+      white_longsleeve_43: -4099619073994180509
+      white_longsleeve_113: 1356999059285416899
+      white_longsleeve_162: 6624365919042041835
+      white_longsleeve_165: -270791761976638523
+      white_longsleeve_89: 1195330793105465497
+      white_longsleeve_84: -2845028867819825130
+      white_longsleeve_158: -1929208984312170905
+      white_longsleeve_26: 7051389113733810338
+      white_longsleeve_115: 6980100989535903905
+      white_longsleeve_80: 5290120330940745652
+      white_longsleeve_120: 1042252592218330812
+      white_longsleeve_24: 8228863646235167579
+      white_longsleeve_154: -2925511591101842891
+      white_longsleeve_1: -2810846595412751573
+      white_longsleeve_104: -1935036361136720296
+      white_longsleeve_156: 2822016910852769683
+      white_longsleeve_10: -3952928176145827903
+      white_longsleeve_131: -5837859805824682473
+      white_longsleeve_6: 6987603504825801325
+      white_longsleeve_176: -1186970037888691921
+      white_longsleeve_101: -5000690514235536036
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

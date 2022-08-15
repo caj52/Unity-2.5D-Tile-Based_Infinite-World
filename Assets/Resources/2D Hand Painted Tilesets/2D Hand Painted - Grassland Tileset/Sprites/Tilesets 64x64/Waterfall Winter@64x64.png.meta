@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -69,11 +70,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -226,7 +227,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 903c62c63af4c6f00800000000000000
-      internalID: 1111350771366413065
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -247,7 +248,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 41bdb06c4fb236760800000000000000
-      internalID: 7449846538895612692
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -268,7 +269,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e0bfdd151320abbb0800000000000000
-      internalID: -4919617232098690290
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -289,7 +290,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8499540fb419a0400800000000000000
-      internalID: 291204881258486088
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -304,6 +305,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Waterfall Winter@64x64_3: 21300006
+      Waterfall Winter@64x64_2: 21300004
+      Waterfall Winter@64x64_5: 21300010
+      Waterfall Winter@64x64_6: 21300012
+      Waterfall Winter@64x64_4: 21300008
+      Waterfall Winter@64x64_0: 21300000
+      Waterfall Winter@64x64_1: 21300002
+      Waterfall Winter@64x64_7: 21300014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

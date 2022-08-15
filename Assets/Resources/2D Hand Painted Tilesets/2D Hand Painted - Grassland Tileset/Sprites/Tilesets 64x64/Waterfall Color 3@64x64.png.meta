@@ -72,6 +72,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -82,7 +83,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -316,6 +317,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Waterfall Color 3@64x64_2: 1918113617095406533
+      Waterfall Color 3@64x64_5: 7875393261843252935
+      Waterfall Color 3@64x64_7: -1607278406057672583
+      Waterfall Color 3@64x64_3: -9117735164967215337
+      Waterfall Color 3@64x64_0: 1429155456661454607
+      Waterfall Color 3@64x64_1: -471842383711125718
+      Waterfall Color 3@64x64_4: 2808677923867790281
+      Waterfall Color 3@64x64_6: 115523952835616727
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

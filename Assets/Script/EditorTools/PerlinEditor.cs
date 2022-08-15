@@ -68,7 +68,7 @@ public class PerlinEditor : EditorWindow
        PerlinImage = new Texture2D(200, 200);
        perlinRect = new Rect(95, 80, PerlinImage.width, PerlinImage.height);
        pixelsInPerlin = new Color[200 * 200];
-       perlinLoadoutOptions = new string[4] {"New Custom Loadout","Height Map", "Height Map Intensities", "Zones"};
+       perlinLoadoutOptions = new string[5] {"New Custom Loadout","Height Map", "Height Map Intensities", "Zones", "Forest Objects"};
 
    }
    
@@ -253,6 +253,10 @@ public class PerlinEditor : EditorWindow
                 break;
             case 3:
                 localPerlinData = PerlinArrays.GetZonesArray();
+                SetPerlinVariablesFromPerlinArray(localPerlinData);
+                break;
+            case 4:
+                localPerlinData = PerlinArrays.GetForestObjectArray();
                 SetPerlinVariablesFromPerlinArray(localPerlinData);
                 break;
         }

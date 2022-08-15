@@ -30,6 +30,7 @@ public class Initilizations : MonoBehaviour
         heightMapManager.Init();
         overWorldObjectManager.Init();
         StartCoroutine(worldInit.CreateWorldMesh());
+        
         playerHealth.Init();
         quickAccessInventory.Init();
         player.Init();
@@ -38,5 +39,6 @@ public class Initilizations : MonoBehaviour
         interactionPoolMouseSelection.Init();
         hudDialogueBox.Init();
         hungerIcon.Init();
+        //////////////////////////////
     }
 }

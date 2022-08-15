@@ -8,6 +8,15 @@ public class Creature : MonoBehaviour
 {
     public int totalHealth { get; private set; }
     public int currentHealth{ get; private set; }
+
+    public InventoryObjectType.InventoryObject[] inventory = new InventoryObjectType.InventoryObject[4]
+    {
+        InventoryObjectType.InventoryObject.None,
+        InventoryObjectType.InventoryObject.None,
+        InventoryObjectType.InventoryObject.None,
+        InventoryObjectType.InventoryObject.None
+    };
+    
     public int speed{ get; private set; }
     [HideInInspector]public Rigidbody rigidbody;
     [HideInInspector]public SpriteRenderer renderer;

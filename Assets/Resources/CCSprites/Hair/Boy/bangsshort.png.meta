@@ -557,6 +557,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -566,11 +568,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -588,9 +590,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4368,6 +4373,185 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bangsshort_21: -674355177725353554
+      bangsshort_160: 4253183943225785603
+      bangsshort_76: -2138505673317900285
+      bangsshort_172: 7846265569622979758
+      bangsshort_16: -4738615304510547728
+      bangsshort_54: 5009360367902643190
+      bangsshort_98: 7709087407451411444
+      bangsshort_59: 7495864329546806488
+      bangsshort_61: 2485700587675096035
+      bangsshort_169: -5531929984768863223
+      bangsshort_44: -8720536519827685006
+      bangsshort_24: -5847044629825862477
+      bangsshort_74: 6400661524127828759
+      bangsshort_41: 9107860256981771667
+      bangsshort_70: 2875587973154634597
+      bangsshort_131: -1446718761044508585
+      bangsshort_171: -3875467418713645362
+      bangsshort_10: 4568539948488582852
+      bangsshort_58: -6481033989543217944
+      bangsshort_75: 668930449118562266
+      bangsshort_141: -5813822444093228424
+      bangsshort_175: 1159600200922997767
+      bangsshort_85: -4952007437602004694
+      bangsshort_157: -2029795774245615680
+      bangsshort_20: -9072136391847435767
+      bangsshort_93: 5105207272110227373
+      bangsshort_109: 1497952725866486998
+      bangsshort_33: -3054865415396061151
+      bangsshort_156: 3981461836438379723
+      bangsshort_124: 7921646583856347521
+      bangsshort_161: 3390422288662440321
+      bangsshort_62: -5905698956427872
+      bangsshort_87: -7514089316565509467
+      bangsshort_1: -249558203404301576
+      bangsshort_123: 7087913412769024176
+      bangsshort_138: 3723831449733685243
+      bangsshort_55: -2441190881043286915
+      bangsshort_102: 1426870349857771909
+      bangsshort_37: -1836255851144812025
+      bangsshort_31: -337324588699121596
+      bangsshort_139: 2079271983602194313
+      bangsshort_96: 7105201664195344101
+      bangsshort_84: 2768238411500794891
+      bangsshort_168: 2524251743659688392
+      bangsshort_176: 6092597045671215478
+      bangsshort_19: 6707834104570287318
+      bangsshort_57: -567932548554395632
+      bangsshort_63: 6555616831123322337
+      bangsshort_145: 6751116164571032436
+      bangsshort_11: -7681905826141989176
+      bangsshort_91: 7112516985583453281
+      bangsshort_167: 8586357847730040235
+      bangsshort_106: 1205999753758400006
+      bangsshort_119: -7128634959138033015
+      bangsshort_39: 2784720151071879224
+      bangsshort_7: -5407953049707443564
+      bangsshort_143: 8690377247668276956
+      bangsshort_32: -7606056647512833966
+      bangsshort_99: -4789285904319177099
+      bangsshort_78: 3296650520924051473
+      bangsshort_40: 7537144616954868248
+      bangsshort_89: -3458231853726732951
+      bangsshort_170: -7095651992343572553
+      bangsshort_149: -7094959745114049255
+      bangsshort_45: -2935628864059843275
+      bangsshort_128: -7773851392488267092
+      bangsshort_49: -2555221965902505086
+      bangsshort_9: 5584618920542001724
+      bangsshort_53: -6278881039974235347
+      bangsshort_104: -1049315855703456179
+      bangsshort_120: -8226909925465605255
+      bangsshort_137: -4233719512638881759
+      bangsshort_105: -4191963213807668961
+      bangsshort_142: 6790681295189170286
+      bangsshort_117: 534255337511568077
+      bangsshort_42: -8310152948275997968
+      bangsshort_88: -8079219712369815010
+      bangsshort_22: -5946847908364240576
+      bangsshort_140: -1420004281227459977
+      bangsshort_154: -3792385782624332073
+      bangsshort_155: 5520310736264600937
+      bangsshort_12: 6709257018862941447
+      bangsshort_95: -9096726268044867626
+      bangsshort_115: -9213393212562328425
+      bangsshort_107: -5524179435542701938
+      bangsshort_159: -8139302055547220077
+      bangsshort_112: -8547649562673759939
+      bangsshort_101: 170784904405739583
+      bangsshort_18: -1356420660706804985
+      bangsshort_174: 6006501547389586525
+      bangsshort_134: 4415682764347933023
+      bangsshort_103: 3551931859871042377
+      bangsshort_38: 341603906070720088
+      bangsshort_122: -1578229564582217892
+      bangsshort_108: 1662169672304724063
+      bangsshort_15: -926827283189085797
+      bangsshort_148: -2195435115154282811
+      bangsshort_126: 8850090745638398332
+      bangsshort_64: 1286993213582445267
+      bangsshort_77: 3604572982025392121
+      bangsshort_116: -7432661470867578075
+      bangsshort_173: -2466458710762699853
+      bangsshort_17: -5145569303615754058
+      bangsshort_43: 1074957171794824812
+      bangsshort_56: 3273198911239260624
+      bangsshort_81: -3338978532658017807
+      bangsshort_166: -5525646162654355619
+      bangsshort_5: -439693630658336979
+      bangsshort_65: -5513351877473273844
+      bangsshort_132: -3315583097970201243
+      bangsshort_2: 179577331753553982
+      bangsshort_153: 2253975827939110532
+      bangsshort_82: -7942378235168318974
+      bangsshort_86: -4661320206721423961
+      bangsshort_125: -4273983028672044034
+      bangsshort_129: -4642995261989853161
+      bangsshort_69: -4453006237454360837
+      bangsshort_150: 2118983947937290945
+      bangsshort_164: -2386651557468509182
+      bangsshort_152: -2526341493805181984
+      bangsshort_72: 2413569744989734371
+      bangsshort_34: -5729021976525185665
+      bangsshort_114: -5081588895642217726
+      bangsshort_30: 3886861713016001229
+      bangsshort_23: -8895763103241756585
+      bangsshort_146: 3849475334974530046
+      bangsshort_66: -9014342446868979128
+      bangsshort_47: -4095334995943793086
+      bangsshort_8: -689232303758976150
+      bangsshort_113: -1181557915426808161
+      bangsshort_158: 3969165995538190285
+      bangsshort_14: -510736805961236655
+      bangsshort_68: -3900987042299738659
+      bangsshort_50: -1853264083054873
+      bangsshort_92: -6751012773269554809
+      bangsshort_147: 3741665681897637794
+      bangsshort_28: -7160391430242572955
+      bangsshort_94: -6862892541047137067
+      bangsshort_48: -1435715029157613860
+      bangsshort_13: -6932051966990111180
+      bangsshort_136: -7216358428239213330
+      bangsshort_100: -6974968369686251747
+      bangsshort_26: -1208141853149186063
+      bangsshort_52: -2657164590845639454
+      bangsshort_151: 3418458756186540396
+      bangsshort_110: 7476236623452679476
+      bangsshort_111: 9039673372013948171
+      bangsshort_6: 3282238496691436258
+      bangsshort_118: 7136730763587539381
+      bangsshort_97: -2496192774413828697
+      bangsshort_46: -7112109488535917581
+      bangsshort_135: 4402451826742915962
+      bangsshort_162: -7978606810377581443
+      bangsshort_163: -4340704387277947934
+      bangsshort_73: -7767665492489386450
+      bangsshort_60: -2796049672000927207
+      bangsshort_25: 235903899831637451
+      bangsshort_36: 7416873403317263200
+      bangsshort_90: -9033293280249872737
+      bangsshort_144: -5259598651542645906
+      bangsshort_121: 3284813570839472879
+      bangsshort_177: -6641505114342900538
+      bangsshort_127: 460524407367027591
+      bangsshort_130: 3393558707289883365
+      bangsshort_0: -5030577875652293515
+      bangsshort_27: -1350411524514597949
+      bangsshort_35: -2328126268114068270
+      bangsshort_79: -6429148024928282967
+      bangsshort_3: 3272956487364325766
+      bangsshort_133: -1774797642067654212
+      bangsshort_165: 8220051004182974504
+      bangsshort_83: 1122529903816132211
+      bangsshort_29: 6886776903667619300
+      bangsshort_71: 7288527625735737594
+      bangsshort_51: -1930348049400903012
+      bangsshort_67: -725938224086265052
+      bangsshort_80: 2755984410648718186
+      bangsshort_4: -774790028062345160
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

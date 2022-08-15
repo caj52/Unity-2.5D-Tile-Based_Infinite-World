@@ -1,0 +1,1993 @@
+fileFormatVersion: 2
+guid: d4d39c54b4260594c92ddc49a25f30e8
+timeCreated: 1485752793
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ElbowPole.L
+    100004: ElbowPole.L_end
+    100006: ElbowPole.R
+    100008: ElbowPole.R_end
+    100010: Foot.L
+    100012: Foot.L_end
+    100014: Foot.R
+    100016: Foot.R_end
+    100018: FootIK.L
+    100020: FootIK.L_end
+    100022: FootIK.R
+    100024: FootIK.R_end
+    100026: Hand.L
+    100028: Hand.L_end
+    100030: Hand.R
+    100032: Hand.R_end
+    100034: HandIK.L
+    100036: HandIK.L_end
+    100038: HandIK.R
+    100040: HandIK.R_end
+    100042: Head
+    100044: Head_end
+    100046: Hips
+    100048: KneePole.L
+    100050: KneePole.L_end
+    100052: KneePole.R
+    100054: KneePole.R_end
+    100056: LowerArm.L
+    100058: LowerArm.R
+    100060: LowerLeg.L
+    100062: LowerLeg.R
+    100064: Neck
+    100066: RootBone
+    100068: Shoulder.L
+    100070: Shoulder.R
+    100072: Spine
+    100074: Spine.02
+    100076: UpperArm.L
+    100078: UpperArm.R
+    100080: UpperLeg.L
+    100082: UpperLeg.R
+    400000: //RootNode
+    400002: ElbowPole.L
+    400004: ElbowPole.L_end
+    400006: ElbowPole.R
+    400008: ElbowPole.R_end
+    400010: Foot.L
+    400012: Foot.L_end
+    400014: Foot.R
+    400016: Foot.R_end
+    400018: FootIK.L
+    400020: FootIK.L_end
+    400022: FootIK.R
+    400024: FootIK.R_end
+    400026: Hand.L
+    400028: Hand.L_end
+    400030: Hand.R
+    400032: Hand.R_end
+    400034: HandIK.L
+    400036: HandIK.L_end
+    400038: HandIK.R
+    400040: HandIK.R_end
+    400042: Head
+    400044: Head_end
+    400046: Hips
+    400048: KneePole.L
+    400050: KneePole.L_end
+    400052: KneePole.R
+    400054: KneePole.R_end
+    400056: LowerArm.L
+    400058: LowerArm.R
+    400060: LowerLeg.L
+    400062: LowerLeg.R
+    400064: Neck
+    400066: RootBone
+    400068: Shoulder.L
+    400070: Shoulder.R
+    400072: Spine
+    400074: Spine.02
+    400076: UpperArm.L
+    400078: UpperArm.R
+    400080: UpperLeg.L
+    400082: UpperLeg.R
+    7400000: Animations
+    7400002: Low_Poly_Skeleton|01_Idle
+    7400004: Low_Poly_Skeleton|02_Walk
+    7400006: Low_Poly_Skeleton|03_Run
+    7400008: Low_Poly_Skeleton|04_Jump_Up
+    7400010: Low_Poly_Skeleton|05_Falling
+    7400012: Low_Poly_Skeleton|06_Landing
+    7400014: Low_Poly_Skeleton|07_Fight_Stance_Idle
+    7400016: Low_Poly_Skeleton|08_Vertical_Slice
+    7400018: Low_Poly_Skeleton|09_Horizontal_Slice
+    7400020: Low_Poly_Skeleton|09_Horizontal_Slice.001
+    7400022: Low_Poly_Skeleton|0_Neutral_Pose
+    7400024: Low_Poly_Skeleton|10_Shield_Cover
+    7400026: Low_Poly_Skeleton|11_Sword_Trust
+    7400028: Low_Poly_Skeleton|SunAction
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Animations
+      takeName: Low_Poly_Skeleton|00_T_Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|01_Idle
+      takeName: Low_Poly_Skeleton|01_Idle
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|02_Walk
+      takeName: Low_Poly_Skeleton|02_Walk
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|03_Run
+      takeName: Low_Poly_Skeleton|03_Run
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|04_Jump_Up
+      takeName: Low_Poly_Skeleton|04_Jump_Up
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|05_Falling
+      takeName: Low_Poly_Skeleton|05_Falling
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|06_Landing
+      takeName: Low_Poly_Skeleton|06_Landing
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|07_Fight_Stance_Idle
+      takeName: Low_Poly_Skeleton|07_Fight_Stance_Idle
+      firstFrame: 0
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|08_Vertical_Slice
+      takeName: Low_Poly_Skeleton|08_Vertical_Slice
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|09_Horizontal_Slice
+      takeName: Low_Poly_Skeleton|09_Horizontal_Slice
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|0_Neutral_Pose
+      takeName: Low_Poly_Skeleton|0_Neutral_Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|10_Shield_Cover
+      takeName: Low_Poly_Skeleton|10_Shield_Cover
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Low_Poly_Skeleton|11_Sword_Trust
+      takeName: Low_Poly_Skeleton|11_Sword_Trust
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: RootBone
+        weight: 1
+      - path: RootBone/ElbowPole.L
+        weight: 0
+      - path: RootBone/ElbowPole.L/ElbowPole.L_end
+        weight: 0
+      - path: RootBone/ElbowPole.R
+        weight: 0
+      - path: RootBone/ElbowPole.R/ElbowPole.R_end
+        weight: 0
+      - path: RootBone/FootIK.L
+        weight: 0
+      - path: RootBone/FootIK.L/FootIK.L_end
+        weight: 0
+      - path: RootBone/FootIK.R
+        weight: 0
+      - path: RootBone/FootIK.R/FootIK.R_end
+        weight: 0
+      - path: RootBone/HandIK.L
+        weight: 0
+      - path: RootBone/HandIK.L/HandIK.L_end
+        weight: 0
+      - path: RootBone/HandIK.R
+        weight: 0
+      - path: RootBone/HandIK.R/HandIK.R_end
+        weight: 0
+      - path: RootBone/Hips
+        weight: 1
+      - path: RootBone/Hips/Spine
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Neck/Head/Head_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 0
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: RootBone/Hips/Spine/Spine.02/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Foot.L_end
+        weight: 0
+      - path: RootBone/Hips/UpperLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: RootBone/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Foot.R_end
+        weight: 0
+      - path: RootBone/KneePole.L
+        weight: 0
+      - path: RootBone/KneePole.L/KneePole.L_end
+        weight: 0
+      - path: RootBone/KneePole.R
+        weight: 0
+      - path: RootBone/KneePole.R/KneePole.R_end
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine.02
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Cubits_Warrior@run(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: RootBone
+      parentName: Cubits_Warrior@run(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0000035981345, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.L
+      parentName: RootBone
+      position: {x: -0.0030086492, y: 0.0041597453, z: -0.0024217037}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.L_end
+      parentName: ElbowPole.L
+      position: {x: -0, y: 0.00030684186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.R
+      parentName: RootBone
+      position: {x: 0.0030086492, y: 0.0041597453, z: -0.0024217037}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ElbowPole.R_end
+      parentName: ElbowPole.R
+      position: {x: -0, y: 0.00030684186, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.L
+      parentName: RootBone
+      position: {x: -0.0007704129, y: 0.00026182912, z: 0.000028595083}
+      rotation: {x: -0.0000006051139, y: 0.6072886, z: 0.79448134, w: -0.00000035310325}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.L_end
+      parentName: FootIK.L
+      position: {x: -0, y: 0.00065385323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.R
+      parentName: RootBone
+      position: {x: 0.0007704127, y: 0.00026182912, z: 0.000028595081}
+      rotation: {x: -0.0000007557601, y: 0.6072886, z: 0.79448134, w: -0.0000005955356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FootIK.R_end
+      parentName: FootIK.R
+      position: {x: -0, y: 0.00065385323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK.L
+      parentName: RootBone
+      position: {x: -0.004041034, y: 0.0041677007, z: 0.000009409922}
+      rotation: {x: 1, y: 3.2656974e-19, z: 0.0000000754979, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK.L_end
+      parentName: HandIK.L
+      position: {x: -0, y: 0.0005291217, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK.R
+      parentName: RootBone
+      position: {x: 0.004041034, y: 0.0041677, z: 0.000009410502}
+      rotation: {x: 1, y: 1.5469947e-19, z: 0.0000000754979, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HandIK.R_end
+      parentName: HandIK.R
+      position: {x: -0, y: 0.0005291219, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: RootBone
+      position: {x: -0, y: 0.0022310305, z: 1.1368684e-15}
+      rotation: {x: 0, y: -0.00000011920928, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Hips
+      position: {x: 2.7105054e-22, y: 0.0007391077, z: 1.1368684e-15}
+      rotation: {x: -1.5916157e-12, y: -3.249019e-38, z: 3.7947076e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine.02
+      parentName: Spine
+      position: {x: -3.8370194e-29, y: 0.0007391077, z: 0}
+      rotation: {x: 2.728484e-12, y: -7.1054274e-15, z: -7.505722e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Neck
+      parentName: Spine.02
+      position: {x: -4.0657588e-22, y: 0.0007391083, z: 0}
+      rotation: {x: -4.5474735e-13, y: 0.00000011920928, z: 1.2496309e-19, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -2.4233806e-29, y: 0.000502097, z: 5.4210107e-22}
+      rotation: {x: -5.6843424e-13, y: 7.1054274e-15, z: 2.4201935e-20, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head_end
+      parentName: Head
+      position: {x: -0, y: 0.003296466, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.L
+      parentName: Spine.02
+      position: {x: -0.0003339194, y: 0.00035605757, z: 1.2745428e-10}
+      rotation: {x: 0.0000001454017, y: -0.00000006462294, z: 0.59336317, w: 0.80493486}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: UpperArm.L
+      parentName: Shoulder.L
+      position: {x: -0.00040780625, y: 0.001747852, z: 7.3822876e-10}
+      rotation: {x: 0.080269895, y: -0.69977814, z: 0.13490944, w: 0.696898}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: LowerArm.L
+      parentName: UpperArm.L
+      position: {x: -6.984919e-12, y: 0.0009152352, z: 5.2226823e-10}
+      rotation: {x: -0.0019444936, y: 0.00038018828, z: -0.07431828, w: 0.9972327}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: 1.3387761e-11, y: 0.0010378131, z: 2.0573679e-10}
+      rotation: {x: 0.038091972, y: -0.6412175, z: -0.029659985, w: 0.76583904}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999999}
+    - name: Hand.L_end
+      parentName: Hand.L
+      position: {x: -0, y: 0.0005291217, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Shoulder.R
+      parentName: Spine.02
+      position: {x: 0.0003339194, y: 0.00035605728, z: -3.177317e-11}
+      rotation: {x: -0.000000200188, y: -0.000000020371168, z: -0.59336317, w: 0.80493486}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: UpperArm.R
+      parentName: Shoulder.R
+      position: {x: 0.0004078062, y: 0.0017478517, z: 4.576505e-10}
+      rotation: {x: -0.13490961, y: -0.69689775, z: -0.08026988, w: 0.6997783}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: LowerArm.R
+      parentName: UpperArm.R
+      position: {x: 6.286427e-11, y: 0.0009152347, z: 2.773595e-10}
+      rotation: {x: 0.001944758, y: -0.00037932396, z: -0.07431843, w: 0.9972326}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: Hand.R
+      parentName: LowerArm.R
+      position: {x: -5.0640665e-11, y: 0.001037813, z: -2.1578671e-10}
+      rotation: {x: 0.029660447, y: 0.76583916, z: -0.038092185, w: -0.64121735}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: Hand.R_end
+      parentName: Hand.R
+      position: {x: -0, y: 0.0005291219, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.L
+      parentName: Hips
+      position: {x: -0.0007704129, y: -0.00013092699, z: 0.00002306089}
+      rotation: {x: 0.9987024, y: -0.000000012458594, z: -0.00000010150318, w: 0.050926365}
+      scale: {x: 1, y: 1, z: 1.0000185}
+    - name: LowerLeg.L
+      parentName: UpperLeg.L
+      position: {x: -3.5111643e-11, y: 0.0009823462, z: 2.100113e-11}
+      rotation: {x: 0.10534679, y: -0.000000001266788, z: -0.000000037177692, w: 0.99443555}
+      scale: {x: 1, y: 0.9999998, z: 0.99999833}
+    - name: Foot.L
+      parentName: LowerLeg.L
+      position: {x: -6.329024e-11, y: 0.0008661824, z: -7.484515e-12}
+      rotation: {x: 0.0000004030821, y: 0.76015973, z: -0.6497363, w: -0.00000051970017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Foot.L_end
+      parentName: Foot.L
+      position: {x: -0, y: 0.00065385323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UpperLeg.R
+      parentName: Hips
+      position: {x: 0.0007704127, y: -0.00013092713, z: 0.00002306052}
+      rotation: {x: 0.9987023, y: -0.00000007097218, z: -0.00000015165482, w: 0.050928757}
+      scale: {x: 1, y: 0.99999994, z: 0.99999595}
+    - name: LowerLeg.R
+      parentName: UpperLeg.R
+      position: {x: 3.9966926e-11, y: 0.000982346, z: -1.8962125e-11}
+      rotation: {x: 0.105352886, y: 0.00000036439394, z: -0.00000012818319, w: 0.9944349}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: Foot.R
+      parentName: LowerLeg.R
+      position: {x: -3.0007274e-11, y: 0.00086618285, z: 1.12373045e-11}
+      rotation: {x: 0.00000079559476, y: 0.7601573, z: -0.6497391, w: -0.00000032968558}
+      scale: {x: 1, y: 0.99999964, z: 1}
+    - name: Foot.R_end
+      parentName: Foot.R
+      position: {x: -0, y: 0.00065385323, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.L
+      parentName: RootBone
+      position: {x: -0.0007704129, y: 0.0011228531, z: 0.0021212336}
+      rotation: {x: 0.00000009415697, y: 0.7071068, z: 0.7071067, w: 0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.L_end
+      parentName: KneePole.L
+      position: {x: -0, y: 0.0004175517, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.R
+      parentName: RootBone
+      position: {x: 0.0007704129, y: 0.0011228531, z: 0.0021212336}
+      rotation: {x: 0.00000009415697, y: 0.7071068, z: 0.7071067, w: 0.00000009415696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: KneePole.R_end
+      parentName: KneePole.R
+      position: {x: -0, y: 0.0004175517, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

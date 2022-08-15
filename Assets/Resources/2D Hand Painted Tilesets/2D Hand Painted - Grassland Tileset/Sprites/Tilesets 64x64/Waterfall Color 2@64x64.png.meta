@@ -84,6 +84,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -94,7 +95,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -166,7 +167,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c53eaa8bb753365e0800000000000000
-      internalID: -1917630210834242724
+      internalID: 2517946722112050844
       vertices: []
       indices: 
       edges: []
@@ -187,7 +188,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a1a26f2d226be9d20800000000000000
-      internalID: 3287265038711532058
+      internalID: 8106527784026899137
       vertices: []
       indices: 
       edges: []
@@ -208,7 +209,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cd8f1022bab4d0830800000000000000
-      internalID: 4038967639203248348
+      internalID: -8747516282591883650
       vertices: []
       indices: 
       edges: []
@@ -229,7 +230,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f41edc59313339920800000000000000
-      internalID: 2995794336342204751
+      internalID: 8120103638918799423
       vertices: []
       indices: 
       edges: []
@@ -328,6 +329,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Waterfall Color 2@64x64_7: -8327536755763083185
+      Waterfall Color 2@64x64_2: -8747516282591883650
+      Waterfall Color 2@64x64_4: 1901853632156331078
+      Waterfall Color 2@64x64_6: 8938080835677841962
+      Waterfall Color 2@64x64_0: 2517946722112050844
+      Waterfall Color 2@64x64_1: 8106527784026899137
+      Waterfall Color 2@64x64_5: -4298355304499708219
+      Waterfall Color 2@64x64_3: 8120103638918799423
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

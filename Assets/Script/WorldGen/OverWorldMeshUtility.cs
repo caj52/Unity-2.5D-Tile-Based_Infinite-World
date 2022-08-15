@@ -118,6 +118,10 @@ public class OverWorldMeshUtility
         OverWorldMesh._overWorld.GetComponent<MeshCollider>().sharedMesh = null;
         OverWorldMesh._overWorld.GetComponent<MeshCollider>().sharedMesh = OverWorldMesh._overWorldMesh;
     }
+    /// <summary>
+    /// Ensures the World Window only moves in tile-based increments.
+    /// So the smallest amount it can move is 1 tile, as opposed to fractions of a tile.
+    /// </summary>
     public static void RoundWorldWindowPosition()
     {
         var roundedWindowPosition = new Vector3Int();

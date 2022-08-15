@@ -22,7 +22,7 @@ public class InventoryObjectType : MonoBehaviour
   };
   public static Dictionary<InventoryObject, string> examineDescriptions= new Dictionary<InventoryObject, string>()
   {
-    {InventoryObject.None, "You shouldn't be reading this"},
+    {InventoryObject.None, "If you're reading this... the programmer messed up"},
     {InventoryObject.Apple, "Its an Apple! Red, Juicy and Delicious"}
   };
   public static Dictionary<InventoryObject, bool> consumableTypes= new Dictionary<InventoryObject, bool>()

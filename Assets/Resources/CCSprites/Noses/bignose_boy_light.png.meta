@@ -1376,6 +1376,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1385,11 +1387,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -1407,9 +1409,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -5187,6 +5192,185 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Base_Boy_Dark_102: 8002208339352491817
+      Base_Boy_Dark_39: -6752586903471536653
+      Base_Boy_Dark_31: 3607305088366695824
+      Base_Boy_Dark_40: 3211245872156210194
+      Base_Boy_Dark_173: -7775725082544027145
+      Base_Boy_Dark_113: -4428701260738822513
+      Base_Boy_Dark_27: 3136738459754296499
+      Base_Boy_Dark_126: 6106554864195903554
+      Base_Boy_Dark_71: 7408459356827722866
+      Base_Boy_Dark_65: 636471384556498558
+      Base_Boy_Dark_81: -8458773092521203990
+      Base_Boy_Dark_131: 2359344809766797766
+      Base_Boy_Dark_151: 2210765919563519563
+      Base_Boy_Dark_153: -8096865235982705792
+      Base_Boy_Dark_52: -121248601739585129
+      Base_Boy_Dark_89: -7347362787639648190
+      Base_Boy_Dark_73: 5453777075042293285
+      Base_Boy_Dark_1: 1258716899180505507
+      Base_Boy_Dark_115: 6135542680492113543
+      Base_Boy_Dark_104: -57421318804055172
+      Base_Boy_Dark_51: -3607689174770874085
+      Base_Boy_Dark_132: 7308428963290327834
+      Base_Boy_Dark_177: 6742252734678695834
+      Base_Boy_Dark_171: -5569902722378698764
+      Base_Boy_Dark_98: 4582905025307679881
+      Base_Boy_Dark_47: 2932037968185227892
+      Base_Boy_Dark_103: -4611763089897090974
+      Base_Boy_Dark_56: -4240482498004691090
+      Base_Boy_Dark_62: -8549077146118136184
+      Base_Boy_Dark_125: -1259469187279241218
+      Base_Boy_Dark_166: -3168209214640448571
+      Base_Boy_Dark_82: -8662349295758534461
+      Base_Boy_Dark_75: 5280509066291348867
+      Base_Boy_Dark_10: -2903387815609799235
+      Base_Boy_Dark_120: -2583601689953963871
+      Base_Boy_Dark_95: -2783610928411473412
+      Base_Boy_Dark_93: 5526637985666112131
+      Base_Boy_Dark_123: -8015222898201296400
+      Base_Boy_Dark_174: 8348117798098926627
+      Base_Boy_Dark_107: 2840417499315460506
+      Base_Boy_Dark_11: 7025960525349615456
+      Base_Boy_Dark_87: -8222217192147022080
+      Base_Boy_Dark_136: -3074233014421155406
+      Base_Boy_Dark_150: 3959622575049717390
+      Base_Boy_Dark_6: 6215057389649504420
+      Base_Boy_Dark_141: -3889945623353867836
+      Base_Boy_Dark_28: -2351614499243117986
+      Base_Boy_Dark_37: 2069803979180312506
+      Base_Boy_Dark_50: 5433280833617401562
+      Base_Boy_Dark_119: -7538621979549269225
+      Base_Boy_Dark_66: 6715831980902402644
+      Base_Boy_Dark_90: -4477209604573498229
+      Base_Boy_Dark_159: -3777292636880343626
+      Base_Boy_Dark_146: 3440554899430290818
+      Base_Boy_Dark_18: -4320547274738532542
+      Base_Boy_Dark_32: -7352029473869084670
+      Base_Boy_Dark_67: -237595595533067872
+      Base_Boy_Dark_43: -1778729581683251170
+      Base_Boy_Dark_58: 7276099009769579771
+      Base_Boy_Dark_23: 5508791013649508458
+      Base_Boy_Dark_13: 3342521551768013481
+      Base_Boy_Dark_45: -2912215132115013944
+      Base_Boy_Dark_55: 9087942161209607756
+      Base_Boy_Dark_76: -5794135363393011869
+      Base_Boy_Dark_63: -1897701923101506437
+      Base_Boy_Dark_109: -8738528321685587663
+      Base_Boy_Dark_68: 3104680811530563289
+      Base_Boy_Dark_88: -9218789118964162675
+      Base_Boy_Dark_144: -6822018091023359721
+      Base_Boy_Dark_112: 4998395892591299160
+      Base_Boy_Dark_72: -2982615229858337119
+      Base_Boy_Dark_148: 2448272066737218684
+      Base_Boy_Dark_162: -6057234950149721366
+      Base_Boy_Dark_128: -5868003669899448738
+      Base_Boy_Dark_12: -6998524495273845777
+      Base_Boy_Dark_116: -8588990325532172369
+      Base_Boy_Dark_147: -7897891825088969708
+      Base_Boy_Dark_114: -2002476395834260225
+      Base_Boy_Dark_70: -2421253646360404511
+      Base_Boy_Dark_79: -5152450733519219127
+      Base_Boy_Dark_53: 1621480481003678818
+      Base_Boy_Dark_74: -5311674403944523262
+      Base_Boy_Dark_172: 7437789049994020929
+      Base_Boy_Dark_26: 1633416346914205087
+      Base_Boy_Dark_176: -4068651338677996958
+      Base_Boy_Dark_9: -7287920980419435000
+      Base_Boy_Dark_127: -2821555289767742915
+      Base_Boy_Dark_99: 4462510690466249983
+      Base_Boy_Dark_5: 6062496016502986872
+      Base_Boy_Dark_8: -5908100037156795292
+      Base_Boy_Dark_101: -6706358960340778935
+      Base_Boy_Dark_25: -2633829855017208472
+      Base_Boy_Dark_118: 6528720682468519767
+      Base_Boy_Dark_19: -6464375468903686289
+      Base_Boy_Dark_161: -1311465536999459377
+      Base_Boy_Dark_49: 3131459808276652474
+      Base_Boy_Dark_16: -4237273919756475849
+      Base_Boy_Dark_60: 479939299372992320
+      Base_Boy_Dark_97: 5639962137485774205
+      Base_Boy_Dark_4: -4680185965121195770
+      Base_Boy_Dark_156: -7320380297730680660
+      Base_Boy_Dark_168: -5301793139597375566
+      Base_Boy_Dark_77: -2067767743006759258
+      Base_Boy_Dark_91: 7890338070484160290
+      Base_Boy_Dark_145: -8448825177701651183
+      Base_Boy_Dark_121: 1412607242543452826
+      Base_Boy_Dark_44: 7101681584611975028
+      Base_Boy_Dark_59: 1173700385324368152
+      Base_Boy_Dark_3: -272939671810302299
+      Base_Boy_Dark_69: -2657053913496121478
+      Base_Boy_Dark_35: -264575818973037992
+      Base_Boy_Dark_84: 6704512579344298338
+      Base_Boy_Dark_86: -4185021513792589226
+      Base_Boy_Dark_129: -6868972098832951641
+      Base_Boy_Dark_54: -4173719489163578875
+      Base_Boy_Dark_64: -8184087207270614308
+      Base_Boy_Dark_57: -7344594007868139927
+      Base_Boy_Dark_94: 7990610555825461363
+      Base_Boy_Dark_149: 3715594306404986896
+      Base_Boy_Dark_48: 320312901317656519
+      Base_Boy_Dark_143: -5483801301062955621
+      Base_Boy_Dark_108: 1123959468101922960
+      Base_Boy_Dark_83: -3382852242335641945
+      Base_Boy_Dark_167: 7559264022238503407
+      Base_Boy_Dark_15: -2296236620814900640
+      Base_Boy_Dark_163: 3276963296255200345
+      Base_Boy_Dark_78: -4370649490201396243
+      Base_Boy_Dark_138: 6976046466790955216
+      Base_Boy_Dark_140: -1961331274397956603
+      Base_Boy_Dark_164: 2030529355447169675
+      Base_Boy_Dark_21: -2912712436826869097
+      Base_Boy_Dark_117: -1783739700373860818
+      Base_Boy_Dark_152: 2769734471229735522
+      Base_Boy_Dark_122: 2137745730539832547
+      Base_Boy_Dark_154: -8074743806615506844
+      Base_Boy_Dark_170: -3379566815066360480
+      Base_Boy_Dark_169: -6203929781242567755
+      Base_Boy_Dark_165: 1469927285861927610
+      Base_Boy_Dark_158: -8444996482653243626
+      Base_Boy_Dark_29: 7843023147138469658
+      Base_Boy_Dark_7: -737892710340580042
+      Base_Boy_Dark_142: -907815146231540996
+      Base_Boy_Dark_41: -2092046611996080570
+      Base_Boy_Dark_124: -7960598233627791572
+      Base_Boy_Dark_134: 7187010957992804841
+      Base_Boy_Dark_96: -3121511556044492326
+      Base_Boy_Dark_2: 5395886167224321203
+      Base_Boy_Dark_135: 4387876960827572457
+      Base_Boy_Dark_85: 2105094650879488
+      Base_Boy_Dark_0: -549298966210668176
+      Base_Boy_Dark_42: -3474650613947817242
+      Base_Boy_Dark_137: -5405183604030182304
+      Base_Boy_Dark_157: 4351391483365253971
+      Base_Boy_Dark_46: -4922943662182645214
+      Base_Boy_Dark_14: -3922201747674898321
+      Base_Boy_Dark_139: -3609658233887946451
+      Base_Boy_Dark_24: 8796233100389848236
+      Base_Boy_Dark_130: -3612274860255624116
+      Base_Boy_Dark_100: 6587174883644108482
+      Base_Boy_Dark_111: -5865309575727790128
+      Base_Boy_Dark_160: 8579959072925851130
+      Base_Boy_Dark_155: -3707139347253365456
+      Base_Boy_Dark_61: 5350467497870930910
+      Base_Boy_Dark_105: 8862407351465449636
+      Base_Boy_Dark_17: 3856354693956157681
+      Base_Boy_Dark_110: -2943168768485995131
+      Base_Boy_Dark_33: -7990624836720918300
+      Base_Boy_Dark_38: -6225171032989572861
+      Base_Boy_Dark_175: 2871351851113535901
+      Base_Boy_Dark_20: -19527004587861061
+      Base_Boy_Dark_34: 1734821369182549544
+      Base_Boy_Dark_106: -218171249831215156
+      Base_Boy_Dark_22: -684289644909407694
+      Base_Boy_Dark_80: -7875802197350000478
+      Base_Boy_Dark_92: 1591938415210121287
+      Base_Boy_Dark_133: -2027055159895495799
+      Base_Boy_Dark_36: -937249780797363789
+      Base_Boy_Dark_30: -5512835987934825019
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

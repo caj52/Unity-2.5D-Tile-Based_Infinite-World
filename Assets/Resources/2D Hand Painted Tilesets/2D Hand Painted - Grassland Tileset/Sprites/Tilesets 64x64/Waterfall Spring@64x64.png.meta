@@ -60,6 +60,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -69,11 +70,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -226,7 +227,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e8d09560b00b8bc0800000000000000
-      internalID: -3779926704629163808
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -247,7 +248,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 58749cf0832b9d5f0800000000000000
-      internalID: -731357510618232955
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -268,7 +269,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fc097977df88670a0800000000000000
-      internalID: -6884164358174699313
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -289,7 +290,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c491d785ba1540d60800000000000000
-      internalID: 7855493446406838604
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -304,6 +305,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Waterfall Spring@64x64_5: 21300010
+      Waterfall Spring@64x64_0: 21300000
+      Waterfall Spring@64x64_1: 21300002
+      Waterfall Spring@64x64_3: 21300006
+      Waterfall Spring@64x64_2: 21300004
+      Waterfall Spring@64x64_4: 21300008
+      Waterfall Spring@64x64_6: 21300012
+      Waterfall Spring@64x64_7: 21300014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

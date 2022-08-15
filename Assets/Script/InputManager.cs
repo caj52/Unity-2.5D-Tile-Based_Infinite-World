@@ -16,7 +16,8 @@ public class InputManager : MonoBehaviour
 
     void Update()
     {
-        inputTarget.ProcessInput();
+        if(inputTarget != null)
+            inputTarget.ProcessInput();
     }
     
 

@@ -8,6 +8,7 @@ public class WorldInit : MonoBehaviour
     public static WorldInit Instance;
     [SerializeField] private int _worldSize;
     [SerializeField] public int worldSize { get=>_worldSize; }
+    public string seed = String.Empty;
     
     public void Init()
     {
@@ -17,6 +18,11 @@ public class WorldInit : MonoBehaviour
     public IEnumerator CreateWorldMesh()
     {
         Debug.Log("Firing Create Mesh Coroutine");
+        if(seed!=String.Empty)
+            SeedGenerationManager.SetInputSeed(seed);
+        
+        SeedGenerationManager.Init();
+        
         StartCoroutine(OverWorldMesh.Instance.CreateMesh());
         StartCoroutine(OceanManager.Instance.CreateOceanMesh());
         StartCoroutine(OverWorldObjectManager.Instance.PlaceOverWorldObjects());

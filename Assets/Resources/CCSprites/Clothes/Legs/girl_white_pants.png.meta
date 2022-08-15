@@ -554,6 +554,8 @@ TextureImporter:
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -563,11 +565,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -585,9 +587,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -4344,6 +4349,184 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      girl_white_pants_12: 7821909933240694486
+      girl_white_pants_15: -1017383524275900986
+      girl_white_pants_100: -3444728342029921096
+      girl_white_pants_17: -5830510507814479017
+      girl_white_pants_112: -5705625095809586329
+      girl_white_pants_106: -7646598895135398237
+      girl_white_pants_82: -7878230760108794999
+      girl_white_pants_108: -1691621389064333999
+      girl_white_pants_138: -832121441727191526
+      girl_white_pants_153: -8379170594989682030
+      girl_white_pants_146: 1691296330358093599
+      girl_white_pants_136: 3050373032997602146
+      girl_white_pants_29: 3344416984195722504
+      girl_white_pants_36: 9199421377629942437
+      girl_white_pants_41: -4350245698033186149
+      girl_white_pants_107: 2806133203027930634
+      girl_white_pants_63: -456101088597371345
+      girl_white_pants_81: -756854810712455341
+      girl_white_pants_46: -7188255158481295780
+      girl_white_pants_122: 3109684826064651957
+      girl_white_pants_117: 9216683244294793195
+      girl_white_pants_47: -2590934747377279564
+      girl_white_pants_147: 581380630531613626
+      girl_white_pants_22: 2559438608620526928
+      girl_white_pants_30: 1117252831629248678
+      girl_white_pants_92: 6917094799360965079
+      girl_white_pants_119: -6378183091251732659
+      girl_white_pants_31: 155164253955893756
+      girl_white_pants_27: -2929617021008353841
+      girl_white_pants_162: -5358253957348717734
+      girl_white_pants_91: 938529290764223014
+      girl_white_pants_171: -4971835196342409817
+      girl_white_pants_79: 996278914830333202
+      girl_white_pants_33: -1965628763902694570
+      girl_white_pants_38: -2173843419900187975
+      girl_white_pants_101: 7012297482255129577
+      girl_white_pants_139: -4249771581263345673
+      girl_white_pants_120: 3551195299364696195
+      girl_white_pants_44: 1799585594647282122
+      girl_white_pants_61: -7390379902415848934
+      girl_white_pants_176: -5410012348145032992
+      girl_white_pants_54: -739986123984718675
+      girl_white_pants_69: 5971610234694614853
+      girl_white_pants_74: -631194232322187184
+      girl_white_pants_52: 3127563332930526197
+      girl_white_pants_84: -2192426759402687902
+      girl_white_pants_96: -7592935909294183196
+      girl_white_pants_167: -7761382790498252524
+      girl_white_pants_65: 7613292102505884311
+      girl_white_pants_150: -6351483788502303800
+      girl_white_pants_170: -9072658633046968158
+      girl_white_pants_28: -5456933496468845241
+      girl_white_pants_1: -6882860599693918627
+      girl_white_pants_71: -4989641792212178974
+      girl_white_pants_128: 446093397871970030
+      girl_white_pants_123: 8124937268846397504
+      girl_white_pants_135: 2456409810086201930
+      girl_white_pants_72: 3365279671174947031
+      girl_white_pants_103: 43953874418819934
+      girl_white_pants_90: -96811791206360745
+      girl_white_pants_95: 3253607977463986078
+      girl_white_pants_104: -3238207197722261819
+      girl_white_pants_0: -1074113546595705814
+      girl_white_pants_159: 228611889933702310
+      girl_white_pants_140: -5601140813614669752
+      girl_white_pants_60: 2008212044682981501
+      girl_white_pants_78: 5592426459421717746
+      girl_white_pants_130: -8551478321979309540
+      girl_white_pants_64: 9031127320228147374
+      girl_white_pants_157: 1758098748934904622
+      girl_white_pants_51: 3278154966388228277
+      girl_white_pants_83: -9117503571519686973
+      girl_white_pants_48: 2198402368834015593
+      girl_white_pants_174: -1871545590437105864
+      girl_white_pants_173: -9163120354441240927
+      girl_white_pants_49: 2998032206531694903
+      girl_white_pants_58: 5840147767377743944
+      girl_white_pants_124: -166207480537667388
+      girl_white_pants_98: 3243853983649557478
+      girl_white_pants_7: -8950381969563178213
+      girl_white_pants_35: -7343822089270348885
+      girl_white_pants_145: 6774473445316655789
+      girl_white_pants_39: 1423051103170030463
+      girl_white_pants_126: 7420766532392644773
+      girl_white_pants_68: 7133787780835524204
+      girl_white_pants_149: 4261622450243948962
+      girl_white_pants_134: 5215186276282548930
+      girl_white_pants_152: 1813599237999354444
+      girl_white_pants_168: -7678450933654792476
+      girl_white_pants_165: 4298122378398814652
+      girl_white_pants_13: 4448668211359688617
+      girl_white_pants_115: -8389671658059683705
+      girl_white_pants_169: 2492895254460339285
+      girl_white_pants_111: -2067371003341411840
+      girl_white_pants_156: 8320506382470157861
+      girl_white_pants_62: -9040863166584833638
+      girl_white_pants_18: 3389743457278953060
+      girl_white_pants_21: -2363795035975807896
+      girl_white_pants_144: -3831031677301228949
+      girl_white_pants_42: -3186940860761042694
+      girl_white_pants_85: -7179909055186137645
+      girl_white_pants_127: -4017428060244563923
+      girl_white_pants_2: -7052952661195747280
+      girl_white_pants_77: -4184373914744516116
+      girl_white_pants_172: -4617402047271787777
+      girl_white_pants_37: -4306622975118604297
+      girl_white_pants_118: -2933178523335350540
+      girl_white_pants_25: -5267631377726505949
+      girl_white_pants_4: -7945525207098739873
+      girl_white_pants_93: -5620613260394587660
+      girl_white_pants_3: 7570408738936801180
+      girl_white_pants_163: -4846980443534846681
+      girl_white_pants_133: 5906656871540278854
+      girl_white_pants_131: 2021677564735081108
+      girl_white_pants_87: -6026773245101425337
+      girl_white_pants_11: -5870226879643667909
+      girl_white_pants_40: -1159550189454414611
+      girl_white_pants_88: 657645474869084540
+      girl_white_pants_99: 7055013372708036420
+      girl_white_pants_76: 2300690429614306727
+      girl_white_pants_164: -1274404280889186018
+      girl_white_pants_143: -7507126097651705230
+      girl_white_pants_166: 268662529425951945
+      girl_white_pants_16: -6606759987315938423
+      girl_white_pants_109: 1524609870914707690
+      girl_white_pants_50: -3787829835196497632
+      girl_white_pants_75: -6114010016325429713
+      girl_white_pants_24: 4344988638306536948
+      girl_white_pants_121: -4024644366104740619
+      girl_white_pants_43: -4927739860412236751
+      girl_white_pants_73: -1749977872759450943
+      girl_white_pants_53: -8049130538131095166
+      girl_white_pants_161: 8714032876551017464
+      girl_white_pants_6: 1439369733575177405
+      girl_white_pants_67: -6137341931739467675
+      girl_white_pants_70: -672359390819988177
+      girl_white_pants_34: 7578588195374303022
+      girl_white_pants_97: 6884972586666460791
+      girl_white_pants_137: -7022730172224206753
+      girl_white_pants_175: -8870185590308999782
+      girl_white_pants_45: -2606023284047638463
+      girl_white_pants_116: 6830465833366472980
+      girl_white_pants_19: -5114216527989834868
+      girl_white_pants_114: 9055222795544841458
+      girl_white_pants_160: -3724531752257411988
+      girl_white_pants_59: 1570307612215714968
+      girl_white_pants_132: -9048912351380759586
+      girl_white_pants_129: -2434163175640908346
+      girl_white_pants_158: 8938281214675459486
+      girl_white_pants_66: 7274423506883076836
+      girl_white_pants_57: -334783379632445014
+      girl_white_pants_10: 4526455772442815733
+      girl_white_pants_5: -353920706346316666
+      girl_white_pants_94: -306195945435163900
+      girl_white_pants_14: 8668026772628556099
+      girl_white_pants_32: 266058666518213054
+      girl_white_pants_26: 6953772231409045164
+      girl_white_pants_55: 6656191493027993033
+      girl_white_pants_155: 2542451569490889215
+      girl_white_pants_56: 1090825397453416096
+      girl_white_pants_102: -5994680166000990707
+      girl_white_pants_89: -6241973905665774338
+      girl_white_pants_23: -6667090656584717727
+      girl_white_pants_105: 1650683340854957451
+      girl_white_pants_141: -7195191923407169350
+      girl_white_pants_86: 5128523815270892939
+      girl_white_pants_113: 4178000359956595671
+      girl_white_pants_151: 3923061872250143916
+      girl_white_pants_148: -8151144274991788995
+      girl_white_pants_154: 5569336672456940628
+      girl_white_pants_142: 8902004331555686512
+      girl_white_pants_20: 2850874132794044160
+      girl_white_pants_8: 2497435225784506884
+      girl_white_pants_80: -3684251147917128572
+      girl_white_pants_110: -518818332215529351
+      girl_white_pants_9: 2334693560380745366
+      girl_white_pants_125: -5504847834949906584
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

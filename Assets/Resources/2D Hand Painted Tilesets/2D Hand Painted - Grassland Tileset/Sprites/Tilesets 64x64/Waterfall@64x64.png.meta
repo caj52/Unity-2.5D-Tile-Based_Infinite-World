@@ -324,6 +324,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -334,7 +335,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -490,7 +491,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4a879272f63698a80800000000000000
-      internalID: -8464124695616587612
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -511,7 +512,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 335f7f53da0574c20800000000000000
-      internalID: 3190607565880292659
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -532,7 +533,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e2e3201c2868badd0800000000000000
-      internalID: -2473735674167935442
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -553,7 +554,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7be62336a7c7be3c0800000000000000
-      internalID: -4329229751694496073
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -568,6 +569,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Waterfall@64x64_6: 21300012
+      Waterfall@64x64_0: 21300000
+      Waterfall@64x64_3: 21300006
+      Waterfall@64x64_1: 21300002
+      Waterfall@64x64_5: 21300010
+      Waterfall@64x64_4: 21300008
+      Waterfall@64x64_7: 21300014
+      Waterfall@64x64_2: 21300004
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
