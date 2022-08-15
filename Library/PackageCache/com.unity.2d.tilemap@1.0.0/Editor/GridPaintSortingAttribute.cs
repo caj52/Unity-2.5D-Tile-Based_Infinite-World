@@ -71,7 +71,7 @@ namespace UnityEditor.Tilemaps
         private static void GetUserSortingComparers()
         {
             m_SortingMethods = new List<MethodInfo>();
-            foreach (var sortingMethod in EditorAssemblies.GetAllMethodsWithAttribute<GridPaintSortingAttribute>())
+            foreach (var sortingMethod in TypeCache.GetMethodsWithAttribute<GridPaintSortingAttribute>())
             {
                 if (!sortingMethod.ReturnType.IsAssignableFrom(typeof(IComparer<GameObject>)))
                     continue;

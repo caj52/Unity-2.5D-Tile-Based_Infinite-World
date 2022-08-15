@@ -82,7 +82,7 @@ namespace UnityEditor.Tilemaps
         private TileFlags[] m_SelectionFlagsArray;
         private Sprite[] m_SelectionSprites;
         private Tile.ColliderType[] m_SelectionColliderTypes;
-        private int selectionCellCount => GridSelection.position.size.x * GridSelection.position.size.y * GridSelection.position.size.z;
+        private int selectionCellCount => Math.Abs(GridSelection.position.size.x * GridSelection.position.size.y * GridSelection.position.size.z);
 
         // These are used to handle transform manipulation on the Tilemap
         private int m_SelectedTransformTool = 0;
@@ -199,7 +199,7 @@ namespace UnityEditor.Tilemaps
             BoundsInt selection = GridSelection.position;
             Tilemap tilemap = GridSelection.target.GetComponent<Tilemap>();
 
-            int cellCount = selection.size.x * selection.size.y * selection.size.z;
+            int cellCount = selectionCellCount;
             if (tilemap != null && cellCount > 0)
             {
                 base.OnSelectionInspectorGUI();
@@ -360,6 +360,9 @@ namespace UnityEditor.Tilemaps
                 return;
 
             UpdateSelection(tilemap);
+            if (m_SelectionFlagsArray == null || m_SelectionFlagsArray.Length <= 0)
+                return;
+
             bool transformFlagsAllEqual = m_SelectionFlagsArray.All(flags => (flags & TileFlags.LockTransform) == (m_SelectionFlagsArray.First() & TileFlags.LockTransform));
             if (!transformFlagsAllEqual || (m_SelectionFlagsArray[0] & TileFlags.LockTransform) != 0)
                 return;

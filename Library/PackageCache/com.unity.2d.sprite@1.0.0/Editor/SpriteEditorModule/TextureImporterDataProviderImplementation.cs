@@ -39,16 +39,21 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet.m_Bones");
 
             var spriteBone = new List<SpriteBone>(sp.arraySize);
-            for (int i = 0; i < sp.arraySize; ++i)
+            if (sp.arraySize > 0)
             {
-                var boneSO = sp.GetArrayElementAtIndex(i);
-                var sb = new SpriteBone();
-                sb.length = boneSO.FindPropertyRelative("length").floatValue;
-                sb.position = boneSO.FindPropertyRelative("position").vector3Value;
-                sb.rotation = boneSO.FindPropertyRelative("rotation").quaternionValue;
-                sb.parentId = boneSO.FindPropertyRelative("parentId").intValue;
-                sb.name = boneSO.FindPropertyRelative("name").stringValue;
-                spriteBone.Add(sb);
+                var boneSO = sp.GetArrayElementAtIndex(0);
+                for (int i = 0; i < sp.arraySize; ++i, boneSO.Next(false))
+                {
+                    var sb = new SpriteBone();
+                    sb.length = boneSO.FindPropertyRelative("length").floatValue;
+                    sb.position = boneSO.FindPropertyRelative("position").vector3Value;
+                    sb.rotation = boneSO.FindPropertyRelative("rotation").quaternionValue;
+                    sb.parentId = boneSO.FindPropertyRelative("parentId").intValue;
+                    sb.name = boneSO.FindPropertyRelative("name").stringValue;
+                    sb.guid = boneSO.FindPropertyRelative("guid").stringValue;
+                    sb.color = boneSO.FindPropertyRelative("color").colorValue;
+                    spriteBone.Add(sb);
+                }
             }
             return spriteBone;
         }
@@ -57,15 +62,20 @@ namespace UnityEditor.U2D.Sprites
         {
             var sp = rectSP.FindPropertyRelative("m_Bones");
             sp.arraySize = spriteBone.Count;
-            for (int i = 0; i < sp.arraySize; ++i)
+            if (spriteBone.Count > 0)
             {
-                var boneSO = sp.GetArrayElementAtIndex(i);
-                var sb = spriteBone[i];
-                boneSO.FindPropertyRelative("length").floatValue = sb.length;
-                boneSO.FindPropertyRelative("position").vector3Value = sb.position;
-                boneSO.FindPropertyRelative("rotation").quaternionValue = sb.rotation;
-                boneSO.FindPropertyRelative("parentId").intValue = sb.parentId;
-                boneSO.FindPropertyRelative("name").stringValue = sb.name;
+                var boneSO = sp.GetArrayElementAtIndex(0);
+                for (int i = 0; i < sp.arraySize; ++i, boneSO.Next(false))
+                {
+                    var sb = spriteBone[i];
+                    boneSO.FindPropertyRelative("length").floatValue = sb.length;
+                    boneSO.FindPropertyRelative("position").vector3Value = sb.position;
+                    boneSO.FindPropertyRelative("rotation").quaternionValue = sb.rotation;
+                    boneSO.FindPropertyRelative("parentId").intValue = sb.parentId;
+                    boneSO.FindPropertyRelative("name").stringValue = sb.name;
+                    boneSO.FindPropertyRelative("guid").stringValue = sb.guid;
+                    boneSO.FindPropertyRelative("color").colorValue = sb.color;
+                }
             }
         }
     }
@@ -103,15 +113,22 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet.m_Outline");
 
             var outline = new List<Vector2[]>();
-            for (int j = 0; j < outlineSP.arraySize; ++j)
+            if (outlineSP.arraySize > 0)
             {
-                SerializedProperty outlinePathSP = outlineSP.GetArrayElementAtIndex(j);
-                var o = new Vector2[outlinePathSP.arraySize];
-                for (int k = 0; k < outlinePathSP.arraySize; ++k)
+                var outlinePathSP = outlineSP.GetArrayElementAtIndex(0);
+                for (int j = 0; j < outlineSP.arraySize; ++j, outlinePathSP.Next(false))
                 {
-                    o[k] = outlinePathSP.GetArrayElementAtIndex(k).vector2Value;
+                    var o = new Vector2[outlinePathSP.arraySize];
+                    if (o.Length > 0)
+                    {
+                        var psp = outlinePathSP.GetArrayElementAtIndex(0);
+                        for (int k = 0; k < outlinePathSP.arraySize; ++k, psp.Next(false))
+                        {
+                            o[k] = psp.vector2Value;
+                        }
+                    }
+                    outline.Add(o);
                 }
-                outline.Add(o);
             }
             return outline;
         }
@@ -119,17 +136,22 @@ namespace UnityEditor.U2D.Sprites
         public static void Apply(SerializedProperty rectSP, List<Vector2[]> outline)
         {
             var outlineSP = rectSP.FindPropertyRelative("m_Outline");
-            outlineSP.ClearArray();
-            for (int j = 0; j < outline.Count; ++j)
+            outlineSP.arraySize = outline.Count;
+            if (outline.Count > 0)
             {
-                outlineSP.InsertArrayElementAtIndex(j);
-                var o = outline[j];
-                SerializedProperty outlinePathSP = outlineSP.GetArrayElementAtIndex(j);
-                outlinePathSP.ClearArray();
-                for (int k = 0; k < o.Length; ++k)
+                var outlinePathSP = outlineSP.GetArrayElementAtIndex(0);
+                for (int j = 0; j < outline.Count; ++j, outlinePathSP.Next(false))
                 {
-                    outlinePathSP.InsertArrayElementAtIndex(k);
-                    outlinePathSP.GetArrayElementAtIndex(k).vector2Value = o[k];
+                    var o = outline[j];
+                    outlinePathSP.arraySize = o.Length;
+                    if (o.Length > 0)
+                    {
+                        var psp = outlinePathSP.GetArrayElementAtIndex(0);
+                        for (int k = 0; k < o.Length; ++k, psp.Next(false))
+                        {
+                            psp.vector2Value = o[k];
+                        }
+                    }
                 }
             }
         }
@@ -180,31 +202,31 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet");
 
             var verticesSP = so.FindPropertyRelative("m_Vertices");
-            var weightsSP = so.FindPropertyRelative("m_Weights");
-
             var vertices = new Vertex2DMetaData[verticesSP.arraySize];
-            for (int i = 0; i < verticesSP.arraySize; ++i)
+            if (verticesSP.arraySize > 0)
             {
-                var vsp = verticesSP.GetArrayElementAtIndex(i);
-                var wsp = weightsSP.GetArrayElementAtIndex(i);
-
-                vertices[i] = new Vertex2DMetaData
+                var weightsSP = so.FindPropertyRelative("m_Weights");
+                var vsp = verticesSP.GetArrayElementAtIndex(0);
+                var wsp = weightsSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < verticesSP.arraySize; ++i, vsp.Next(false), wsp.Next(false))
                 {
-                    position = vsp.vector2Value,
-                    boneWeight = new BoneWeight
+                    vertices[i] = new Vertex2DMetaData
                     {
-                        weight0 = wsp.FindPropertyRelative("weight[0]").floatValue,
-                        weight1 = wsp.FindPropertyRelative("weight[1]").floatValue,
-                        weight2 = wsp.FindPropertyRelative("weight[2]").floatValue,
-                        weight3 = wsp.FindPropertyRelative("weight[3]").floatValue,
-                        boneIndex0 = wsp.FindPropertyRelative("boneIndex[0]").intValue,
-                        boneIndex1 = wsp.FindPropertyRelative("boneIndex[1]").intValue,
-                        boneIndex2 = wsp.FindPropertyRelative("boneIndex[2]").intValue,
-                        boneIndex3 = wsp.FindPropertyRelative("boneIndex[3]").intValue
-                    }
-                };
+                        position = vsp.vector2Value,
+                        boneWeight = new BoneWeight
+                        {
+                            weight0 = wsp.FindPropertyRelative("weight[0]").floatValue,
+                            weight1 = wsp.FindPropertyRelative("weight[1]").floatValue,
+                            weight2 = wsp.FindPropertyRelative("weight[2]").floatValue,
+                            weight3 = wsp.FindPropertyRelative("weight[3]").floatValue,
+                            boneIndex0 = wsp.FindPropertyRelative("boneIndex[0]").intValue,
+                            boneIndex1 = wsp.FindPropertyRelative("boneIndex[1]").intValue,
+                            boneIndex2 = wsp.FindPropertyRelative("boneIndex[2]").intValue,
+                            boneIndex3 = wsp.FindPropertyRelative("boneIndex[3]").intValue
+                        }
+                    };
+                }
             }
-
             return vertices;
         }
 
@@ -215,11 +237,14 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet");
 
             var indicesSP = so.FindPropertyRelative("m_Indices");
-
             var indices = new int[indicesSP.arraySize];
-            for (int i = 0; i < indicesSP.arraySize; ++i)
+            if (indices.Length > 0)
             {
-                indices[i] = indicesSP.GetArrayElementAtIndex(i).intValue;
+                var isp = indicesSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < indicesSP.arraySize; ++i, isp.Next(false))
+                {
+                    indices[i] = isp.intValue;
+                }
             }
 
             return indices;
@@ -232,11 +257,14 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet");
 
             var edgesSP = so.FindPropertyRelative("m_Edges");
-
             var edges = new Vector2Int[edgesSP.arraySize];
-            for (int i = 0; i < edgesSP.arraySize; ++i)
+            if (edges.Length > 0)
             {
-                edges[i] = edgesSP.GetArrayElementAtIndex(i).vector2IntValue;
+                var esp = edgesSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < edgesSP.arraySize; ++i, esp.Next(false))
+                {
+                    edges[i] = esp.vector2IntValue;
+                }
             }
 
             return edges;
@@ -251,35 +279,42 @@ namespace UnityEditor.U2D.Sprites
 
             verticesSP.arraySize = vertices.Count;
             weightsSP.arraySize = vertices.Count;
-
-            for (int i = 0; i < vertices.Count; ++i)
+            if (vertices.Count > 0)
             {
-                var vsp = verticesSP.GetArrayElementAtIndex(i);
-                var wsp = weightsSP.GetArrayElementAtIndex(i);
-
-                vsp.vector2Value = vertices[i].position;
-                wsp.FindPropertyRelative("weight[0]").floatValue = vertices[i].boneWeight.weight0;
-                wsp.FindPropertyRelative("weight[1]").floatValue = vertices[i].boneWeight.weight1;
-                wsp.FindPropertyRelative("weight[2]").floatValue = vertices[i].boneWeight.weight2;
-                wsp.FindPropertyRelative("weight[3]").floatValue = vertices[i].boneWeight.weight3;
-                wsp.FindPropertyRelative("boneIndex[0]").intValue = vertices[i].boneWeight.boneIndex0;
-                wsp.FindPropertyRelative("boneIndex[1]").intValue = vertices[i].boneWeight.boneIndex1;
-                wsp.FindPropertyRelative("boneIndex[2]").intValue = vertices[i].boneWeight.boneIndex2;
-                wsp.FindPropertyRelative("boneIndex[3]").intValue = vertices[i].boneWeight.boneIndex3;
+                var vsp = verticesSP.GetArrayElementAtIndex(0);
+                var wsp = weightsSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < vertices.Count; ++i, vsp.Next(false), wsp.Next(false))
+                {
+                    vsp.vector2Value = vertices[i].position;
+                    wsp.FindPropertyRelative("weight[0]").floatValue = vertices[i].boneWeight.weight0;
+                    wsp.FindPropertyRelative("weight[1]").floatValue = vertices[i].boneWeight.weight1;
+                    wsp.FindPropertyRelative("weight[2]").floatValue = vertices[i].boneWeight.weight2;
+                    wsp.FindPropertyRelative("weight[3]").floatValue = vertices[i].boneWeight.weight3;
+                    wsp.FindPropertyRelative("boneIndex[0]").intValue = vertices[i].boneWeight.boneIndex0;
+                    wsp.FindPropertyRelative("boneIndex[1]").intValue = vertices[i].boneWeight.boneIndex1;
+                    wsp.FindPropertyRelative("boneIndex[2]").intValue = vertices[i].boneWeight.boneIndex2;
+                    wsp.FindPropertyRelative("boneIndex[3]").intValue = vertices[i].boneWeight.boneIndex3;
+                }
             }
 
             indicesSP.arraySize = indices.Count;
-
-            for (int i = 0; i < indices.Count; ++i)
+            if (indices.Count > 0)
             {
-                indicesSP.GetArrayElementAtIndex(i).intValue = indices[i];
+                var isp = indicesSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < indices.Count; ++i, isp.Next(false))
+                {
+                    isp.intValue = indices[i];
+                }
             }
 
             edgesSP.arraySize = edges.Count;
-
-            for (int i = 0; i < edges.Count; ++i)
+            if (edges.Count > 0)
             {
-                edgesSP.GetArrayElementAtIndex(i).vector2IntValue = edges[i];
+                var esp = edgesSP.GetArrayElementAtIndex(0);
+                for (int i = 0; i < edges.Count; ++i, esp.Next(false))
+                {
+                    esp.vector2IntValue = edges[i];
+                }
             }
         }
     }
@@ -317,15 +352,22 @@ namespace UnityEditor.U2D.Sprites
                 importer.FindProperty("m_SpriteSheet.m_PhysicsShape");
 
             var outline = new List<Vector2[]>();
-            for (int j = 0; j < outlineSP.arraySize; ++j)
+            if (outlineSP.arraySize > 0)
             {
-                SerializedProperty outlinePathSP = outlineSP.GetArrayElementAtIndex(j);
-                var o = new Vector2[outlinePathSP.arraySize];
-                for (int k = 0; k < outlinePathSP.arraySize; ++k)
+                var outlinePathSP = outlineSP.GetArrayElementAtIndex(0);
+                for (int j = 0; j < outlineSP.arraySize; ++j, outlinePathSP.Next(false))
                 {
-                    o[k] = outlinePathSP.GetArrayElementAtIndex(k).vector2Value;
+                    var o = new Vector2[outlinePathSP.arraySize];
+                    if (o.Length > 0)
+                    {
+                        var psp = outlinePathSP.GetArrayElementAtIndex(0);
+                        for (int k = 0; k < outlinePathSP.arraySize; ++k, psp.Next(false))
+                        {
+                            o[k] = psp.vector2Value;
+                        }
+                    }
+                    outline.Add(o);
                 }
-                outline.Add(o);
             }
             return outline;
         }
@@ -333,17 +375,22 @@ namespace UnityEditor.U2D.Sprites
         public static void Apply(SerializedProperty rectSP, List<Vector2[]> value)
         {
             var outlineSP = rectSP.FindPropertyRelative("m_PhysicsShape");
-            outlineSP.ClearArray();
-            for (int j = 0; j < value.Count; ++j)
+            outlineSP.arraySize = value.Count;
+            if (value.Count > 0)
             {
-                outlineSP.InsertArrayElementAtIndex(j);
-                var o = value[j];
-                SerializedProperty outlinePathSP = outlineSP.GetArrayElementAtIndex(j);
-                outlinePathSP.ClearArray();
-                for (int k = 0; k < o.Length; ++k)
+                var outlinePathSP = outlineSP.GetArrayElementAtIndex(0);
+                for (int j = 0; j < value.Count; ++j, outlinePathSP.Next(false))
                 {
-                    outlinePathSP.InsertArrayElementAtIndex(k);
-                    outlinePathSP.GetArrayElementAtIndex(k).vector2Value = o[k];
+                    var o = value[j];
+                    outlinePathSP.arraySize = o.Length;
+                    if (o.Length > 0)
+                    {
+                        var psp = outlinePathSP.GetArrayElementAtIndex(0);
+                        for (int k = 0; k < o.Length; ++k, psp.Next(false))
+                        {
+                            psp.vector2Value = o[k];
+                        }
+                    }
                 }
             }
         }
@@ -356,19 +403,22 @@ namespace UnityEditor.U2D.Sprites
 
         public SecondarySpriteTexture[] textures
         {
-            get { return dataProvider.secdonaryTextures; }
-            set { dataProvider.secdonaryTextures = value; }
+            get { return dataProvider.secondaryTextures; }
+            set { dataProvider.secondaryTextures = value; }
         }
 
         public static SecondarySpriteTexture[] Load(SerializedObject so)
         {
             var secondaryTextures = so.FindProperty("m_SpriteSheet.m_SecondaryTextures");
             var returnValue = new SecondarySpriteTexture[secondaryTextures.arraySize];
-            for (int i = 0; i < returnValue.Length; ++i)
+            if (secondaryTextures.arraySize > 0)
             {
-                var sp = secondaryTextures.GetArrayElementAtIndex(i);
-                returnValue[i].name = sp.FindPropertyRelative("name").stringValue;
-                returnValue[i].texture = sp.FindPropertyRelative("texture").objectReferenceValue as Texture2D;
+                var sp = secondaryTextures.GetArrayElementAtIndex(0);
+                for (int i = 0; i < returnValue.Length; ++i, sp.Next(false))
+                {
+                    returnValue[i].name = sp.FindPropertyRelative("name").stringValue;
+                    returnValue[i].texture = sp.FindPropertyRelative("texture").objectReferenceValue as Texture2D;
+                }
             }
             return returnValue;
         }
@@ -377,11 +427,14 @@ namespace UnityEditor.U2D.Sprites
         {
             var secondaryTextures = so.FindProperty("m_SpriteSheet.m_SecondaryTextures");
             secondaryTextures.arraySize = values.Length;
-            for (int i = 0; i < values.Length; ++i)
+            if (values.Length > 0)
             {
-                var e = secondaryTextures.GetArrayElementAtIndex(i);
-                e.FindPropertyRelative("name").stringValue = values[i].name;
-                e.FindPropertyRelative("texture").objectReferenceValue = values[i].texture;
+                var e = secondaryTextures.GetArrayElementAtIndex(0);
+                for (int i = 0; i < values.Length; ++i, e.Next(false))
+                {
+                    e.FindPropertyRelative("name").stringValue = values[i].name;
+                    e.FindPropertyRelative("texture").objectReferenceValue = values[i].texture;
+                }
             }
         }
     }

@@ -1,0 +1,48 @@
+{
+  "ExternalFunctions": [
+    {
+      "Name": "UnityEngine.Jobs.TransformAccessArray::GetSortedToUserIndex",
+      "FullName": "UnityEngine.Jobs.TransformAccessArray.GetSortedToUserIndex(System.IntPtr transformArrayIntPtr) -> System.IntPtr_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccessArray::GetSortedTransformAccess",
+      "FullName": "UnityEngine.Jobs.TransformAccessArray.GetSortedTransformAccess(System.IntPtr transformArrayIntPtr) -> System.IntPtr_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Jobs.LowLevel.Unsafe.JobsUtility::GetWorkStealingRange",
+      "FullName": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.GetWorkStealingRange(ref Unity.Jobs.LowLevel.Unsafe.JobRanges ranges, int jobIndex, ref int beginIndex, ref int endIndex) -> bool_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Jobs.LowLevel.Unsafe.JobsUtility::PatchBufferMinMaxRanges",
+      "FullName": "Unity.Jobs.LowLevel.Unsafe.JobsUtility.PatchBufferMinMaxRanges(System.IntPtr bufferRangePatchData, void* jobdata, int startIndex, int rangeSize) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetPosition",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetPosition(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Vector3 p) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetRotation",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetRotation(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Quaternion r) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetLocalScale",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetLocalScale(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Vector3 r) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "UnityEngine.Jobs.TransformAccess::GetLocalToWorldMatrix",
+      "FullName": "UnityEngine.Jobs.TransformAccess.GetLocalToWorldMatrix(ref UnityEngine.Jobs.TransformAccess access, ref UnityEngine.Matrix4x4 m) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckReadAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckReadAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle::CheckWriteAndThrowNoEarlyOut_Injected",
+      "FullName": "Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle.CheckWriteAndThrowNoEarlyOut_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle handle) -> void_aef4d46f9ec6d18a03913cfa3cd76414"
+    },
+    {
+      "Name": "burst_abort",
+      "FullName": "unused.burst_abort(System.String errorId, System.String message) -> void"
+    }
+  ]
+}

@@ -18,6 +18,7 @@ namespace UnityEditor.Tilemaps
                     GridPaintActiveTargetsPreferences.PreferencesGUI();
                     SceneViewOpenTilePaletteHelper.PreferencesGUI();
                     TilemapPrefabStageHelper.PreferencesGUI();
+                    TilemapEditorToolPreferences.PreferencesGUI();
                 }
             };
             return settingsProvider;

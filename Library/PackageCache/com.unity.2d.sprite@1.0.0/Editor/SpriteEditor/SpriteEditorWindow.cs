@@ -242,8 +242,12 @@ namespace UnityEditor.U2D.Sprites
             public static readonly GUIContent applyRevertModuleDialogTitle = EditorGUIUtility.TrTextContent("Unapplied module changes");
             public static readonly GUIContent applyRevertModuleDialogContent = EditorGUIUtility.TrTextContent("You have unapplied changes from the current module");
 
-            public static readonly GUIContent loadProgressTitle = EditorGUIUtility.TrTextContent("Loading");
-            public static readonly GUIContent loadContentText = EditorGUIUtility.TrTextContent("Loading Sprites {0}/{1}");
+            public static readonly GUIContent revertConfirmationDialogTitle = EditorGUIUtility.TrTextContent("Revert Changes");
+            public static readonly GUIContent revertConfirmationDialogContent = EditorGUIUtility.TrTextContent("Are you sure you want to revert the changes?");
+            public static readonly GUIContent applyConfirmationDialogTitle = EditorGUIUtility.TrTextContent("Apply Changes");
+            public static readonly GUIContent applyConfirmationDialogContent = EditorGUIUtility.TrTextContent("Are you sure you want to apply the changes?");
+            public static readonly GUIContent yesLabel = EditorGUIUtility.TrTextContent("Yes");
+            public static readonly GUIContent noLabel = EditorGUIUtility.TrTextContent("No");
             public static readonly string styleSheetPath = "Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor/SpriteEditor.uss";
         }
 
@@ -375,7 +379,7 @@ namespace UnityEditor.U2D.Sprites
 
         public void InvalidatePropertiesCache()
         {
-            m_RectsCache = null;
+            spriteRects = null;
             m_SpriteDataProvider = null;
         }
 
@@ -516,9 +520,6 @@ namespace UnityEditor.U2D.Sprites
             if (noSelectedSprite)
                 UpdateSelectedSpriteRectFromSelection();
             UnityEditor.SpriteUtilityWindow.SetApplySpriteEditorWindow(RebuildCache);
-
-            if (SetupVisualElements())
-                InitModules();
         }
 
         void CreateGUI()
@@ -673,7 +674,7 @@ namespace UnityEditor.U2D.Sprites
 
         void RefreshRects()
         {
-            m_RectsCache = null;
+            spriteRects = null;
             if (IsSpriteDataProviderValid())
             {
                 m_RectsCache = m_SpriteDataProvider.GetSpriteRects().ToList();
@@ -810,13 +811,64 @@ namespace UnityEditor.U2D.Sprites
             if (!activeDataProviderSelected || m_CurrentModule == null)
                 return;
             // Top menu bar
-
+            var moduleListWidth = 0.0f;
             // only show popup if there is more than 1 module.
             if (m_RegisteredModules.Count > 1)
             {
                 float moduleWidthPercentage = k_ModuleListWidth / minSize.x;
-                float moduleListWidth = position.width > minSize.x ? position.width * moduleWidthPercentage : k_ModuleListWidth;
+                moduleListWidth = position.width > minSize.x ? position.width * moduleWidthPercentage : k_ModuleListWidth;
                 moduleListWidth = Mathf.Min(moduleListWidth, EditorStyles.toolbarPopup.CalcSize(m_RegisteredModuleNames[m_CurrentModuleIndex]).x);
+                toolbarRect.x = moduleListWidth;
+            }
+
+            toolbarRect  = DoAlphaZoomToolbarGUI(toolbarRect);
+
+            Rect applyRevertDrawArea = toolbarRect;
+            applyRevertDrawArea.x = applyRevertDrawArea.width;
+
+            using (new EditorGUI.DisabledScope(!textureIsDirty))
+            {
+                applyRevertDrawArea.width = EditorStyles.toolbarButton.CalcSize(SpriteEditorWindowStyles.applyButtonLabel).x;
+                applyRevertDrawArea.x -= applyRevertDrawArea.width;
+
+                if (GUI.Button(applyRevertDrawArea, SpriteEditorWindowStyles.applyButtonLabel, EditorStyles.toolbarButton))
+                {
+                    var apply = true;
+                    if (SpriteEditorWindowSettings.showApplyConfirmation)
+                    {
+                        apply = EditorUtility.DisplayDialog(SpriteEditorWindowStyles.applyConfirmationDialogTitle.text, SpriteEditorWindowStyles.applyConfirmationDialogContent.text,
+                            SpriteEditorWindowStyles.yesLabel.text, SpriteEditorWindowStyles.noLabel.text);
+                    }
+                    if (apply)
+                    {
+                        DoApply();
+                        SetupModule(m_CurrentModuleIndex);
+                    }
+                }
+
+                applyRevertDrawArea.width = EditorStyles.toolbarButton.CalcSize(SpriteEditorWindowStyles.revertButtonLabel).x;
+                applyRevertDrawArea.x -= applyRevertDrawArea.width;
+                if (GUI.Button(applyRevertDrawArea, SpriteEditorWindowStyles.revertButtonLabel, EditorStyles.toolbarButton))
+                {
+                    var revert = true;
+                    if (SpriteEditorWindowSettings.showRevertConfirmation)
+                    {
+                        revert = EditorUtility.DisplayDialog(SpriteEditorWindowStyles.revertConfirmationDialogTitle.text, SpriteEditorWindowStyles.revertConfirmationDialogContent.text,
+                            SpriteEditorWindowStyles.yesLabel.text, SpriteEditorWindowStyles.noLabel.text);
+                    }
+                    if (revert)
+                    {
+                        DoRevert();
+                        SetupModule(m_CurrentModuleIndex);
+                    }
+                }
+            }
+
+            toolbarRect.width = applyRevertDrawArea.x - toolbarRect.x;
+            m_CurrentModule.DoToolbarGUI(toolbarRect);
+
+            if (m_RegisteredModules.Count > 1)
+            {
                 int module = EditorGUI.Popup(new Rect(0, 0, moduleListWidth, k_ToolbarHeight), m_CurrentModuleIndex, m_RegisteredModuleNames, EditorStyles.toolbarPopup);
                 if (module != m_CurrentModuleIndex)
                 {
@@ -833,36 +885,7 @@ namespace UnityEditor.U2D.Sprites
                     m_LastUsedModuleTypeName = m_RegisteredModules[module].GetType().FullName;
                     SetupModule(module);
                 }
-                toolbarRect.x = moduleListWidth;
             }
-
-            toolbarRect  = DoAlphaZoomToolbarGUI(toolbarRect);
-
-            Rect applyRevertDrawArea = toolbarRect;
-            applyRevertDrawArea.x = applyRevertDrawArea.width;
-
-            using (new EditorGUI.DisabledScope(!textureIsDirty))
-            {
-                applyRevertDrawArea.width = EditorStyles.toolbarButton.CalcSize(SpriteEditorWindowStyles.applyButtonLabel).x;
-                applyRevertDrawArea.x -= applyRevertDrawArea.width;
-
-                if (GUI.Button(applyRevertDrawArea, SpriteEditorWindowStyles.applyButtonLabel, EditorStyles.toolbarButton))
-                {
-                    DoApply();
-                    SetupModule(m_CurrentModuleIndex);
-                }
-
-                applyRevertDrawArea.width = EditorStyles.toolbarButton.CalcSize(SpriteEditorWindowStyles.revertButtonLabel).x;
-                applyRevertDrawArea.x -= applyRevertDrawArea.width;
-                if (GUI.Button(applyRevertDrawArea, SpriteEditorWindowStyles.revertButtonLabel, EditorStyles.toolbarButton))
-                {
-                    DoRevert();
-                    SetupModule(m_CurrentModuleIndex);
-                }
-            }
-
-            toolbarRect.width = applyRevertDrawArea.x - toolbarRect.x;
-            m_CurrentModule.DoToolbarGUI(toolbarRect);
         }
 
         private void DoEditingDisabledMessage()
@@ -1197,8 +1220,14 @@ namespace UnityEditor.U2D.Sprites
 
         public List<SpriteRect> spriteRects
         {
-            set { m_RectsCache = value; }
+            set
+            {
+                m_RectsCache = value;
+                m_CachedSelectedSpriteRect = null;
+            }
         }
+
+        private SpriteRect m_CachedSelectedSpriteRect;
 
         public SpriteRect selectedSpriteRect
         {
@@ -1209,7 +1238,11 @@ namespace UnityEditor.U2D.Sprites
                     return null;
 
                 var guid = new GUID(m_SelectedSpriteRectGUID);
-                return m_RectsCache.FirstOrDefault(x => x.spriteID == guid);
+                if (m_CachedSelectedSpriteRect == null || m_CachedSelectedSpriteRect.spriteID != guid)
+                {
+                    m_CachedSelectedSpriteRect = m_RectsCache.FirstOrDefault(x => x.spriteID == guid);
+                }
+                return m_CachedSelectedSpriteRect;
             }
             set
             {

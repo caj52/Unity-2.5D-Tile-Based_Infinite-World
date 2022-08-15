@@ -58,7 +58,7 @@ namespace UnityEditor.Tilemaps
         [SerializeField] public float m_CameraOrthographicSize;
 
         private RectInt? m_ActivePick;
-        private Dictionary<Vector2Int, Object> m_HoverData;
+        private Dictionary<Vector2Int, TileDragAndDropHoverData> m_HoverData;
         private bool m_Unlocked;
         private bool m_PingTileAsset;
 
@@ -418,12 +418,12 @@ namespace UnityEditor.Tilemaps
 
         private void UndoRedoPerformed()
         {
-            if (unlocked)
-            {
-                m_PaletteNeedsSave = true;
-                RefreshAllTiles();
-                Repaint();
-            }
+            if (!unlocked)
+                return;
+
+            m_PaletteNeedsSave = true;
+            RefreshAllTiles();
+            Repaint();
         }
 
         private void HandlePanAndZoom()
@@ -596,10 +596,17 @@ namespace UnityEditor.Tilemaps
 
             using (new PreviewInstanceScope(guiRect, previewUtility, paletteInstance, m_Owner.drawGizmos))
             {
-                RenderGrid();
+                if (m_Owner.drawGridGizmo)
+                    RenderGrid();
                 previewUtility.Render();
                 if (m_Owner.drawGizmos)
+                {
+                    // Set CameraType to SceneView to force Gizmos to be drawn
+                    var storedType = previewUtility.camera.cameraType;
+                    previewUtility.camera.cameraType = CameraType.SceneView;
                     Handles.Internal_DoDrawGizmos(previewUtility.camera);
+                    previewUtility.camera.cameraType = storedType;
+                }
             }
 
             RenderDragAndDropPreview();
@@ -686,7 +693,6 @@ namespace UnityEditor.Tilemaps
                 m_Renderers = m_PaletteInstance.GetComponentsInChildren<Renderer>();
                 foreach (var renderer in m_Renderers)
                 {
-                    renderer.gameObject.layer = Camera.PreviewCullingLayer;
                     renderer.allowOcclusionWhenDynamic = false;
                 }
                 m_PreviewRenderUtility.AddManagedGO(m_PaletteInstance);
@@ -695,11 +701,6 @@ namespace UnityEditor.Tilemaps
 
             public void Dispose()
             {
-                if (m_Renderers != null)
-                {
-                    foreach (var renderer in m_Renderers)
-                        renderer.gameObject.layer = 0;
-                }
                 if (m_DrawGizmos && m_PaletteTransforms != null)
                 {
                     foreach (var transform in m_PaletteTransforms)
@@ -722,7 +723,7 @@ namespace UnityEditor.Tilemaps
                     List<Texture2D> sheets = TileDragAndDrop.GetValidSpritesheets(DragAndDrop.objectReferences);
                     List<Sprite> sprites = TileDragAndDrop.GetValidSingleSprites(DragAndDrop.objectReferences);
                     List<TileBase> tiles = TileDragAndDrop.GetValidTiles(DragAndDrop.objectReferences);
-                    m_HoverData = TileDragAndDrop.CreateHoverData(sheets, sprites, tiles);
+                    m_HoverData = TileDragAndDrop.CreateHoverData(sheets, sprites, tiles, tilemap.cellLayout);
 
                     if (m_HoverData != null && m_HoverData.Count > 0)
                     {
@@ -743,10 +744,34 @@ namespace UnityEditor.Tilemaps
 
                     Vector2Int targetPosition = mouseGridPosition;
                     DragAndDrop.visualMode = DragAndDropVisualMode.Copy;
-                    Dictionary<Vector2Int, TileBase> tileSheet = TileDragAndDrop.ConvertToTileSheet(m_HoverData);
-                    foreach (KeyValuePair<Vector2Int, TileBase> item in tileSheet)
-                        SetTile(tilemap, targetPosition + item.Key, item.Value, Color.white, Matrix4x4.identity);
+                    var tileSheet = TileDragAndDrop.ConvertToTileSheet(m_HoverData);
+                    int i = 0;
+                    foreach (KeyValuePair<Vector2Int, TileDragAndDropHoverData> item in m_HoverData)
+                    {
+                        if (i >= tileSheet.Count)
+                            break;
 
+                        var offset = Vector3.zero;
+                        if (item.Value.hasOffset)
+                        {
+                            offset = item.Value.positionOffset - tilemap.tileAnchor;
+
+                            var cellSize = tilemap.cellSize;
+                            if (wasEmpty)
+                            {
+                                cellSize = item.Value.scaleFactor;
+                            }
+                            offset.x *= cellSize.x;
+                            offset.y *= cellSize.y;
+                            offset.z *= cellSize.z;
+                        }
+
+                        SetTile(tilemap
+                            , targetPosition + item.Key
+                            , tileSheet[i++]
+                            , Color.white
+                            , Matrix4x4.TRS(offset, Quaternion.identity, Vector3.one));
+                    }
                     OnPaletteChanged();
 
                     m_PaletteNeedsSave = true;
@@ -875,6 +900,18 @@ namespace UnityEditor.Tilemaps
             }
         }
 
+        protected override bool CustomTool(bool isHotControl, TilemapEditorTool tool, Vector3Int position)
+        {
+            var executed = false;
+            if (grid)
+            {
+                executed = tool.HandleTool(isHotControl, grid, brushTarget, position);
+                if (executed)
+                    OnPaletteChanged();
+            }
+            return executed;
+        }
+
         public override void Repaint()
         {
             m_Owner.Repaint();
@@ -884,6 +921,8 @@ namespace UnityEditor.Tilemaps
         {
             GridSelection.Clear();
         }
+
+        public override bool isActive => grid != null;
 
         protected override void OnBrushPickStarted()
         {

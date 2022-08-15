@@ -206,7 +206,7 @@ namespace UnityEditor._2D.Sprite.Editor
             // "Texture" object field
             EditorGUI.BeginChangeCheck();
             r.width = rect.width;
-            r.y += EditorGUIUtility.singleLineHeight;
+            r.y += EditorGUIUtility.singleLineHeight + 2.0f;
             secondaryTexture.texture = EditorGUI.ObjectField(r, Styles.texture, secondaryTexture.texture, typeof(Texture2D), false) as Texture2D;
             dataModified = dataModified || EditorGUI.EndChangeCheck();
 
