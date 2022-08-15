@@ -1,17 +1,10 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using Object = UnityEngine.Object;
 
 namespace UnityEditor.Tilemaps
 {
     internal class SceneViewOpenTilePaletteHelper : ScriptableSingleton<SceneViewOpenTilePaletteHelper>
     {
-        private class Styles
-        {
-            public static readonly GUIContent overlayTitleLabel = EditorGUIUtility.TrTextContent("Open Tile Palette");
-            public static readonly GUIContent openContent = EditorGUIUtility.IconContent("Tilemap Icon", "Open Tile Palette|Opens Tile Palette Window");
-        }
-
         private bool m_RegisteredEventHandlers;
         private bool m_IsSelectionValid;
 
@@ -31,7 +24,6 @@ namespace UnityEditor.Tilemaps
             if (m_RegisteredEventHandlers)
                 return;
 
-            SceneView.duringSceneGui += DuringSceneGUI;
             Selection.selectionChanged += SelectionChanged;
             EditorApplication.hierarchyChanged += SelectionChanged;
 
@@ -42,7 +34,6 @@ namespace UnityEditor.Tilemaps
 
         private void OnDisable()
         {
-            SceneView.duringSceneGui -= DuringSceneGUI;
             Selection.selectionChanged -= SelectionChanged;
             EditorApplication.hierarchyChanged -= SelectionChanged;
             m_RegisteredEventHandlers = false;
@@ -99,29 +90,9 @@ namespace UnityEditor.Tilemaps
             return false;
         }
 
-        private void DuringSceneGUI(SceneView sceneView)
-        {
-            if (!showInSceneViewActive || !IsActive())
-                return;
-
-            SceneViewOverlay.Window(Styles.overlayTitleLabel, OnSceneViewDisplayGUI, (int)SceneViewOverlay.Ordering.TilemapRenderer + 1, SceneViewOverlay.WindowDisplayOption.OneWindowPerTitle);
-        }
-
         private void SelectionChanged()
         {
             m_IsSelectionValid = IsSelectionValid();
-        }
-
-        private void OnSceneViewDisplayGUI(Object displayTarget, SceneView sceneView)
-        {
-            EditorGUILayout.BeginHorizontal();
-            GUILayout.FlexibleSpace();
-            if (GUILayout.Button(Styles.openContent, GUILayout.Height(32), GUILayout.Width(32)))
-            {
-                OpenTilePalette();
-            }
-            GUILayout.FlexibleSpace();
-            EditorGUILayout.EndHorizontal();
         }
 
         internal class SceneViewOpenTilePaletteProperties
