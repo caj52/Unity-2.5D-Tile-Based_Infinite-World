@@ -49,8 +49,8 @@ Shader "Unlit/CameraPixelizer"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float clarity = 6;
-                float pixelSize = 0.45;
+                float clarity = 3.;
+                float pixelSize = 1;
                 float2 uvs = i.uv;
                 float depth = tex2D(_CameraDepthTexture, uvs).r;
                 float2 multiplier = float2(80*clarity,25*clarity);
