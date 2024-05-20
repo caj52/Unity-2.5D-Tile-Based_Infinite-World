@@ -3,7 +3,7 @@ A 2.5d infinite open world rpg prototype.
 If you want to use this project to create your own or want to remix it, conside the following =>
 
 - The mosty valuable thing in this repo is the world generation code itself.
-- 
+  
 - It handles texturing very quickly. When I was trying to find a suitable approach for a tile-based world that used sprites similar to older 2d rpgs, there werent a lot of solutions I could find at the time. 
 The world texture all derives from one overworld spritesheet. Instead of manipulating the worlds texture, it instead manipulates the uvs of the overworld mesh in order to render the desired texture at that position. This is extremely fast however requires a sacrifice in terms of vertex count. The vertex amount is nearly twice as much as they would be for the overworld mesh.
 
