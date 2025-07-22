@@ -1,13 +1,17 @@
+#Note:
+You're free to use any part of this however you like, including in commercial projects. No need to credit or anything.
+I wrote this years ago for fun and I would do a handful of things differently if I were writing it now but its still a decent base.
+
 # Unity 2.5D-Tile-Based_Infinite World
 A 2.5d infinite open world rpg prototype.
 If you want to use this project to create your own or want to remix it, conside the following =>
 
-- The mosty valuable thing in this repo is the world generation code itself.
-  
-- It handles texturing very quickly. When I was trying to find a suitable approach for a tile-based world that used sprites similar to older 2d rpgs, there werent a lot of solutions I could find at the time. 
-The world texture all derives from one overworld spritesheet. Instead of manipulating the worlds texture, it instead manipulates the uvs of the overworld mesh in order to render the desired texture at that position. This is extremely fast however requires a sacrifice in terms of vertex count. The vertex amount is nearly twice as much as they would be for the overworld mesh.
+- A solid bare-bones world generator.
 
-- It does not use a chunk-based approach. Instead I opted to have the landscape mesh move with the player and dynamically reconfigure its own vertices in order to match the landscape at the part. Almost like the mesh is a portal that reveals what the landscape thats there. This is also incredibly fast since changing an existing meshes vertex locations is so incredibly cheap. If you wanted to retrofit these tools to support even larger landscapes, the inclusion of some multithreading would really bring it to the next level.
+- Regarding overworld texturing. When I was trying to find a suitable approach for a tile-based world that used sprites similar to older 2d rpgs, there werent a lot of solutions I could find at the time. 
+The world texture all derives from one overworld spritesheet. Instead of manipulating the worlds texture, it instead manipulates the uvs of the overworld mesh in order to render the desired texture at that position. This is fast however requires a sacrifice in terms of vertex count. The vertex amount is nearly twice as much as they would be for the overworld mesh.
+
+- It does not use a chunk-based approach. Instead I opted to have the landscape mesh move with the player and dynamically reconfigure its own vertices in order to match the landscape at the part. Almost like the mesh is a portal that reveals what the landscape thats there. This is faster than the standard chunk-based approach since changing an existing meshes vertex locations is so incredibly cheap. If you wanted to retrofit these tools to support even larger landscapes, the inclusion of some multithreading would really bring it to the next level.
 
 There are a handful of enums setup for easy implementaiton of biomes and object types going forward.
 The object spawning and the way biomes are being determined could use a little love but their basic implementation is functional.
